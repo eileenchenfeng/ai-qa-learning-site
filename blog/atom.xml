@@ -19,6 +19,7 @@
 <!-- -->进度判断：已完成 <strong>Day 2</strong>，今日推进至 <strong>Day 3</strong>。</p>
 </blockquote>
 <hr>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="0-今日目标">0. 今日目标<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/day3-tot-react#0-%E4%BB%8A%E6%97%A5%E7%9B%AE%E6%A0%87" class="hash-link" aria-label="0. 今日目标的直接链接" title="0. 今日目标的直接链接" translate="no">​</a></h2>
 <ol>
 <li class=""><strong>掌握复杂推理范式</strong>：理解 ToT（思维树）与 ReAct（推理与行动）的核心原理。</li>
@@ -92,6 +93,7 @@
 <p>数据来源：使用内置技能 <code>github-ai-qa-analyzer</code> 抓取 GitHub Trending（daily）并补全仓库信息，取 AI 相关 Top 6。</p>
 </blockquote>
 <hr>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="0-今日结论先读tldr">0. 今日结论先读（TL;DR）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#0-%E4%BB%8A%E6%97%A5%E7%BB%93%E8%AE%BA%E5%85%88%E8%AF%BBtldr" class="hash-link" aria-label="0. 今日结论先读（TL;DR）的直接链接" title="0. 今日结论先读（TL;DR）的直接链接" translate="no">​</a></h2>
 <p>今天的 Trending AI 项目呈现出两个很“测开友好”的信号：</p>
 <ol>
@@ -299,8 +301,9 @@
         <id>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post</id>
         <link href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post"/>
         <updated>2026-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[AI 架构与趋势]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-架构与趋势">AI 架构与趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post#ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI 架构与趋势的直接链接" title="AI 架构与趋势的直接链接" translate="no">​</a></h2>
+        <summary type="html"><![CDATA[{/ truncate /}]]></summary>
+        <content type="html"><![CDATA[
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-架构与趋势">AI 架构与趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post#ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI 架构与趋势的直接链接" title="AI 架构与趋势的直接链接" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="今日结构分布粗分类">今日结构分布（粗分类）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post#%E4%BB%8A%E6%97%A5%E7%BB%93%E6%9E%84%E5%88%86%E5%B8%83%E7%B2%97%E5%88%86%E7%B1%BB" class="hash-link" aria-label="今日结构分布（粗分类）的直接链接" title="今日结构分布（粗分类）的直接链接" translate="no">​</a></h3>
 <ul>
 <li class="">AI Agent / 编排框架: 5 个</li>
@@ -468,6 +471,7 @@
 <!-- -->进度判断：已完成 <strong>Day 1: LLM 基础</strong>，因此今天顺延学习 <strong>Day 2</strong>（不重复 Day 1）。</p>
 </blockquote>
 <hr>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="0-今日目标你学完应该能做到什么">0. 今日目标（你学完应该能做到什么）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/day2-prompt-engineering#0-%E4%BB%8A%E6%97%A5%E7%9B%AE%E6%A0%87%E4%BD%A0%E5%AD%A6%E5%AE%8C%E5%BA%94%E8%AF%A5%E8%83%BD%E5%81%9A%E5%88%B0%E4%BB%80%E4%B9%88" class="hash-link" aria-label="0. 今日目标（你学完应该能做到什么）的直接链接" title="0. 今日目标（你学完应该能做到什么）的直接链接" translate="no">​</a></h2>
 <ol>
 <li class=""><strong>分清并掌握三类 Prompt 范式</strong>：Zero-shot、Few-shot、CoT（思维链）。</li>
@@ -966,10 +970,10 @@
         <author>
             <name>小AI</name>
         </author>
-        <category label="ai" term="ai"/>
+        <category label="AI" term="AI"/>
         <category label="GitHub Trending AI 测开趋势" term="GitHub Trending AI 测开趋势"/>
-        <category label="builders-digest" term="builders-digest"/>
-        <category label="qa" term="qa"/>
+        <category label="Builders Digest" term="Builders Digest"/>
+        <category label="QA" term="QA"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[每日 AI 学习笔记 Day 1：LLM 的前世今生]]></title>

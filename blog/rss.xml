@@ -81,6 +81,216 @@
         </item>
         <item>
             <title><![CDATA[今日 GitHub AI 趋势测开深度分析报告]]></title>
+            <link>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa</link>
+            <guid>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa</guid>
+            <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[面向人群：资深测试开发工程师（AI Agent 产品质量保障 / 后端自动化测试 / Golang Ginkgo + Python Playwright）。]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<p>面向人群：资深测试开发工程师（AI Agent 产品质量保障 / 后端自动化测试 / Golang Ginkgo + Python Playwright）。</p>
+<p>数据来源：使用内置技能 <code>github-ai-qa-analyzer</code> 抓取 GitHub Trending（daily）并补全仓库信息，取 AI 相关 Top 6。</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="0-今日结论先读tldr">0. 今日结论先读（TL;DR）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#0-%E4%BB%8A%E6%97%A5%E7%BB%93%E8%AE%BA%E5%85%88%E8%AF%BBtldr" class="hash-link" aria-label="0. 今日结论先读（TL;DR）的直接链接" title="0. 今日结论先读（TL;DR）的直接链接" translate="no">​</a></h2>
+<p>今天的 Trending AI 项目呈现出两个很“测开友好”的信号：</p>
+<ol>
+<li class=""><strong>“让 AI 工作确定性（Deterministic）”正在成为显性卖点</strong>：比如 Archon 把“开发过程”写成 YAML 工作流、引入验证 Gate；这与测试工程的核心思想（可复现、可回归、可度量）天然同构。</li>
+<li class=""><strong>“Agent 运营化/平台化（Ops for Agents）”在加速</strong>：比如 Multica、Hermes Agent 都在强调任务生命周期、进度流、跨渠道交互、持久化记忆/技能。对测开来说，这意味着：<!-- -->
+<ul>
+<li class="">需要把 Agent 当成一个“<strong>长跑服务</strong>”来测（可观测性、状态一致性、幂等、权限/安全）。</li>
+<li class="">需要把“评测/回归”产品化：让评测集、回放、差分报告成为 CI 的一等公民。</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-今日热门项目速览特色与核心优势从测开视角提炼">1. 今日热门项目速览：特色与核心优势（从测开视角提炼）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#1-%E4%BB%8A%E6%97%A5%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E9%80%9F%E8%A7%88%E7%89%B9%E8%89%B2%E4%B8%8E%E6%A0%B8%E5%BF%83%E4%BC%98%E5%8A%BF%E4%BB%8E%E6%B5%8B%E5%BC%80%E8%A7%86%E8%A7%92%E6%8F%90%E7%82%BC" class="hash-link" aria-label="1. 今日热门项目速览：特色与核心优势（从测开视角提炼）的直接链接" title="1. 今日热门项目速览：特色与核心优势（从测开视角提炼）的直接链接" translate="no">​</a></h2>
+<table><thead><tr><th style="text-align:right">#</th><th>项目</th><th>归类</th><th>特色/核心优势（偏客观事实）</th><th>对测试开发的直接启发（可落地）</th></tr></thead><tbody><tr><td style="text-align:right">1</td><td>NousResearch/hermes-agent</td><td>AI Agent / 编排框架</td><td>强调<strong>持久化自主 Agent</strong>，可在多平台（聊天工具/CLI 等）交互；支持切换模型、工具输出流、日志与配置校验等（见仓库 README/Docs 摘要）</td><td>把 Agent 当“服务”测：Trace/Log/配置校验是可测性前置；端到端要覆盖跨渠道一致性、会话连续性、任务中断与恢复</td></tr><tr><td style="text-align:right">2</td><td>microsoft/markitdown</td><td>AI 工具（文档→Markdown）/ 可作为 Agent 工具链组件</td><td>支持多格式转 Markdown；<strong>提供 MCP server</strong>（让 LLM/Agent 通过标准协议调用转换能力）；接口从“文件路径”升级到“<strong>file-like stream</strong>”（减少临时文件）</td><td>为 RAG/评测集建设提供“输入标准化”组件；对转换结果做 golden + 回归；对 MCP 工具做 contract test（URI 协议、权限边界、异常码）</td></tr><tr><td style="text-align:right">3</td><td>coleam00/Archon</td><td>AI Agent / 编排框架（流程 Harness）</td><td>明确主张：用 YAML 把开发流程拆成阶段（Plan/Implement/Test/Review/PR），把 AI 放进可控节点；<strong>可组合确定性节点（bash/tests/git）+ AI 节点</strong></td><td>把“验证门禁”写进流程：每次 Agent 改代码必须跑测试/静态检查；测开可以把自己的一套质量门禁沉淀成可复用 workflow</td></tr><tr><td style="text-align:right">4</td><td>forrestchang/andrej-karpathy-skills</td><td>规则/知识库（CLAUDE.md 指南）</td><td>以一份 CLAUDE.md 约束 LLM 编码行为：显式假设、多种解释、简单优先、外科手术式改动、目标驱动并验证</td><td>把“LLM 写代码的质量要求”产品化：把测试作为 success criteria；把 review checklist 标准化，减少“不可测的变化”</td></tr><tr><td style="text-align:right">5</td><td>multica-ai/multica</td><td>Managed Agents 平台</td><td>强调“Agents as Teammates”：任务队列、认领/执行/完成/失败生命周期；WebSocket 进度流；Skills 复用；本地 daemon + 云/自建 runtime</td><td>测试重点从“单次对话正确”转向“任务运营正确”：状态机/事件流一致性、失败可恢复、权限隔离、审计日志</td></tr><tr><td style="text-align:right">6</td><td>shanraisshan/claude-code-best-practice</td><td>Agent 工程方法论/模板库</td><td>总结 Claude Code 的 Commands/Agents/Skills/Hooks 等工程化用法，强调“Research→Plan→Execute→Review→Ship”的收敛结构</td><td>对测开很像“测试策略模板库”：可以沉淀为团队内部的 Agent 工作流规范（含验证步骤/回归策略/产物格式）</td></tr></tbody></table>
+<blockquote>
+<p>注：以上“特色/优势”来自脚本抓取的 description、README 摘要与公开文档片段；不做超出原文的功能承诺。</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-ai-架构与趋势测试开发更关心的那部分">2. AI 架构与趋势（测试开发更关心的那部分）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#2-ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91%E6%9B%B4%E5%85%B3%E5%BF%83%E7%9A%84%E9%82%A3%E9%83%A8%E5%88%86" class="hash-link" aria-label="2. AI 架构与趋势（测试开发更关心的那部分）的直接链接" title="2. AI 架构与趋势（测试开发更关心的那部分）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-趋势-1agent-不再是聊天机器人而是可运行的流程--可观测的系统">2.1 趋势 1：Agent 不再是“聊天机器人”，而是“可运行的流程 + 可观测的系统”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#21-%E8%B6%8B%E5%8A%BF-1agent-%E4%B8%8D%E5%86%8D%E6%98%AF%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%80%8C%E6%98%AF%E5%8F%AF%E8%BF%90%E8%A1%8C%E7%9A%84%E6%B5%81%E7%A8%8B--%E5%8F%AF%E8%A7%82%E6%B5%8B%E7%9A%84%E7%B3%BB%E7%BB%9F" class="hash-link" aria-label="2.1 趋势 1：Agent 不再是“聊天机器人”，而是“可运行的流程 + 可观测的系统”的直接链接" title="2.1 趋势 1：Agent 不再是“聊天机器人”，而是“可运行的流程 + 可观测的系统”的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">Hermes Agent、Multica 都在强调：<!-- -->
+<ul>
+<li class=""><strong>长时间运行</strong>（持久化、跨会话、跨渠道）</li>
+<li class=""><strong>任务生命周期</strong>（排队、认领、执行、失败、阻塞上报）</li>
+<li class=""><strong>进度流与审计</strong>（实时 WebSocket、日志、配置校验）</li>
+</ul>
+</li>
+</ul>
+<p><strong>测开含义</strong>：</p>
+<ul>
+<li class="">你需要一套类似“微服务质量保障”的方法来保障 Agent：<!-- -->
+<ul>
+<li class="">SLO（成功率/时延）、重试与幂等、权限边界、安全审计</li>
+<li class="">观测性（trace_id 贯穿：用户输入→计划→工具调用→外部依赖→输出）</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-趋势-2deterministic-harness-成为ai-codingagent落地关键基础设施">2.2 趋势 2：Deterministic Harness 成为“AI Coding/Agent”落地关键基础设施<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#22-%E8%B6%8B%E5%8A%BF-2deterministic-harness-%E6%88%90%E4%B8%BAai-codingagent%E8%90%BD%E5%9C%B0%E5%85%B3%E9%94%AE%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD" class="hash-link" aria-label="2.2 趋势 2：Deterministic Harness 成为“AI Coding/Agent”落地关键基础设施的直接链接" title="2.2 趋势 2：Deterministic Harness 成为“AI Coding/Agent”落地关键基础设施的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">Archon 代表了一个方向：<strong>AI 负责智能，流程由工程团队拥有</strong>。</li>
+<li class="">这会让“测试”从事后补救变成流程内建：<!-- -->
+<ul>
+<li class="">Workflow 中强制跑测试</li>
+<li class="">不通过 gate 不允许进入下一阶段（例如 review/PR）</li>
+</ul>
+</li>
+</ul>
+<p><strong>测开含义</strong>：</p>
+<ul>
+<li class="">你们可以把“质量门禁”固化为 workflow：<!-- -->
+<ul>
+<li class="">单测覆盖率阈值</li>
+<li class="">OpenAPI/JSON Schema contract 校验</li>
+<li class="">关键接口的幂等/权限回归</li>
+<li class="">Playwright 关键路径回放</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-趋势-3规则指南类仓库在降风险上的性价比极高">2.3 趋势 3：规则/指南类仓库在“降风险”上的性价比极高<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#23-%E8%B6%8B%E5%8A%BF-3%E8%A7%84%E5%88%99%E6%8C%87%E5%8D%97%E7%B1%BB%E4%BB%93%E5%BA%93%E5%9C%A8%E9%99%8D%E9%A3%8E%E9%99%A9%E4%B8%8A%E7%9A%84%E6%80%A7%E4%BB%B7%E6%AF%94%E6%9E%81%E9%AB%98" class="hash-link" aria-label="2.3 趋势 3：规则/指南类仓库在“降风险”上的性价比极高的直接链接" title="2.3 趋势 3：规则/指南类仓库在“降风险”上的性价比极高的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">andrej-karpathy-skills 与 claude-code-best-practice 都在用“文本规则/模板”约束 LLM。</li>
+</ul>
+<p><strong>测开含义</strong>：</p>
+<ul>
+<li class="">很多 AI 工程风险不是模型能力不足，而是：<!-- -->
+<ul>
+<li class="">默认假设太多</li>
+<li class="">改动范围太大</li>
+<li class="">没有可验证的成功标准</li>
+</ul>
+</li>
+</ul>
+<p>把这些写进 CLAUDE.md / Agent workflow，会直接提升可测性与可回归性。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-对测试工作自动化架构设计可测性评估的启发按可操作动作组织">3. 对测试工作、自动化架构设计、可测性评估的启发（按“可操作动作”组织）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#3-%E5%AF%B9%E6%B5%8B%E8%AF%95%E5%B7%A5%E4%BD%9C%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%8F%AF%E6%B5%8B%E6%80%A7%E8%AF%84%E4%BC%B0%E7%9A%84%E5%90%AF%E5%8F%91%E6%8C%89%E5%8F%AF%E6%93%8D%E4%BD%9C%E5%8A%A8%E4%BD%9C%E7%BB%84%E7%BB%87" class="hash-link" aria-label="3. 对测试工作、自动化架构设计、可测性评估的启发（按“可操作动作”组织）的直接链接" title="3. 对测试工作、自动化架构设计、可测性评估的启发（按“可操作动作”组织）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-把可测性当产品能力而不是测试团队的补丁">3.1 把“可测性”当产品能力，而不是测试团队的补丁<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#31-%E6%8A%8A%E5%8F%AF%E6%B5%8B%E6%80%A7%E5%BD%93%E4%BA%A7%E5%93%81%E8%83%BD%E5%8A%9B%E8%80%8C%E4%B8%8D%E6%98%AF%E6%B5%8B%E8%AF%95%E5%9B%A2%E9%98%9F%E7%9A%84%E8%A1%A5%E4%B8%81" class="hash-link" aria-label="3.1 把“可测性”当产品能力，而不是测试团队的补丁的直接链接" title="3.1 把“可测性”当产品能力，而不是测试团队的补丁的直接链接" translate="no">​</a></h3>
+<p>从这些项目抽取出的共性做法：</p>
+<ol>
+<li class=""><strong>结构化输出优先</strong>：能 JSON Schema 就不要纯自然语言。</li>
+<li class=""><strong>每一步可追溯</strong>：计划、工具调用参数、外部依赖版本、最终输出要能回放。</li>
+<li class=""><strong>显式的验证 Gate</strong>：workflow 中强制执行，不靠“人记得”。</li>
+</ol>
+<p>落地建议（适配你当前技术栈）：</p>
+<ul>
+<li class="">后端（Golang + Ginkgo）：<!-- -->
+<ul>
+<li class="">Contract test（OpenAPI / JSON Schema）</li>
+<li class="">工具 API 幂等性、超时、重试、权限边界</li>
+</ul>
+</li>
+<li class="">前端（Playwright）：<!-- -->
+<ul>
+<li class="">关键对话流/关键任务流回放</li>
+<li class="">对流式输出做“最终一致性”断言（不是逐 token）</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-ai-agent-产品的测试对象分层建议你们评审项目时用这张清单">3.2 “AI Agent 产品”的测试对象分层（建议你们评审项目时用这张清单）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#32-ai-agent-%E4%BA%A7%E5%93%81%E7%9A%84%E6%B5%8B%E8%AF%95%E5%AF%B9%E8%B1%A1%E5%88%86%E5%B1%82%E5%BB%BA%E8%AE%AE%E4%BD%A0%E4%BB%AC%E8%AF%84%E5%AE%A1%E9%A1%B9%E7%9B%AE%E6%97%B6%E7%94%A8%E8%BF%99%E5%BC%A0%E6%B8%85%E5%8D%95" class="hash-link" aria-label="3.2 “AI Agent 产品”的测试对象分层（建议你们评审项目时用这张清单）的直接链接" title="3.2 “AI Agent 产品”的测试对象分层（建议你们评审项目时用这张清单）的直接链接" translate="no">​</a></h3>
+<p>把一个 Agent 系统拆成 5 层，测试策略就不会散：</p>
+<ol>
+<li class=""><strong>协议层</strong>：HTTP/WebSocket/MCP、鉴权、错误码、重试语义</li>
+<li class=""><strong>编排层</strong>：状态机/Workflow、回滚、并发、队列/任务生命周期</li>
+<li class=""><strong>工具层（Tooling）</strong>：每个 tool 的 contract、幂等、权限、降级</li>
+<li class=""><strong>模型层</strong>：prompt/model version、温度/采样、输出结构约束</li>
+<li class=""><strong>数据层（RAG/记忆/技能库）</strong>：召回/排序回归、索引一致性、数据权限</li>
+</ol>
+<p>用这套分层去看今天的项目：</p>
+<ul>
+<li class="">Archon：编排层做得最“工程化”（YAML workflow + gates）。</li>
+<li class="">Multica：编排层 + 运营层强（生命周期、WebSocket 进度、Workspaces）。</li>
+<li class="">markitdown：工具层强（标准化输入→Markdown，并且 MCP 化）。</li>
+<li class="">Hermes Agent：更像“可运行的 Agent 产品”，覆盖跨渠道与长期运行。</li>
+<li class="">规则/最佳实践类：提升模型层/协作层的可测性（减少不可预测改动）。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-可测性评估你可以用-8-个问题快速给项目打分">3.3 可测性评估：你可以用 8 个问题快速给项目打分<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#33-%E5%8F%AF%E6%B5%8B%E6%80%A7%E8%AF%84%E4%BC%B0%E4%BD%A0%E5%8F%AF%E4%BB%A5%E7%94%A8-8-%E4%B8%AA%E9%97%AE%E9%A2%98%E5%BF%AB%E9%80%9F%E7%BB%99%E9%A1%B9%E7%9B%AE%E6%89%93%E5%88%86" class="hash-link" aria-label="3.3 可测性评估：你可以用 8 个问题快速给项目打分的直接链接" title="3.3 可测性评估：你可以用 8 个问题快速给项目打分的直接链接" translate="no">​</a></h3>
+<p>评审一个 AI Agent/平台项目（或你们自研系统）时，建议直接问：</p>
+<ol>
+<li class="">是否支持 <strong>trace_id</strong> 全链路贯穿？</li>
+<li class="">是否有 <strong>确定性回放</strong>（输入相同 + 依赖固定 = 输出稳定）？</li>
+<li class="">Tool 调用是否有 <strong>schema/contract</strong>（入参/出参/错误码）？</li>
+<li class="">是否能把模型当依赖进行 <strong>Mock/录制回放</strong>？</li>
+<li class="">是否具备 <strong>失败可恢复</strong>（任务失败原因可定位，能重试/续跑）？</li>
+<li class="">是否有 <strong>权限隔离</strong>（workspace/user/tool scope）？</li>
+<li class="">关键行为是否 <strong>可审计</strong>（日志、事件流、配置变更）？</li>
+<li class="">是否有 <strong>自动化 Gate</strong>（测试/静态检查/安全检查）内置到流程？</li>
+</ol>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-可落地的行动指南ginkgo--playwright-视角">4. 可落地的行动指南（Ginkgo + Playwright 视角）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#4-%E5%8F%AF%E8%90%BD%E5%9C%B0%E7%9A%84%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97ginkgo--playwright-%E8%A7%86%E8%A7%92" class="hash-link" aria-label="4. 可落地的行动指南（Ginkgo + Playwright 视角）的直接链接" title="4. 可落地的行动指南（Ginkgo + Playwright 视角）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-建议的仓库结构把评测回放当一等公民">4.1 建议的仓库结构（把评测/回放当一等公民）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#41-%E5%BB%BA%E8%AE%AE%E7%9A%84%E4%BB%93%E5%BA%93%E7%BB%93%E6%9E%84%E6%8A%8A%E8%AF%84%E6%B5%8B%E5%9B%9E%E6%94%BE%E5%BD%93%E4%B8%80%E7%AD%89%E5%85%AC%E6%B0%91" class="hash-link" aria-label="4.1 建议的仓库结构（把评测/回放当一等公民）的直接链接" title="4.1 建议的仓库结构（把评测/回放当一等公民）的直接链接" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token plain">ai_agent_quality/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  datasets/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    eval_cases.jsonl          # 问题-期望-断言规则</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  replays/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    golden/                   # 回放基线（依赖已固定）</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    latest/                   # 本次构建回放</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  contracts/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    tool_schemas/             # 工具入参/出参 JSON Schema</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  reports/</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    diff/                     # 差分报告（golden vs latest）</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-后端golang-ginkgo三类测试优先级最高">4.2 后端（Golang Ginkgo）：三类测试优先级最高<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#42-%E5%90%8E%E7%AB%AFgolang-ginkgo%E4%B8%89%E7%B1%BB%E6%B5%8B%E8%AF%95%E4%BC%98%E5%85%88%E7%BA%A7%E6%9C%80%E9%AB%98" class="hash-link" aria-label="4.2 后端（Golang Ginkgo）：三类测试优先级最高的直接链接" title="4.2 后端（Golang Ginkgo）：三类测试优先级最高的直接链接" translate="no">​</a></h3>
+<ol>
+<li class=""><strong>Tool API Contract（必做）</strong>
+<ul>
+<li class="">OpenAPI/JSON Schema 校验</li>
+<li class="">错误码稳定、字段稳定</li>
+</ul>
+</li>
+<li class=""><strong>幂等性/重试语义（强烈建议）</strong>
+<ul>
+<li class="">网络抖动、超时重试不能产生重复副作用</li>
+</ul>
+</li>
+<li class=""><strong>权限边界（必须覆盖）</strong>
+<ul>
+<li class="">workspace 隔离</li>
+<li class="">tool scope、数据权限</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-前端playwright不要只测能不能聊要测能不能做完事">4.3 前端（Playwright）：不要只测“能不能聊”，要测“能不能做完事”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#43-%E5%89%8D%E7%AB%AFplaywright%E4%B8%8D%E8%A6%81%E5%8F%AA%E6%B5%8B%E8%83%BD%E4%B8%8D%E8%83%BD%E8%81%8A%E8%A6%81%E6%B5%8B%E8%83%BD%E4%B8%8D%E8%83%BD%E5%81%9A%E5%AE%8C%E4%BA%8B" class="hash-link" aria-label="4.3 前端（Playwright）：不要只测“能不能聊”，要测“能不能做完事”的直接链接" title="4.3 前端（Playwright）：不要只测“能不能聊”，要测“能不能做完事”的直接链接" translate="no">​</a></h3>
+<p>围绕“任务生命周期”断言 UI：</p>
+<ul>
+<li class="">enqueue → claim → start → complete/fail</li>
+<li class="">出错时用户可理解、可重试、可查看详情</li>
+<li class="">流式输出：断言最终消息 + 关键结构化字段，不要对 token 序列做脆弱断言</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="44-把-archon--multica-的思想迁移到你们自己的-ci">4.4 把 Archon / Multica 的思想迁移到你们自己的 CI<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#44-%E6%8A%8A-archon--multica-%E7%9A%84%E6%80%9D%E6%83%B3%E8%BF%81%E7%A7%BB%E5%88%B0%E4%BD%A0%E4%BB%AC%E8%87%AA%E5%B7%B1%E7%9A%84-ci" class="hash-link" aria-label="4.4 把 Archon / Multica 的思想迁移到你们自己的 CI的直接链接" title="4.4 把 Archon / Multica 的思想迁移到你们自己的 CI的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">如果你们已有 CI：<!-- -->
+<ul>
+<li class="">把“评测/回放/差分报告”加成一个固定 stage</li>
+<li class="">prompt/model/tool 列表一变化就触发</li>
+</ul>
+</li>
+<li class="">如果你们还在探索：<!-- -->
+<ul>
+<li class="">先做一个最小可用 deterministic harness：<!-- -->
+<ul>
+<li class="">固定一组关键用例</li>
+<li class="">固定外部依赖（Mock/录制）</li>
+<li class="">固定断言规则（结构化 + golden）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-附录本次抓取到的-top-6-项目清单">5. 附录：本次抓取到的 Top 6 项目清单<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/github-trending-ai-qa#5-%E9%99%84%E5%BD%95%E6%9C%AC%E6%AC%A1%E6%8A%93%E5%8F%96%E5%88%B0%E7%9A%84-top-6-%E9%A1%B9%E7%9B%AE%E6%B8%85%E5%8D%95" class="hash-link" aria-label="5. 附录：本次抓取到的 Top 6 项目清单的直接链接" title="5. 附录：本次抓取到的 Top 6 项目清单的直接链接" translate="no">​</a></h2>
+<ul>
+<li class="">NousResearch/hermes-agent — <a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer" class="">https://github.com/NousResearch/hermes-agent</a></li>
+<li class="">microsoft/markitdown — <a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener noreferrer" class="">https://github.com/microsoft/markitdown</a></li>
+<li class="">coleam00/Archon — <a href="https://github.com/coleam00/Archon" target="_blank" rel="noopener noreferrer" class="">https://github.com/coleam00/Archon</a></li>
+<li class="">forrestchang/andrej-karpathy-skills — <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer" class="">https://github.com/forrestchang/andrej-karpathy-skills</a></li>
+<li class="">multica-ai/multica — <a href="https://github.com/multica-ai/multica" target="_blank" rel="noopener noreferrer" class="">https://github.com/multica-ai/multica</a></li>
+<li class="">shanraisshan/claude-code-best-practice — <a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noopener noreferrer" class="">https://github.com/shanraisshan/claude-code-best-practice</a></li>
+</ul>
+<hr>
+<blockquote>
+<p>如果你希望我把这份报告再进一步“贴近你们团队的现状”，你可以补充两点信息：</p>
+<ol>
+<li class="">你们当前 Agent 产品形态（B 端控制台 / C 端聊天 / API 服务 / 混合）</li>
+<li class="">你们目前最痛的质量问题（例如：幻觉、工具误用、RAG 引用不准、长链路不稳定、权限边界等）
+我可以据此把第 3、4 节改成更具体的“你们项目下一周可以落地的任务拆分”。</li>
+</ol>
+</blockquote>]]></content:encoded>
+            <category>GitHub Trending AI 测开趋势</category>
+        </item>
+        <item>
+            <title><![CDATA[今日 GitHub AI 趋势测开深度分析报告]]></title>
             <link>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post</link>
             <guid>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/11/ai-morning-post</guid>
             <pubDate>Sat, 11 Apr 2026 00:00:00 GMT</pubDate>

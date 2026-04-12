@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkai_qa_learning_site=self.webpackChunkai_qa_learning_site||[]).push([["797"],{5132(a){a.exports=JSON.parse('{"metadata":{"permalink":"/ai-qa-learning-site/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":6,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

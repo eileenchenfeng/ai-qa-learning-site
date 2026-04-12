@@ -12,6 +12,8 @@ tags: [github-trending]
 
 ---
 
+<!-- truncate -->
+
 ## 0. 今日结论先读（TL;DR）
 
 今天的 Trending AI 项目呈现出两个很“测开友好”的信号：

@@ -12,6 +12,8 @@ tags: [learning-notes, Agent, QA]
 
 ---
 
+<!-- truncate -->
+
 ## 0. 今日目标
 
 1. **掌握复杂推理范式**：理解 ToT（思维树）与 ReAct（推理与行动）的核心原理。

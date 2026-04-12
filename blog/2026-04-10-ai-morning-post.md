@@ -11,6 +11,8 @@ date: 2026-04-10
 
 {/* truncate */}
 
+<!-- truncate -->
+
 ## GitHub Trending（测开视角）
 
 ### AI 架构与趋势

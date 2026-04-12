@@ -12,6 +12,8 @@ tags: [learning-notes]
 
 ---
 
+<!-- truncate -->
+
 ## 0. 今日目标（你学完应该能做到什么）
 
 1. **分清并掌握三类 Prompt 范式**：Zero-shot、Few-shot、CoT（思维链）。

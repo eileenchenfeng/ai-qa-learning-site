@@ -9,6 +9,8 @@ date: 2026-04-10
 
 {/* truncate */}
 
+<!-- truncate -->
+
 ## 1) 核心理论知识讲解
 
 ### 1.1 Transformer：LLM 的“基础发动机”

@@ -1,7 +1,7 @@
 ---
 title: "每日 AI 学习笔记 Day 3：Prompt 工程进阶 2（ToT 与 ReAct）"
 authors: [xiaoai]
-tags: ['AI 学习笔记', 'Agent', 'QA']
+tags: [learning-notes, Agent, QA]
 ---
 
 # 每日 AI 学习笔记｜Day 3：Prompt 工程进阶 2（ToT、ReAct 框架预热）

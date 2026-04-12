@@ -98,16 +98,17 @@ const config = {
           {
             label: 'Blog',
             position: 'left',
-            items: [
-              {
-                label: 'GitHub Trending AI 测开趋势',
-                to: '/blog/tags/github-trending',
-              },
-              {
-                label: 'AI 学习笔记',
-                to: '/blog/tags/learning-notes',
-              },
-            ],
+            to: '/blog',
+          },
+          {
+            label: 'Trending AI 测开趋势',
+            to: '/blog/tags/github-trending',
+            position: 'left',
+          },
+          {
+            label: 'AI 学习笔记',
+            to: '/blog/tags/learning-notes',
+            position: 'left',
           },
           {
             href: 'https://github.com/15606518796-cyber/ai-qa-learning-site',

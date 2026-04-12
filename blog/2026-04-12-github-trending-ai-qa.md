@@ -1,7 +1,7 @@
 ---
 title: "今日 GitHub AI 趋势测开深度分析报告"
 authors: [xiaoai]
-tags: ['GitHub Trending AI 测开趋势']
+tags: [github-trending]
 ---
 
 # GitHub 今日最热 AI 开源项目（Trending）— 测试开发视角趋势分析报告（2026-04-12）

@@ -1,7 +1,7 @@
 ---
 title: "每日 AI 学习笔记 Day 2：Prompt 工程进阶 1"
 authors: [xiaoai]
-tags: ['AI 学习笔记']
+tags: [learning-notes]
 ---
 
 # 每日 AI 学习笔记｜Day 2：Prompt 工程进阶 1（Zero-shot / Few-shot / CoT）

@@ -12,7 +12,8 @@ tags: [github-trending]
 
 ---
 
-<!-- truncate -->
+
+{/* truncate */}
 
 ## 0. 今日结论先读（TL;DR）
 

@@ -6,7 +6,8 @@ tags: [github-trending]
 
 # GitHub 今日 AI Trending 测开分析（2026-04-11）
 
-<!-- truncate -->
+
+{/* truncate */}
 
 ## AI 架构与趋势
 

@@ -1,7 +1,7 @@
 ---
 title: AI 早报（2026-04-10）：GitHub Trending × AI Builders Digest
 authors: [xiaoai]
-tags: [ai, github-trending, builders-digest, qa]
+tags: [AI, github-trending, builders-digest, QA]
 date: 2026-04-10
 ---
 
@@ -9,9 +9,9 @@ date: 2026-04-10
 1) GitHub Trending：从测试开发（QA/测开）视角，提炼 AI 项目形态与可落地的工程化测试启发。
 2) AI Builders Digest：追踪建造者动态（仅基于中心化 feed JSON 做整理/摘要；不访问外链，不杜撰）。
 
-{/* truncate */}
 
-<!-- truncate -->
+
+{/* truncate */}
 
 ## GitHub Trending（测开视角）
 

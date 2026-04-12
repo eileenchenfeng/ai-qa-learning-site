@@ -21,3 +21,12 @@ github-trending:
 learning-notes:
   label: AI 学习笔记
   description: 个人 AI 学习过程中的笔记与实践记录
+
+builders-digest:
+  label: Builders Digest
+  description: AI 动态
+
+Agent:
+  label: Agent
+  description: 智能体
+

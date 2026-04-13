@@ -4,10 +4,163 @@
         <title>AI 测开进阶指南 Blog</title>
         <link>https://15606518796-cyber.github.io/ai-qa-learning-site/blog</link>
         <description>AI 测开进阶指南 Blog</description>
-        <lastBuildDate>Sun, 12 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[GitHub 今日 AI Trending 测开分析（2026-04-13）]]></title>
+            <link>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa</link>
+            <guid>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa</guid>
+            <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[AI 架构与趋势]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-架构与趋势">AI 架构与趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI 架构与趋势的直接链接" title="AI 架构与趋势的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="今日结构分布粗分类">今日结构分布（粗分类）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#%E4%BB%8A%E6%97%A5%E7%BB%93%E6%9E%84%E5%88%86%E5%B8%83%E7%B2%97%E5%88%86%E7%B1%BB" class="hash-link" aria-label="今日结构分布（粗分类）的直接链接" title="今日结构分布（粗分类）的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">AI Agent / 编排框架: 5 个</li>
+<li class="">RAG / 知识库: 1 个</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="热门项目速览">热门项目速览<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E9%80%9F%E8%A7%88" class="hash-link" aria-label="热门项目速览的直接链接" title="热门项目速览的直接链接" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-nousresearchhermes-agent">1. NousResearch/hermes-agent<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#1-nousresearchhermes-agent" class="hash-link" aria-label="1. NousResearch/hermes-agent的直接链接" title="1. NousResearch/hermes-agent的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener noreferrer" class="">https://github.com/NousResearch/hermes-agent</a></li>
+<li class="">归类：AI Agent / 编排框架</li>
+<li class="">Stars：66154</li>
+<li class="">Topics：ai, openai, hermes, codex, ai-agents, claude, ai-agent, llm, chatgpt, anthropic, claude-code, clawdbot</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">The agent that grows with you. Contribute to NousResearch/hermes-agent development by creating an account on GitHub.</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-forrestchangandrej-karpathy-skills">2. forrestchang/andrej-karpathy-skills<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#2-forrestchangandrej-karpathy-skills" class="hash-link" aria-label="2. forrestchang/andrej-karpathy-skills的直接链接" title="2. forrestchang/andrej-karpathy-skills的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank" rel="noopener noreferrer" class="">https://github.com/forrestchang/andrej-karpathy-skills</a></li>
+<li class="">归类：RAG / 知识库</li>
+<li class="">Stars：16684</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.</li>
+<li class=""><strong>State assumptions explicitly</strong> — If uncertain, ask rather than guess</li>
+<li class=""><strong>Present multiple interpretations</strong> — Don't pick silently when ambiguity exists</li>
+<li class=""><strong>Push back when warranted</strong> — If a simpler approach exists, say so</li>
+<li class=""><strong>Stop when confused</strong> — Name what's unclear and ask for clarification</li>
+<li class="">No features beyond what was asked</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-microsoftmarkitdown">3. microsoft/markitdown<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#3-microsoftmarkitdown" class="hash-link" aria-label="3. microsoft/markitdown的直接链接" title="3. microsoft/markitdown的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/microsoft/markitdown" target="_blank" rel="noopener noreferrer" class="">https://github.com/microsoft/markitdown</a></li>
+<li class="">归类：AI Agent / 编排框架</li>
+<li class="">Stars：104579</li>
+<li class="">主要语言：Python</li>
+<li class="">Topics：autogen, autogen-extension, langchain, markdown, microsoft-office, openai, pdf</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">Python tool for converting files and office documents to Markdown.</li>
+<li class="">PowerPoint</li>
+<li class="">Images (EXIF metadata and OCR)</li>
+<li class="">Audio (EXIF metadata and speech transcription)</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-multica-aimultica">4. multica-ai/multica<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#4-multica-aimultica" class="hash-link" aria-label="4. multica-ai/multica的直接链接" title="4. multica-ai/multica的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/multica-ai/multica" target="_blank" rel="noopener noreferrer" class="">https://github.com/multica-ai/multica</a></li>
+<li class="">归类：AI Agent / 编排框架</li>
+<li class="">Stars：9343</li>
+<li class="">主要语言：TypeScript</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-coleam00archon">5. coleam00/Archon<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#5-coleam00archon" class="hash-link" aria-label="5. coleam00/Archon的直接链接" title="5. coleam00/Archon的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/coleam00/Archon" target="_blank" rel="noopener noreferrer" class="">https://github.com/coleam00/Archon</a></li>
+<li class="">归类：AI Agent / 编排框架</li>
+<li class="">Stars：17029</li>
+<li class="">Topics：cli, yaml, automation, typescript, ai, workflow-engine, developer-tools, bun, claude, coding-assistant</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. - coleam00/Archon</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-shanraisshanclaude-code-best-practice">6. shanraisshan/claude-code-best-practice<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#6-shanraisshanclaude-code-best-practice" class="hash-link" aria-label="6. shanraisshan/claude-code-best-practice的直接链接" title="6. shanraisshan/claude-code-best-practice的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">链接：<a href="https://github.com/shanraisshan/claude-code-best-practice" target="_blank" rel="noopener noreferrer" class="">https://github.com/shanraisshan/claude-code-best-practice</a></li>
+<li class="">归类：AI Agent / 编排框架</li>
+<li class="">Stars：38948</li>
+<li class="">Topics：best-practices, claude, boris, anthropic, claude-ai, vibe-coding, claude-code, agentic-engineering, claude-code-commands, claude-code-agents, claude-code-skills, claude-code-best-practices</li>
+<li class="">项目特色（基于 description/README 片段的轻量提炼）：<!-- -->
+<ul>
+<li class="">practice made claude perfect. Contribute to shanraisshan/claude-code-best-practice development by creating an account on GitHub.</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="对日常-qa-工作的工程化启发如何测试此类架构">对日常 QA 工作的工程化启发（如何测试此类架构）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#%E5%AF%B9%E6%97%A5%E5%B8%B8-qa-%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%90%AF%E5%8F%91%E5%A6%82%E4%BD%95%E6%B5%8B%E8%AF%95%E6%AD%A4%E7%B1%BB%E6%9E%B6%E6%9E%84" class="hash-link" aria-label="对日常 QA 工作的工程化启发（如何测试此类架构）的直接链接" title="对日常 QA 工作的工程化启发（如何测试此类架构）的直接链接" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-面向-ai-agent-产品质量的通用原则">1) 面向 AI Agent 产品质量的通用原则<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#1-%E9%9D%A2%E5%90%91-ai-agent-%E4%BA%A7%E5%93%81%E8%B4%A8%E9%87%8F%E7%9A%84%E9%80%9A%E7%94%A8%E5%8E%9F%E5%88%99" class="hash-link" aria-label="1) 面向 AI Agent 产品质量的通用原则的直接链接" title="1) 面向 AI Agent 产品质量的通用原则的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">把 LLM 当作不可控依赖：测试要尽可能确定性（Mock/回放/固定评测集），线上靠观测性兜底。</li>
+<li class="">优先把输出结构化：JSON Schema / 受控枚举 / error code，让断言从‘主观’变成‘可自动化判定’。</li>
+<li class="">关键路径必须可回放：对话、工具调用、检索命中、模型版本，都要可复现。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-按架构类型给测试策略可直接套用">2) 按架构类型给测试策略（可直接套用）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#2-%E6%8C%89%E6%9E%B6%E6%9E%84%E7%B1%BB%E5%9E%8B%E7%BB%99%E6%B5%8B%E8%AF%95%E7%AD%96%E7%95%A5%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%A5%97%E7%94%A8" class="hash-link" aria-label="2) 按架构类型给测试策略（可直接套用）的直接链接" title="2) 按架构类型给测试策略（可直接套用）的直接链接" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-agent--编排框架">AI Agent / 编排框架<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#ai-agent--%E7%BC%96%E6%8E%92%E6%A1%86%E6%9E%B6" class="hash-link" aria-label="AI Agent / 编排框架的直接链接" title="AI Agent / 编排框架的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">将“正确性”拆成：接口契约正确 + 业务规则正确 + 模型/提示词行为可控 + 观测性可追溯。</li>
+<li class="">默认把 LLM 视为“不确定的外部依赖”，用 Mock/录制回放/固定种子/评测集来把测试变成确定性。</li>
+<li class="">把可测性当作架构能力：强制结构化输出（JSON Schema）、明确错误码、全链路 trace_id。</li>
+<li class="">重点测：工具调用（tool/function calling）分支覆盖、状态机/工作流回滚、长链路超时与重试策略。</li>
+<li class="">用 Golang Ginkgo 做后端校验：对每个工具 API 做 contract test + 幂等性测试 + 权限边界测试。</li>
+<li class="">把关键对话流固化成“场景回放测试”：同一输入在固定依赖下输出必须稳定（snapshot / golden）。</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="rag--知识库">RAG / 知识库<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#rag--%E7%9F%A5%E8%AF%86%E5%BA%93" class="hash-link" aria-label="RAG / 知识库的直接链接" title="RAG / 知识库的直接链接" translate="no">​</a></h4>
+<ul>
+<li class="">将“正确性”拆成：接口契约正确 + 业务规则正确 + 模型/提示词行为可控 + 观测性可追溯。</li>
+<li class="">默认把 LLM 视为“不确定的外部依赖”，用 Mock/录制回放/固定种子/评测集来把测试变成确定性。</li>
+<li class="">把可测性当作架构能力：强制结构化输出（JSON Schema）、明确错误码、全链路 trace_id。</li>
+<li class="">重点测：检索召回（Recall）与排序（Rank）——为每条问题准备‘期望命中文档集合’，做离线评测回归。</li>
+<li class="">把向量库当数据库测：索引构建一致性、增量写入正确性、冷热数据切换、延迟与容量压测。</li>
+<li class="">端到端测试要覆盖：空知识、知识过期、同义词、长文本截断、引用来源（citation）准确性。</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-golang-ginkgo-后端校验最小可用模板">3) Golang Ginkgo 后端校验：最小可用模板<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#3-golang-ginkgo-%E5%90%8E%E7%AB%AF%E6%A0%A1%E9%AA%8C%E6%9C%80%E5%B0%8F%E5%8F%AF%E7%94%A8%E6%A8%A1%E6%9D%BF" class="hash-link" aria-label="3) Golang Ginkgo 后端校验：最小可用模板的直接链接" title="3) Golang Ginkgo 后端校验：最小可用模板的直接链接" translate="no">​</a></h3>
+<p>以下片段用于说明思路（按你们的框架/路由替换即可）：</p>
+<div class="language-go codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-go codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">package</span><span class="token plain"> api_test</span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"net/http"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"github.com/onsi/ginkgo/v2"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">"github.com/onsi/gomega"</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">var</span><span class="token plain"> </span><span class="token boolean" style="color:#36acaa">_</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> ginkgo</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">Describe</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Tool API Contract"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">func</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  ginkgo</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">It</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"should return stable JSON schema for success"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">func</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    resp</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> err </span><span class="token operator" style="color:#393A34">:=</span><span class="token plain"> http</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">Get</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"http://localhost:8080/api/tool/foo?x=1"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    gomega</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">Expect</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">err</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">ToNot</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">gomega</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">HaveOccurred</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    gomega</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">Expect</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">resp</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">StatusCode</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">To</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">gomega</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">Equal</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">http</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">StatusOK</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token comment" style="color:#999988;font-style:italic">// TODO: 读取 body 做 JSON Schema 校验 / 字段断言</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><br></div></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-playwright-端到端自动化关键路径回放模板">4) Playwright 端到端自动化：关键路径回放模板<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#4-playwright-%E7%AB%AF%E5%88%B0%E7%AB%AF%E8%87%AA%E5%8A%A8%E5%8C%96%E5%85%B3%E9%94%AE%E8%B7%AF%E5%BE%84%E5%9B%9E%E6%94%BE%E6%A8%A1%E6%9D%BF" class="hash-link" aria-label="4) Playwright 端到端自动化：关键路径回放模板的直接链接" title="4) Playwright 端到端自动化：关键路径回放模板的直接链接" translate="no">​</a></h3>
+<div class="language-ts codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-ts codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><div class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> test</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> expect </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'@playwright/test'</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">test</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'chat streaming should be stable'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">async</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> page </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">await</span><span class="token plain"> page</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">goto</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'https://your-console.example.com'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic">// TODO: 登录</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">await</span><span class="token plain"> page</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">getByRole</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'textbox'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> name</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'输入'</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">fill</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'解释一下这个项目的核心能力'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">await</span><span class="token plain"> page</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">getByRole</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button'</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"> name</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'发送'</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">click</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic">// 关键：对流式输出做“最终一致性”断言</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">await</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">expect</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">page</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">getByTestId</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'assistant-message'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">last</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">.</span><span class="token function" style="color:#d73a49">toContainText</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'核心'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></div></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="可落地的行动指南如何在现有自动化框架中应用">可落地的行动指南（如何在现有自动化框架中应用）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#%E5%8F%AF%E8%90%BD%E5%9C%B0%E7%9A%84%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97%E5%A6%82%E4%BD%95%E5%9C%A8%E7%8E%B0%E6%9C%89%E8%87%AA%E5%8A%A8%E5%8C%96%E6%A1%86%E6%9E%B6%E4%B8%AD%E5%BA%94%E7%94%A8" class="hash-link" aria-label="可落地的行动指南（如何在现有自动化框架中应用）的直接链接" title="可落地的行动指南（如何在现有自动化框架中应用）的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">在现有自动化仓库中新建 <code>ai_agent_quality/</code> 目录，沉淀：评测集、对话回放用例、golden snapshots。</li>
+<li class="">为后端（Golang）增加 Ginkgo 套件：</li>
+</ol>
+<ul>
+<li class="">Contract tests（OpenAPI/JSON Schema）</li>
+<li class="">工具 API 幂等性 + 权限边界</li>
+<li class="">关键业务规则的 table-driven tests</li>
+</ul>
+<ol start="3">
+<li class="">为前端/控制台增加 Playwright 套件：</li>
+</ol>
+<ul>
+<li class="">关键路径回放（含流式输出断言）</li>
+<li class="">断网/慢网/重试场景</li>
+<li class="">可访问性（a11y）与错误提示一致性</li>
+</ul>
+<ol start="4">
+<li class="">把 LLM 依赖抽象为 Provider 接口：测试环境默认 Mock（录制回放），必要时才走真实模型。</li>
+<li class="">建立‘变更影响面’机制：prompt/模型/检索策略/工具列表任一变化，都要触发评测回归 + 差分报告。</li>
+</ol>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="附生成数据说明">附：生成数据说明<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/13/github-trending-ai-qa#%E9%99%84%E7%94%9F%E6%88%90%E6%95%B0%E6%8D%AE%E8%AF%B4%E6%98%8E" class="hash-link" aria-label="附：生成数据说明的直接链接" title="附：生成数据说明的直接链接" translate="no">​</a></h3>
+<ul>
+<li class="">数据源：GitHub Trending +（优先）GitHub REST API；API 受限时自动降级为抓取 GitHub Repo HTML 页面</li>
+<li class="">说明：AI 过滤与分类为规则驱动，可按团队需求持续迭代；如需更智能的总结，可在此报告基础上再做人工/LLM 精炼。</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[每日 AI 学习笔记 Day 3：Prompt 工程进阶 2（ToT 与 ReAct）]]></title>
             <link>https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/12/day3-tot-react</link>

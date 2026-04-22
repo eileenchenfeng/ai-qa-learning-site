@@ -294,9 +294,28 @@ def classify_arch(meta: Dict[str, Any], readme: str) -> str:
     return "其他 / 待分类"
 
 
+def sanitize_markdown_text(text: str) -> str:
+    def _replace_image(match: re.Match[str]) -> str:
+        alt = (match.group(1) or "").strip()
+        return alt or "图片"
+
+    def _replace_link(match: re.Match[str]) -> str:
+        label = re.sub(r"\s+", " ", (match.group(1) or "").strip())
+        url = (match.group(2) or "").strip()
+        if url.startswith(("http://", "https://")):
+            return f"{label}（{url}）" if label else url
+        return label or url
+
+    text = re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", _replace_image, text)
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", _replace_link, text)
+    text = text.replace("{", r"\{").replace("}", r"\}")
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 def summarize_repo_feature(meta: Dict[str, Any], readme: str) -> List[str]:
     out: List[str] = []
-    desc = (meta.get("description") or "").strip()
+    desc = sanitize_markdown_text((meta.get("description") or "").strip())
     if desc:
         out.append(desc)
 
@@ -312,6 +331,7 @@ def summarize_repo_feature(meta: Dict[str, Any], readme: str) -> List[str]:
             break
 
     for b in bullets:
+        b = sanitize_markdown_text(b)
         if len(b) >= 8:
             out.append(b)
 

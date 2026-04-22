@@ -5,8 +5,14 @@ on:
     # 08:30 (Asia/Shanghai) == 00:30 UTC
     - cron: '30 0 * * *'
   workflow_dispatch:
+    inputs:
+      date:
+        description: '可选：指定要生成的日期（YYYY-MM-DD），留空则按 Asia/Shanghai 的当天生成。'
+        required: false
+        type: string
 
 permissions:
+  actions: write
   contents: write
 
 concurrency:
@@ -20,10 +26,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
-          # 说明：优先使用 BLOG_PUSH_PAT，其次使用 PAT。
-          # 需要 PAT 才能保证 push 到 main 后能触发 Deploy workflow。
-          token: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT }}
+          # 说明：优先使用 BLOG_PUSH_PAT，其次使用 PAT；若都未配置则回退到默认 GITHUB_TOKEN，避免 checkout 因 token 为空直接失败。
+          # 仍建议配置 PAT，以便 push 到 main 后自动触发 Deploy workflow。
+          token: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT || github.token }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -45,7 +52,8 @@ jobs:
       - name: Generate daily blog post
         env:
           TZ: Asia/Shanghai
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAILY_POST_DATE: ${{ github.event.inputs.date || '' }}
+          GITHUB_TOKEN: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT || github.token }}
           # 可选：如果你希望把 Follow Builders 从“整理版”升级为“摘要版”，请配置 OPENAI_API_KEY。
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
@@ -76,4 +84,17 @@ jobs:
 
       - name: Push to main
         if: steps.commit.outputs.changed == 'true'
-        run: git push origin main
+        run: git push origin HEAD:main
+
+      - name: Trigger deploy workflow without PAT fallback
+        if: steps.commit.outputs.changed == 'true' && secrets.BLOG_PUSH_PAT == '' && secrets.PAT == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail --silent --show-error \
+            -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy.yml/dispatches" \
+            -d '{"ref":"main"}'

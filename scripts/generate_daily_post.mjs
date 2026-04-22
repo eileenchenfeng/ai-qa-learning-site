@@ -245,7 +245,10 @@ async function generateDigestWithOpenAI({ payload, dateStr, language }) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const timeZone = args.timezone || process.env.TZ || 'Asia/Shanghai';
-  const dateStr = (args.date || process.env.DAILY_POST_DATE || todayInTimezone(timeZone)).trim();
+  const todayStr = todayInTimezone(timeZone);
+  const explicitDate = (args.date || process.env.DAILY_POST_DATE || '').trim();
+  const dateStr = (explicitDate || todayStr).trim();
+  const isBackfill = Boolean(explicitDate) && explicitDate !== todayStr;
 
   const since = (args.since || process.env.TRENDING_SINCE || 'daily').trim();
   const top = String(args.top || process.env.TRENDING_TOP || '25');
@@ -329,7 +332,7 @@ async function main() {
   // 3) 拼成 Docusaurus blog 文章
   const blogPath = path.join(repoRoot, 'blog', `${dateStr}-ai-morning-post.md`);
 
-  const tags = ['ai', 'github-trending', 'builders-digest', 'qa'];
+  const tags = ['AI', 'github-trending', 'builders-digest', 'QA'];
 
   const out = [
     '---',
@@ -343,6 +346,12 @@ async function main() {
     '1) GitHub Trending：从测试开发（QA/测开）视角，提炼 AI 项目形态与可落地的工程化测试启发。',
     '2) AI Builders Digest：追踪建造者动态（仅基于中心化 feed JSON 做整理/摘要；不访问外链，不杜撰）。',
     '',
+    ...(isBackfill
+      ? [
+          '> ⚠️ 本文为补发内容。当前脚本会基于补发时可获取到的实时数据源生成内容，不保证完全还原该日期当天的 GitHub Trending / Feed 快照。',
+          '',
+        ]
+      : []),
     '{/* truncate */}',
     '',
     '## GitHub Trending（测开视角）',

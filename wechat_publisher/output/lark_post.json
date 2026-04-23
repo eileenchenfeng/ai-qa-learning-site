@@ -1,0 +1,34 @@
+{
+  "zh_cn": {
+    "title": "公众号草稿已上传",
+    "content": [
+      [
+        {
+          "tag": "text",
+          "text": "已将今天的《AI Builders Digest | 2026-04-21》上传到公众号「陈同学的 AI 抽屉」的草稿箱，可用于草稿预览/发版测试。"
+        }
+      ],
+      [
+        { "tag": "text", "text": "草稿 media_id：" },
+        { "tag": "text", "text": "uG9CcIikz4OAF2WYP1oWS4oQ_aXEbvGFwZlpCNtaCsTBFT2G_ijlyJw3kKSncz2w", "style": ["bold"] }
+      ],
+      [
+        { "tag": "text", "text": "临时预览链接（可能会过期）：" },
+        {
+          "tag": "a",
+          "text": "打开预览",
+          "href": "http://mp.weixin.qq.com/s?__biz=MzYzMjg4NjM5Mg==&tempkey=MTM3MF8rUVE0MGlLNXUwYVU4S3FMeFJLdTNyd2E1eEVPWFkyZWpiREZYTE82M2dUbnl3WlFOR29OVjZVZk51UUhpWFdJbU1vSlVvb0JOOW1ucWRvZktJaUhweFp0TUFaUGl1NXlEWTFKMUlwSmZZeFFrc3JtUFNJT3oxNFhrUlY1M0xMTDRfbUFaanI0Nm82THJtMlBoOExudmV4RUNKZWxhVVR2d2ZjTUZBfn4%3D&chksm=70b7c40747c04d1187066f27fc76254eecc1b7dc35fe8453425369df3e4dff679a46dcf0b98a#rd"
+        }
+      ],
+      [
+        { "tag": "hr" }
+      ],
+      [
+        {
+          "tag": "text",
+          "text": "也可以直接在公众号后台：内容管理 > 草稿箱 中查看排版效果。\n如果你希望更贴近公众号常见风格（更精细的标题/引用/代码块/列表样式），我可以基于同一脚本继续迭代。"
+        }
+      ]
+    ]
+  }
+}

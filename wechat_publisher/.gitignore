@@ -1,0 +1,5 @@
+
+# wechat_publisher local secrets/state
+wechat_publisher/state.json
+*.env
+.env

@@ -58,7 +58,6 @@ URL_BOX_STYLE = (
     "border: 1px solid #e2e8f0;"
     "border-radius: 8px;"
     "padding: 10px 14px;"
-    "font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;"
     "font-size: 12px;"
     "color: #1e293b;"
     "word-break: break-all;"
@@ -747,6 +746,40 @@ def _guess_button_text(url: str) -> str:
     return "查看原文"
 
 
+def _extract_link_meta_from_text(text: str) -> Optional[Tuple[str, str]]:
+    """Extract (label, url) from a meta-like line such as:
+
+    - 原文链接：https://...
+    - 视频链接: https://...
+
+    We intentionally keep this conservative to avoid turning normal paragraphs
+    (that happen to contain an URL) into metadata blocks.
+    """
+
+    s = (text or "").strip()
+    url = _extract_first_url(s)
+    if not url:
+        return None
+
+    left = (s.replace(url, "") or "").strip()
+    left = re.sub(r"\s+", " ", left).strip()
+
+    label = ""
+    if left.endswith(":") or left.endswith("："):
+        label = left.rstrip(":：").strip()
+    else:
+        # Allow very common patterns even without a colon.
+        if re.fullmatch(r"(原文链接|视频链接|链接|项目地址|地址)", left):
+            label = left
+        else:
+            return None
+
+    if not label:
+        label = _guess_button_text(url)
+
+    return label, url
+
+
 def _merge_style(tag: Any, style: str) -> None:
     old = "" if tag is None else tag.get("style", "")
     if old and not old.endswith(";"):
@@ -785,7 +818,6 @@ def markdown_to_wechat_html(md_text: str, *, article_title: Optional[str] = None
         "color:#111827;"
         "font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,"
         "'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif;"
-        "letter-spacing:0.2px;"
         "word-break:break-word;"
     )
 

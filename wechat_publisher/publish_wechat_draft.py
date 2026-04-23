@@ -195,77 +195,224 @@ def _is_digest_meta_line(line: str) -> bool:
 
 
 def _extract_first_paragraph_under_each_h3(md_text: str) -> List[str]:
-    """遍历 Markdown，提取每个 ### 标题下的“第一段正文”。"""
+    """遍历 Markdown，提取每个 ### 标题下的“第一段正文”。
+
+    注意：这里的“第一段正文”指的是：
+    - 跳过空行/元信息行（关键词、链接等）
+    - 从第一个有效正文行开始
+    - 直到遇到空行（段落结束）为止
+    并且：同一个 ### 小节只取第一段，后续段落/列表不再继续抓。
+    """
 
     paragraphs: List[str] = []
 
     in_h3 = False
-    started = False
+    collecting = False
+    got_first_paragraph = False
     buf: List[str] = []
 
     def flush_buf() -> None:
-        nonlocal buf, started
+        nonlocal buf, collecting, got_first_paragraph
         text = " ".join([b.strip() for b in buf if b.strip()]).strip()
         if text:
             paragraphs.append(text)
         buf = []
-        started = False
+        collecting = False
+        got_first_paragraph = True
 
     for raw in (md_text or "").splitlines():
         line = (raw or "").rstrip()
         stripped = line.strip()
 
-        m_h3 = re.match(r"^\s*###\s+(.+?)\s*$", stripped)
-        if m_h3:
-            # 进入新小节：先把上一个小节的段落（如果已经抓到了）落盘
-            if in_h3 and started:
+        # H3：开启一个新小节
+        if re.match(r"^\s*###\s+(.+?)\s*$", stripped):
+            if in_h3 and collecting and not got_first_paragraph:
                 flush_buf()
             in_h3 = True
+            collecting = False
+            got_first_paragraph = False
+            buf = []
             continue
 
         if not in_h3:
             continue
 
-        # 遇到下一个更高层级/同级标题，当前 h3 小节结束
-        if re.match(r"^\s*##\s+", stripped) or re.match(r"^\s*###\s+", stripped):
-            if started:
+        # 遇到更高层级标题（##），当前 h3 小节结束
+        if re.match(r"^\s*##\s+", stripped):
+            if collecting and not got_first_paragraph:
                 flush_buf()
             in_h3 = False
             continue
 
-        # 第一段正文：从第一个“非空且非 meta”行开始，直到遇到空行
-        if not started:
+        # 同一个 h3 已经拿到第一段了：忽略后续内容，直到下一个标题
+        if got_first_paragraph:
+            continue
+
+        # 尚未开始收集：找到第一行有效正文
+        if not collecting:
             if not stripped:
                 continue
             if _is_digest_meta_line(stripped):
                 continue
-            started = True
+            collecting = True
 
-        # 已经开始抓第一段，空行意味着段落结束
-        if started and not stripped:
+        # 正在收集第一段，空行意味着段落结束
+        if collecting and not stripped:
             flush_buf()
             continue
 
-        if started:
+        if collecting:
             buf.append(stripped)
 
     # EOF flush
-    if in_h3 and started:
+    if in_h3 and collecting and not got_first_paragraph:
         flush_buf()
 
     return paragraphs
 
 
-def _extract_core_phrase_from_paragraph(paragraph: str, *, slice_len: int = 15) -> str:
-    """从一段正文中提取“中文小句”。
+def _contains_cjk(text: str) -> bool:
+    return bool(re.search(r"[\u4e00-\u9fff]", text or ""))
 
-    符合当前需求的规则：
-    1) 先定位每个 ### 标题下的第一段正文（外层逻辑做）
-    2) 从该段正文中：
-       - 遇到第一个中文逗号“，”或中文句号“。”，截取其前面的部分
-       - 如果没有“，”或“。”，则截取前 10~15 个字符，且避免腰斩英文单词
 
-    说明：为了让摘要更干净，会做轻量清洗（去 Markdown 样式 / URL / bullet 前缀）。
+def _is_meaningful_cn_phrase(text: str) -> bool:
+    """摘要短句过滤：避免只有“了/的”等虚词也被当作有效要点。"""
+
+    s = (text or "").strip()
+    if not s:
+        return False
+
+    cn_chars = re.findall(r"[\u4e00-\u9fff]", s)
+    if len(cn_chars) < 2:
+        return False
+
+    stop = set("的了呢吧呀啊着在让与和及并从把要会能也还对将被给跟等们")
+    # 若中文字符几乎全是停用虚词，则判为无效
+    if all(ch in stop for ch in cn_chars):
+        return False
+
+    return True
+
+
+def _is_ascii_alnum(ch: str) -> bool:
+    return bool(re.match(r"[A-Za-z0-9]", (ch or "")[:1]))
+
+
+def _strip_spoken_prefix(text: str) -> str:
+    """去掉常见的“口语化引述前缀”，让摘要更像“内容要点”。
+
+    例：
+    - "他强调：企业要真正跑起来 agent..." -> "企业要真正跑起来 agent..."
+    - "连续分享了 OpenClaw 与周边工具更新..." -> "OpenClaw 与周边工具更新..."
+    """
+
+    s = (text or "").strip()
+    if not s:
+        return ""
+
+    # 先去掉引号/括号等可能包裹在句首的符号
+    s = s.lstrip("\"'“”‘’（()【[]-—•*·/ ")
+
+    # 常见“口语化引述”动词/短语
+    spoken_prefixes = [
+        "他强调",
+        "她强调",
+        "他提到",
+        "她提到",
+        "他提及",
+        "她提及",
+        "他表示",
+        "她表示",
+        "他指出",
+        "她指出",
+        "他认为",
+        "她认为",
+        "他解释",
+        "她解释",
+        "他建议",
+        "她建议",
+        "他提醒",
+        "她提醒",
+        "他总结",
+        "她总结",
+        "他介绍",
+        "她介绍",
+        "他分享",
+        "她分享",
+        "他转发",
+        "她转发",
+        "他点评",
+        "她点评",
+        "他发布",
+        "她发布",
+        "他发布了",
+        "她发布了",
+        "他转发了",
+        "她转发了",
+        "他点评了",
+        "她点评了",
+        "他转发/点评了",
+        "她转发/点评了",
+        "他给了",
+        "她给了",
+        "分享了",
+        "连续分享了",
+        "并分享了",
+        "继续分享了",
+        "进一步分享了",
+        "发布了",
+        "转发了",
+        "点评了",
+        "表示",
+        "指出",
+        "强调",
+        "提到",
+        "提及",
+        "认为",
+        "总结",
+        "结论",
+        "要点",
+        "一句话点题",
+        "The Takeaway",
+        "Takeaway",
+        "今日摘要",
+    ]
+
+    # 循环剥离，避免出现“他强调：他指出：...”这种套娃
+    for _ in range(3):
+        before = s
+
+        # 形如："某某（人名/他/她/嘉宾）强调：..."
+        # 更泛化的“口语引述句首”：
+        # - 可带人名/身份（如“Box CEO Aaron Levie”/“嘉宾”/“他”/“她”）
+        # - 可带副词（如“还”“也”“进一步”）
+        # - 可带冒号/逗号
+        s = re.sub(
+            r"^(?:[\u4e00-\u9fffA-Za-z0-9·•\-\s]{1,30})?"
+            r"(?:还|也|再次|继续|进一步|特别)?"
+            r"(?:强调|提到|提及|表示|指出|认为|解释|建议|提醒|总结|介绍|分享|发布|转发|点评)"
+            r"(?:了)?\s*[：:，,]\s*",
+            "",
+            s,
+        ).strip()
+
+        # 形如："连续分享了 ..."（不一定带冒号）
+        for p in spoken_prefixes:
+            s = re.sub(rf"^{re.escape(p)}\s*[：:，,]?\s*", "", s).strip()
+
+        if s == before:
+            break
+
+    return s.strip()
+
+
+def _extract_core_phrase_from_paragraph(paragraph: str, *, slice_len: int = 12) -> str:
+    """从一段正文中提取“内容核心点短句”。
+
+    规则（对齐需求）：
+    1) 去掉口语化前缀（如“他强调：”“他提到”“连续分享了”等）
+    2) 截取前半句：遇到第一个中文逗号、句号，取其前面
+    3) 若没有上述断句符，截取前 10~15 个字符（尽量不腰斩英文单词）
     """
 
     text = strip_markdown_to_plain(paragraph or "")
@@ -278,100 +425,261 @@ def _extract_core_phrase_from_paragraph(paragraph: str, *, slice_len: int = 15) 
     text = re.sub(r"^[\-*•\s]+", "", text).strip()
     text = re.sub(r"^\d+[\.)]\s*", "", text).strip()
 
-    # 去常见前缀（不会影响正文语义）
-    text = re.sub(r"^(一句话点题|要点|总结|结论|他强调|他提到|分享了)\s*[:：]\s*", "", text).strip()
+    # 去掉口语化前缀
+    text = _strip_spoken_prefix(text)
 
     if not text:
         return ""
 
-    # 找到最早出现的中文逗号/句号
-    comma_idx = text.find("，")
-    period_idx = text.find("。")
+    # 清理“引子：- 列表项”这类结构
+    # 例："两个很实用的视角： - 推荐 ..." -> "两个很实用的视角"
+    if "：" in text:
+        left, right = text.split("：", 1)
+        if left and re.match(r"^\s*[-—•*]\s*", right):
+            text = left.strip()
 
-    cut_candidates = [i for i in [comma_idx, period_idx] if i is not None and i >= 0]
-    cut_idx = min(cut_candidates) if cut_candidates else -1
+    # 截取“前半句”：第一个中文逗号/句号优先；若太靠后则回退到 10~15 字截断
+    core = ""
+    punct_candidates = []
+    for p in ["，", "。"]:
+        idx = text.find(p)
+        if idx > 0:
+            punct_candidates.append(idx)
+    punct_idx = min(punct_candidates) if punct_candidates else -1
+    if punct_idx > 0 and punct_idx <= 25:
+        core = text[:punct_idx].strip()
 
-    if cut_idx > 0:
-        core = text[:cut_idx].strip()
-    else:
-        # 没有中文逗号/句号：截取一定长度，但避免在英文单词/数字中间切断
-        limit = max(10, min(slice_len, 25))
+    if not core:
+        # 没有可用断句符：截取一定长度，但避免在英文单词/数字中间切断
+        limit = max(10, min(slice_len, 15))
         if len(text) <= limit:
             core = text
         else:
             core = text[:limit]
-            # 优化：如果截断点前后都是字母数字，说明切到了单词中间
-            if core[-1].isalnum() and text[limit].isalnum():
-                # 尝试往回找空格
-                last_space = core.rfind(' ')
+            if _is_ascii_alnum(core[-1]) and _is_ascii_alnum(text[limit]):
+                last_space = core.rfind(" ")
                 if last_space > limit // 2:
                     core = text[:last_space]
                 else:
-                    # 找不到空格就尽量多切一点直到非字母数字
                     for i in range(limit, min(len(text), limit + 10)):
-                        if not text[i].isalnum():
+                        if not _is_ascii_alnum(text[i]):
                             core = text[:i]
                             break
 
-    # 清理尾部语气词/连接词，避免短语“挂尾巴”
-    core = core.rstrip("的了呢吧呀啊着在让把与和及并")
-    core = core.strip()
+    # 进一步清理：遇到“从…降到/从…提升到”这类度量句，优先保留“动作 + 对象”
+    # 例："通过并行化把 CI 从 8 分钟降到 2 分钟" -> "通过并行化把 CI"
+    if "从" in core:
+        cut = core.find("从")
+        if cut >= 6 and re.search(r"从\s*[\d一二三四五六七八九十]", text):
+            maybe = core[:cut].rstrip()
+            maybe = maybe.rstrip(" ，,。．.；;、:：")
+            if len(maybe) >= 6:
+                core = maybe
+
+    # 去掉残留的括号/列表标记
+    core = re.sub(r"\s*[-—•*]\s*", " ", core).strip()
+    core = core.lstrip("/／")
+    core = core.strip("（）()[]【】")
+    if "（" in core:
+        core = core.split("（", 1)[0].rstrip()
+    if "(" in core:
+        core = core.split("(", 1)[0].rstrip()
+
+    # 避免截断时留下半截引号内容
+    for q in ["“", "\"", "'", "‘"]:
+        if q in core:
+            left = core.split(q, 1)[0].rstrip()
+            if len(left) >= 6:
+                core = left
+                break
+    core = core.strip("\"'“”‘’ ")
+
+    # 清理尾部“挂尾巴”的连接词/语气词（不要过度删除，避免破坏短语）
+    core = core.rstrip("的了呢吧呀啊着在让与和及并")
+    core = core.strip(" ，,。．.；;、:：")
+
+    # 最终防御：短句必须是“有意义的中文要点”
+    if not _is_meaningful_cn_phrase(core):
+        return ""
 
     return core
 
 
+def _join_phrases_with_limit(phrases: List[str], *, max_chars: int) -> str:
+    """用“、”拼接短句，并保证总长度不超过 max_chars。"""
+
+    out: List[str] = []
+    current = ""
+
+    for p in phrases:
+        p = (p or "").strip(" 、，,。．.；;:：")
+        if not p:
+            continue
+
+        candidate = p if not current else f"{current}、{p}"
+        if len(candidate) <= max_chars:
+            current = candidate
+            out.append(p)
+            continue
+
+        # 放不下就直接停止（避免最后截断破坏“要点感”）
+        break
+
+    return (current or "").strip(" 、")
+
+
+def _extract_text_lines_under_each_h3(md_text: str) -> List[List[str]]:
+    """提取每个 ### 标题下的正文行（含 bullet），用于摘要候选。"""
+
+    sections: List[List[str]] = []
+    current: Optional[List[str]] = None
+
+    for raw in (md_text or "").splitlines():
+        stripped = (raw or "").strip()
+
+        if re.match(r"^\s*###\s+", stripped):
+            if current is not None:
+                sections.append(current)
+            current = []
+            continue
+
+        if current is None:
+            continue
+
+        # 遇到更高层级标题：结束当前小节
+        if re.match(r"^\s*##\s+", stripped):
+            sections.append(current)
+            current = None
+            continue
+
+        if not stripped:
+            continue
+
+        # 去掉引用符号
+        stripped = re.sub(r"^>+\s*", "", stripped).strip()
+
+        if _is_digest_meta_line(stripped):
+            continue
+
+        current.append(stripped)
+
+    if current is not None:
+        sections.append(current)
+
+    return sections
+
+
+def _score_digest_candidate(raw_line: str, core: str) -> int:
+    """给候选短句打分，尽量挑出更“像要点”的那句。"""
+
+    line = (raw_line or "").strip()
+    c = (core or "").strip()
+
+    score = 0
+
+    # 太像“引子”的句子一般以冒号结尾（例如“连续分享了...更新：”）
+    if line.endswith(("：", ":")):
+        score -= 3
+
+    # 明确的“总结句”优先（通常比长段落更适合作为摘要要点）
+    if re.search(r"(一句话点题|The Takeaway|要点：|要点:)", line, flags=re.I):
+        score += 6
+
+    if "数字分身" in line:
+        score += 3
+
+    if any(k in line for k in ["DESIGN.md", "研发规范", "工具链", "设计文档"]):
+        score += 2
+
+    if re.search(r"OpenClaw|Hermes|GBrain|Minions|Claude", line, flags=re.I):
+        score += 1
+
+    # 包含关键工程点：CI/并行/架构/Agent
+    if "CI" in line or "CI" in c:
+        score += 4
+    if re.search(r"\bagent\b", line, flags=re.I) or re.search(r"\bagent\b", c, flags=re.I):
+        score += 3
+    if re.search(r"并行|并行化|pipeline|工作流", line, flags=re.I):
+        score += 2
+    if re.search(r"架构|架构更新|系统|工程|落地", line):
+        score += 2
+
+    # 有数字通常更具体
+    if re.search(r"\d", line):
+        score += 1
+
+    # 过短不利于表达要点
+    if len(c) < 6:
+        score -= 1
+
+    return score
+
+
 def guess_digest_from_markdown(md_text: str, max_chars: int = 90) -> str:
-    """中文摘要启发式：提取所有 ### 标题，过滤口语化废话，用“、”拼接。"""
-    
-    # 坚决过滤口语化废话
-    patterns_to_strip = [
-        r"^(他强调|他提到|他指出|他分享|他建议|分享了|整理了|总结了)[:：\s]*",
-        r"^(我们发现|我们认为|我们的结论)[:：\s]*",
-        r"^今日摘要[:：\s]*",
-    ]
+    """中文摘要启发式：
 
-    phrases = []
-    for line in md_text.splitlines():
-        m = re.match(r'^\s*###\s+(.+)$', line)
-        if m:
-            title = m.group(1).strip()
-            # 1) 过滤开头 Emoji 和特殊符号
-            title = re.sub(r'^[^\w\u4e00-\u9fa5]+', '', title).strip()
-            
-            # 2) 过滤口语化词汇
-            for pat in patterns_to_strip:
-                title = re.sub(pat, "", title).strip()
-            
-            if title:
-                phrases.append(title)
-                
-    phrases = _dedupe_preserve_order(phrases)
+    目标：从每个 ### 小节的正文中，抓出“中文内容要点”，拼成公众号摘要。
 
-    # 如果标题太少，抓取正文第一段核心句补充
-    if len(phrases) < 2:
-        paragraphs = _extract_first_paragraph_under_each_h3(md_text)
-        for p in paragraphs:
-            core = _extract_core_phrase_from_paragraph(p, slice_len=20)
+    - 不再提取 ### 标题作为摘要（避免标题是纯英文人名导致摘要“全是英文名”）
+    - 提取每个 ### 标题下的正文要点（不取标题本身）
+    - 去掉口语化前缀后，截取前半句（中文逗号/句号）或前 10~15 字
+    - 用“、”拼接，总长限制 max_chars
+    """
+
+    try:
+        phrases: List[str] = []
+
+        # 1) 主路径：每个 ### 小节取“第一段正文”，再提炼核心短句
+        for para in _extract_first_paragraph_under_each_h3(md_text):
+            core = _extract_core_phrase_from_paragraph(para, slice_len=14)
             if core:
                 phrases.append(core)
+
+        # 2) 兜底：若第一段没有抓到（比如全是英文名/链接），则扫描该小节内的其他正文行
+        if not phrases:
+            for lines in _extract_text_lines_under_each_h3(md_text):
+                picked = ""
+                for line in lines:
+                    core = _extract_core_phrase_from_paragraph(line, slice_len=14)
+                    if core:
+                        picked = core
+                        break
+                if picked:
+                    phrases.append(picked)
+
         phrases = _dedupe_preserve_order(phrases)
 
-    if not phrases:
-        plain = strip_markdown_to_plain(md_text)
-        plain = re.sub(r"https?://\S+", " ", plain)
-        plain = re.sub(r"\s+", " ", plain).strip()
-        if plain:
-            phrases = [plain[:20].strip()]
+        if not phrases:
+            # 最终兜底：从全文里找第一句包含中文的内容
+            plain = strip_markdown_to_plain(md_text)
+            plain = re.sub(r"https?://\S+", " ", plain)
+            plain = re.sub(r"\s+", " ", plain).strip()
+            plain = _strip_spoken_prefix(plain)
+            if _contains_cjk(plain):
+                phrases = [_extract_core_phrase_from_paragraph(plain, slice_len=14) or plain[:12]]
 
-    if phrases:
-        digest = "、".join(phrases)
-        # 强制以干练的 ... 结尾
-        if not digest.endswith("..."):
-            digest = digest.rstrip("，,。．.；;、 ") + "..."
-    else:
-        digest = ""
-        
-    return truncate_chars_with_dots(digest, max_chars)
+        digest = _join_phrases_with_limit(phrases, max_chars=max_chars)
+
+        # 再兜底一次：返回非空字符串（公众号摘要字段不喜欢空）
+        if not digest:
+            digest = "AI 要点更新"
+
+        return digest
+
+    except Exception:
+        # 极限兜底：避免摘要逻辑异常阻断发稿
+        try:
+            plain = strip_markdown_to_plain(md_text or "")
+            plain = re.sub(r"https?://\S+", " ", plain)
+            plain = re.sub(r"\s+", " ", plain).strip()
+            plain = _strip_spoken_prefix(plain)
+            if _contains_cjk(plain):
+                core = _extract_core_phrase_from_paragraph(plain, slice_len=12) or plain[:12]
+                return truncate_chars((core or "").strip(), max_chars)
+        except Exception:
+            pass
+
+        return "AI 要点更新"
 
 
 def extract_wechat_digest(md_text: str, max_chars: int = 90) -> str:

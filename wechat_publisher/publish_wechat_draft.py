@@ -57,7 +57,11 @@ URL_BOX_STYLE = (
     "background: #f8fafc;"
     "border: 1px solid #e2e8f0;"
     "border-radius: 8px;"
-    "padding: 10px 14px;"
+    # 微信对 shorthand padding/margin 过滤较严格：这里显式写四边，避免被吞导致贴边。
+    "padding-top: 10px;"
+    "padding-right: 14px;"
+    "padding-bottom: 10px;"
+    "padding-left: 14px;"
     "font-size: 12px;"
     "color: #1e293b;"
     "word-break: break-all;"
@@ -838,8 +842,15 @@ def markdown_to_wechat_html(md_text: str, *, article_title: Optional[str] = None
     SECTION_STYLE = (
         "border:1px solid #dbeafe;"
         "border-radius:14px;"
-        "padding:14px 14px 10px;"
-        "margin:18px 0;"
+        # 微信对 shorthand padding/margin 兼容性差：用四边显式写法。
+        "padding-top:14px;"
+        "padding-right:14px;"
+        "padding-bottom:10px;"
+        "padding-left:14px;"
+        "margin-top:18px;"
+        "margin-right:0px;"
+        "margin-bottom:18px;"
+        "margin-left:0px;"
         "background:#ffffff;"
         "box-shadow:0 6px 18px rgba(15,23,42,0.06);"
     )
@@ -849,28 +860,92 @@ def markdown_to_wechat_html(md_text: str, *, article_title: Optional[str] = None
         "font-weight:800;"
         "color:#1d4ed8;"
         "background:#eef6ff;"
-        "padding:9px 12px;"
+        "padding-top:9px;"
+        "padding-right:12px;"
+        "padding-bottom:9px;"
+        "padding-left:12px;"
         "border-radius:999px;"
-        "margin:0 0 14px 0;"
+        "margin-top:0px;"
+        "margin-right:0px;"
+        "margin-bottom:14px;"
+        "margin-left:0px;"
     )
-    ITEM_DIVIDER_STYLE = "border:none;border-top:1px solid #e5e7eb;margin:16px 0 14px;"
-    ITEM_TITLE_STYLE = "font-size:18px;line-height:1.35;margin:0 0 10px;font-weight:800;color:#0f172a;"
-    P_STYLE = "margin:10px 0;line-height:1.95;font-size:16px;color:#111827;"
-    LI_STYLE = "margin:6px 0;line-height:1.85;"
-    UL_STYLE = "margin:10px 0 10px 20px;padding:0;"
-    OL_STYLE = "margin:10px 0 10px 20px;padding:0;"
+    ITEM_DIVIDER_STYLE = (
+        "border:none;"
+        "border-top:1px solid #e5e7eb;"
+        "margin-top:16px;"
+        "margin-right:0px;"
+        "margin-bottom:14px;"
+        "margin-left:0px;"
+    )
+    ITEM_TITLE_STYLE = (
+        "font-size:18px;"
+        "line-height:1.35;"
+        "margin-top:0px;"
+        "margin-right:0px;"
+        "margin-bottom:10px;"
+        "margin-left:0px;"
+        "font-weight:800;"
+        "color:#0f172a;"
+    )
+    P_STYLE = (
+        "margin-top:10px;"
+        "margin-right:0px;"
+        "margin-bottom:10px;"
+        "margin-left:0px;"
+        "line-height:1.95;"
+        "font-size:16px;"
+        "color:#111827;"
+    )
+    LI_STYLE = (
+        "margin-top:6px;"
+        "margin-right:0px;"
+        "margin-bottom:6px;"
+        "margin-left:0px;"
+        "line-height:1.85;"
+    )
+    UL_STYLE = (
+        "margin-top:10px;"
+        "margin-right:0px;"
+        "margin-bottom:10px;"
+        "margin-left:20px;"
+        "padding-top:0px;"
+        "padding-right:0px;"
+        "padding-bottom:0px;"
+        "padding-left:0px;"
+    )
+    OL_STYLE = UL_STYLE
     BLOCKQUOTE_STYLE = (
-        "margin:12px 0;"
-        "padding:10px 12px;"
+        "margin-top:12px;"
+        "margin-right:0px;"
+        "margin-bottom:12px;"
+        "margin-left:0px;"
+        "padding-top:10px;"
+        "padding-right:12px;"
+        "padding-bottom:10px;"
+        "padding-left:12px;"
         "border-left:4px solid #93c5fd;"
         "background:#eff6ff;"
         "border-radius:10px;"
     )
-    HR_STYLE = "border:none;border-top:1px solid #e5e7eb;margin:18px 0;"
+    HR_STYLE = (
+        "border:none;"
+        "border-top:1px solid #e5e7eb;"
+        "margin-top:18px;"
+        "margin-right:0px;"
+        "margin-bottom:18px;"
+        "margin-left:0px;"
+    )
 
     META_CALLOUT_STYLE = (
-        "margin:12px 0;"
-        "padding:10px 12px;"
+        "margin-top:12px;"
+        "margin-right:0px;"
+        "margin-bottom:12px;"
+        "margin-left:0px;"
+        "padding-top:10px;"
+        "padding-right:12px;"
+        "padding-bottom:10px;"
+        "padding-left:12px;"
         "background:#f8fafc;"
         "border:1px dashed #c7d2fe;"
         "border-radius:12px;"
@@ -883,7 +958,10 @@ def markdown_to_wechat_html(md_text: str, *, article_title: Optional[str] = None
     )
     TAG_STYLE = (
         "display:inline-block;"
-        "padding:4px 10px;"
+        "padding-top:4px;"
+        "padding-right:10px;"
+        "padding-bottom:4px;"
+        "padding-left:10px;"
         "border-radius:999px;"
         "border:1px solid #e2e8f0;"
         "background:#f1f5f9;"
@@ -1219,35 +1297,85 @@ def markdown_to_wechat_html_digest_card(
         base_name = "AI Digest"
 
     # Outer structure
+    # NOTE: WeChat's rendering engine is picky about some CSS combos.
+    # - Avoid overflow:hidden (may clip content)
+    # - Prefer explicit padding/margin declarations over shorthands (padding: 20px 20px 10px 20px 可能被过滤)
+    # - Add a small horizontal margin so the border won't stick to screen edges
     section = soup.new_tag("section")
     section["style"] = (
-        "border: 1px solid #e5e6eb;"
+        "display: block;"
+        "box-sizing: border-box;"
+        "max-width: 100%;"
+        "background-color: #ffffff;"
+        "border-style: solid;"
+        "border-width: 1px;"
+        "border-color: #e5e6eb;"
         "border-radius: 8px;"
-        "overflow: hidden;"
+        "margin-top: 0px;"
+        "margin-right: 10px;"
         "margin-bottom: 24px;"
-        "box-shadow: 0 4px 10px rgba(0,0,0,0.03);"
+        "margin-left: 10px;"
+        "padding-top: 0px;"
+        "padding-right: 0px;"
+        "padding-bottom: 0px;"
+        "padding-left: 0px;"
+        "overflow: visible;"
     )
 
     header = soup.new_tag("div")
     header["style"] = (
         "background-color: #eaf2ff;"
-        "padding: 16px 20px;"
+        "padding-top: 16px;"
+        "padding-right: 20px;"
+        "padding-bottom: 16px;"
+        "padding-left: 20px;"
         "font-weight: bold;"
         "font-size: 18px;"
         "color: #1f5add;"
         "border-bottom: 1px solid #e5e6eb;"
+        "box-sizing: border-box;"
+        "max-width: 100%;"
+        "word-break: break-word;"
     )
     header.string = f"🔨 {base_name} | {date_cn}"
     section.append(header)
 
     content = soup.new_tag("div")
     content["style"] = (
-        "padding: 20px 20px 10px 20px;"
+        # 微信对 shorthand padding 兼容性差：用四边显式写法。
+        "padding-top: 20px;"
+        "padding-right: 20px;"
+        "padding-bottom: 14px;"
+        "padding-left: 20px;"
+        "box-sizing: border-box;"
+        "max-width: 100%;"
         "color: #333333;"
         "line-height: 1.8;"
         "font-size: 15px;"
+        "word-break: break-word;"
     )
     section.append(content)
+
+    # Item card style: provide stable inner padding even if outer padding is filtered.
+    ITEM_CARD_STYLE = (
+        "box-sizing: border-box;"
+        "max-width: 100%;"
+        "background-color: #ffffff;"
+        "border-style: solid;"
+        "border-width: 1px;"
+        "border-color: #eef0f2;"
+        "border-radius: 8px;"
+        "padding-top: 16px;"
+        "padding-right: 16px;"
+        "padding-bottom: 12px;"
+        "padding-left: 16px;"
+        "margin-top: 0px;"
+        "margin-right: 0px;"
+        "margin-bottom: 18px;"
+        "margin-left: 0px;"
+        "overflow: visible;"
+        "word-break: break-word;"
+    )
 
     # Take body nodes
     body_nodes = list(soup.body.contents) if soup.body else list(soup.contents)
@@ -1302,7 +1430,10 @@ def markdown_to_wechat_html_digest_card(
         divider["style"] = (
             "text-align: center;"
             "color: #666;"
-            "margin: 20px 0 30px;"
+            "margin-top: 20px;"
+            "margin-right: 0px;"
+            "margin-bottom: 30px;"
+            "margin-left: 0px;"
             "font-weight: bold;"
             "letter-spacing: 2px;"
         )
@@ -1310,20 +1441,37 @@ def markdown_to_wechat_html_digest_card(
         content.append(divider)
 
         # Items
-        for idx, it in enumerate(current_items):
+        for it in current_items:
+            card = soup.new_tag("div")
+            card["style"] = ITEM_CARD_STYLE
+
             title_div = soup.new_tag("div")
-            title_div["style"] = "font-size: 17px; font-weight: bold; color: #111; margin-bottom: 12px;"
+            title_div["style"] = (
+                "font-size: 17px;"
+                "font-weight: bold;"
+                "color: #111;"
+                "margin-top: 0px;"
+                "margin-right: 0px;"
+                "margin-bottom: 12px;"
+                "margin-left: 0px;"
+                "line-height: 1.4;"
+            )
             title_div.string = it["title"]
-            content.append(title_div)
+            card.append(title_div)
 
             for el in it["body"]:
-                content.append(el)
+                card.append(el)
 
             # links -> copyable URL area
             links: List[Tuple[str, str]] = it.get("links") or []
             if links:
                 btn_wrap = soup.new_tag("div")
-                btn_wrap["style"] = "margin-bottom: 30px;"
+                btn_wrap["style"] = (
+                    "margin-top: 6px;"
+                    "margin-right: 0px;"
+                    "margin-bottom: 0px;"
+                    "margin-left: 0px;"
+                )
                 for btn_text, url in links[:3]:
                     label = soup.new_tag("div")
                     label["style"] = URL_LABEL_STYLE
@@ -1334,12 +1482,9 @@ def markdown_to_wechat_html_digest_card(
                     url_box["style"] = URL_BOX_STYLE
                     url_box.string = url
                     btn_wrap.append(url_box)
-                content.append(btn_wrap)
+                card.append(btn_wrap)
 
-            if idx < len(current_items) - 1:
-                hr = soup.new_tag("hr")
-                hr["style"] = "border: none; border-top: 1px solid #eee; margin: 30px 0;"
-                content.append(hr)
+            content.append(card)
 
         # reset
         current_h2_title = None
@@ -1371,13 +1516,25 @@ def markdown_to_wechat_html_digest_card(
         if getattr(n, "name", None) == "p":
             txt = n.get_text(" ", strip=True)
             if txt.startswith("一句话点题："):
-                n["style"] = "margin: 0 0 20px; font-weight: bold;"
+                n["style"] = (
+                    "margin-top: 0px;"
+                    "margin-right: 0px;"
+                    "margin-bottom: 20px;"
+                    "margin-left: 0px;"
+                    "font-weight: bold;"
+                )
             elif "The Takeaway" in txt or "Takeaway" in txt:
                 n["style"] = (
-                    "margin: 0 0 16px;"
+                    "margin-top: 0px;"
+                    "margin-right: 0px;"
+                    "margin-bottom: 16px;"
+                    "margin-left: 0px;"
                     "color: #555;"
                     "background-color: #f7f9fa;"
-                    "padding: 12px 16px;"
+                    "padding-top: 12px;"
+                    "padding-right: 16px;"
+                    "padding-bottom: 12px;"
+                    "padding-left: 16px;"
                     "border-left: 4px solid #1f5add;"
                     "border-radius: 4px;"
                 )
@@ -1409,11 +1566,24 @@ def markdown_to_wechat_html_digest_card(
                 continue
             else:
                 # default paragraph spacing
-                n["style"] = n.get("style", "") + "margin: 0 0 16px;"
+                n["style"] = (
+                    n.get("style", "")
+                    + "margin-top: 0px;"
+                    + "margin-right: 0px;"
+                    + "margin-bottom: 16px;"
+                    + "margin-left: 0px;"
+                )
 
         # style lists + extract metadata items
         if getattr(n, "name", None) in ("ul", "ol"):
-            n["style"] = "margin: 0 0 16px; padding-left: 20px; color: #444;"
+            n["style"] = (
+                "margin-top: 0px;"
+                "margin-right: 0px;"
+                "margin-bottom: 16px;"
+                "margin-left: 0px;"
+                "padding-left: 20px;"
+                "color: #444;"
+            )
 
             for li in list(n.find_all("li", recursive=False)):
                 li_txt = li.get_text(" ", strip=True)

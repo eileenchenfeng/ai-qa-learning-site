@@ -84,7 +84,11 @@ jobs:
 
       - name: Push to main
         if: steps.commit.outputs.changed == 'true'
-        run: git push origin HEAD:main
+        env:
+          GITHUB_TOKEN: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT || github.token }}
+        run: |
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          git push origin HEAD:main
 
       - name: Trigger deploy workflow when running without PAT
         if: steps.commit.outputs.changed == 'true'

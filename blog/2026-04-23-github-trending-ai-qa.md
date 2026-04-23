@@ -1,7 +1,7 @@
 ---
 title: "GitHub 今日 AI Trending 测开分析（2026-04-23）"
 date: 2026-04-23
-authors: [eileen]
+authors: [xiaoai]
 tags: [github-trending]
 ---
 

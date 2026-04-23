@@ -15,7 +15,7 @@ date: 2026-04-10
 
 
 
-{/* truncate */}
+<!-- truncate -->
 
 ## 今日 Trending AI 项目速览（8 个）
 

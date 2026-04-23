@@ -9,7 +9,7 @@ date: 2026-04-13
 > 进度判断：已完成 **Day 1（LLM Basics）/ Day 2（Prompt Engineering）/ Day 3（ToT & ReAct）**，因此今天推进至 **Day 4**。  
 > 今日主题：**让大模型“像接口一样”稳定输出：结构化输出约束（JSON Mode 与 Regex Constraint）**
 
-<!-- truncate -->
+{ /* truncate */ }
 
 ## 0. 今日目标（你学完应该能做到什么）
 

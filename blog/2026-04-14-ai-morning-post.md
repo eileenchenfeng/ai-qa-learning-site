@@ -11,7 +11,7 @@ date: 2026-04-14
 
 > ⚠️ 本文为补发内容。当前脚本会基于补发时可获取到的实时数据源生成内容，不保证完全还原该日期当天的 GitHub Trending / Feed 快照。
 
-<!-- truncate -->
+{ /* truncate */ }
 
 ## GitHub Trending（测开视角）
 

@@ -1,13 +1,13 @@
 ---
 title: "GitHub AI 趋势测开分析报告（2026-04-15）"
 date: 2026-04-15
-authors: [eileen]
+authors: [xiaoai]
 tags: [github-trending]
 ---
 
 # GitHub AI 趋势测开分析报告（2026-04-15）
 
-**报告编纂者：** 陈凤
+**报告编纂者：** 小AI
 **所属：** 资深 AI 趋势研究与测试工程视角
 
 ---

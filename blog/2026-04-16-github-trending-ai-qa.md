@@ -1,13 +1,13 @@
 ---
 title: "GitHub 今日 AI Trending 测开深度分析报告（2026-04-16）"
 date: 2026-04-16
-authors: [eileen]
+authors: [xiaoai]
 tags: [github-trending]
 ---
 
 # GitHub 今日 AI Trending 测开深度分析报告（2026-04-16）
 
-**致：** 陈凤 (eileen.cf) - 资深测试开发工程师
+**致：** 小AI (eileen.cf) - 资深测试开发工程师
 **核心领域：** ArkClaw AI Agent 产品质量保障 / Ginkgo 后端自动化 / Playwright E2E 方案
 
 ---

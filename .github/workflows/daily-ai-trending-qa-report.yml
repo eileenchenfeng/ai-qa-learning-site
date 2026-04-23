@@ -1,0 +1,88 @@
+name: Daily AI Trending QA Report
+
+on:
+  schedule:
+    # 08:10 (Asia/Shanghai) == 00:10 UTC
+    - cron: '10 0 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '可选：指定要生成的日期（YYYY-MM-DD），留空则按 Asia/Shanghai 的当天生成。'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ai-trending-qa-report
+  cancel-in-progress: false
+
+jobs:
+  generate-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          # 说明：优先使用 BLOG_PUSH_PAT，其次使用 PAT；若都未配置则回退到默认 GITHUB_TOKEN。
+          # 若 main 分支开启了保护规则，可能需要 PAT 才能 push。
+          token: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT || github.token }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Compute report date (Asia/Shanghai)
+        id: vars
+        env:
+          TZ: Asia/Shanghai
+          INPUT_DATE: ${{ github.event.inputs.date || '' }}
+        run: |
+          if [ -n "$INPUT_DATE" ]; then
+            echo "date=$INPUT_DATE" >> $GITHUB_OUTPUT
+          else
+            echo "date=$(date +%F)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate AI Trending QA report
+        env:
+          TZ: Asia/Shanghai
+          # 用于 GitHub API 限流提升（脚本会在 API 受限时自动降级为 HTML 抓取）。
+          GITHUB_TOKEN: ${{ secrets.BLOG_PUSH_PAT || secrets.PAT || github.token }}
+        run: |
+          python3 scripts/github_ai_qa_analyzer.py \
+            --since daily \
+            --top 25 \
+            --ai-top 6 \
+            --out-dir reports/ai-trending-qa \
+            --date "${{ steps.vars.outputs.date }}"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        id: commit
+        env:
+          DATE: ${{ steps.vars.outputs.date }}
+        run: |
+          git add "reports/ai-trending-qa/${DATE}/report.md" "reports/ai-trending-qa/${DATE}/repos.json"
+
+          # 用 --cached 检测 staged 变更（包含新增文件），避免漏掉“新文件但 git diff 为空”的情况。
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "chore: add daily ai trending qa report (${DATE})"
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Push to main
+        if: steps.commit.outputs.changed == 'true'
+        run: git push origin HEAD:main

@@ -13,7 +13,7 @@ tags: [learning-notes]
 ---
 
 
-{/* truncate */}
+<!-- truncate -->
 
 ## 0. 今日目标（你学完应该能做到什么）
 

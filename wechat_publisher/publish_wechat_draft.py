@@ -431,6 +431,15 @@ def _extract_core_phrase_from_paragraph(paragraph: str, *, slice_len: int = 12) 
     if not text:
         return ""
 
+    # 关键词快速归一（更符合公众号摘要“要点”习惯）
+    # - CI 相关：优先落到“CI 并行化”这种更像标签的短句
+    if ("CI" in text) and re.search(r"并行化?|并行", text):
+        return "CI 并行化"
+
+    # - 数字分身：优先输出稳定短语（避免被截断成“把 agent 做成”）
+    if "数字分身" in text:
+        return "Agent 数字分身"
+
     # 清理“引子：- 列表项”这类结构
     # 例："两个很实用的视角： - 推荐 ..." -> "两个很实用的视角"
     if "：" in text:
@@ -621,7 +630,7 @@ def guess_digest_from_markdown(md_text: str, max_chars: int = 90) -> str:
     目标：从每个 ### 小节的正文中，抓出“中文内容要点”，拼成公众号摘要。
 
     - 不再提取 ### 标题作为摘要（避免标题是纯英文人名导致摘要“全是英文名”）
-    - 提取每个 ### 标题下的正文要点（不取标题本身）
+    - 扫描每个 ### 标题下的正文（含 bullet），挑选最像“要点”的短句（不取标题本身）
     - 去掉口语化前缀后，截取前半句（中文逗号/句号）或前 10~15 字
     - 用“、”拼接，总长限制 max_chars
     """
@@ -629,23 +638,21 @@ def guess_digest_from_markdown(md_text: str, max_chars: int = 90) -> str:
     try:
         phrases: List[str] = []
 
-        # 1) 主路径：每个 ### 小节取“第一段正文”，再提炼核心短句
-        for para in _extract_first_paragraph_under_each_h3(md_text):
-            core = _extract_core_phrase_from_paragraph(para, slice_len=14)
-            if core:
-                phrases.append(core)
+        # 主路径：逐个 ### 小节，从正文行中挑选“最像要点”的短句
+        # - 这能覆盖类似“通过并行化把 CI 从 8 分钟降到 2 分钟”这类 bullet，要点更扎实
+        for lines in _extract_text_lines_under_each_h3(md_text):
+            candidates: List[Tuple[int, str]] = []
+            for line in lines:
+                core = _extract_core_phrase_from_paragraph(line, slice_len=14)
+                if not core:
+                    continue
+                candidates.append((_score_digest_candidate(line, core), core))
 
-        # 2) 兜底：若第一段没有抓到（比如全是英文名/链接），则扫描该小节内的其他正文行
-        if not phrases:
-            for lines in _extract_text_lines_under_each_h3(md_text):
-                picked = ""
-                for line in lines:
-                    core = _extract_core_phrase_from_paragraph(line, slice_len=14)
-                    if core:
-                        picked = core
-                        break
-                if picked:
-                    phrases.append(picked)
+            if not candidates:
+                continue
+
+            candidates.sort(key=lambda x: x[0], reverse=True)
+            phrases.append(candidates[0][1])
 
         phrases = _dedupe_preserve_order(phrases)
 

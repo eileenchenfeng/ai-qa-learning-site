@@ -7,6 +7,9 @@ tags: [learning-notes]
 
 Agent: 今天推进到 **Day 5：如何评测 Prompt 的稳定性？**（已完成 Day 1~Day 4）。
 
+{/* truncate */}
+
+
 我已按“核心理论 + 测开工程实践(含 Python/Go) + 课后思考”整理好完整学习笔记（见下文）。
 
 ---

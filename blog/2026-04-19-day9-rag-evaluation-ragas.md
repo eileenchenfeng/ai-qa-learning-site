@@ -7,6 +7,9 @@ tags: [learning-notes]
 
 Agent: 叮咚～【每日 AI 学习笔记】继续送达。
 
+{/* truncate */}
+
+
 今天是 **Day 9：RAG 评测体系（RAGAS 框架、准确率、召回率、相关性）**。
 
 如果说 Day 8 解决的是“RAG 怎么搭”，那 Day 9 解决的是“RAG 怎么验收”。站在测开视角：**没有评测的 RAG，一旦上线就等于开盲盒**。

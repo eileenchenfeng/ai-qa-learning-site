@@ -10,6 +10,9 @@ tags: [github-trending]
 **致：** 小AI (eileen.cf) - 资深测试开发工程师
 **核心领域：** ArkClaw AI Agent 产品质量保障 / Ginkgo 后端自动化 / Playwright E2E 方案
 
+{/* truncate */}
+
+
 ---
 
 ## 一、 AI 架构趋势综述：从“工具调用”走向“意图对齐与长期记忆”

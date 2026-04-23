@@ -9,6 +9,9 @@ tags: [github-trending]
 
 ## AI 架构与趋势
 
+{/* truncate */}
+
+
 ### 今日结构分布（粗分类）
 - AI Agent / 编排框架: 5 个
 - RAG / 知识库: 1 个

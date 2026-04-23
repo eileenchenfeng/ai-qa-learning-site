@@ -9,6 +9,9 @@ tags: [github-trending]
 
 > 面向读者画像：资深测试开发工程师（QA/SDET），关注混云基础设施与 AI Agent 产品质量保障；技术栈以 **Golang（Ginkgo）**、**Python（Playwright）**、后端 API 测试与 E2E 自动化为主，并希望在 **AgentKit / ArkClaw** 等 Agent 平台上提升稳定性、覆盖率，以及落地 **“LLM 辅助报错分析 + 自动提单”**（A+B 结合）能力。
 
+{/* truncate */}
+
+
 ---
 
 ## 1. 今日最热门 AI 开源项目 Top 5（GitHub Trending）

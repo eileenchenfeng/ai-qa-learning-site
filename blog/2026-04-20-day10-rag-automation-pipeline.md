@@ -7,6 +7,9 @@ tags: [learning-notes]
 
 Agent: 叮咚～【每日 AI 学习笔记】Day 10 已送达。
 
+{/* truncate */}
+
+
 今天是 **Day 10：构建 RAG 自动化测试流水线**。
 
 Day 9 我们把评测指标与 Ground Truth 补齐了；Day 10 的目标是：**把评测变成流水线，让 RAG 像普通服务一样“每次变更必回归”。**

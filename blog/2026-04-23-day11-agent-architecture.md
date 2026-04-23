@@ -7,6 +7,9 @@ tags: [learning-notes]
 
 Agent: 叮咚！您的【每日 AI 学习笔记】已送达。
 
+{/* truncate */}
+
+
 今天是 **Day 11：AI Agent 核心架构解析（Profile / Memory / Planning / Action）**。
 
 > 进度说明：我在聊天历史里检索到你最近一次推送是 **Day 10（2026-04-20）**，所以今天顺延推送 **Day 11**。

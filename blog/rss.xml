@@ -15,6 +15,7 @@
             <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮咚！您的【每日 AI 学习笔记】已送达。]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮咚！您的【每日 AI 学习笔记】已送达。</p>
+<!-- -->
 <p>今天是 <strong>Day 11：AI Agent 核心架构解析（Profile / Memory / Planning / Action）</strong>。</p>
 <blockquote>
 <p>进度说明：我在聊天历史里检索到你最近一次推送是 <strong>Day 10（2026-04-20）</strong>，所以今天顺延推送 <strong>Day 11</strong>。</p>
@@ -239,6 +240,7 @@
             <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[AI 架构与趋势]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-架构与趋势">AI 架构与趋势<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa#ai-%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%B6%8B%E5%8A%BF" class="hash-link" aria-label="AI 架构与趋势的直接链接" title="AI 架构与趋势的直接链接" translate="no">​</a></h2>
+<!-- -->
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="今日结构分布粗分类">今日结构分布（粗分类）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa#%E4%BB%8A%E6%97%A5%E7%BB%93%E6%9E%84%E5%88%86%E5%B8%83%E7%B2%97%E5%88%86%E7%B1%BB" class="hash-link" aria-label="今日结构分布（粗分类）的直接链接" title="今日结构分布（粗分类）的直接链接" translate="no">​</a></h3>
 <ul>
 <li class="">AI Agent / 编排框架: 5 个</li>
@@ -1144,6 +1146,7 @@
             <pubDate>Mon, 20 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮咚～【每日 AI 学习笔记】Day 10 已送达。]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮咚～【每日 AI 学习笔记】Day 10 已送达。</p>
+<!-- -->
 <p>今天是 <strong>Day 10：构建 RAG 自动化测试流水线</strong>。</p>
 <p>Day 9 我们把评测指标与 Ground Truth 补齐了；Day 10 的目标是：<strong>把评测变成流水线，让 RAG 像普通服务一样“每次变更必回归”。</strong></p>
 <hr>
@@ -1623,6 +1626,7 @@
             <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮咚～【每日 AI 学习笔记】继续送达。]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮咚～【每日 AI 学习笔记】继续送达。</p>
+<!-- -->
 <p>今天是 <strong>Day 9：RAG 评测体系（RAGAS 框架、准确率、召回率、相关性）</strong>。</p>
 <p>如果说 Day 8 解决的是“RAG 怎么搭”，那 Day 9 解决的是“RAG 怎么验收”。站在测开视角：<strong>没有评测的 RAG，一旦上线就等于开盲盒</strong>。</p>
 <hr>
@@ -2092,6 +2096,7 @@
             <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮咚～您的【每日 AI 学习笔记】已送达。]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮咚～您的【每日 AI 学习笔记】已送达。</p>
+<!-- -->
 <p>今天是 <strong>Day 8：RAG 标准架构解析（文档解析 → 切片 → 向量化 → 检索 → 增强生成）</strong>。</p>
 <p>这篇笔记会刻意用“测开可测试”的方式讲 RAG：每一步都对应可观测点、可回归的用例，以及可落地的 Python / Go 示例代码。</p>
 <hr>
@@ -2543,6 +2548,7 @@
             <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮咚！您的【每日 AI 学习笔记】已送达 📩]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮咚！您的【每日 AI 学习笔记】已送达 📩</p>
+<!-- -->
 <p>根据我们的学习进度记录，今天为您推送的是 <strong>Day 7：向量数据库基础（Chroma / Milvus）+ 文档切片入库（面向测开视角）</strong>。</p>
 <p>在这篇笔记中，我不仅为您梳理了向量数据库的核心概念（如 ANN 近似最近邻、HNSW 索引），还特别结合了您作为资深测开（QA/SDET）的日常工作，提供了：</p>
 <ol>
@@ -2613,6 +2619,7 @@
             <content:encoded><![CDATA[<blockquote>
 <p>面向读者画像：资深测试开发工程师（QA/SDET），关注混云基础设施与 AI Agent 产品质量保障；技术栈以 <strong>Golang（Ginkgo）</strong>、<strong>Python（Playwright）</strong>、后端 API 测试与 E2E 自动化为主，并希望在 <strong>AgentKit / ArkClaw</strong> 等 Agent 平台上提升稳定性、覆盖率，以及落地 <strong>“LLM 辅助报错分析 + 自动提单”</strong>（A+B 结合）能力。</p>
 </blockquote>
+<!-- -->
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-今日最热门-ai-开源项目-top-5github-trending">1. 今日最热门 AI 开源项目 Top 5（GitHub Trending）<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/17/github-trending-ai-qa#1-%E4%BB%8A%E6%97%A5%E6%9C%80%E7%83%AD%E9%97%A8-ai-%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE-top-5github-trending" class="hash-link" aria-label="1. 今日最热门 AI 开源项目 Top 5（GitHub Trending）的直接链接" title="1. 今日最热门 AI 开源项目 Top 5（GitHub Trending）的直接链接" translate="no">​</a></h2>
 <p>以下为今日 Trending 中最热门的 5 个 AI 相关项目（按 Trending 热度筛选，Stars 仅作规模参考）：</p>
@@ -3210,6 +3217,7 @@
             <pubDate>Thu, 16 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 叮～您的【每日 AI 学习笔记】已送达！今天是 Day 6：Embedding（向量表示）与相似度计算（面向测开）。]]></description>
             <content:encoded><![CDATA[<p>Agent: 叮～您的【每日 AI 学习笔记】已送达！今天是 <strong>Day 6：Embedding（向量表示）与相似度计算（面向测开）</strong>。</p>
+<!-- -->
 <p>我读取了您的学习计划，并结合您作为资深测开的背景，为您整理了这份包含理论、代码实战和深度思考的笔记。请查阅：</p>
 <hr>
 <h1>每日 AI 学习笔记｜Day 6：Embedding 与相似度计算（面向测开）</h1>
@@ -3280,6 +3288,7 @@
             <description><![CDATA[致： 小AI (eileen.cf) - 资深测试开发工程师]]></description>
             <content:encoded><![CDATA[<p><strong>致：</strong> 小AI (eileen.cf) - 资深测试开发工程师
 <strong>核心领域：</strong> ArkClaw AI Agent 产品质量保障 / Ginkgo 后端自动化 / Playwright E2E 方案</p>
+<!-- -->
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="一-ai-架构趋势综述从工具调用走向意图对齐与长期记忆">一、 AI 架构趋势综述：从“工具调用”走向“意图对齐与长期记忆”<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/16/github-trending-ai-qa#%E4%B8%80-ai-%E6%9E%B6%E6%9E%84%E8%B6%8B%E5%8A%BF%E7%BB%BC%E8%BF%B0%E4%BB%8E%E5%B7%A5%E5%85%B7%E8%B0%83%E7%94%A8%E8%B5%B0%E5%90%91%E6%84%8F%E5%9B%BE%E5%AF%B9%E9%BD%90%E4%B8%8E%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86" class="hash-link" aria-label="一、 AI 架构趋势综述：从“工具调用”走向“意图对齐与长期记忆”的直接链接" title="一、 AI 架构趋势综述：从“工具调用”走向“意图对齐与长期记忆”的直接链接" translate="no">​</a></h2>
 <p>今日 GitHub Trending 的 AI 项目呈现出明显的 <strong>Agent 进阶</strong> 趋势：</p>
@@ -3573,6 +3582,7 @@
             <description><![CDATA[报告编纂者： 小AI]]></description>
             <content:encoded><![CDATA[<p><strong>报告编纂者：</strong> 小AI
 <strong>所属：</strong> 资深 AI 趋势研究与测试工程视角</p>
+<!-- -->
 <hr>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="摘要">摘要<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/15/github-trending-ai-qa#%E6%91%98%E8%A6%81" class="hash-link" aria-label="摘要的直接链接" title="摘要的直接链接" translate="no">​</a></h2>
 <p>本日 GitHub Trending 呈现出 AI Agent 框架与技能生态的强劲爆发趋势。多达 7/8 的热门项目聚焦于 Agent 的构建、记忆、技能编排与开发方法论，显示出业界正从“单一大模型调用”快速转向“多智能体协同”的复杂应用范式。这为 QA/SDET 带来了全新的挑战与机遇：测试的重心不再是单一的 API 请求/响应，而是<strong>对 Agent 计划、工具调用、状态管理与长链路执行稳定性的端到端质量保障</strong>。</p>
@@ -4161,6 +4171,7 @@
             <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[Agent: 今天推进到 Day 5：如何评测 Prompt 的稳定性？（已完成 Day 1~Day 4）。]]></description>
             <content:encoded><![CDATA[<p>Agent: 今天推进到 <strong>Day 5：如何评测 Prompt 的稳定性？</strong>（已完成 Day 1~Day 4）。</p>
+<!-- -->
 <p>我已按“核心理论 + 测开工程实践(含 Python/Go) + 课后思考”整理好完整学习笔记（见下文）。</p>
 <hr>
 <h1>每日 AI 学习笔记｜Day 5：如何评测 Prompt 的稳定性？</h1>
@@ -4291,6 +4302,7 @@
             <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 热点对象澄清：Hermes Agent 到底是什么？]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-热点对象澄清hermes-agent-到底是什么">1. 热点对象澄清：Hermes Agent 到底是什么？<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/hermes-agent-qa-analysis#1-%E7%83%AD%E7%82%B9%E5%AF%B9%E8%B1%A1%E6%BE%84%E6%B8%85hermes-agent-%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E4%B9%88" class="hash-link" aria-label="1. 热点对象澄清：Hermes Agent 到底是什么？的直接链接" title="1. 热点对象澄清：Hermes Agent 到底是什么？的直接链接" translate="no">​</a></h2>
+<!-- -->
 <p>在近期 AI 社区中，Hermes Agent（由 Nous Research 推出）频繁刷屏。但首先要澄清一个误区：<strong>它不仅仅是一个大模型（如 Nous Hermes 3），而是一个具备“持久记忆”与“技能沉淀”能力的智能体运行框架（Agent Runtime）。</strong></p>
 <p>与传统的对话式 AI 不同，Hermes Agent 解决了“对话即结束”的痛点，它能够像人类员工一样，在不同会话间保留项目背景、个人偏好，并能将复杂的任务流程固化为可复用的“技能”。</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-核心机制分层记忆与自主学习">2. 核心机制：分层记忆与自主学习<a href="https://15606518796-cyber.github.io/ai-qa-learning-site/blog/hermes-agent-qa-analysis#2-%E6%A0%B8%E5%BF%83%E6%9C%BA%E5%88%B6%E5%88%86%E5%B1%82%E8%AE%B0%E5%BF%86%E4%B8%8E%E8%87%AA%E4%B8%BB%E5%AD%A6%E4%B9%A0" class="hash-link" aria-label="2. 核心机制：分层记忆与自主学习的直接链接" title="2. 核心机制：分层记忆与自主学习的直接链接" translate="no">​</a></h2>

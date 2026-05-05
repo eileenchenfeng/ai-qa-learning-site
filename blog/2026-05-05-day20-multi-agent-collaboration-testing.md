@@ -7,7 +7,7 @@ tags: ["AI", "QA", "MultiAgent", "Agent", "测试开发", "Ginkgo"]
 
 Agent：这是【每日 AI 学习笔记】Day 20 的博客归档版，基于 `Day20_多Agent协作测试_学习笔记_2026-05-05.md` 整理，重点梳理多 Agent 系统的架构模式、通信契约、共享状态一致性，以及一套适合测试开发落地的分层测试方法。
 
-<!--truncate-->
+{/* truncate */}
 
 ## 1. 为什么“多 Agent”一上来就变难测？
 

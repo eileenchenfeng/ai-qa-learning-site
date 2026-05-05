@@ -7,7 +7,7 @@ tags: ["AI", "QA", "Skill", "Agent", "测试开发"]
 
 Agent：这是【每日 AI 学习笔记】Day 14 的博客整理版，围绕 Skill 的定义、编排机制、案例复盘与工程实践展开，尽量把“会用 Skill”上升为“会设计 Skill、测试 Skill、治理 Skill”。
 
-<!--truncate-->
+{/* truncate */}
 
 ## 1. Skill 到底是什么？
 

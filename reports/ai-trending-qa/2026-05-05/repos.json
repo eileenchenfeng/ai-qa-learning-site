@@ -1,0 +1,190 @@
+{
+  "date": "2026-05-05",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "ruvnet/ruflo",
+      "html_url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "agentic-engineering",
+        "agentic-framework",
+        "agentic-rag",
+        "agentic-workflow",
+        "agents",
+        "ai-assistant",
+        "ai-tools",
+        "anthropic-claude",
+        "autonomous-agents",
+        "claude-code",
+        "claude-code-skills",
+        "codex",
+        "huggingface",
+        "mcp-server",
+        "model-context-protocol",
+        "multi-agent",
+        "multi-agent-systems",
+        "swarm",
+        "swarm-intelligence"
+      ],
+      "stargazers_count": 41665,
+      "forks_count": 4655,
+      "open_issues_count": 503,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n[![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)](https://flo.ruv.io/)\n\n[![✨ Try the UI Beta — flo.ruv.io](https://img.shields.io/badge/✨_Try_the_UI_Beta-flo.ruv.io-6366f1?style=for-the-badge&logoColor=white&logo=svelte)](https://flo.ruv.io/)\n[![🎯 Goal Planner — goal.ruv.io](https://img.shields.io/badge/🎯_Goal_Planner-goal.ruv.io-8b5cf6?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/)\n[![🤖 Live Agents — goal.ruv.io/agents](https://img.shields.io/badge/🤖_Live_Agents-goal.ruv.io%2Fagents-10b981?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/agents)\n\n[![Star on GitHub](https://img.shields.io/github/stars/ruvnet/claude-flow?style=for-the-badge&logo=github&color=gold)](https://github.com/ruvnet/claude-flow)\n[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-green?style=for-the-badge&logo=anthropic)](https://github.com/ruvnet/claude-flow)\n\n# Ruflo\n\n**Multi-agent AI orchestration for Claude Code**\n\n</div>\n\nOrchestrate 100+ specialized AI agents across machines, teams, and trust boundaries.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "TauricResearch/TradingAgents",
+      "html_url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "finance",
+        "llm",
+        "multiagent",
+        "trading"
+      ],
+      "stargazers_count": 67787,
+      "forks_count": 13044,
+      "open_issues_count": 357,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+        "[2026-04] **TradingAgents v0.2.4** released with structured-output agents (Research Manager, Trader, Portfolio Manager), LangGraph checkpoint resume, persistent decision log, DeepSeek/Qwen/GLM/Azure provider support, Docker, and a Windows UTF-8 encoding fix. See CHANGELOG.md for the full list.",
+        "[2026-03] **TradingAgents v0.2.3** released with multi-language support, GPT-5.4 family models, unified model catalog, backtesting date fidelity, and proxy support.",
+        "[2026-03] **TradingAgents v0.2.2** released with GPT-5.4/Gemini 3.1/Claude 4.6 model coverage, five-tier rating scale, OpenAI Responses API, Anthropic effort control, and cross-platform stability.",
+        "[2026-02] **TradingAgents v0.2.0** released with multi-provider LLM support (GPT-5.x, Gemini 3.x, Claude 4.x, Grok 4.x) and improved system architecture.",
+        "[2026-01] **Trading-R1** Technical Report（https://arxiv.org/abs/2509.11420） released, with Terminal（https://github.com/TauricResearch/Trading-R1） expected to land soon."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/TauricResearch.png\" style=\"width: 60%; height: auto;\">\n</p>\n\n<div align=\"center\" style=\"line-height: 1;\">\n  <a href=\"https://arxiv.org/abs/2412.20138\" target=\"_blank\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv\"/></a>\n  <a href=\"https://discord.com/invite/hk9PGKShPK\" target=\"_blank\"><img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da\"/></a>\n  <a href=\"./assets/wechat.png\" target=\"_blank\"><img alt=\"WeChat\" src=\"https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white\"/></a>\n  <a href=\"https://x.com/TauricResearch\" target=\"_blank\"><img alt=\"X Follow\" src=\"https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white\"/></a>\n  <br>\n  <a href=\"https://github.com/TauricResearch/\" target=\"_blank\"><img alt=\"Community\" src=\"https://img.shields.io/badge/Join_GitHub_Community-TauricResearch-14C290?logo=discourse\"/></a>\n</div>\n\n<div align=\"center\">\n  <!-- Keep these links. Translations will automatically update with the README. -->\n  <a href=\"https://www.readme-i18n.com/TauricResearch/TradingAgen",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "browserbase/skills",
+      "html_url": "https://github.com/browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 2160,
+      "forks_count": 134,
+      "open_issues_count": 35,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Claude Agent SDK with a web browsing tool",
+        "On Claude Code, type `/plugin`",
+        "Select option `3. Add marketplace`",
+        "Enter the marketplace source: `browserbase/skills`",
+        "Press enter to select the `browse` plugin",
+        "Hit enter again to `Install now`"
+      ],
+      "readme_excerpt": "# Browserbase Skills\n\nA set of skills for enabling **[Claude Code](https://docs.claude.com/en/docs/claude-code/overview)** to work with Browserbase through browser automation and the official `bb` CLI.\n\n## Skills\n\nThis plugin includes the following skills (see `skills/` for details):\n\n| Skill | Description |\n|-------|-------------|\n| [browser](skills/browser/SKILL.md) | Automate web browser interactions via CLI commands — supports remote Browserbase sessions with anti-bot stealth, CAPTCHA solving, and residential proxies |\n| [browserbase-cli](skills/browserbase-cli/SKILL.md) | Use the official `bb` CLI for Browserbase Functions and platform API workflows including sessions, projects, contexts, extensions, fetch, and dashboard |\n| [functions](skills/functions/SKILL.md) | Deploy serverless browser automation to Browserbase cloud using the `bb` CLI |\n| [site-debugger](skills/site-debugger/SKILL.md) | Diagnose and fix failing browser automations — analyzes bot detection, selectors, timing, auth, and captchas, then generates a tested site playbook |\n| [browser-trace](skills/browser-trace/SKILL.md) | Capture a full DevTools-protocol trace (CDP firehose, screenshots, DOM dumps) alongside ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 4277,
+      "forks_count": 293,
+      "open_issues_count": 162,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding agent for DeepSeek models that runs in your terminal",
+        "**Native RLM** (`rlm_query`) — fans out 1–16 cheap `deepseek-v4-flash` children in parallel for batched analysis and parallel reasoning, all against the existing API client",
+        "**Thinking-mode streaming** — watch the model's chain-of-thought unfold in real time as it works through your tasks",
+        "**Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers",
+        "**1M-token context** — automatic intelligent compaction when context fills up; prefix-cache aware for cost efficiency",
+        "**Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)"
+      ],
+      "readme_excerpt": "# DeepSeek TUI\n\n> **A terminal-native coding agent built around DeepSeek V4's 1M-token context and prefix cache. Single binary, no Node/Python runtime required — ships an MCP client, sandbox, and durable task queue out of the box.**\n\n[简体中文 README](README.zh-CN.md)\n\n```bash\nnpm i -g deepseek-tui\n```\n\n[![CI](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml/badge.svg)](https://github.com/Hmbown/DeepSeek-TUI/actions/workflows/ci.yml)\n[![npm](https://img.shields.io/npm/v/deepseek-tui)](https://www.npmjs.com/package/deepseek-tui)\n[![crates.io](https://img.shields.io/crates/v/deepseek-tui-cli?label=crates.io)](https://crates.io/crates/deepseek-tui-cli)\n\n<a href=\"https://www.buymeacoffee.com/hmbown\" target=\"_blank\"><img src=\"https://img.shields.io/badge/Buy%20me%20a%20coffee-5F7FFF?style=for-the-badge&logo=buymeacoffee&logoColor=white\" alt=\"Buy me a coffee\" /></a>\n\n![DeepSeek TUI screenshot](assets/screenshot.png)\n\n---\n\n## What is it?\n\nDeepSeek TUI is a coding agent that runs entirely in your terminal. It gives DeepSeek's frontier models direct access to your workspace — reading and editing files, running shell commands, searching the web, managing git, and orchestrating sub",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "html_url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "topics": [
+        "blueteam",
+        "cli",
+        "cybersecurity",
+        "identification",
+        "infosec",
+        "investigation",
+        "namechecker",
+        "open-source",
+        "osint",
+        "osint-framework",
+        "osint-python",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "scraping",
+        "sherlock",
+        "social-network",
+        "socmint"
+      ],
+      "stargazers_count": 24972,
+      "forks_count": 1740,
+      "open_issues_count": 61,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+        "In one minute",
+        "Main features",
+        "Installation",
+        "Contributing"
+      ],
+      "readme_excerpt": "# Maigret\n\n<div align=\"center\">\n  <div>\n    <a href=\"https://pypi.org/project/maigret/\">\n        <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://pypi.org/project/maigret/\">  \n        <img alt=\"PyPI download count for Maigret\" src=\"https://img.shields.io/pypi/dw/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\">\n        <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\" />\n    </a>\n  </div>\n  <br>\n  <div>\n    <img src=\"https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png\" height=\"300\" alt=\"Maigret logo\"/>\n  </div>\n  <br>\n  <div>\n    <b>English</b> · <a href=\"README",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "html_url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "claude",
+        "cli",
+        "coding-agent",
+        "llm",
+        "mcp",
+        "openai",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 3954,
+      "forks_count": 374,
+      "open_issues_count": 79,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding Agent Harness"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# jcode\n\n[![Latest Release](https://img.shields.io/github/v/release/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/releases)\n[![License](https://img.shields.io/github/license/1jehuang/jcode?style=flat-square)](LICENSE)\n[![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-blue?style=flat-square)](https://github.com/1jehuang/jcode/releases)\n[![Commit Activity](https://img.shields.io/github/commit-activity/m/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/commits/master)\n[![GitHub Stars](https://img.shields.io/github/stars/1jehuang/jcode?style=flat-square)](https://github.com/1jehuang/jcode/stargazers)\n\nThe next generation coding agent harness to raise the skill ceiling. <br>\nBuilt for multi-session workflows, infinite customizability, and performance. \n\n<br>\n\n<a href=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.mp4\">\n  <img src=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp\" alt=\"jcode memory demonstration\" width=\"800\">\n</a>\n\n<br>\n\n[Features](#features) · [Install](#installation) · [Quick Start](#quick-",
+      "_meta_source": "api"
+    }
+  ]
+}

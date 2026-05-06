@@ -20,14 +20,14 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://15606518796-cyber.github.io',
+  url: 'https://eileenchenfeng.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/ai-qa-learning-site/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: '15606518796-cyber', // Usually your GitHub org/user name.
+  organizationName: 'eileenchenfeng', // Usually your GitHub org/user name.
   projectName: 'ai-qa-learning-site', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/15606518796-cyber/ai-qa-learning-site/tree/main/',
+            'https://github.com/eileenchenfeng/ai-qa-learning-site/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/15606518796-cyber/ai-qa-learning-site/tree/main/',
+            'https://github.com/eileenchenfeng/ai-qa-learning-site/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -111,7 +111,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/15606518796-cyber/ai-qa-learning-site',
+            href: 'https://github.com/eileenchenfeng/ai-qa-learning-site',
             label: 'GitHub',
             position: 'right',
           },
@@ -155,7 +155,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/15606518796-cyber/ai-qa-learning-site',
+                href: 'https://github.com/eileenchenfeng/ai-qa-learning-site',
               },
             ],
           },

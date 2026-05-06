@@ -1,0 +1,198 @@
+{
+  "date": "2026-05-06",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 8800,
+      "forks_count": 672,
+      "open_issues_count": 193,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding agent for DeepSeek models that runs in your terminal",
+        "**Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn",
+        "**Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works",
+        "**Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers",
+        "**1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry",
+        "**Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)"
+      ],
+      "readme_excerpt": "# DeepSeek TUI\n\n> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.\n\n[简体中文 README](README.zh-CN.md)\n\n## Install\n\n`deepseek` is distributed as Rust binaries: the dispatcher command\n(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever\ninstall path you already use; they all put the same commands on your `PATH`.\nThe npm package is an installer/wrapper for the release binaries, not the\nagent runtime itself.\n\n```bash\n# 1. npm — easiest if you already use Node. The package downloads the\n#    matching prebuilt Rust binaries from GitHub Releases.\nnpm install -g deepseek-tui\n\n# 2. Cargo — no Node needed.\ncargo install deepseek-tui-cli --locked   # `deepseek` (entry point)\ncargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)\n\n# 3. Homebrew — macOS package manager.\nbrew tap Hmbown/deepseek-tui\nbrew install deepseek-tui\n\n# 4. Direct download — no package manager or toolchain.\n#    https://github.com/Hmbown/DeepSeek-TUI/releases\n#    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Wi",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ruvnet/ruflo",
+      "html_url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "agentic-engineering",
+        "agentic-framework",
+        "agentic-rag",
+        "agentic-workflow",
+        "agents",
+        "ai-assistant",
+        "ai-tools",
+        "anthropic-claude",
+        "autonomous-agents",
+        "claude-code",
+        "claude-code-skills",
+        "codex",
+        "huggingface",
+        "mcp-server",
+        "model-context-protocol",
+        "multi-agent",
+        "multi-agent-systems",
+        "swarm",
+        "swarm-intelligence"
+      ],
+      "stargazers_count": 43976,
+      "forks_count": 4888,
+      "open_issues_count": 508,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n[![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)](https://flo.ruv.io/)\n\n[![Try the UI Beta — flo.ruv.io](https://img.shields.io/badge/_Try_the_UI_Beta-flo.ruv.io-6366f1?style=for-the-badge&logoColor=white&logo=svelte)](https://flo.ruv.io/)\n[![Goal Planner — goal.ruv.io](https://img.shields.io/badge/_Goal_Planner-goal.ruv.io-8b5cf6?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/)\n[![Live Agents — goal.ruv.io/agents](https://img.shields.io/badge/_Live_Agents-goal.ruv.io%2Fagents-10b981?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/agents)\n\n[![Star on GitHub](https://img.shields.io/github/stars/ruvnet/claude-flow?style=for-the-badge&logo=github&color=gold)](https://github.com/ruvnet/claude-flow)\n[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)\n[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-D97757?style=for-the-badge&logoColor=white&logo=anthropic)](https://github.com/ruvnet/claude-flow)\n[![Codex Plugin](https://img.shields.io/badge/Codex-Plugin-412991?style=for-the-badge&logoColor=white&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CP",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "virattt/dexter",
+      "html_url": "https://github.com/virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 23904,
+      "forks_count": 2910,
+      "open_issues_count": 89,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An autonomous agent for deep financial research",
+        "👋 Overview",
+        "✅ Prerequisites",
+        "💻 How to Install",
+        "🚀 How to Run",
+        "📊 How to Evaluate"
+      ],
+      "readme_excerpt": "# Dexter 🤖\n\nDexter is an autonomous financial research agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time market data. Think Claude Code, but built specifically for financial research.\n\n<img width=\"665\" height=\"452\" alt=\"Screenshot 2026-04-02 at 4 16 57 PM\" src=\"https://github.com/user-attachments/assets/02418111-5f48-4a66-be5d-dc9bf9806284\" />\n\n## Table of Contents\n\n- [👋 Overview](#-overview)\n- [✅ Prerequisites](#-prerequisites)\n- [💻 How to Install](#-how-to-install)\n- [🚀 How to Run](#-how-to-run)\n- [📊 How to Evaluate](#-how-to-evaluate)\n- [🐛 How to Debug](#-how-to-debug)\n- [📱 How to Use with WhatsApp](#-how-to-use-with-whatsapp)\n- [🤝 How to Contribute](#-how-to-contribute)\n- [📄 License](#-license)\n\n\n## 👋 Overview\n\nDexter takes complex financial questions and turns them into clear, step-by-step research plans. It runs those tasks using live market data, checks its own work, and refines the results until it has a confident, data-backed answer.  \n\n**Key Capabilities:**\n- **Intelligent Task Planning**: Automatically decomposes complex queries into structured research steps\n- **Autonomous Execution**: Selects and ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "docusealco/docuseal",
+      "html_url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "topics": [
+        "document-signing",
+        "documents",
+        "e-signature",
+        "hotwired-turbo",
+        "open-source",
+        "pdf",
+        "pdf-sign",
+        "pdf-signature",
+        "ruby-on-rails",
+        "self-hosted",
+        "tailwindcss",
+        "vue",
+        "webpack"
+      ],
+      "stargazers_count": 14117,
+      "forks_count": 1275,
+      "open_issues_count": 115,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+        "PDF form fields builder (WYSIWYG)",
+        "12 field types available (Signature, Date, File, Checkbox etc.)",
+        "Multiple submitters per document",
+        "Automated emails via SMTP",
+        "Files storage on disk or AWS S3, Google Storage, Azure Cloud"
+      ],
+      "readme_excerpt": "<h1 align=\"center\" style=\"border-bottom: none\">\n  <div>\n    <a href=\"https://www.docuseal.com\">\n      <img  alt=\"DocuSeal\" src=\"https://github.com/user-attachments/assets/38b45682-ffa4-4919-abde-d2d422325c44\" width=\"80\" />\n      <br>\n    </a>\n    DocuSeal\n  </div>\n</h1>\n<h3 align=\"center\">\n  Open source document filling and signing\n</h3>\n<p align=\"center\">\n  <a href=\"https://hub.docker.com/r/docuseal/docuseal\">\n    <img alt=\"Docker releases\" src=\"https://img.shields.io/docker/v/docuseal/docuseal\">\n  </a>\n  <a href=\"https://discord.gg/qygYCDGck9\">\n    <img src=\"https://img.shields.io/discord/1125112641170448454?logo=discord\"/>\n  </a>\n  <a href=\"https://twitter.com/intent/follow?screen_name=docusealco\">\n    <img src=\"https://img.shields.io/twitter/follow/docusealco?style=social\" alt=\"Follow @docusealco\" />\n  </a>\n</p>\n<p>\nDocuSeal is an open source platform that provides secure and efficient digital document signing and processing. Create PDF forms to have them filled and signed online on any device with an easy-to-use, mobile-optimized web tool.\n</p>\n<h2 align=\"center\">\n  <a href=\"https://demo.docuseal.tech\">✨ Live Demo</a>\n  <span>|</span>\n  <a href=\"https://docuseal.com/sign_up\">☁",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "bwya77/vscode-dark-islands",
+      "html_url": "https://github.com/bwya77/vscode-dark-islands",
+      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "language": "PowerShell",
+      "topics": [
+        "easemate",
+        "jetbrains",
+        "visual-studio-code",
+        "vscode",
+        "vscode-theme"
+      ],
+      "stargazers_count": 7930,
+      "forks_count": 241,
+      "open_issues_count": 63,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+        "easemate（https://x.com/easemate）",
+        "easemate Nav（https://x.com/Jakubantalik/status/1952672176450215944）",
+        "easemate effects（https://x.com/aaroniker/status/1989727838992539655）",
+        "Deep dark canvas (`#131217`) with floating panels",
+        "Glass-effect borders with directional light simulation (brighter top/left, subtle bottom/right)"
+      ],
+      "readme_excerpt": "# Islands Dark\n\n<a href=\"https://www.buymeacoffee.com/bwya77\" style=\"margin-right: 10px;\">\n    <img src=\"https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black\" />\n</a>\n<a href=\"https://github.com/sponsors/bwya77\">\n    <img src=\"https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA\" />\n</a>\n\n\nA dark color theme for Visual Studio Code inspired by the easemate IDE. Features floating glass-like panels, rounded corners, smooth animations, and a deeply refined UI.\n\n- [easemate](https://x.com/easemate)\n- [easemate Nav](https://x.com/Jakubantalik/status/1952672176450215944)\n- [easemate effects](https://x.com/aaroniker/status/1989727838992539655)\n\n\n![Islands Dark Screenshot](assets/CleanShot%202026-02-19%20at%2019.37.59@2x.png)\n\n## Features\n\n- Deep dark canvas (`#131217`) with floating panels\n- Glass-effect borders with directional light simulation (brighter top/left, subtle bottom/right)\n- Rounded corners on all panels, notifications, command palette, and sidebars\n- Pill-shaped activity bar with glass selection indicators\n- Breadcrumb bar and status bar that dim when not hovered\n- ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "html_url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "codex",
+        "codex-cli",
+        "context-mode",
+        "copilot",
+        "cursor-plugin",
+        "kiro",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "openclaw",
+        "opencode",
+        "pi-agent",
+        "skills",
+        "zed-extension"
+      ],
+      "stargazers_count": 13185,
+      "forks_count": 902,
+      "open_issues_count": 13,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
+        "**Context Saving** — Sandbox tools keep raw data out of the context window. 315 KB becomes 5.4 KB. 98% reduction.",
+        "**Session Continuity** — Every file edit, git operation, task, error, and user decision is tracked in SQLite. When the conversation compacts, context-mode doesn't dump this data back into context — it indexes events into FTS5 and retrieves only what's relevant via BM25 search. The model picks up exactly where you left off. If you don't `--continue`, previous session data is deleted immediately — a fresh session means a clean slate.",
+        "**Think in Code** — The LLM should program the analysis, not compute it. Instead of reading 50 files into context to count functions, the agent writes a script that does the counting and `console.log()`s only the result. One script replaces ten tool calls and saves 100x context. This is a mandatory paradigm across all 14 platforms: stop treating the LLM as a data processor, treat it as a code generator.",
+        "**Output Compression** — Terse like caveman. Technical substance exact. Only fluff die. Drop articles, filler (just/really/basically), pleasantries, hedging. Fragments OK. Short synonyms. Code unchanged. Pattern: [thing] [action] [reason]. [next step]. Auto-expand for security warnings, irreversible actions, and user co"
+      ],
+      "readme_excerpt": "# Context Mode\n\n**The other half of the context problem.**\n\n[![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.message&label=users&color=brightgreen)](https://www.npmjs.com/package/context-mode) [![npm](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.npm&label=npm&color=blue)](https://www.npmjs.com/package/context-mode) [![marketplace](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.marketplace&label=marketplace&color=blue)](https://github.com/mksglu/context-mode) [![GitHub stars](https://img.shields.io/github/stars/mksglu/context-mode?style=flat&color=yellow)](https://github.com/mksglu/context-mode/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mksglu/context-mode?style=flat&color=blue)](https://github.com/mksglu/context-mode/network/members) [![Last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?color=green)](https://github.com/mksglu/context-mode/commits) [![License: ELv2]",
+      "_meta_source": "api"
+    }
+  ]
+}

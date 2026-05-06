@@ -1,6 +1,6 @@
 # AI 测开学习站点（AI QA Learning Site）
 
-这是一个由 QA 工程师 **Eileen (陈凤)** 基于 [Docusaurus](https://docusaurus.io/) 搭建的个人 AI 测试开发学习博客，用来系统性沉淀 AI 测开相关的知识与实践经验。
+这是一个由 QA 工程师 **Eileen** 基于 [Docusaurus](https://docusaurus.io/) 搭建的个人 AI 测试开发学习博客，用来系统性沉淀 AI 测开相关的知识与实践经验。
 
 核心目标：
 - 帮助测试/QA/测试开发工程师系统性提升 AI 测开能力

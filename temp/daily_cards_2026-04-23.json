@@ -1,0 +1,85 @@
+{
+  "name": "DailyAiContent",
+  "dsl": {
+    "schema": "2.0",
+    "header": {
+      "title": {
+        "tag": "plain_text",
+        "content": "📮 每日 AI 内容摘要（2026-04-23）"
+      },
+      "template": "blue"
+    },
+    "body": {
+      "elements": [
+        {
+          "tag": "markdown",
+          "content": "⚠️ **本次卡片为部分内容**\n以下内容在仓库 blog/ 中未找到对应文件：\n- AI 早报"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "markdown",
+          "content": "#### 📚 今日学习结论\n**每日 AI 学习笔记 | Day 11: AI Agent 核心架构解析（Profile / Memory / Planning / Action）**\n\n- 维持自己的“角色身份”（Profile）\n- 记住关键信息并在后续使用（Memory）\n- 把一个大任务拆成小步骤（Planning）\n- 真的去调用工具/系统执行（Action）"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "markdown",
+          "content": "#### 🧪 GitHub Trending QA 启发\n**GitHub 今日 AI Trending 测开分析（2026-04-23）**\n\n- **Agent 的“工具化/协议化”在加速落地**：以 `claude-context` 为代表，围绕 MCP/插件把能力封装成“工具”，让 Agent 的动作边界更清晰。\n- **LLM 可观测性 + 评测正在从“可选项”变成“工程底座”**：以 `langfuse` 为代表，Tracing / Prompt 版本化 / Evals 进入标准工程流。\n- **“Autonomous Agent = 自动化测试系统的客户”**：以 `shannon` 为代表，Agent 会“自己跑起来做事”，QA 侧要提供可控环境、可回放输入、可验证输出（尤其是安全/权限边界）。\n\n**建议动作（节选）：**\n- 在现有自动化仓库中新建 `ai_agent_quality/` 目录，沉淀：评测集、对话回放用例、golden snapshots。\n- 为后端（Golang）增加 Ginkgo 套件：\n- Contract tests（OpenAPI/JSON Schema）"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "markdown",
+          "content": "#### 🔗 查看完整内容\n- [每日 AI 学习笔记](https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/day11-agent-architecture)\n- [GitHub Trending 测开分析](https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa)"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "button",
+          "text": {
+            "tag": "plain_text",
+            "content": "打开学习笔记"
+          },
+          "type": "primary",
+          "behaviors": [
+            {
+              "type": "open_url",
+              "default_url": "https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/day11-agent-architecture"
+            }
+          ]
+        },
+        {
+          "tag": "button",
+          "text": {
+            "tag": "plain_text",
+            "content": "打开 Trending 分析"
+          },
+          "type": "default",
+          "behaviors": [
+            {
+              "type": "open_url",
+              "default_url": "https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa"
+            }
+          ]
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "plain_text",
+            "content": "Aime 自动生成 | 卡片类型：Interactive Card v2（schema 2.0）",
+            "text_size": "caption",
+            "text_color": "grey"
+          }
+        }
+      ]
+    }
+  }
+}

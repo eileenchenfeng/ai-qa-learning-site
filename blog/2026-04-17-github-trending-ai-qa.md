@@ -26,7 +26,7 @@ tags: [github-trending]
   - 用一个 `CLAUDE.md`（或类似规则文件）对 Claude Code 的行为进行“护栏式”约束：减少常见 LLM 编码误区、提升一致性。
   - 优势在于“**轻量可复制**”：不依赖复杂框架，也不强绑定某个业务。
 
-**对 eileen.cf 的 QA 启发（更偏可落地）**
+**对 Eileen 的 QA 启发（更偏可落地）**
 - **把 LLM 当作测试生产力工具时，也需要“测试规范护栏”**：
   - 你们在做「LLM 自动生成用例 / 自动分析失败日志 / 自动提单」时，最怕的不是能力不足，而是输出风格漂移、字段缺失、结论跳跃。
   - 可以仿照该项目思路，为你们的“测试 Copilot（A）+ 业务系统（B）”制定一个团队级 `QA_LLM_GUIDE.md`：
@@ -46,7 +46,7 @@ tags: [github-trending]
   - 自动捕获 Claude 在编码会话中的行为与上下文，并做压缩摘要后“回注”成长期记忆。
   - 结合向量检索 / 本地存储（如 sqlite、embeddings、chroma 等）形成“可检索的会话记忆”。
 
-**对 eileen.cf 的 QA 启发（更贴近混云 + Agent 平台）**
+**对 Eileen 的 QA 启发（更贴近混云 + Agent 平台）**
 - **将“测试执行过程”做成可检索记忆，是解决 flaky / 问题复现难 的强手段**：
   - 你们的痛点往往不是“是否失败”，而是“为什么这次失败、下次又不失败”。
   - 可以借鉴该项目，将每次关键流水线的上下文沉淀为 *Test Memory*：
@@ -76,7 +76,7 @@ tags: [github-trending]
   - “自演进”理念：任务会沉淀为技能（skill tree），逐步扩展能力。
   - 关注 token 效率与记忆分层，避免上下文爆炸。
 
-**对 eileen.cf 的 QA 启发（偏测试架构设计）**
+**对 Eileen 的 QA 启发（偏测试架构设计）**
 - **小而清晰的 Agent Loop 更容易做“可测性设计”**：
   - 你在评估 AgentKit / ArkClaw 这类平台时，可以把“可测性”拆成：
     - 状态机（state）是否显式可观测（每步输入/输出/工具调用）
@@ -105,7 +105,7 @@ tags: [github-trending]
   - 侧重“本地隐私”与多引擎集成：多 TTS 引擎、覆盖多语言、含后处理效果。
   - 对端侧/本地推理体验、模型切换与资源管理更敏感。
 
-**对 eileen.cf 的 QA 启发（即使你们主业不是语音，也有通用价值）**
+**对 Eileen 的 QA 启发（即使你们主业不是语音，也有通用价值）**
 - **多模型/多引擎的兼容性测试范式**：
   - 你们在 Agent 平台里可能也会遇到“多模型 Provider”（Claude/GPT/自研模型）并存。
   - voicebox 的多引擎形态提示：测试要覆盖“同一能力在不同 Provider 下的一致性边界”。
@@ -123,7 +123,7 @@ tags: [github-trending]
   - Agent 执行不绑定单次请求生命周期：强调 durable workflow（可休眠/可恢复）。
   - 沙箱作为执行环境：文件系统、shell、git、dev server、preview ports。
 
-**对 eileen.cf 的 QA 启发（高度贴合混云 + Agent 平台稳定性）**
+**对 Eileen 的 QA 启发（高度贴合混云 + Agent 平台稳定性）**
 - **长链路 + 可恢复（hibernate/resume）是稳定性与测试复杂度的放大器**：
   - 在 AgentKit / ArkClaw 这种平台中，最容易出线上事故的往往是：
     - 断点恢复后状态不一致

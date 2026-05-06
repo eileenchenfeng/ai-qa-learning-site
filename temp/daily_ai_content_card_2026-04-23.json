@@ -1,0 +1,103 @@
+{
+  "name": "DailyAiContent",
+  "dsl": {
+    "schema": "2.0",
+    "header": {
+      "title": {
+        "tag": "plain_text",
+        "content": "📮 每日 AI 内容更新（2026-04-23）"
+      },
+      "template": "blue"
+    },
+    "body": {
+      "elements": [
+        {
+          "tag": "markdown",
+          "content": "⚠️ **本次卡片为部分内容**\n以下内容在仓库 blog/ 中未找到对应文件：\n- AI 早报"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "column_set",
+          "flex_mode": "none",
+          "background_style": "grey",
+          "columns": [
+            {
+              "tag": "column",
+              "width": "weighted",
+              "weight": 2,
+              "elements": [
+                {
+                  "tag": "markdown",
+                  "content": "#### 今日已更新：\n- **每日 AI 学习笔记**：每日 AI 学习笔记 | Day 11: AI Agent 核心架构解析（Profile / Memory / Planning / Action）\n- **GitHub Trending 测开分析**：GitHub 今日 AI Trending 测开分析（2026-04-23）"
+                }
+              ]
+            },
+            {
+              "tag": "column",
+              "width": "weighted",
+              "weight": 1,
+              "elements": [
+                {
+                  "tag": "markdown",
+                  "content": "#### 快速入口：\n- [打开学习笔记](https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/day11-agent-architecture)\n- [打开 Trending 分析](https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "markdown",
+          "content": "#### 🔥 今日 Trending Top Repos（节选）\n1. [zilliztech/claude-context](https://github.com/zilliztech/claude-context)\n2. [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)\n3. [koala73/worldmonitor](https://github.com/koala73/worldmonitor)\n4. [langfuse/langfuse](https://github.com/langfuse/langfuse)\n5. [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon)\n6. [ruvnet/RuView](https://github.com/ruvnet/RuView)"
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "button",
+          "text": {
+            "tag": "plain_text",
+            "content": "打开学习笔记"
+          },
+          "type": "primary",
+          "behaviors": [
+            {
+              "type": "open_url",
+              "default_url": "https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/day11-agent-architecture"
+            }
+          ]
+        },
+        {
+          "tag": "button",
+          "text": {
+            "tag": "plain_text",
+            "content": "打开 Trending 分析"
+          },
+          "type": "default",
+          "behaviors": [
+            {
+              "type": "open_url",
+              "default_url": "https://15606518796-cyber.github.io/ai-qa-learning-site/blog/2026/04/23/github-trending-ai-qa"
+            }
+          ]
+        },
+        {
+          "tag": "hr"
+        },
+        {
+          "tag": "div",
+          "text": {
+            "tag": "plain_text",
+            "content": "Aime 自动生成 | 卡片类型：Interactive Card v2（schema 2.0）",
+            "text_size": "caption",
+            "text_color": "grey"
+          }
+        }
+      ]
+    }
+  }
+}

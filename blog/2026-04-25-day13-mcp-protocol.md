@@ -66,8 +66,8 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("QA_Testcase_Server")
 
 TEST_CASES = {
-    "TC001": {"status": "Passed", "author": "eileen.cf"},
-    "TC002": {"status": "Failed", "author": "eileen.cf"},
+    "TC001": {"status": "Passed", "author": "Eileen"},
+    "TC002": {"status": "Failed", "author": "Eileen"},
 }
 
 @mcp.tool()

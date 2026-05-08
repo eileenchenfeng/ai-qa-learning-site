@@ -1,0 +1,184 @@
+{
+  "date": "2026-05-08",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 19504,
+      "forks_count": 1490,
+      "open_issues_count": 256,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding agent for DeepSeek models that runs in your terminal",
+        "**Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn",
+        "**Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works",
+        "**Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers",
+        "**1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry",
+        "**Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)"
+      ],
+      "readme_excerpt": "# DeepSeek TUI\n\n> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.\n\n[简体中文 README](README.zh-CN.md)\n\n## Install\n\n`deepseek` is distributed as Rust binaries: the dispatcher command\n(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever\ninstall path you already use; they all put the same commands on your `PATH`.\nThe npm package is an installer/wrapper for the release binaries, not the\nagent runtime itself.\n\n```bash\n# 1. npm — easiest if you already use Node. The package downloads the\n#    matching prebuilt Rust binaries from GitHub Releases.\nnpm install -g deepseek-tui\n\n# 2. Cargo — no Node needed.\ncargo install deepseek-tui-cli --locked   # `deepseek` (entry point)\ncargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)\n\n# 3. Homebrew — macOS package manager.\nbrew tap Hmbown/deepseek-tui\nbrew install deepseek-tui\n\n# 4. Direct download — no package manager or toolchain.\n#    https://github.com/Hmbown/DeepSeek-TUI/releases\n#    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Wi",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "z-lab/dflash",
+      "html_url": "https://github.com/z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 3553,
+      "forks_count": 253,
+      "open_issues_count": 53,
+      "arch_category": "评测 / Benchmark",
+      "features": [
+        "DFlash: Block Diffusion for Flash Speculative Decoding"
+      ],
+      "readme_excerpt": "# DFlash: Block Diffusion for Flash Speculative Decoding\n[**Paper**](https://arxiv.org/abs/2602.06036) | [**Blog**](https://z-lab.ai/projects/dflash/) | [**Models**](https://huggingface.co/collections/z-lab/dflash)\n\n**DFlash** is a lightweight **block diffusion** model designed for speculative decoding. It enables efficient and high-quality parallel drafting.\n\n![DFlash Architecture](https://raw.githubusercontent.com/jianc99/jianc99.github.io/master/images/dflash_system.png)\n\nhttps://github.com/user-attachments/assets/5b29cabb-eb95-44c9-8ffe-367c0758de8c\n\n## Supported Models\n\n| Model | DFlash Draft |\n|---|---|\n| gemma-4-26B-A4B-it | [z-lab/gemma-4-26B-A4B-it-DFlash](https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash) |\n| gemma-4-31B-it | [z-lab/gemma-4-31B-it-DFlash](https://huggingface.co/z-lab/gemma-4-31B-it-DFlash) |\n| Qwen3.6-27B | [z-lab/Qwen3.6-27B-DFlash](https://huggingface.co/z-lab/Qwen3.6-27B-DFlash) |\n| Qwen3.6-35B-A3B | [z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash) |\n| MiniMax-M2.5 (Preview) | [z-lab/MiniMax-M2.5-DFlash](https://huggingface.co/z-lab/MiniMax-M2.5-DFlash) |\n| Kimi-K2.5 | [z-lab/Kimi-K2.5-DFlash](https://huggingface",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "InsForge/InsForge",
+      "html_url": "https://github.com/InsForge/InsForge",
+      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "coding",
+        "deno",
+        "embeddings",
+        "insforge",
+        "nextjs",
+        "oauth2",
+        "pgvector",
+        "postgresql",
+        "realtime",
+        "vectors",
+        "websockets"
+      ],
+      "stargazers_count": 8922,
+      "forks_count": 735,
+      "open_issues_count": 39,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+        "**Fetch backend context**: Agents can fetch documentation and available operations for the backend primitives they use.",
+        "**Configure primitives**: Agents can configure backend primitives directly.",
+        "**Inspect backend state**: Backend state and logs are exposed through structured schemas.",
+        "**Authentication**: User management, authentication, and sessions",
+        "**Database**: Postgres relational database"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://insforge.dev\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/logo-light.svg\">\n      <img src=\"assets/logo-dark.svg\" alt=\"InsForge\" width=\"500\">\n    </picture>\n  </a>\n\n  <p>\n    The backend platform for AI-native developers.<br />\n  </p>\n\n  <p>\n    <a href=\"https://opensource.org/licenses/Apache-2.0\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-orange.svg\" alt=\"License\"></a>\n    <a href=\"https://www.npmjs.com/package/@insforge/sdk\"><img src=\"https://img.shields.io/npm/dt/@insforge/sdk?color=blue&label=downloads\" alt=\"Downloads\"></a>\n    <a href=\"https://github.com/InsForge/insforge/graphs/contributors\"><img src=\"https://img.shields.io/github/contributors/InsForge/insforge?color=green\" alt=\"Contributors\"></a>\n    <a href=\"https://cursor.com/link/prompt?text=Help+me+set+up+InsForge+locally.+Follow+these+steps%3A%0A%0A1.+First%2C+verify+Docker+is+installed+and+running%3A%0A+++docker+--version%0A+++docker+info%0A%0A2.+Clone+the+repository%3A%0A+++git+clone+https%3A%2F%2Fgithub.com%2Finsforge%2Finsforge.git%0A+++cd+ins",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "LearningCircuit/local-deep-research",
+      "html_url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": " ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "topics": [
+        "academia",
+        "anthropic",
+        "arxiv",
+        "brave",
+        "deep-research",
+        "encryption",
+        "home-automation",
+        "homeserver",
+        "local",
+        "local-deep-research",
+        "local-llm",
+        "mistral",
+        "ollama",
+        "openai",
+        "pubmed",
+        "research",
+        "research-tool",
+        "retrieval-augmented-generation",
+        "searxng",
+        "self-hosted"
+      ],
+      "stargazers_count": 6352,
+      "forks_count": 555,
+      "open_issues_count": 266,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+        "Does the research for you automatically",
+        "Searches across web, academic papers, and your own documents",
+        "Synthesizes everything into a report with proper citations"
+      ],
+      "readme_excerpt": "# Local Deep Research\n\n<div align=\"center\">\n\n[![GitHub stars](https://img.shields.io/github/stars/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/stargazers)\n[![Docker Pulls](https://img.shields.io/docker/pulls/localdeepresearch/local-deep-research?style=for-the-badge)](https://hub.docker.com/r/localdeepresearch/local-deep-research)\n[![PyPI Downloads](https://img.shields.io/pypi/dm/local-deep-research?style=for-the-badge)](https://pypi.org/project/local-deep-research/)\n\n[![Trendshift](https://trendshift.io/api/badge/repositories/14116)](https://trendshift.io/repositories/14116)\n\n[![Commits](https://img.shields.io/github/commit-activity/m/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/commits/main)\n[![Last Commit](https://img.shields.io/github/last-commit/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/commits/main)\n\n[![SimpleQA Accuracy](https://img.shields.io/badge/SimpleQA-~95%25_Accuracy-gold?style=for-the-badge)](https://huggingface.co/datasets/local-deep-research/ldr-benchmarks)\n[![SQ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 33269,
+      "forks_count": 3843,
+      "open_issues_count": 73,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "VectifyAI/PageIndex",
+      "html_url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "context-engineering",
+        "llm",
+        "rag",
+        "reasoning",
+        "retrieval",
+        "retrieval-augmented-generation",
+        "vector-database"
+      ],
+      "stargazers_count": 29684,
+      "forks_count": 2500,
+      "open_issues_count": 142,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+        "🔥 **Agentic Vectorless RAG**（https://github.com/VectifyAI/PageIndex/blob/main/examples/agentic_vectorless_rag_demo.py） — A simple *agentic, vectorless RAG* example with self-hosted PageIndex, using OpenAI Agents SDK.",
+        "**Scale PageIndex to Millions of Documents**（https://pageindex.ai/blog/pageindex-filesystem） — *PageIndex File System* is a file-level tree layer that lets PageIndex reason over an entire corpus, not just a single document, enabling massive-scale document search.",
+        "PageIndex Chat（https://chat.pageindex.ai） — Human-like document analysis agent platform（https://chat.pageindex.ai） for professional long documents. Also available via MCP（https://pageindex.ai/developer） or API（https://pageindex.ai/developer）.",
+        "PageIndex Framework（https://pageindex.ai/blog/pageindex-intro） — Deep dive into PageIndex: an *agentic, in-context tree index* that enables LLMs to perform *reasoning-based, context-aware retrieval* over long documents.",
+        "Vectorless RAG（https://docs.pageindex.ai/cookbook/vectorless-rag-pageindex）: A minimal, hands-on example of reasoning-based RAG using PageIndex. No vectors, no chunking, and human-like retrieval."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  \n<a href=\"https://vectify.ai/pageindex\" target=\"_blank\">\n  <img src=\"https://github.com/user-attachments/assets/46201e72-675b-43bc-bfbd-081cc6b65a1d\" alt=\"PageIndex Banner\" />\n</a>\n\n<br/>\n<br/>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/14736\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14736\" alt=\"VectifyAI%2FPageIndex | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n# PageIndex: Vectorless, Reasoning-based RAG\n\n<p align=\"center\"><b>Reasoning-based RAG&nbsp; ◦ &nbsp;No Vector DB or Chunking&nbsp; ◦ &nbsp;Context-Aware&nbsp; ◦ &nbsp;Human-like Retrieval</b></p>\n\n<h4 align=\"center\">\n  <a href=\"https://vectify.ai\">🌐 Homepage</a>&nbsp; • &nbsp;\n  <a href=\"https://chat.pageindex.ai\">🖥️ Chat Platform</a>&nbsp; • &nbsp;\n  <a href=\"https://pageindex.ai/developer\">🔌 MCP & API</a>&nbsp; • &nbsp;\n  <a href=\"https://docs.pageindex.ai\">📖 Docs</a>&nbsp; • &nbsp;\n  <a href=\"https://discord.com/invite/VuXuf29EUj\">💬 Discord</a>&nbsp; • &nbsp;\n  <a href=\"https://ii2abc2jejf.typeform.com/to/tK3AXl8T\">✉️ Contact</a>&nbsp;\n</h4>\n  \n</div>\n\n\n<details open>\n<summary><h2>📢 Updates</h2></summary>\n",
+      "_meta_source": "api"
+    }
+  ]
+}

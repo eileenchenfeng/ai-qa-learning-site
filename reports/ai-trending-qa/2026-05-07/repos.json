@@ -1,0 +1,197 @@
+{
+  "date": "2026-05-07",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 15126,
+      "forks_count": 1179,
+      "open_issues_count": 218,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding agent for DeepSeek models that runs in your terminal",
+        "**Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn",
+        "**Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works",
+        "**Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers",
+        "**1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry",
+        "**Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)"
+      ],
+      "readme_excerpt": "# DeepSeek TUI\n\n> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.\n\n[简体中文 README](README.zh-CN.md)\n\n## Install\n\n`deepseek` is distributed as Rust binaries: the dispatcher command\n(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever\ninstall path you already use; they all put the same commands on your `PATH`.\nThe npm package is an installer/wrapper for the release binaries, not the\nagent runtime itself.\n\n```bash\n# 1. npm — easiest if you already use Node. The package downloads the\n#    matching prebuilt Rust binaries from GitHub Releases.\nnpm install -g deepseek-tui\n\n# 2. Cargo — no Node needed.\ncargo install deepseek-tui-cli --locked   # `deepseek` (entry point)\ncargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)\n\n# 3. Homebrew — macOS package manager.\nbrew tap Hmbown/deepseek-tui\nbrew install deepseek-tui\n\n# 4. Direct download — no package manager or toolchain.\n#    https://github.com/Hmbown/DeepSeek-TUI/releases\n#    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Wi",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 31007,
+      "forks_count": 3661,
+      "open_issues_count": 63,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "PriorLabs/TabPFN",
+      "html_url": "https://github.com/PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "topics": [
+        "data-science",
+        "foundation-models",
+        "machine-learning",
+        "tabpfn",
+        "tabular-data"
+      ],
+      "stargazers_count": 6625,
+      "forks_count": 660,
+      "open_issues_count": 41,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+        "**Use batch prediction mode**: Each `predict` call recomputes the training set. Calling `predict` on 100 samples separately is almost 100 times slower and more expensive than a single call. If the test set is very large, split it into chunks of 1000 samples each.",
+        "**Avoid data preprocessing**: Do not apply data scaling or one-hot encoding when feeding data to the model.",
+        "**Use a GPU**: TabPFN is slow to execute on a CPU. Ensure a GPU is available for better performance.",
+        "**Mind the dataset size**: TabPFN works best on datasets with fewer than 100,000 samples and 2000 features. For larger datasets, we recommend looking at the Large datasets guide（https://github.com/PriorLabs/tabpfn-extensions/blob/main/examples/large_datasets/large_datasets_example.py）.",
+        "**TabPFN Client（https://github.com/priorlabs/tabpfn-client）**"
+      ],
+      "readme_excerpt": "# TabPFN\n\n[![PyPI version](https://badge.fury.io/py/tabpfn.svg)](https://badge.fury.io/py/tabpfn)\n[![Downloads](https://pepy.tech/badge/tabpfn)](https://pepy.tech/project/tabpfn)\n[![Discord](https://img.shields.io/discord/1285598202732482621?color=7289da&label=Discord&logo=discord&logoColor=ffffff)](https://discord.gg/BHnX2Ptf4j)\n[![Documentation](https://img.shields.io/badge/docs-priorlabs.ai-blue)](https://priorlabs.ai/docs)\n[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PriorLabs/TabPFN/blob/main/examples/notebooks/TabPFN_Demo_Local.ipynb)\n[![Python Versions](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](https://pypi.org/project/tabpfn/)\n\n<img src=\"https://github.com/PriorLabs/tabpfn-extensions/blob/main/tabpfn_summary.webp\" width=\"80%\" alt=\"TabPFN Summary\">\n\n## Quick Start\n\n### Interactive Notebook Tutorial\n> [!TIP]\n>\n> Dive right in with our interactive Colab notebook! It's the best way to get a hands-on feel for TabPFN, walking you through installation, classification, and regression examples.\n>\n> [![Open In Colab](https://colab.research.google.com/assets/colab-",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "docusealco/docuseal",
+      "html_url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "topics": [
+        "document-signing",
+        "documents",
+        "e-signature",
+        "hotwired-turbo",
+        "open-source",
+        "pdf",
+        "pdf-sign",
+        "pdf-signature",
+        "ruby-on-rails",
+        "self-hosted",
+        "tailwindcss",
+        "vue",
+        "webpack"
+      ],
+      "stargazers_count": 15007,
+      "forks_count": 1366,
+      "open_issues_count": 118,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+        "PDF form fields builder (WYSIWYG)",
+        "12 field types available (Signature, Date, File, Checkbox etc.)",
+        "Multiple submitters per document",
+        "Automated emails via SMTP",
+        "Files storage on disk or AWS S3, Google Storage, Azure Cloud"
+      ],
+      "readme_excerpt": "<h1 align=\"center\" style=\"border-bottom: none\">\n  <div>\n    <a href=\"https://www.docuseal.com\">\n      <img  alt=\"DocuSeal\" src=\"https://github.com/user-attachments/assets/38b45682-ffa4-4919-abde-d2d422325c44\" width=\"80\" />\n      <br>\n    </a>\n    DocuSeal\n  </div>\n</h1>\n<h3 align=\"center\">\n  Open source document filling and signing\n</h3>\n<p align=\"center\">\n  <a href=\"https://hub.docker.com/r/docuseal/docuseal\">\n    <img alt=\"Docker releases\" src=\"https://img.shields.io/docker/v/docuseal/docuseal\">\n  </a>\n  <a href=\"https://discord.gg/qygYCDGck9\">\n    <img src=\"https://img.shields.io/discord/1125112641170448454?logo=discord\"/>\n  </a>\n  <a href=\"https://twitter.com/intent/follow?screen_name=docusealco\">\n    <img src=\"https://img.shields.io/twitter/follow/docusealco?style=social\" alt=\"Follow @docusealco\" />\n  </a>\n</p>\n<p>\nDocuSeal is an open source platform that provides secure and efficient digital document signing and processing. Create PDF forms to have them filled and signed online on any device with an easy-to-use, mobile-optimized web tool.\n</p>\n<h2 align=\"center\">\n  <a href=\"https://demo.docuseal.tech\">✨ Live Demo</a>\n  <span>|</span>\n  <a href=\"https://docuseal.com/sign_up\">☁",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "LearningCircuit/local-deep-research",
+      "html_url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": " ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "language": "Python",
+      "topics": [
+        "academia",
+        "anthropic",
+        "arxiv",
+        "brave",
+        "deep-research",
+        "encryption",
+        "home-automation",
+        "homeserver",
+        "local",
+        "local-deep-research",
+        "local-llm",
+        "mistral",
+        "ollama",
+        "openai",
+        "pubmed",
+        "research",
+        "research-tool",
+        "retrieval-augmented-generation",
+        "searxng",
+        "self-hosted"
+      ],
+      "stargazers_count": 5755,
+      "forks_count": 523,
+      "open_issues_count": 253,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+        "Does the research for you automatically",
+        "Searches across web, academic papers, and your own documents",
+        "Synthesizes everything into a report with proper citations"
+      ],
+      "readme_excerpt": "# Local Deep Research\n\n<div align=\"center\">\n\n[![GitHub stars](https://img.shields.io/github/stars/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/stargazers)\n[![Docker Pulls](https://img.shields.io/docker/pulls/localdeepresearch/local-deep-research?style=for-the-badge)](https://hub.docker.com/r/localdeepresearch/local-deep-research)\n[![PyPI Downloads](https://img.shields.io/pypi/dm/local-deep-research?style=for-the-badge)](https://pypi.org/project/local-deep-research/)\n\n[![Trendshift](https://trendshift.io/api/badge/repositories/14116)](https://trendshift.io/repositories/14116)\n\n[![Commits](https://img.shields.io/github/commit-activity/m/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/commits/main)\n[![Last Commit](https://img.shields.io/github/last-commit/LearningCircuit/local-deep-research?style=for-the-badge)](https://github.com/LearningCircuit/local-deep-research/commits/main)\n\n[![SimpleQA Accuracy](https://img.shields.io/badge/SimpleQA-~95%25_Accuracy-gold?style=for-the-badge)](https://huggingface.co/datasets/local-deep-research/ldr-benchmarks)\n[![SQ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "InsForge/InsForge",
+      "html_url": "https://github.com/InsForge/InsForge",
+      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "coding",
+        "deno",
+        "embeddings",
+        "insforge",
+        "nextjs",
+        "oauth2",
+        "pgvector",
+        "postgresql",
+        "realtime",
+        "vectors",
+        "websockets"
+      ],
+      "stargazers_count": 8530,
+      "forks_count": 708,
+      "open_issues_count": 45,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+        "**Fetch backend context**: Agents can fetch documentation and available operations for the backend primitives they use.",
+        "**Configure primitives**: Agents can configure backend primitives directly.",
+        "**Inspect backend state**: Backend state and logs are exposed through structured schemas.",
+        "**Authentication**: User management, authentication, and sessions",
+        "**Database**: Postgres relational database"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://insforge.dev\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.svg\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"assets/logo-light.svg\">\n      <img src=\"assets/logo-dark.svg\" alt=\"InsForge\" width=\"500\">\n    </picture>\n  </a>\n\n  <p>\n    The backend platform for AI-native developers.<br />\n  </p>\n\n  <p>\n    <a href=\"https://opensource.org/licenses/Apache-2.0\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-orange.svg\" alt=\"License\"></a>\n    <a href=\"https://www.npmjs.com/package/@insforge/sdk\"><img src=\"https://img.shields.io/npm/dt/@insforge/sdk?color=blue&label=downloads\" alt=\"Downloads\"></a>\n    <a href=\"https://github.com/InsForge/insforge/graphs/contributors\"><img src=\"https://img.shields.io/github/contributors/InsForge/insforge?color=green\" alt=\"Contributors\"></a>\n    <a href=\"https://cursor.com/link/prompt?text=Help+me+set+up+InsForge+locally.+Follow+these+steps%3A%0A%0A1.+First%2C+verify+Docker+is+installed+and+running%3A%0A+++docker+--version%0A+++docker+info%0A%0A2.+Clone+the+repository%3A%0A+++git+clone+https%3A%2F%2Fgithub.com%2Finsforge%2Finsforge.git%0A+++cd+ins",
+      "_meta_source": "api"
+    }
+  ]
+}

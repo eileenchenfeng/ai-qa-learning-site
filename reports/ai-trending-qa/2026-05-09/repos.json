@@ -8,232 +8,173 @@
     {
       "full_name": "addyosmani/agent-skills",
       "html_url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills",
-      "language": "",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
       "topics": [
-        "skills",
-        "cursor",
-        "antigravity",
         "agent-skills",
+        "antigravity",
+        "antigravity-ide",
         "claude-code",
-        "antigravity-ide"
+        "cursor",
+        "skills"
       ],
-      "stargazers_count": 35330,
-      "forks_count": null,
-      "open_issues_count": null,
+      "stargazers_count": 35825,
+      "forks_count": 4055,
+      "open_issues_count": 75,
       "arch_category": "AI Agent / 编排框架",
       "features": [
-        "Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills"
+        "Production-grade engineering skills for AI coding agents."
       ],
-      "advantages": [
-        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
-      ],
-      "use_cases": [
-        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
-        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
-      ],
-      "qa_takeaways": [
-        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
-        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
-        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
-      ],
-      "readme_excerpt": "",
-      "_meta_source": "html"
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` ",
+      "_meta_source": "api"
     },
     {
       "full_name": "Hmbown/DeepSeek-TUI",
       "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "description": "Coding agent for DeepSeek models that runs in your terminal - Hmbown/DeepSeek-TUI",
-      "language": "",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
       "topics": [
-        "rust",
         "cli",
-        "terminal",
-        "tui",
+        "deepseek",
         "llm",
-        "deepseek"
+        "rust",
+        "terminal",
+        "tui"
       ],
-      "stargazers_count": 21716,
-      "forks_count": null,
-      "open_issues_count": null,
+      "stargazers_count": 22129,
+      "forks_count": 1737,
+      "open_issues_count": 299,
       "arch_category": "AI Agent / 编排框架",
       "features": [
-        "Coding agent for DeepSeek models that runs in your terminal - Hmbown/DeepSeek-TUI"
+        "Coding agent for DeepSeek models that runs in your terminal",
+        "**Auto mode** — `--model auto` / `/model auto` chooses both the model and thinking level for each turn",
+        "**Thinking-mode streaming** — see DeepSeek reasoning blocks as the model works",
+        "**Full tool suite** — file ops, shell execution, git, web search/browse, apply-patch, sub-agents, MCP servers",
+        "**1M-token context** — context tracking, manual or configured compaction, and prefix-cache telemetry",
+        "**Three modes** — Plan (read-only explore), Agent (interactive with approval), YOLO (auto-approved)"
       ],
-      "advantages": [
-        "产品化形态明确：适合沉淀 Playwright 关键路径回放与可用性回归"
-      ],
-      "use_cases": [
-        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
-        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
-      ],
-      "qa_takeaways": [
-        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
-        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
-        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
-      ],
-      "readme_excerpt": "",
-      "_meta_source": "html"
+      "readme_excerpt": "# DeepSeek TUI\n\n> Terminal coding agent for DeepSeek V4. It runs from the `deepseek` command, streams reasoning blocks, edits local workspaces with approval gates, and includes an auto mode that chooses both model and thinking level per turn.\n\n[简体中文 README](README.zh-CN.md)\n\n## Install\n\n`deepseek` is distributed as Rust binaries: the dispatcher command\n(`deepseek`) and the companion TUI runtime (`deepseek-tui`). Pick whichever\ninstall path you already use; they all put the same commands on your `PATH`.\nThe npm package is an installer/wrapper for the release binaries, not the\nagent runtime itself.\n\n```bash\n# 1. npm — easiest if you already use Node. The package downloads the\n#    matching prebuilt Rust binaries from GitHub Releases.\nnpm install -g deepseek-tui\n\n# 2. Cargo — no Node needed.\ncargo install deepseek-tui-cli --locked   # `deepseek` (entry point)\ncargo install deepseek-tui     --locked   # `deepseek-tui` (TUI binary)\n\n# 3. Homebrew — macOS package manager.\nbrew tap Hmbown/deepseek-tui\nbrew install deepseek-tui\n\n# 4. Direct download — no package manager or toolchain.\n#    https://github.com/Hmbown/DeepSeek-TUI/releases\n#    Prebuilt for Linux x64/ARM64, macOS x64/ARM64, Wi",
+      "_meta_source": "api"
     },
     {
       "full_name": "z-lab/dflash",
       "html_url": "https://github.com/z-lab/dflash",
-      "description": "DFlash: Block Diffusion for Flash Speculative Decoding - z-lab/dflash",
-      "language": "",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
       "topics": [],
-      "stargazers_count": 3839,
-      "forks_count": null,
-      "open_issues_count": null,
-      "arch_category": "其他 / 待分类",
+      "stargazers_count": 3888,
+      "forks_count": 269,
+      "open_issues_count": 54,
+      "arch_category": "评测 / Benchmark",
       "features": [
-        "DFlash: Block Diffusion for Flash Speculative Decoding - z-lab/dflash"
+        "DFlash: Block Diffusion for Flash Speculative Decoding"
       ],
-      "advantages": [
-        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
-      ],
-      "use_cases": [
-        "用于团队学习与工程实践沉淀：复刻教程中的 demo，形成内部可复现的评测/回归用例",
-        "为质量保障体系补齐‘大模型基础能力认知’与‘可测性设计模式’"
-      ],
-      "qa_takeaways": [
-        "如果是教程/实践类项目：可把其中的 demo 固化为内部‘能力基线’与回归集（例如提示词、RAG、评测口径的最小闭环）。",
-        "用它来统一团队对 LLM 行为与误差的理解：减少‘主观评审’，增加可自动化度量（评分、命中率、拒答率等）。"
-      ],
-      "readme_excerpt": "",
-      "_meta_source": "html"
+      "readme_excerpt": "# DFlash: Block Diffusion for Flash Speculative Decoding\n[**Paper**](https://arxiv.org/abs/2602.06036) | [**Blog**](https://z-lab.ai/projects/dflash/) | [**Models**](https://huggingface.co/collections/z-lab/dflash)\n\n**DFlash** is a lightweight **block diffusion** model designed for speculative decoding. It enables efficient and high-quality parallel drafting.\n\n![DFlash Architecture](https://raw.githubusercontent.com/jianc99/jianc99.github.io/master/images/dflash_system.png)\n\nhttps://github.com/user-attachments/assets/5b29cabb-eb95-44c9-8ffe-367c0758de8c\n\n## Supported Models\n\n| Model | DFlash Draft |\n|---|---|\n| gemma-4-26B-A4B-it | [z-lab/gemma-4-26B-A4B-it-DFlash](https://huggingface.co/z-lab/gemma-4-26B-A4B-it-DFlash) |\n| gemma-4-31B-it | [z-lab/gemma-4-31B-it-DFlash](https://huggingface.co/z-lab/gemma-4-31B-it-DFlash) |\n| Qwen3.6-27B | [z-lab/Qwen3.6-27B-DFlash](https://huggingface.co/z-lab/Qwen3.6-27B-DFlash) |\n| Qwen3.6-35B-A3B | [z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash) |\n| MiniMax-M2.5 (Preview) | [z-lab/MiniMax-M2.5-DFlash](https://huggingface.co/z-lab/MiniMax-M2.5-DFlash) |\n| Kimi-K2.5 | [z-lab/Kimi-K2.5-DFlash](https://huggingface",
+      "_meta_source": "api"
     },
     {
       "full_name": "decolua/9router",
       "html_url": "https://github.com/decolua/9router",
-      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. - decolua/9r...",
-      "language": "",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
       "topics": [
-        "gemini",
-        "openai",
-        "cursor",
-        "copilot",
-        "codex",
-        "cline",
         "ai-agents",
-        "claude",
-        "llm",
-        "chatgpt",
-        "anthropic",
-        "openai-proxy",
-        "free-ai",
-        "qwen",
         "ai-gateway",
-        "deepseek",
-        "gemini-cli",
-        "llm-gateway",
+        "anthropic",
+        "chatgpt",
+        "claude",
         "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "gemini-cli",
+        "llm",
+        "llm-gateway",
+        "openai",
+        "openai-proxy",
+        "qwen",
         "token-saver"
       ],
-      "stargazers_count": 5549,
-      "forks_count": null,
-      "open_issues_count": null,
+      "stargazers_count": 5751,
+      "forks_count": 1084,
+      "open_issues_count": 391,
       "arch_category": "AI Agent / 编排框架",
       "features": [
-        "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. - decolua/9r..."
+        "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+        "❌ Subscription quota expires unused every month",
+        "❌ Rate limits stop you mid-coding",
+        "❌ Tool outputs (git diff, grep, ls...) burn tokens fast",
+        "❌ Expensive APIs ($20-50/month per provider)",
+        "❌ Manual switching between providers"
       ],
-      "advantages": [
-        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
-      ],
-      "use_cases": [
-        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
-        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
-      ],
-      "qa_takeaways": [
-        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
-        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
-        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
-      ],
-      "readme_excerpt": "",
-      "_meta_source": "html"
+      "readme_excerpt": "<div align=\"center\">\n  <img src=\"./images/9router.png?1\" alt=\"9Router Dashboard\" width=\"800\"/>\n  \n  # 9Router - FREE AI Router & Token Saver\n  \n  **Never stop coding. Save 20-40% tokens with RTK + auto-fallback to FREE & cheap AI models.**\n  \n  **Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models.**\n  \n  [![npm](https://img.shields.io/npm/v/9router.svg)](https://www.npmjs.com/package/9router)\n  [![Downloads](https://img.shields.io/npm/dm/9router.svg)](https://www.npmjs.com/package/9router)\n  [![License](https://img.shields.io/npm/l/9router.svg)](https://github.com/decolua/9router/blob/main/LICENSE)\n\n  <a href=\"https://trendshift.io/repositories/22628\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22628\" alt=\"decolua%2F9router | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n  \n  [🚀 Quick Start](#-quick-start) • [💡 Features](#-key-features) • [📖 Setup](#-setup-guide) • [🌐 Website](https://9router.com)\n\n  [🇻🇳 Tiếng Việt](./i18n/README.vi.md) • [🇨🇳 中文](./i18n/README.zh-CN.md) • [🇯🇵 日本語](./i18n/README.ja-JP.md)\n</div>\n\n---\n\n## 🤔 Why 9",
+      "_meta_source": "api"
     },
     {
       "full_name": "CloakHQ/CloakBrowser",
       "html_url": "https://github.com/CloakHQ/CloakBrowser",
-      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. - CloakHQ/CloakBrowser",
-      "language": "",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
       "topics": [
+        "ai-agents",
+        "anti-detect",
+        "antidetect-browser",
+        "bot-detection",
+        "browser-automation",
+        "captcha-bypass",
+        "chromium",
+        "cloudflare",
+        "cloudflare-bypass",
+        "fingerprint",
+        "headless-browser",
+        "playwright",
+        "puppeteer",
         "python",
         "recaptcha",
         "selenium",
-        "fingerprint",
-        "chromium",
-        "cloudflare",
-        "web-scraping",
-        "webscraping",
-        "browser-automation",
-        "bot-detection",
-        "ai-agents",
-        "anti-detect",
+        "stealth-browser",
         "undetected",
-        "puppeteer",
-        "captcha-bypass",
-        "headless-browser",
-        "cloudflare-bypass",
-        "playwright",
-        "antidetect-browser",
-        "stealth-browser"
+        "web-scraping",
+        "webscraping"
       ],
-      "stargazers_count": 2950,
-      "forks_count": null,
-      "open_issues_count": null,
+      "stargazers_count": 3233,
+      "forks_count": 255,
+      "open_issues_count": 39,
       "arch_category": "AI Agent / 编排框架",
       "features": [
-        "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. - CloakHQ/CloakBrowser"
+        "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+        "**49 source-level C++ patches** — canvas, WebGL, audio, fonts, GPU, screen, WebRTC, network timing, automation signals, CDP input behavior",
+        "**`humanize=True`** — human-like mouse curves, keyboard timing, and scroll patterns. One flag, behavioral detection passes",
+        "**0.9 reCAPTCHA v3 score** — human-level, server-verified",
+        "**Passes Cloudflare Turnstile**, FingerprintJS, BrowserScan — tested against 30+ detection sites",
+        "**Auto-updating binary** — background update checks, always on the latest stealth build"
       ],
-      "advantages": [
-        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
-      ],
-      "use_cases": [
-        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
-        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）",
-        "桌面/浏览器自动化（更适合做端到端回放与稳定性验证）"
-      ],
-      "qa_takeaways": [
-        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
-        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
-        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。",
-        "如果涉及桌面/浏览器控制：把‘环境可控’当成第一优先级（容器化、虚拟显示、权限隔离），再谈 E2E 稳定性。"
-      ],
-      "readme_excerpt": "",
-      "_meta_source": "html"
+      "readme_excerpt": "<p align=\"center\">\n<img src=\"https://i.imgur.com/cqkp6fG.png\" width=\"500\" alt=\"CloakBrowser\">\n</p>\n\n<p align=\"center\">\n<a href=\"https://pypi.org/project/cloakbrowser/\"><img src=\"https://img.shields.io/pypi/v/cloakbrowser\" alt=\"PyPI\"></a>\n<a href=\"https://www.npmjs.com/package/cloakbrowser\"><img src=\"https://img.shields.io/npm/v/cloakbrowser\" alt=\"npm\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/cloakhq/cloakbrowser?v=1\" alt=\"License\"></a>\n<a href=\"https://github.com/CloakHQ/CloakBrowser\"><img src=\"https://img.shields.io/github/last-commit/cloakhq/cloakbrowser\" alt=\"Last Commit\"></a>\n<br>\n<a href=\"https://github.com/CloakHQ/CloakBrowser\"><img src=\"https://img.shields.io/github/stars/cloakhq/cloakbrowser\" alt=\"Stars\"></a>\n<a href=\"https://pypi.org/project/cloakbrowser/\"><img src=\"https://img.shields.io/pepy/dt/cloakbrowser?label=pypi&logo=pypi&logoColor=white\" alt=\"PyPI Downloads\"></a>\n<a href=\"https://www.npmjs.com/package/cloakbrowser\"><img src=\"https://img.shields.io/npm/dt/cloakbrowser?label=npm&logo=npm&logoColor=white\" alt=\"npm Downloads\"></a>\n<a href=\"https://hub.docker.com/r/cloakhq/cloakbrowser\"><img src=\"https://img.shields.io/docker/pulls/cloakhq",
+      "_meta_source": "api"
     },
     {
       "full_name": "awslabs/aidlc-workflows",
       "html_url": "https://github.com/awslabs/aidlc-workflows",
-      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents - awslabs/aidlc-workflows",
-      "language": "",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+      "language": "Python",
       "topics": [],
-      "stargazers_count": 1745,
-      "forks_count": null,
-      "open_issues_count": null,
+      "stargazers_count": 1810,
+      "forks_count": 307,
+      "open_issues_count": 46,
       "arch_category": "AI Agent / 编排框架",
       "features": [
-        "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents - awslabs/aidlc-workflows",
-        "[Common](#common)",
-        "[Platform-Specific Setup](#platform-specific-setup)",
-        "[Usage](#usage)",
-        "[Three-Phase Adaptive Workflow](#three-phase-adaptive-workflow)",
-        "[Key Features](#key-features)"
-      ],
-      "advantages": [
-        "强调流程与协作建模：更容易把复杂任务拆成可测的阶段与可观测的节点"
-      ],
-      "use_cases": [
-        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
-        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
-      ],
-      "qa_takeaways": [
-        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
-        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
-        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
+        "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents",
+        "Platform-Specific Setup",
+        "Three-Phase Adaptive Workflow",
+        "Key Features",
+        "Extensions"
       ],
       "readme_excerpt": "# AI-DLC (AI-Driven Development Life Cycle)\n\n> [!IMPORTANT]\n> Generative AI can make mistakes. You should consider reviewing all output and costs generated by your chosen AI model and agentic coding assistant. See [AWS Responsible AI Policy](https://aws.amazon.com/ai/responsible-ai/policy/).\n\n<!-- TODO: Replace this Amplify URL with a permanent/stable URL when available -->\nAI-DLC is an intelligent software development workflow that adapts to your needs, maintains quality standards, and keeps you in control of the process. For learning more about AI-DLC Methodology, read this [blog](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/) and the [Method Definition Paper](https://prod.d13rzhkk8cj2z0.amplifyapp.com/) referred in it.\n\n## Table of Contents\n\n- [Common](#common)\n- [Platform-Specific Setup](#platform-specific-setup)\n- [Usage](#usage)\n- [Three-Phase Adaptive Workflow](#three-phase-adaptive-workflow)\n- [Key Features](#key-features)\n- [Extensions](#extensions)\n- [Tenets](#tenets)\n- [Prerequisites](#prerequisites)\n- [Troubleshooting](#troubleshooting)\n- [Version Control Recommendations](#version-control-recommendations)\n- [Additional Resources](#additional-reso",
-      "_meta_source": "html"
+      "_meta_source": "api"
     }
   ]
 }

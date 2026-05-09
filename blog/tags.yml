@@ -30,3 +30,15 @@ Agent:
   label: Agent
   description: 智能体
 
+
+reliability:
+  label: Reliability
+  description: 可靠性、稳定性与故障恢复测试
+
+chaos:
+  label: Chaos Engineering
+  description: 混沌工程与故障注入实践
+
+Kubernetes:
+  label: Kubernetes
+  description: K8s 与云原生测试工程实践

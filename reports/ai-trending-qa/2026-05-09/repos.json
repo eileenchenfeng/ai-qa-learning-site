@@ -1,0 +1,239 @@
+{
+  "date": "2026-05-09",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills",
+      "language": "",
+      "topics": [
+        "skills",
+        "cursor",
+        "antigravity",
+        "agent-skills",
+        "claude-code",
+        "antigravity-ide"
+      ],
+      "stargazers_count": 35330,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills"
+      ],
+      "advantages": [
+        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
+      ],
+      "use_cases": [
+        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
+        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
+      ],
+      "qa_takeaways": [
+        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
+        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
+        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
+      ],
+      "readme_excerpt": "",
+      "_meta_source": "html"
+    },
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "html_url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal - Hmbown/DeepSeek-TUI",
+      "language": "",
+      "topics": [
+        "rust",
+        "cli",
+        "terminal",
+        "tui",
+        "llm",
+        "deepseek"
+      ],
+      "stargazers_count": 21716,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Coding agent for DeepSeek models that runs in your terminal - Hmbown/DeepSeek-TUI"
+      ],
+      "advantages": [
+        "产品化形态明确：适合沉淀 Playwright 关键路径回放与可用性回归"
+      ],
+      "use_cases": [
+        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
+        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
+      ],
+      "qa_takeaways": [
+        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
+        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
+        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
+      ],
+      "readme_excerpt": "",
+      "_meta_source": "html"
+    },
+    {
+      "full_name": "z-lab/dflash",
+      "html_url": "https://github.com/z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding - z-lab/dflash",
+      "language": "",
+      "topics": [],
+      "stargazers_count": 3839,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "其他 / 待分类",
+      "features": [
+        "DFlash: Block Diffusion for Flash Speculative Decoding - z-lab/dflash"
+      ],
+      "advantages": [
+        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
+      ],
+      "use_cases": [
+        "用于团队学习与工程实践沉淀：复刻教程中的 demo，形成内部可复现的评测/回归用例",
+        "为质量保障体系补齐‘大模型基础能力认知’与‘可测性设计模式’"
+      ],
+      "qa_takeaways": [
+        "如果是教程/实践类项目：可把其中的 demo 固化为内部‘能力基线’与回归集（例如提示词、RAG、评测口径的最小闭环）。",
+        "用它来统一团队对 LLM 行为与误差的理解：减少‘主观评审’，增加可自动化度量（评分、命中率、拒答率等）。"
+      ],
+      "readme_excerpt": "",
+      "_meta_source": "html"
+    },
+    {
+      "full_name": "decolua/9router",
+      "html_url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. - decolua/9r...",
+      "language": "",
+      "topics": [
+        "gemini",
+        "openai",
+        "cursor",
+        "copilot",
+        "codex",
+        "cline",
+        "ai-agents",
+        "claude",
+        "llm",
+        "chatgpt",
+        "anthropic",
+        "openai-proxy",
+        "free-ai",
+        "qwen",
+        "ai-gateway",
+        "deepseek",
+        "gemini-cli",
+        "llm-gateway",
+        "claude-code",
+        "token-saver"
+      ],
+      "stargazers_count": 5549,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits. - decolua/9r..."
+      ],
+      "advantages": [
+        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
+      ],
+      "use_cases": [
+        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
+        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
+      ],
+      "qa_takeaways": [
+        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
+        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
+        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
+      ],
+      "readme_excerpt": "",
+      "_meta_source": "html"
+    },
+    {
+      "full_name": "CloakHQ/CloakBrowser",
+      "html_url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. - CloakHQ/CloakBrowser",
+      "language": "",
+      "topics": [
+        "python",
+        "recaptcha",
+        "selenium",
+        "fingerprint",
+        "chromium",
+        "cloudflare",
+        "web-scraping",
+        "webscraping",
+        "browser-automation",
+        "bot-detection",
+        "ai-agents",
+        "anti-detect",
+        "undetected",
+        "puppeteer",
+        "captcha-bypass",
+        "headless-browser",
+        "cloudflare-bypass",
+        "playwright",
+        "antidetect-browser",
+        "stealth-browser"
+      ],
+      "stargazers_count": 2950,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed. - CloakHQ/CloakBrowser"
+      ],
+      "advantages": [
+        "目标清晰：从项目描述可直接定位其核心能力与落地方向"
+      ],
+      "use_cases": [
+        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
+        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）",
+        "桌面/浏览器自动化（更适合做端到端回放与稳定性验证）"
+      ],
+      "qa_takeaways": [
+        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
+        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
+        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。",
+        "如果涉及桌面/浏览器控制：把‘环境可控’当成第一优先级（容器化、虚拟显示、权限隔离），再谈 E2E 稳定性。"
+      ],
+      "readme_excerpt": "",
+      "_meta_source": "html"
+    },
+    {
+      "full_name": "awslabs/aidlc-workflows",
+      "html_url": "https://github.com/awslabs/aidlc-workflows",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents - awslabs/aidlc-workflows",
+      "language": "",
+      "topics": [],
+      "stargazers_count": 1745,
+      "forks_count": null,
+      "open_issues_count": null,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents - awslabs/aidlc-workflows",
+        "[Common](#common)",
+        "[Platform-Specific Setup](#platform-specific-setup)",
+        "[Usage](#usage)",
+        "[Three-Phase Adaptive Workflow](#three-phase-adaptive-workflow)",
+        "[Key Features](#key-features)"
+      ],
+      "advantages": [
+        "强调流程与协作建模：更容易把复杂任务拆成可测的阶段与可观测的节点"
+      ],
+      "use_cases": [
+        "构建/编排多步骤 AI Agent 工作流（工具调用、计划/执行、状态管理）",
+        "为业务系统接入‘可控的’自动化能力：将外部动作收敛为工具 API（便于做契约与权限测试）"
+      ],
+      "qa_takeaways": [
+        "优先把 agent 的‘动作空间’收敛为工具 API：每个工具都应该有契约（schema）、错误码、权限边界与幂等性测试。",
+        "对‘计划/执行/反思/重试’等阶段引入 trace_id + 事件流日志：测试既能断言结果，也能断言过程（分支覆盖/回滚是否正确）。",
+        "为关键对话/任务流建立回放用例（golden/snapshot）：固定依赖（检索/工具/模型版本）后，输出应稳定在可接受差异内。"
+      ],
+      "readme_excerpt": "# AI-DLC (AI-Driven Development Life Cycle)\n\n> [!IMPORTANT]\n> Generative AI can make mistakes. You should consider reviewing all output and costs generated by your chosen AI model and agentic coding assistant. See [AWS Responsible AI Policy](https://aws.amazon.com/ai/responsible-ai/policy/).\n\n<!-- TODO: Replace this Amplify URL with a permanent/stable URL when available -->\nAI-DLC is an intelligent software development workflow that adapts to your needs, maintains quality standards, and keeps you in control of the process. For learning more about AI-DLC Methodology, read this [blog](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/) and the [Method Definition Paper](https://prod.d13rzhkk8cj2z0.amplifyapp.com/) referred in it.\n\n## Table of Contents\n\n- [Common](#common)\n- [Platform-Specific Setup](#platform-specific-setup)\n- [Usage](#usage)\n- [Three-Phase Adaptive Workflow](#three-phase-adaptive-workflow)\n- [Key Features](#key-features)\n- [Extensions](#extensions)\n- [Tenets](#tenets)\n- [Prerequisites](#prerequisites)\n- [Troubleshooting](#troubleshooting)\n- [Version Control Recommendations](#version-control-recommendations)\n- [Additional Resources](#additional-reso",
+      "_meta_source": "html"
+    }
+  ]
+}

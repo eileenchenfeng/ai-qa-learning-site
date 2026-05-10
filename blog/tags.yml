@@ -42,3 +42,27 @@ chaos:
 Kubernetes:
   label: Kubernetes
   description: K8s 与云原生测试工程实践
+
+performance:
+  label: Performance
+  description: 性能测试、性能基线与回归门禁
+
+load-testing:
+  label: Load Testing
+  description: 压测、负载模型与容量验证实践
+
+k6:
+  label: k6
+  description: k6 性能测试与 WebSocket 压测实践
+
+Locust:
+  label: Locust
+  description: Locust 负载测试与业务工作负载建模
+
+Ginkgo:
+  label: Ginkgo
+  description: Golang Ginkgo 端到端自动化与质量门禁
+
+Playwright:
+  label: Playwright
+  description: Playwright 前端端到端自动化与用户体验验证

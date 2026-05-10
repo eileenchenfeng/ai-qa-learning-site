@@ -1,0 +1,205 @@
+{
+  "date": "2026-05-10",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "bytedance/UI-TARS-desktop",
+      "html_url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-tars",
+        "browser-use",
+        "computer-use",
+        "cowork",
+        "gui-agent",
+        "gui-operator",
+        "mcp",
+        "mcp-server",
+        "multimodal",
+        "tars",
+        "ui-tars",
+        "vision",
+        "vlm"
+      ],
+      "stargazers_count": 31519,
+      "forks_count": 3132,
+      "open_issues_count": 385,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+        "Agent TARS",
+        "Showcase",
+        "Core Features",
+        "Quick Start",
+        "Documentation"
+      ],
+      "readme_excerpt": "<picture>\n  <img alt=\"Agent TARS Banner\" src=\"./images/tars.png\">\n</picture>\n\n<br/>\n\n## Introduction\n\nEnglish | [简体中文](./README.zh-CN.md)\n\n[![](https://trendshift.io/api/badge/repositories/13584)](https://trendshift.io/repositories/13584)\n\n<b>TARS<sup>\\*</sup></b> is a Multimodal AI Agent stack, currently shipping two projects: [Agent TARS](#agent-tars) and [UI-TARS-desktop](#ui-tars-desktop):\n\n<table>\n  <thead>\n    <tr>\n      <th width=\"50%\" align=\"center\"><a href=\"#agent-tars\">Agent TARS</a></th>\n      <th width=\"50%\" align=\"center\"><a href=\"#ui-tars-desktop\">UI-TARS-desktop</a></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td align=\"center\">\n        <video src=\"https://github.com/user-attachments/assets/c9489936-afdc-4d12-adda-d4b90d2a869d\" width=\"50%\"></video>\n      </td>\n      <td align=\"center\">\n        <video src=\"https://github.com/user-attachments/assets/e0914ce9-ad33-494b-bdec-0c25c1b01a27\" width=\"50%\"></video>\n      </td>\n    </tr>\n    <tr>\n      <td align=\"left\">\n        <b>Agent TARS</b> is a general multimodal AI Agent stack, it brings the power of GUI Agent and Vision into your terminal, computer, browser and product.\n        <br>\n        <br>\n        It primar",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/agentmemory",
+      "html_url": "https://github.com/rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "topics": [
+        "agentmemory",
+        "agents",
+        "ai",
+        "claude",
+        "claudecode",
+        "codex",
+        "copilot",
+        "cursor",
+        "genai",
+        "harness",
+        "hermes",
+        "memory",
+        "openclaw"
+      ],
+      "stargazers_count": 3546,
+      "forks_count": 348,
+      "open_issues_count": 27,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "#1 Persistent memory for AI coding agents based on real-world benchmarks"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"agentmemory — Persistent memory for AI coding agents\" width=\"720\" />\n</p>\n\n<p align=\"center\">\n  <strong>\n    Your coding agent remembers everything. No more re-explaining.\n    Built on <a href=\"https://github.com/iii-hq/iii\">iii engine</a>\n  </strong></br>\n  Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, pi, OpenCode, and any MCP client.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2\"><img src=\"https://img.shields.io/badge/Viral%20GitHub%20Gist-1050%20stars%20%2F%20150%20forks-FF6B35?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a\" alt=\"Design doc: 1050 stars / 150 forks on the gist\" /></a>\n</p>\n\n<p align=\"center\">\n  <strong>The gist extends Karpathy's LLM Wiki pattern with confidence scoring, lifecycle, knowledge graphs, and hybrid search.<br/> agentmemory is the implementation.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@agentmemory/agentmemory\"><img src=\"https://img.shields.io/npm/v/@agentmemory/agentmemory?color=CB3837&label=npm&style=for-the-badge&logo=npm\" alt=\"npm version\" /></a>\n  <a href=\"https://",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "datawhalechina/hello-agents",
+      "html_url": "https://github.com/datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "rag",
+        "tutorial"
+      ],
+      "stargazers_count": 45795,
+      "forks_count": 5542,
+      "open_issues_count": 112,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+        "📖 <strong>Datawhale 开源免费</strong> 完全免费学习本项目所有内容，与社区共同成长",
+        "🔍 <strong>理解核心原理</strong> 深入理解智能体的概念、历史与经典范式",
+        "🏗️ <strong>亲手实现</strong> 掌握热门低代码平台和智能体代码框架的使用",
+        "🛠️ <strong>自研框架 HelloAgents（https://github.com/jjyaoao/helloagents）</strong> 基于 Openai 原生 API 从零构建一个自己的智能体框架",
+        "⚙️ <strong>掌握高级技能</strong> 一步步实现上下文工程、Memory、协议、评估等系统性技术"
+      ],
+      "readme_excerpt": "<div align=\"right\">\n  <a href=\"./README_EN.md\">English</a> | 中文\n</div>\n\n<div align='center'>\n  <img src=\"./docs/images/hello-agents.png\" alt=\"alt text\" width=\"100%\">\n  <h1>Hello-Agents</h1>\n  <h3>🤖 《从零开始构建智能体》</h3>\n  <div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/15520\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/15520\" alt=\"datawhalechina%2Fhello-agents | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n  </div>\n  <p><em>从基础理论到实际应用，全面掌握智能体系统的设计与实现</em></p>\n  <img src=\"https://img.shields.io/github/stars/datawhalechina/Hello-Agents?style=flat&logo=github\" alt=\"GitHub stars\"/>\n  <img src=\"https://img.shields.io/github/forks/datawhalechina/Hello-Agents?style=flat&logo=github\" alt=\"GitHub forks\"/>\n  <img src=\"https://img.shields.io/badge/language-Chinese-brightgreen?style=flat\" alt=\"Language\"/>\n  <a href=\"https://github.com/datawhalechina/Hello-Agents\"><img src=\"https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github\" alt=\"GitHub Project\"></a>\n  <a href=\"https://datawhalechina.github.io/hello-agents/\"><img src=\"https://img.shields.io/badge/在线阅读-Online%20Reading-green?style=flat&logo=git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "datawhalechina/easy-vibe",
+      "html_url": "https://github.com/datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "ai",
+        "coding",
+        "course",
+        "deepseek",
+        "gemini",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "programming",
+        "tutorial",
+        "vibe-coding",
+        "vibecoding",
+        "vscode",
+        "workflow"
+      ],
+      "stargazers_count": 8618,
+      "forks_count": 867,
+      "open_issues_count": 13,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step."
+      ],
+      "readme_excerpt": "<!-- trigger vercel build -->\n<div align=\"center\">\n\n<img src=\"assets/easy-vibe-logo-hd.svg\" alt=\"Easy-Vibe Logo\" width=\"300\">\n\n<p align=\"center\" style=\"font-size: 1.2em; color: #666; margin: 20px 0;\">\n  Jump right in and vibe together — if you can talk, you can build apps.<br>\n  <span style=\"font-size: 0.9em; color: #888;\">直接上手，一起 vibe！会说话就会做应用。</span>\n</p>\n\n<a href=\"https://trendshift.io/repositories/22079\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22079\" alt=\"datawhalechina/easy-vibe | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n<p align=\"center\">\n  🚀 <a href=\"https://datawhalechina.github.io/easy-vibe/welcome.html\">Start Exploring</a> · ✨ <a href=\"https://datawhalechina.github.io/easy-vibe/en/appendix/\">Interactive Tutorial</a> · 🦞 <a href=\"https://github.com/datawhalechina/hello-claw\">Learn OpenClaw</a><br>\n  <span style=\"font-size: 0.85em; color: #888;\">🚀 <a href=\"https://datawhalechina.github.io/easy-vibe/welcome.html\">开始体验</a> · ✨ <a href=\"https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/\">交互式教程</a> · 🦞 <a href=\"https://github.com/datawhalechina/hello-claw\">学习 OpenClaw</a></span>\n</p>\n\n<p align=\"center\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rowboatlabs/rowboat",
+      "html_url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Open-source AI coworker, with memory",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "agents-sdk",
+        "ai",
+        "ai-agents",
+        "ai-agents-automation",
+        "chatgpt",
+        "claude-code",
+        "claude-cowork",
+        "generative-ai",
+        "llm",
+        "multiagent",
+        "opeani",
+        "open-source",
+        "orchestration",
+        "productivity"
+      ],
+      "stargazers_count": 13841,
+      "forks_count": 1371,
+      "open_issues_count": 108,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI coworker, with memory",
+        "`Build me a deck about our next quarter roadmap` → generates a PDF using context from your knowledge graph",
+        "`Prep me for my meeting with Alex` → pulls past decisions, open questions, and relevant threads into a crisp brief (or a voice note)",
+        "Track a person, company or topic through live notes",
+        "Visualize, edit, and update your knowledge graph anytime (it’s just Markdown)",
+        "Record voice memos that automatically capture and update key takeaways in the graph"
+      ],
+      "readme_excerpt": "<a href=\"https://www.youtube.com/watch?v=5AWoGo-L16I\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img width=\"1339\" height=\"607\" alt=\"rowboat-github-2\" src=\"https://github.com/user-attachments/assets/fc463b99-01b3-401c-b4a4-044dad480901\" />\n</a>\n\n<h5 align=\"center\">\n\n<p align=\"center\" style=\"display: flex; justify-content: center; gap: 20px; align-items: center;\">\n  <a href=\"https://trendshift.io/repositories/13609\" target=\"blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/13609\" alt=\"rowboatlabs/rowboat | Trendshift\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n<p align=\"center\">\n    <a href=\"https://www.rowboatlabs.com/\" target=\"_blank\" rel=\"noopener\">\n    <img alt=\"Website\" src=\"https://img.shields.io/badge/Website-10b981?labelColor=10b981&logo=window&logoColor=white\">\n  </a>\n  <a href=\"https://discord.gg/wajrgmJQ6b\" target=\"_blank\" rel=\"noopener\">\n    <img alt=\"Discord\" src=\"https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&labelColor=5865F2\">\n  </a>\n  <a href=\"https://x.com/intent/user?screen_name=rowboatlabshq\" target=\"_blank\" rel=\"noopener\">\n    <img alt=\"Twitter\" src=\"https://img.shields.io/twitter/follow/rowboatlabshq?style=social\">\n  </a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 38882,
+      "forks_count": 2460,
+      "open_issues_count": 108,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） v20.19 or a newer latest maintenance LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for Agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for Agents (`chrome-devtools-mcp`) lets your coding agent (such as Gemini, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://github.c",
+      "_meta_source": "api"
+    }
+  ]
+}

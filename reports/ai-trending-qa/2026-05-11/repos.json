@@ -1,0 +1,197 @@
+{
+  "date": "2026-05-11",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "bytedance/UI-TARS-desktop",
+      "html_url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-tars",
+        "browser-use",
+        "computer-use",
+        "cowork",
+        "gui-agent",
+        "gui-operator",
+        "mcp",
+        "mcp-server",
+        "multimodal",
+        "tars",
+        "ui-tars",
+        "vision",
+        "vlm"
+      ],
+      "stargazers_count": 32343,
+      "forks_count": 3200,
+      "open_issues_count": 386,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+        "Agent TARS",
+        "Showcase",
+        "Core Features",
+        "Quick Start",
+        "Documentation"
+      ],
+      "readme_excerpt": "<picture>\n  <img alt=\"Agent TARS Banner\" src=\"./images/tars.png\">\n</picture>\n\n<br/>\n\n## Introduction\n\nEnglish | [简体中文](./README.zh-CN.md)\n\n[![](https://trendshift.io/api/badge/repositories/13584)](https://trendshift.io/repositories/13584)\n\n<b>TARS<sup>\\*</sup></b> is a Multimodal AI Agent stack, currently shipping two projects: [Agent TARS](#agent-tars) and [UI-TARS-desktop](#ui-tars-desktop):\n\n<table>\n  <thead>\n    <tr>\n      <th width=\"50%\" align=\"center\"><a href=\"#agent-tars\">Agent TARS</a></th>\n      <th width=\"50%\" align=\"center\"><a href=\"#ui-tars-desktop\">UI-TARS-desktop</a></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td align=\"center\">\n        <video src=\"https://github.com/user-attachments/assets/c9489936-afdc-4d12-adda-d4b90d2a869d\" width=\"50%\"></video>\n      </td>\n      <td align=\"center\">\n        <video src=\"https://github.com/user-attachments/assets/e0914ce9-ad33-494b-bdec-0c25c1b01a27\" width=\"50%\"></video>\n      </td>\n    </tr>\n    <tr>\n      <td align=\"left\">\n        <b>Agent TARS</b> is a general multimodal AI Agent stack, it brings the power of GUI Agent and Vision into your terminal, computer, browser and product.\n        <br>\n        <br>\n        It primar",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 38709,
+      "forks_count": 4282,
+      "open_issues_count": 88,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |\n| Build incrementally | `/build` | One slice at a time |\n| Prove it works | `/test` ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "CloakHQ/CloakBrowser",
+      "html_url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "anti-detect",
+        "antidetect-browser",
+        "bot-detection",
+        "browser-automation",
+        "captcha-bypass",
+        "chromium",
+        "cloudflare",
+        "cloudflare-bypass",
+        "fingerprint",
+        "headless-browser",
+        "playwright",
+        "puppeteer",
+        "python",
+        "recaptcha",
+        "selenium",
+        "stealth-browser",
+        "undetected",
+        "web-scraping",
+        "webscraping"
+      ],
+      "stargazers_count": 4982,
+      "forks_count": 380,
+      "open_issues_count": 44,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+        "**49 source-level C++ patches** — canvas, WebGL, audio, fonts, GPU, screen, WebRTC, network timing, automation signals, CDP input behavior",
+        "**`humanize=True`** — human-like mouse curves, keyboard timing, and scroll patterns. One flag, behavioral detection passes",
+        "**0.9 reCAPTCHA v3 score** — human-level, server-verified",
+        "**Passes Cloudflare Turnstile**, FingerprintJS, BrowserScan — tested against 30+ detection sites",
+        "**Auto-updating binary** — background update checks, always on the latest stealth build"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n<img src=\"https://i.imgur.com/cqkp6fG.png\" width=\"500\" alt=\"CloakBrowser\">\n</p>\n\n<p align=\"center\">\n<a href=\"https://pypi.org/project/cloakbrowser/\"><img src=\"https://img.shields.io/pypi/v/cloakbrowser\" alt=\"PyPI\"></a>\n<a href=\"https://www.npmjs.com/package/cloakbrowser\"><img src=\"https://img.shields.io/npm/v/cloakbrowser\" alt=\"npm\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/cloakhq/cloakbrowser?v=1\" alt=\"License\"></a>\n<a href=\"https://github.com/CloakHQ/CloakBrowser\"><img src=\"https://img.shields.io/github/last-commit/cloakhq/cloakbrowser\" alt=\"Last Commit\"></a>\n<br>\n<a href=\"https://github.com/CloakHQ/CloakBrowser\"><img src=\"https://img.shields.io/github/stars/cloakhq/cloakbrowser\" alt=\"Stars\"></a>\n<a href=\"https://pypi.org/project/cloakbrowser/\"><img src=\"https://img.shields.io/pepy/dt/cloakbrowser?label=pypi&logo=pypi&logoColor=white\" alt=\"PyPI Downloads\"></a>\n<a href=\"https://www.npmjs.com/package/cloakbrowser\"><img src=\"https://img.shields.io/npm/dt/cloakbrowser?label=npm&logo=npm&logoColor=white\" alt=\"npm Downloads\"></a>\n<a href=\"https://hub.docker.com/r/cloakhq/cloakbrowser\"><img src=\"https://img.shields.io/docker/pulls/cloakhq",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/AI-Trader",
+      "html_url": "https://github.com/HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  ",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 15730,
+      "forks_count": 2541,
+      "open_issues_count": 52,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+        "**2026-04-10**: **Production stability hardening**. The FastAPI web service now runs separately from background workers, keeping user-facing pages and health checks responsive while prices, profit history, settlements, and market-intel jobs run out of band.",
+        "**2026-04-09**: **Major codebase streamlining for agent-native development**. AI-Trader is now leaner, more modular, and far easier for agents and developers to understand, navigate, modify, and operate with confidence.",
+        "**2026-03-21**: Launched new **Dashboard** page (https://ai4trade.ai/financial-events（https://ai4trade.ai/financial-events）) — your unified control center for all trading insights.",
+        "**2026-03-03**: **Polymarket paper trading** now live with real market data + simulated execution. Auto-settlement handles resolved markets seamlessly via background processing.",
+        "**🤖 Instant Agent Integration** <br>"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <img src=\"./assets/logo.png\" width=\"20%\" style=\"border: none; box-shadow: none;\">\n</div>\n\n<div align=\"center\">\n\n# AI-Trader: 100% Fully-Automated Agent-Native Trading\n\n<a href=\"https://trendshift.io/repositories/15607\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/15607\" alt=\"HKUDS%2FAI-Trader | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)\n[![GitHub stars](https://img.shields.io/github/stars/HKUDS/AI-Trader?style=social)](https://github.com/HKUDS/AI-Trader)\n  <a href=\"https://github.com/HKUDS/.github/blob/main/profile/README.md\"><img src=\"https://img.shields.io/badge/Feishu-Group-E9DBFC?style=flat&logo=feishu&logoColor=white\" alt=\"Feishu\"></a>\n  <a href=\"https://github.com/HKUDS/.github/blob/main/profile/README.md\"><img src=\"https://img.shields.io/badge/WeChat-Group-C5EAB4?style=flat&logo=wechat&logoColor=white\" alt=\"WeChat\"></a>\n\n</div>\n\nJust like humans have their trading platforms, **AI agents need their own**.\n\n**AI-Trader** is an **Agent-Native Trading Platform**: Exchange ideas and sharpen trading skills through AI agents!",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "jundot/omlx",
+      "html_url": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "topics": [
+        "apple-silicon",
+        "inference-server",
+        "llm",
+        "macos",
+        "mlx",
+        "openai-api"
+      ],
+      "stargazers_count": 13374,
+      "forks_count": 1141,
+      "open_issues_count": 326,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+        "**Service log**: `$(brew --prefix)/var/log/omlx.log` (stdout/stderr)",
+        "**Server log**: `~/.omlx/logs/server.log` (structured application log)",
+        "**Hot tier (RAM)**: Frequently accessed blocks stay in memory for fast access.",
+        "**Cold tier (SSD)**: When the hot cache fills up, blocks are offloaded to SSD in safetensors format. On the next request with a matching prefix, they're restored from disk instead of recomputed from scratch - even after a server restart."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/images/icon-rounded-dark.svg\" width=\"140\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/images/icon-rounded-light.svg\" width=\"140\">\n    <img alt=\"oMLX\" src=\"docs/images/icon-rounded-light.svg\" width=\"140\">\n  </picture>\n</p>\n\n<h1 align=\"center\">oMLX</h1>\n<p align=\"center\"><b>LLM inference, optimized for your Mac</b><br>Continuous batching and tiered KV caching, managed directly from your menu bar.</p>\n\n<p align=\"center\">\n<a href=\"https://www.buymeacoffee.com/jundot\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" height=\"40\"></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/license-Apache%202.0-blue\" alt=\"License\">\n  <img src=\"https://img.shields.io/badge/python-3.10+-green\" alt=\"Python 3.10+\">\n  <img src=\"https://img.shields.io/badge/platform-Apple%20Silicon-black?logo=apple\" alt=\"Apple Silicon\">\n</p>\n\n<p align=\"center\">\n  <a href=\"mailto:junkim.dot@gmail.com\">junkim.dot@gmail.com</a> · <a href=\"https://omlx.ai/me\">https://omlx.ai/me</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "datawhalechina/easy-vibe",
+      "html_url": "https://github.com/datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "ai",
+        "coding",
+        "course",
+        "deepseek",
+        "gemini",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "programming",
+        "tutorial",
+        "vibe-coding",
+        "vibecoding",
+        "vscode",
+        "workflow"
+      ],
+      "stargazers_count": 9324,
+      "forks_count": 903,
+      "open_issues_count": 13,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+        "Why Easy-Vibe",
+        "[Who This Is"
+      ],
+      "readme_excerpt": "<!-- trigger vercel build -->\n<div align=\"center\">\n\n<img src=\"assets/easy-vibe-logo-hd.svg\" alt=\"Easy-Vibe Logo\" width=\"300\">\n\n<img src=\"assets/banner.png\" alt=\"Easy-Vibe Banner\" width=\"100%\">\n\n<p align=\"center\" style=\"font-size: 1.2em; color: #666; margin: 20px 0;\">\n  Jump right in and vibe together — if you can talk, you can build apps.<br>\n  <span style=\"font-size: 0.9em; color: #888;\">直接上手，一起 vibe！会说话就会做应用。</span>\n</p>\n\n<a href=\"https://trendshift.io/repositories/22079\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22079\" alt=\"datawhalechina/easy-vibe | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n<p align=\"center\">\n  🚀 <a href=\"https://datawhalechina.github.io/easy-vibe/welcome.html\">Start Exploring</a> · ✨ <a href=\"https://datawhalechina.github.io/easy-vibe/en/appendix/\">Interactive Tutorial</a> · 🦞 <a href=\"https://github.com/datawhalechina/hello-claw\">Learn OpenClaw</a><br>\n  <span style=\"font-size: 0.85em; color: #888;\">🚀 <a href=\"https://datawhalechina.github.io/easy-vibe/welcome.html\">开始体验</a> · ✨ <a href=\"https://datawhalechina.github.io/easy-vibe/zh-cn/appendix/\">交互式教程</a> · 🦞 <a href=\"https://github.com/datawh",
+      "_meta_source": "api"
+    }
+  ]
+}

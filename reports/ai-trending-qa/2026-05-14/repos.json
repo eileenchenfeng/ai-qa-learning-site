@@ -1,0 +1,180 @@
+{
+  "date": "2026-05-14",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "html_url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 5976,
+      "forks_count": 490,
+      "open_issues_count": 87,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+        "**Simple, UI-first & Human** A clean desktop experience and short onboarding paths take you from install to a working agent in a few clicks — no config-first setup, no terminal required. The agent has a face（https://tinyhumans.gitbook.io/openhuman/features/mascot）: a desktop mascot that speaks, reacts to its surroundings, joins your Google Meets（https://tinyhumans.gitbook.io/openhuman/features/mascot/meeting-agents） as a real participant, remembers you across weeks, and keeps thinking in the background even when you've stopped typing.",
+        "**118+ third-party integrations（https://tinyhumans.gitbook.io/openhuman/features/integrations） with auto-fetch（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki/auto-fetch）**: plug into Gmail, Notion, GitHub, Slack, Stripe, Calendar, Drive, Linear, Jira and the rest of your stack with **one-click OAuth**. Every connection is exposed to the agent as a typed tool, and every twenty minutes the core walks each active connection and pulls fresh data into the memory tree（https://tinyhumans.gitbook.io/openhuman/features/integrations/auto-fetch）. No prompts, no polling loops you have to write, so the agent already has tomorrow's context this morning.",
+        "**Memory Tree（https://tinyhumans.gitbook.io/openhuman/features/memory-tree） + Obsidian Wiki（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki）**: a local-first knowledge base built from your data and your activity. Everything you connect is canonicalized into ≤3k-token Markdown chunks, scored, and folded into hierarchical summary trees stored in **SQLite on your machine**. The same chunks land as `.md` files in an Obsidian-compatible vault you can open, browse and edit, inspired by Karpathy's obsidian-wiki workflow（https://x.com/karpathy/status/2039805659525644595）.",
+        "**Batteries included**: web search, a web-fetch scraper（https://tinyhumans.gitbook.io/openhuman/features/native-tools）, a full coder toolset (filesystem, git, lint, test, grep), and native voice（https://tinyhumans.gitbook.io/openhuman/features/voice） (STT in, ElevenLabs TTS out, mascot lip-sync, live Google Meet agent) are wired in by default. Model routing（https://tinyhumans.gitbook.io/openhuman/features/model-routing） sends each task to the right LLM (reasoning, fast, or vision) under one subscription. No \"install a plugin to read files\" friction. Optional local AI via Ollama（https://tinyhumans.gitbook.io/openhuman/features/model-routing/local-ai） for on-device workloads.",
+        "**Smart token compression (TokenJuice)（https://tinyhumans.gitbook.io/openhuman/features/token-compression）**: every tool call, scrape result, email body, and search payload is run through a token compression layer before it touches any LLM Model. HTML is converted to Markdown, long URLs are shortened, non-ASCII characters are removed etc... You get the same information but at a fraction of the tokens. Reducing cost &amp; latency by up to 80%."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">OpenHuman</h1>\n\n<p align=\"center\">\n <img src=\"./gitbooks/.gitbook/assets/demo.png\" alt=\"The Tet\" />\n</p>\n\n<p align=\"center\" style=\"display: inline-block\">\n <a href=\"https://trendshift.io/repositories/23680\" target=\"_blank\" style=\"display: inline-block\">\n  <img src=\"https://trendshift.io/api/badge/repositories/23680\" alt=\"tinyhumansai%2Fopenhuman | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n </a>\n</p>\n\n<p align=\"center\">\n <strong>OpenHuman is your Personal AI super intelligence. Private, Simple and extremely powerful.</strong>\n</p>\n\n\n<p align=\"center\">\n <a href=\"https://discord.tinyhumans.ai/\">Discord</a> •\n <a href=\"https://www.reddit.com/r/tinyhumansai/\">Reddit</a> •\n <a href=\"https://x.com/intent/follow?screen_name=tinyhumansai\">X/Twitter</a> •\n <a href=\"https://tinyhumans.gitbook.io/openhuman/\">Docs</a> •\n <a href=\"https://x.com/intent/follow?screen_name=senamakel\">Follow @senamakel (Creator)</a>\n</p>\n\n<p align=\"center\">\n <img src=\"https://img.shields.io/badge/status-early%20beta-orange\" alt=\"Early Beta\" />\n <a href=\"https://github.com/tinyhumansai/openhuman/releases/latest\"><img src=\"https://img.shields.io/github/v/release/tinyh",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/agentmemory",
+      "html_url": "https://github.com/rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "topics": [
+        "agentmemory",
+        "agents",
+        "ai",
+        "claude",
+        "claudecode",
+        "codex",
+        "copilot",
+        "cursor",
+        "genai",
+        "harness",
+        "hermes",
+        "memory",
+        "openclaw"
+      ],
+      "stargazers_count": 7938,
+      "forks_count": 677,
+      "open_issues_count": 79,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "#1 Persistent memory for AI coding agents based on real-world benchmarks"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"agentmemory — Persistent memory for AI coding agents\" width=\"720\" />\n</p>\n\n<p align=\"center\">\n  <strong>\n    Your coding agent remembers everything. No more re-explaining.\n    Built on <a href=\"https://github.com/iii-hq/iii\">iii engine</a>\n  </strong><br/>\n  Persistent memory for Claude Code, Cursor, Gemini CLI, Codex CLI, Hermes, OpenClaw, pi, OpenCode, and any MCP client.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/25123\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25123\" alt=\"rohitg00/agentmemory | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.star-history.com/?repos=rohitg00%2Fagentmemory&type=date&legend=top-left\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&theme=dark&legend=top-left\" />\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/chart?repos=rohitg00/agentmemory&type=date&legend=top-left\" />\n      <img alt=\"Star History Chart\" src=\"https://api.star-history.com/chart?repos=rohitg00/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 189820,
+      "forks_count": 16902,
+      "open_issues_count": 265,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "Open the plugin search interface:",
+        "Search for Superpowers:"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. \n\nNext up, once you say \"go\", it launches a *",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "yikart/AiToEarn",
+      "html_url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "topics": [
+        "auto-publish",
+        "douyin",
+        "douyin-api",
+        "electron-app",
+        "electron-react",
+        "kuaishou",
+        "kwai",
+        "published",
+        "shipinhao",
+        "tool",
+        "xiaohongshu"
+      ],
+      "stargazers_count": 13117,
+      "forks_count": 2253,
+      "open_issues_count": 6,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Let's use AI to Earn!",
+        "**2026-04-20**: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。",
+        "**2026-03-26**: 2.1 version（https://www.aitoearn.ai/） — 内容交易市场上线；新增 OpenClaw（龙虾）支持，可在龙虾中直接使用 AiToEarn；新增 MCP 协议支持，可在 Claude、Cursor 等任何支持 MCP 的 Agent 或大模型中使用 AiToEarn。",
+        "**2026-02-07**: 1.8.0 version（https://www.aitoearn.ai/），新增线下商户推广解决方案，支持餐厅、零售店、民宿、美容美发、健身房等多种线下业态，将线下推广活动转化为可执行的线上传播任务，通过内容发布与用户参与机制，帮助门店获取更多线上曝光和到店流量。",
+        "**2025-12-15**: \"All In Agent\" 的开始！我们加入了能够自动内容生成和发布以及一些帮助你操作 Aitoearn 的超级 AI 智能 Agent。v1.4.3（https://github.com/yikart/AiToEarn/releases/tag/v1.4.3）",
+        "**2025-11-28**: 支持应用内自动更新。在创作界面新增大量 AI 功能，例如：缩写、扩写、图片生成、视频生成、标签生成等，并支持 Nano Banana Pro。v1.4.0（https://github.com/yikart/AiToEarn/releases/tag/v1.4.0）"
+      ],
+      "readme_excerpt": "# [Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)\n\n<a href=\"https://trendshift.io/repositories/20785\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20785\" alt=\"yikart%2FAiToEarn | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[![GitHub stars](https://img.shields.io/github/stars/yikart/AiToEarn?color=fa6470)](https://github.com/yikart/AiToEarn/stargazers)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Required Node.JS 20.18.x](https://img.shields.io/static/v1?label=node&message=20.18.x&logo=node.js&color=3f893e)](https://nodejs.org/about/releases)\n\n简体中文 | [English](README_EN.md) | [日本語](README_JA.md)\n\n**Monetize · Publish · Engage · Create —— 一站式平台。**\n\nAiToEarn 通过 **AI Agent自动化**，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。\n\n支持渠道：\n抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、微信公众号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn\n\n## 🚀 快速使用 AiToEarn（5 种方式）\n\n| 方式 | 适合谁 | 需要部署吗 |\n|------|--------|-----------|\n| [① 打开网站直接用](#use-web) | 所有用户 | ❌ 不需要 |\n| [② 在龙虾 OpenClaw 中用](#use-in-openclaw) | 龙虾用户 | ❌ 不需要 |\n| [③ 在 Claude / Cursor 等 AI 助手中用](#use-in-claude) | AI 工具用户 | ❌ 不需要 |\n| [④ Docker ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "influxdata/telegraf",
+      "html_url": "https://github.com/influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "topics": [
+        "golang",
+        "hacktoberfest",
+        "influxdb",
+        "json",
+        "kafka",
+        "logs",
+        "metrics",
+        "modbus",
+        "monitoring",
+        "mqtt",
+        "opcua",
+        "t",
+        "telegraf",
+        "telemetry-collection",
+        "time-series",
+        "windows-eventlog",
+        "xpath"
+      ],
+      "stargazers_count": 17040,
+      "forks_count": 5783,
+      "open_issues_count": 409,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+        "Offers a comprehensive suite of over 300 plugins, covering a wide range of",
+        "Enables the integration of user-defined code to collect, transform, and",
+        "Compiles into a standalone static binary without any external dependencies,",
+        "Utilizes TOML for configuration, providing a user-friendly and unambiguous",
+        "Developed with contributions from a diverse community of over 1,200"
+      ],
+      "readme_excerpt": "# ![tiger](assets/TelegrafTigerSmall.png \"tiger\") Telegraf\n\n[![GoDoc](https://img.shields.io/badge/doc-reference-00ADD8.svg?logo=go)](https://godoc.org/github.com/influxdata/telegraf)\n[![Docker pulls](https://img.shields.io/docker/pulls/library/telegraf.svg)](https://hub.docker.com/_/telegraf/)\n[![Go Report Card](https://goreportcard.com/badge/github.com/influxdata/telegraf)](https://goreportcard.com/report/github.com/influxdata/telegraf)\n[![Circle CI](https://circleci.com/gh/influxdata/telegraf.svg?style=svg)](https://circleci.com/gh/influxdata/telegraf)\n\nTelegraf is an agent for collecting, processing, aggregating, and writing\nmetrics, logs, and other arbitrary data.\n\n* Offers a comprehensive suite of over 300 plugins, covering a wide range of\n  functionalities including system monitoring, cloud services, and message\n  passing\n* Enables the integration of user-defined code to collect, transform, and\n  transmit data efficiently\n* Compiles into a standalone static binary without any external dependencies,\n  ensuring a streamlined deployment process\n* Utilizes TOML for configuration, providing a user-friendly and unambiguous\n  setup experience\n* Developed with contributions from a d",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "millionco/react-doctor",
+      "html_url": "https://github.com/millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "code-review",
+        "doctor",
+        "react",
+        "skill"
+      ],
+      "stargazers_count": 9348,
+      "forks_count": 291,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Your agent writes bad React. This catches it",
+        "uses: actions/checkout@v5",
+        "uses: millionco/react-doctor@main",
+        "run: npx -y react-doctor@latest --fail-on warning",
+        "**`ignore.rules`** silences a rule across the whole codebase.",
+        "**`ignore.files`** silences **every** rule on the matched files (use sparingly — it loses coverage for unrelated rules)."
+      ],
+      "readme_excerpt": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"./assets/react-doctor-readme-logo-dark.svg\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"./assets/react-doctor-readme-logo-light.svg\">\n  <img alt=\"React Doctor\" src=\"./assets/react-doctor-readme-logo-light.svg\" width=\"180\" height=\"40\">\n</picture>\n\n[![version](https://img.shields.io/npm/v/react-doctor?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/react-doctor)\n[![downloads](https://img.shields.io/npm/dt/react-doctor.svg?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/react-doctor)\n\nYour agent writes bad React, this catches it.\n\nOne command scans your codebase and outputs a **0 to 100 health score** with actionable diagnostics.\n\nWorks with Next.js, Vite, and React Native.\n\n### [See it in action →](https://react.doctor)\n\n## Install\n\nRun this at your project root:\n\n```bash\nnpx -y react-doctor@latest .\n```\n\nYou'll get a score (75+ Great, 50 to 74 Needs work, under 50 Critical) and a list of issues across state & effects, performance, architecture, security, accessibility, and dead code. Rules toggle automatically based on your framework and React version.\n\nhttps://github.",
+      "_meta_source": "api"
+    }
+  ]
+}

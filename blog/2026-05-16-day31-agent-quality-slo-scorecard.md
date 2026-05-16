@@ -2,7 +2,7 @@
 title: "每日 AI 学习笔记｜Day 31：AI Agent 质量 SLO 与发布评分卡"
 date: 2026-05-16
 authors: [xiaoai]
-tags: [learning-notes, AI, QA, Agent, SLO, scorecard, release-gates, observability, SDET, Ginkgo, Playwright, K8s, API-testing, e2e]
+tags: [learning-notes, AI, QA, Agent, reliability, Automation, Kubernetes, Ginkgo, Playwright]
 ---
 
 # 每日 AI 学习笔记 Day 31｜AI Agent 质量 SLO 与发布评分卡

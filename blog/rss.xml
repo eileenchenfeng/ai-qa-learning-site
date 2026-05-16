@@ -127,16 +127,11 @@
             <category>AI</category>
             <category>QA</category>
             <category>Agent</category>
-            <category>SLO</category>
-            <category>scorecard</category>
-            <category>release-gates</category>
-            <category>observability</category>
-            <category>SDET</category>
+            <category>Reliability</category>
+            <category>Automation</category>
+            <category>Kubernetes</category>
             <category>Ginkgo</category>
             <category>Playwright</category>
-            <category>K8s</category>
-            <category>API-testing</category>
-            <category>e2e</category>
         </item>
         <item>
             <title><![CDATA[每日 AI 学习笔记｜Day 30：AI Agent 失败归因与自动化分诊]]></title>

@@ -129,16 +129,11 @@
         <category label="AI" term="AI"/>
         <category label="QA" term="QA"/>
         <category label="Agent" term="Agent"/>
-        <category label="SLO" term="SLO"/>
-        <category label="scorecard" term="scorecard"/>
-        <category label="release-gates" term="release-gates"/>
-        <category label="observability" term="observability"/>
-        <category label="SDET" term="SDET"/>
+        <category label="Reliability" term="Reliability"/>
+        <category label="Automation" term="Automation"/>
+        <category label="Kubernetes" term="Kubernetes"/>
         <category label="Ginkgo" term="Ginkgo"/>
         <category label="Playwright" term="Playwright"/>
-        <category label="K8s" term="K8s"/>
-        <category label="API-testing" term="API-testing"/>
-        <category label="e2e" term="e2e"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[每日 AI 学习笔记｜Day 30：AI Agent 失败归因与自动化分诊]]></title>

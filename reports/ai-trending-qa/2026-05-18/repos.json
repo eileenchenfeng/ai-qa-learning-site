@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-18",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "html_url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 14011,
+      "forks_count": 1200,
+      "open_issues_count": 116,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+        "**Simple, UI-first & Human** A clean desktop experience and short onboarding paths take you from install to a working agent in a few clicks — no config-first setup, no terminal required. The agent has a face（https://tinyhumans.gitbook.io/openhuman/features/mascot）: a desktop mascot that speaks, reacts to its surroundings, joins your Google Meets（https://tinyhumans.gitbook.io/openhuman/features/mascot/meeting-agents） as a real participant, remembers you across weeks, and keeps thinking in the background even when you've stopped typing.",
+        "**118+ third-party integrations（https://tinyhumans.gitbook.io/openhuman/features/integrations） with auto-fetch（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki/auto-fetch）**: plug into Gmail, Notion, GitHub, Slack, Stripe, Calendar, Drive, Linear, Jira and the rest of your stack with **one-click OAuth**. Every connection is exposed to the agent as a typed tool, and every twenty minutes the core walks each active connection and pulls fresh data into the memory tree（https://tinyhumans.gitbook.io/openhuman/features/integrations/auto-fetch）. No prompts, no polling loops you have to write, so the agent already has tomorrow's context this morning.",
+        "**Memory Tree（https://tinyhumans.gitbook.io/openhuman/features/memory-tree） + Obsidian Wiki（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki）**: a local-first knowledge base built from your data and your activity. Everything you connect is canonicalized into ≤3k-token Markdown chunks, scored, and folded into hierarchical summary trees stored in **SQLite on your machine**. The same chunks land as `.md` files in an Obsidian-compatible vault you can open, browse and edit, inspired by Karpathy's obsidian-wiki workflow（https://x.com/karpathy/status/2039805659525644595）.",
+        "**Batteries included**: web search, a web-fetch scraper（https://tinyhumans.gitbook.io/openhuman/features/native-tools）, a full coder toolset (filesystem, git, lint, test, grep), and native voice（https://tinyhumans.gitbook.io/openhuman/features/voice） (STT in, ElevenLabs TTS out, mascot lip-sync, live Google Meet agent) are wired in by default. Model routing（https://tinyhumans.gitbook.io/openhuman/features/model-routing） sends each task to the right LLM (reasoning, fast, or vision) under one subscription. No \"install a plugin to read files\" friction. Optional local AI via Ollama（https://tinyhumans.gitbook.io/openhuman/features/model-routing/local-ai） for on-device workloads.",
+        "**Smart token compression (TokenJuice)（https://tinyhumans.gitbook.io/openhuman/features/token-compression）**: every tool call, scrape result, email body, and search payload is run through a token compression layer before it touches any LLM Model. HTML is converted to Markdown, long URLs are shortened, and verbose tool output is deduped and summarised via a configurable rule overlay etc... CJK, emoji, and other mu"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">OpenHuman</h1>\n\n<p align=\"center\">\n <img src=\"./gitbooks/.gitbook/assets/demo.png\" alt=\"The Tet\" />\n</p>\n\n<p align=\"center\" style=\"display: inline-block\">\n <a href=\"https://trendshift.io/repositories/23680\" target=\"_blank\" style=\"display: inline-block\">\n  <img src=\"https://trendshift.io/api/badge/repositories/23680\" alt=\"tinyhumansai%2Fopenhuman | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n </a> \n &nbsp;\n <a href=\"https://www.producthunt.com/products/openhuman?embed=true&amp;utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_campaign=badge-openhuman\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img alt=\"OpenHuman - An open source AI harness built with the human in mind | Product Hunt\" width=\"250\" height=\"54\" src=\"https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1136902&amp;theme=light&amp;period=daily&amp;t=1778916022823\">\n </a>\n \n</p>\n \n<p align=\"center\">\n <strong>OpenHuman is your Personal AI super intelligence. Private, Simple and extremely powerful.</strong>\n</p>\n\n\n<p align=\"center\">\n <a href=\"https://discord.tinyhumans.ai/\">Discord</a> •\n <a href=\"https://www.reddit.com/r/tinyhumansai/\">R",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 35867,
+      "forks_count": 3498,
+      "open_issues_count": 55,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "**2026-04-18** 🧩 **All SKILL.md files are now being unified under the top-level `skills/` directory** — every CLI skill can be installed from one canonical source with `npx skills add HKUDS/CLI-Anything --skill <skill-name> -g -y`. We also added root-skill validation CI, synced contribution / PR docs and REPL skill-path hints to the new layout, and refreshed the **CLI-Hub** install-first frontend around the new `npx skills` flow.",
+        "**2026-04-17** 🌐 **CLI-Hub** received another install UX pass — public registry metadata and skill coverage were tightened, visit counting was corrected, and the web hub was further refined. 🧪 **Shotcut** render output duration was fixed (#92). 📝 **SKILL** contribution paths were corrected for the new docs flow (#224), and the skill generator now safely handles empty intros (#203).",
+        "**2026-04-16** 🗺️ **QGIS CLI** merged (#207) — a full GIS / map authoring harness landed. 🧬 **UniMol Tools CLI** merged (#219) for molecular modeling workflows. 🌐 **CLI-Hub** also added more public CLIs, including **py4csr**, refreshed its generated meta-skill, corrected SKILL contribution docs, and fixed `apt-get` package extraction in skill generation (#204).",
+        "**2026-04-16** 📈 **Unreal Insights CLI** expanded — added background capture session control (`capture start/status/snapshot/stop`), engine-root-matched `UnrealInsights.exe` resolution/build flows, and refreshed docs/tests for the new orchestration workflow.",
+        "**2026-04-15** 🌐 **CLI-Hub** updated to **v0.2.0** — the PyPI package now supports public CLIs from multiple install sources (`pip`, `npm`, `brew`, bundled/system tools), backed by a new `public_registry.json`. The Hub frontend was redesigned with separate **CLI-Anything CLIs** and **Public CLIs** decks, and live end-to-end checks now cover real install, update, and uninstall flows across both pip and npm packages."
+      ],
+      "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>\n\n<div align=\"center\">\n<a href=\"https://trendshift.io/repositories/22991\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22991\" alt=\"HKUDS%2FCLI-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n\n<p align=\"center\">\n  <strong>Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖.<br>\nCLI-Anything: Bridging the Gap Between AI Agents and the World's Software</strong><br>\n</p>\n\n**🌐 [CLI-Hub](https://hkuds.github.io/CLI-Anything/)**: `pip install cli-anything-hub` then `cli-hub install <name>` — browse, install, and manage all community-built CLIs. Want to add your own? [Open a PR](https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md) — the hub updates instantly.\n\n**🎬 [See Demos](#-real-world-demos)**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.\n\n**🙋 [Become a Contributor, or Request a CLI]**: [Join us](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "calcom/cal.diy",
+      "html_url": "https://github.com/calcom/cal.diy",
+      "description": "Scheduling infrastructure for absolutely everyone.",
+      "language": "TypeScript",
+      "topics": [
+        "next-auth",
+        "nextjs",
+        "open-source",
+        "postgresql",
+        "prisma",
+        "t3-stack",
+        "tailwindcss",
+        "trpc",
+        "turborepo",
+        "typescript",
+        "zod"
+      ],
+      "stargazers_count": 43370,
+      "forks_count": 13417,
+      "open_issues_count": 1361,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Scheduling infrastructure for absolutely everyone.",
+        "**No enterprise features** — Teams, Organizations, Insights, Workflows, SSO/SAML, and other EE-only features have been removed",
+        "**No license key required** — Everything works out of the box, no Cal.com account or license needed",
+        "**100% open source** — The entire codebase is licensed under MIT, no \"Open Core\" split",
+        "**Community-maintained** — Contributions are welcome and go directly into this project (see CONTRIBUTING.md)",
+        "Next.js（https://nextjs.org/）"
+      ],
+      "readme_excerpt": "> [!WARNING]  \n> Use at your own risk. Cal.diy is the open source community edition of Cal.com and it is intended for users who want to self-host their own Cal.diy instance. It is strictly recommended for personal, non-production use. Please review all installation and configuration steps carefully. Self-hosting requires advanced knowledge of server administration, database management, and securing sensitive data. Proceed only if you are comfortable with these responsibilities.\n\n> [!TIP]\n> For any commercial and enterprise-ready scheduling infrastructure, use Cal.com, not Cal.diy; hosted by us or get invited to on-prem enterprise access here: <a href=\"https://cal.com/sales\">https://cal.com/sales</a>\n\n<!-- PROJECT LOGO -->\n<p align=\"center\">\n  <a href=\"https://github.com/calcom/cal.diy\">\n   <img src=\"https://user-images.githubusercontent.com/8019099/210054112-5955e812-a76e-4160-9ddd-58f2c72f1cce.png\" alt=\"Logo\">\n  </a>\n\n  <h3 align=\"center\">Cal.diy</h3>\n\n  <p align=\"center\">\n    The community-driven, open-source scheduling platform.\n    <br />\n    <a href=\"https://github.com/calcom/cal.diy\"><strong>GitHub</strong></a>\n    <br />\n    <br />\n    <a href=\"https://github.com/calcom/cal.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Anil-matcha/Open-Generative-AI",
+      "html_url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-art-generator",
+        "ai-image-generation",
+        "ai-video-generation",
+        "creative-tools",
+        "flux-1",
+        "generative-ai",
+        "image-to-video",
+        "javascript",
+        "kling-ai",
+        "midjourney-alternative",
+        "muapi",
+        "open-source",
+        "sora-alternative",
+        "text-to-video",
+        "uncensored",
+        "unrestricted",
+        "wan-video"
+      ],
+      "stargazers_count": 15292,
+      "forks_count": 2610,
+      "open_issues_count": 14,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+        "Try to open the app — macOS will block it",
+        "Go to **System Settings → Privacy & Security**",
+        "Scroll down to find _\"Open Generative AI was blocked\"_",
+        "Click **Open Anyway** → **Open**",
+        "Click **More info** on the SmartScreen dialog"
+      ],
+      "readme_excerpt": "# Open Generative AI — Open-Source Alternative to AI Video Platforms\n\n> **The free, open-source alternative to AI Video Platforms.** Generate AI images and videos using 200+ state-of-the-art models — no content filters, no closed ecosystem, no subscription fees.\n\n**Community:** Join [Reddit](reddit.com/r/muapi) & [Discord](https://discord.gg/QhTrNRU4r3) for discussions and support\n\n> 🤖 **Automate media generations with AI coding agents:** [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) — a library of skills that let agents like **Claude Code**, **Codex**, and other coding assistants drive 200+ image/video models end-to-end (prompt → generate → edit → stitch) directly from your terminal. Perfect for building automated media pipelines without touching a UI.\n\n### Related projects\n\n> **Open-source Node based workflow builder** -> https://github.com/SamurAIGPT/Vibe-Workflow\n\n> **Open-source AI Clipping — turn any long-form YouTube video into viral-ready vertical shorts** -> https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator\n\n> **Open-source AI Design Agent** -> https://github.com/Anil-matcha/Open-AI-Design-Agent \n\n## 🌐 Try it Online — No Install R",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "BigBodyCobain/Shadowbroker",
+      "html_url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "description": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+      "language": "Python",
+      "topics": [
+        "air-force-one",
+        "airforce1",
+        "asdb",
+        "cctv",
+        "cctv-cameras",
+        "cctv-surveillance",
+        "earthquake-visualization",
+        "elonjet",
+        "osint",
+        "osint-resources",
+        "osint-tool",
+        "sattelite",
+        "sattelite-imagery",
+        "sdr"
+      ],
+      "stargazers_count": 7223,
+      "forks_count": 1125,
+      "open_issues_count": 46,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+        "**Track Air Force One**, the private jets of billionaires and dictators, and every military tanker, ISR, and fighter broadcasting ADS-B. Air Force One and all of the accompanying Presidential/Vice Presidential planes are highlighted and monitored from the moment they leave the ground.",
+        "**Connect an AI agent as a co-analyst** through ShadowBroker's HMAC-signed agentic command channel — supports OpenClaw and any other agent that speaks the protocol (Claude, GPT, LangChain, custom). The agent gets full read/write access to all 35+ data layers, pin placement, map control, SAR ground-change, mesh networking, and alert delivery. It sees everything the operator sees and can take actions on the map in real time.",
+        "**Communicate on the InfoNet testnet** — The first decentralized intelligence mesh built into an OSINT tool. Obfuscated messaging with gate personas, Dead Drop peer-to-peer exchange, and a built-in terminal CLI. No accounts, no signup. Privacy is not guaranteed yet — this is an experimental testnet — but the protocol is live and being hardened.",
+        "**Right-click anywhere on Earth** for a country dossier (head of state, population, languages), Wikipedia summary, and the latest Sentinel-2 satellite photo at 10m resolution",
+        "**Click a KiwiSDR node** and tune into live shortwave radio directly in the dashboard. Click a police scanner feed and eavesdrop in one click."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <h1 align=\"center\">🛰️ S H A D O W B R O K E R</h1>\n  <p align=\"center\"><strong>Global Threat Intercept — Real-Time Geospatial Intelligence Platform</strong></p>\n  <p align=\"center\">\n\n  </p>\n</p>\n\n---\n\n\n\n\n[![ShadowBroker](/uploads/46f99d19fa141a2efba37feee9de8aab/Title.jpg)](https://github.com/user-attachments/assets/248208ec-62f7-49d1-831d-4bd0a1fa6852)\n\n\n\n\n\n**ShadowBroker** is a decentralized intelligence platform that aggregates real-time, multi-domain OSINT telemetry from 60+ live intelligence feeds into a single dark-ops map interface. Aircraft, ships, satellites, conflict zones, CCTV networks, GPS jamming, internet-connected devices, police scanners, mesh radio nodes, and breaking geopolitical events — all updating in real time on one screen as well as an obfuscated communications protocol and information exchange infrastructure.\n\nBuilt with **Next.js**, **MapLibre GL**, **FastAPI**, and **Python**. 35+ toggleable data layers, including SAR ground-change detection. Multiple visual modes (DEFAULT / SATELLITE / FLIR / NVG / CRT). Right-click any point on Earth for a country dossier, head-of-state lookup, and the latest Sentinel-2 satellite photo. No user dat",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tech-leads-club/agent-skills",
+      "html_url": "https://github.com/tech-leads-club/agent-skills",
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "antigravity",
+        "claude-code",
+        "copilot",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 3636,
+      "forks_count": 326,
+      "open_issues_count": 7,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+        "✨ What are Skills?",
+        "🛡️ Security & Trust",
+        "🤖 Supported Agents",
+        "🌟 Featured Skills",
+        "🚀 Quick Start"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\".github/assets/logo.png\" alt=\"Tech Leads Club\" width=\"400\" />\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/npm/v/@tech-leads-club/agent-skills?style=flat-square&color=blue\" alt=\"npm version\" />\n  <img src=\"https://img.shields.io/npm/dt/@tech-leads-club/agent-skills?style=flat-square&color=blue\" alt=\"total downloads\" />\n  <img src=\"https://img.shields.io/npm/dm/@tech-leads-club/agent-skills?style=flat-square&color=blue\" alt=\"monthly downloads\" />\n  <img src=\"https://img.shields.io/github/license/tech-leads-club/agent-skills?style=flat-square\" alt=\"license\" />\n  <img src=\"https://img.shields.io/github/actions/workflow/status/tech-leads-club/agent-skills/release.yml?style=flat-square\" alt=\"build status\" />\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22-brightgreen?style=flat-square&logo=node.js\" alt=\"node version\" />\n  <img src=\"https://img.shields.io/badge/TypeScript-100%25-blue?style=flat-square&logo=typescript\" alt=\"typescript\" />\n  <img src=\"https://img.shields.io/badge/Nx%20Cloud-Enabled-blue?style=flat-square&logo=nx\" alt=\"nx cloud\" />\n  <img src=\"https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%",
+      "_meta_source": "api"
+    }
+  ]
+}

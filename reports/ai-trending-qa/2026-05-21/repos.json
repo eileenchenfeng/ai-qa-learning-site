@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-21",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Imbad0202/academic-research-skills",
+      "html_url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "topics": [
+        "academic-pipeline",
+        "academic-writing",
+        "ai-research",
+        "claude",
+        "claude-code",
+        "literature-review",
+        "peer-review",
+        "prompt-engineering"
+      ],
+      "stargazers_count": 16648,
+      "forks_count": 1469,
+      "open_issues_count": 14,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+        "Claude Code（https://claude.ai/install.sh） (latest; plugin packaging requires recent versions)",
+        "`ANTHROPIC_API_KEY` exported, or set on first `claude` run",
+        "*Optional:* Pandoc for DOCX, tectonic + Source Han Serif TC for APA 7.0 PDF (Markdown output works without either)"
+      ],
+      "readme_excerpt": "# Academic Research Skills for Claude Code\n\n[![Version](https://img.shields.io/badge/version-v3.9.4.2-blue)](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.9.4.2)\n[![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)\n[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/crucify020v)\n\n[简体中文版](README.zh-CN.md) | [繁體中文版](README.zh-TW.md) | [日本語版](README.ja-JP.md)\n\nA comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research to publication.\n\n**Install in 30 seconds** (Claude Code CLI / VS Code / JetBrains, v3.7.0+):\n\n```text\n/plugin marketplace add Imbad0202/academic-research-skills\n/plugin install academic-research-skills\n```\n\nThen try `/ars-plan` to walk through your paper structure via Socratic dialogue, or jump to [Quick install](#quick-install) for prerequisites and the traditional symlink flow.\n\n> **AI is your copilot, not the pilot.** This tool won't write your paper for you. It handles the grunt work — hunting down references, formatting citations, ver",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "html_url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 23926,
+      "forks_count": 2150,
+      "open_issues_count": 160,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+        "**Simple, UI-first & Human** A clean desktop experience and short onboarding paths take you from install to a working agent in a few clicks — no config-first setup, no terminal required. The agent has a face（https://tinyhumans.gitbook.io/openhuman/features/mascot）: a desktop mascot that speaks, reacts to its surroundings, joins your Google Meets（https://tinyhumans.gitbook.io/openhuman/features/mascot/meeting-agents） as a real participant, remembers you across weeks, and keeps thinking in the background even when you've stopped typing.",
+        "**118+ third-party integrations（https://tinyhumans.gitbook.io/openhuman/features/integrations） with auto-fetch（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki/auto-fetch）**: plug into Gmail, Notion, GitHub, Slack, Stripe, Calendar, Drive, Linear, Jira and the rest of your stack with **one-click OAuth**. Every connection is exposed to the agent as a typed tool, and every twenty minutes the core walks each active connection and pulls fresh data into the memory tree（https://tinyhumans.gitbook.io/openhuman/features/integrations/auto-fetch）. No prompts, no polling loops you have to write, so the agent already has tomorrow's context this morning.",
+        "**Memory Tree（https://tinyhumans.gitbook.io/openhuman/features/memory-tree） + Obsidian Wiki（https://tinyhumans.gitbook.io/openhuman/features/obsidian-wiki）**: a local-first knowledge base built from your data and your activity. Everything you connect is canonicalized into ≤3k-token Markdown chunks, scored, and folded into hierarchical summary trees stored in **SQLite on your machine**. The same chunks land as `.md` files in an Obsidian-compatible vault you can open, browse and edit, inspired by Karpathy's obsidian-wiki workflow（https://x.com/karpathy/status/2039805659525644595）.",
+        "**Batteries included**: web search, a web-fetch scraper（https://tinyhumans.gitbook.io/openhuman/features/native-tools）, a full coder toolset (filesystem, git, lint, test, grep), and native voice（https://tinyhumans.gitbook.io/openhuman/features/voice） (STT in, ElevenLabs TTS out, mascot lip-sync, live Google Meet agent) are wired in by default. Model routing（https://tinyhumans.gitbook.io/openhuman/features/model-routing） send"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">OpenHuman</h1>\n\n<p align=\"center\">\n <img src=\"./gitbooks/.gitbook/assets/demo.png\" alt=\"The Tet\" />\n</p>\n\n<p align=\"center\" style=\"display: inline-block\">\n <a href=\"https://trendshift.io/repositories/23680\" target=\"_blank\" style=\"display: inline-block\">\n  <img src=\"https://trendshift.io/api/badge/repositories/23680\" alt=\"tinyhumansai%2Fopenhuman | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n </a> \n &nbsp;\n <a href=\"https://www.producthunt.com/products/openhuman?embed=true&amp;utm_source=badge-top-post-badge&amp;utm_medium=badge&amp;utm_campaign=badge-openhuman\" target=\"_blank\" rel=\"noopener noreferrer\">\n  <img alt=\"OpenHuman - An open source AI harness built with the human in mind | Product Hunt\" width=\"250\" height=\"54\" src=\"https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1136902&amp;theme=light&amp;period=daily&amp;t=1778916022823\">\n </a>\n \n</p>\n \n<p align=\"center\">\n <strong>OpenHuman is your Personal AI super intelligence. Private, Simple and extremely powerful.</strong>\n</p>\n\n\n<p align=\"center\">\n <a href=\"https://discord.tinyhumans.ai/\">Discord</a> •\n <a href=\"https://www.reddit.com/r/tinyhumansai/\">R",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 141352,
+      "forks_count": 14516,
+      "open_issues_count": 97,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "**State assumptions explicitly** — If uncertain, ask rather than guess",
+        "**Present multiple interpretations** — Don't pick silently when ambiguity exists",
+        "**Push back when warranted** — If a simpler approach exists, say so",
+        "**Stop when confused** — Name what's unclear and ask for clarification",
+        "No features beyond what was asked"
+      ],
+      "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines\n\n> Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)\n\nA single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.\n\nEnglish | [简体中文](./README.zh.md)\n\n## The Problems\n\nFrom Andrej's post:\n\n> \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\"\n\n> \"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\"\n\n> \"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\"\n\n## The Solution\n\nFour principles in one file that directly address these issues:\n\n| Principle | Addr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 9832,
+      "forks_count": 1985,
+      "open_issues_count": 20,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-435-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"435 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n```\n░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒\n```\n\n> **84% of students already use AI tools. Only 18% feel prepared to use them\n> professionally.** This curricul",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 38647,
+      "forks_count": 3671,
+      "open_issues_count": 56,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "**2026-05-20** 🎛️ **Rekordbox CLI** merged (#252) with guarded SQLCipher write paths, backup-required forced writes, smoke coverage, and root skill sync. 📚 **Calibre CLI** merged (#223) with library/search/metadata/conversion/export workflows, 41 unit tests, real-Calibre E2E evidence, and root skill validation. 🧊 **3MF CLI** merged (#209) with mesh inspection, hole resizing, repair, comparison, and preserved triangle attributes. 🎙️ **MiniMax CLI** merged (#189) with chat/TTS workflows, JSON-safe model/voice listing, REPL quote handling, and smoke/E2E coverage. 🎮 **UEAtelier** joined the registry (#297) as an Unreal Editor MCP self-extension workbench with a Python CLI proxy.",
+        "**2026-05-19** 🛠️ Existing harnesses got a quality/security pass — **Zoom** downloads recordings from direct URLs (#294), **Obsidian** search now uses the Local REST API vendor content types (#289), **LibreOffice** headless conversion is more robust on macOS (#290), and XML/SVG/ODF/MLT/MusicXML/CSL parsing now routes untrusted input through `defusedxml` (#296).",
+        "**2026-05-18** 📈 README presentation refreshed with the Trendshift badge and centered project header polish (#285, #286), keeping the landing section focused on discovery and project momentum.",
+        "**2026-05-17** 🌐 **CLI-Hub** registry handling was hardened (#281) — registry entries are now copied before `_source` tagging, preventing cached or mocked registry data from being mutated in place.",
+        "**2026-05-16** 🔧 **n8n** received the REPL banner crash fix that later merged into main (#280), restoring the no-subcommand interactive startup path with regression coverage."
+      ],
+      "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>\n\n<div align=\"center\">\n<a href=\"https://trendshift.io/repositories/22991\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22991\" alt=\"HKUDS%2FCLI-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n\n<p align=\"center\">\n  <strong>Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖.<br>\nCLI-Anything: Bridging the Gap Between AI Agents and the World's Software</strong><br>\n</p>\n\n**🌐 [CLI-Hub](https://hkuds.github.io/CLI-Anything/)**: `pip install cli-anything-hub` then `cli-hub install <name>` — browse, install, and manage all community-built CLIs. Want to add your own? [Open a PR](https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md) — the hub updates instantly.\n\n**🎬 [See Demos](#-real-world-demos)**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.\n\n**🙋 [Become a Contributor, or Request a CLI]**: [Join us](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "can1357/oh-my-pi",
+      "html_url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-coding-agent",
+        "anthropic",
+        "bun",
+        "claude",
+        "cli",
+        "coding-assistant",
+        "llm",
+        "mcp",
+        "multi-provider",
+        "openai",
+        "rust",
+        "terminal",
+        "tui",
+        "typescript"
+      ],
+      "stargazers_count": 5519,
+      "forks_count": 458,
+      "open_issues_count": 174,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+        "`read` : summarized snippets · ideal defaults · selector hit rate",
+        "`search` : fastest in the west",
+        "`lsp` : everything your IDE knows, the agent knows",
+        "`prompts` : adjusted relentlessly for each model"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"https://github.com/can1357/oh-my-pi/blob/main/assets/hero.png?raw=true\" alt=\"omp\">\n</p>\n\n<p align=\"center\">\n  <strong>A coding agent with the IDE wired in.</strong>\n  <strong><a href=\"https://omp.sh\">omp.sh</a></strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@oh-my-pi/pi-coding-agent\"><img src=\"https://img.shields.io/npm/v/@oh-my-pi/pi-coding-agent?style=flat&colorA=222222&colorB=CB3837\" alt=\"npm version\"></a>\n  <a href=\"https://github.com/can1357/oh-my-pi/blob/main/packages/coding-agent/CHANGELOG.md\"><img src=\"https://img.shields.io/badge/changelog-keep-E05735?style=flat&colorA=222222\" alt=\"Changelog\"></a>\n  <a href=\"https://github.com/can1357/oh-my-pi/actions\"><img src=\"https://img.shields.io/github/actions/workflow/status/can1357/oh-my-pi/ci.yml?style=flat&colorA=222222&colorB=3FB950\" alt=\"CI\"></a>\n  <a href=\"https://github.com/can1357/oh-my-pi/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/can1357/oh-my-pi?style=flat&colorA=222222&colorB=58A6FF\" alt=\"License\"></a>\n  <a href=\"https://www.typescriptlang.org\"><img src=\"https://img.shields.io/badge/TypeScript-3178C6?style=flat&colorA=222222&logo=typescrip",
+      "_meta_source": "api"
+    }
+  ]
+}

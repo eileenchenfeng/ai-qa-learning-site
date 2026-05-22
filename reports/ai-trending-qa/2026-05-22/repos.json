@@ -1,0 +1,162 @@
+{
+  "date": "2026-05-22",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 143688,
+      "forks_count": 14730,
+      "open_issues_count": 102,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+        "**State assumptions explicitly** — If uncertain, ask rather than guess",
+        "**Present multiple interpretations** — Don't pick silently when ambiguity exists",
+        "**Push back when warranted** — If a simpler approach exists, say so",
+        "**Stop when confused** — Name what's unclear and ask for clarification",
+        "No features beyond what was asked"
+      ],
+      "readme_excerpt": "# Karpathy-Inspired Claude Code Guidelines\n\n> Check out my new project [Multica](https://github.com/multica-ai/multica) — an open-source platform for running and managing coding agents with reusable skills.\n>\n> Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)\n\nA single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.\n\nEnglish | [简体中文](./README.zh.md)\n\n## The Problems\n\nFrom Andrej's post:\n\n> \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\"\n\n> \"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\"\n\n> \"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\"\n\n## The Solution\n\nFour principles in one file that directly address these issues:\n\n| Principle | Addr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "dotnet/skills",
+      "html_url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "topics": [
+        "agent-skills"
+      ],
+      "stargazers_count": 2255,
+      "forks_count": 183,
+      "open_issues_count": 88,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Repository for skills to assist AI coding agents with .NET and C#",
+        "Launch Copilot CLI or Claude Code",
+        "Add the marketplace:",
+        "Install a plugin:",
+        "Restart to load the new plugins",
+        "View available skills:"
+      ],
+      "readme_excerpt": "# .NET Agent Skills\n\n[![Dashboard](https://github.com/dotnet/skills/actions/workflows/pages/pages-build-deployment/badge.svg)](https://dotnet.github.io/skills/)\n\nThis repository contains the .NET team's curated set of core skills and custom agents for coding agents. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io).\n\n[**📊 Dashboard**](https://dotnet.github.io/skills/) - Accuracy and efficiency scoring trends for contained plugins (https://dotnet.github.io/skills/)\n\n## What's Included\n\n| Plugin | Description |\n|--------|-------------|\n| [dotnet](plugins/dotnet/) | Collection of core .NET skills for handling common .NET coding tasks. |\n| [dotnet-data](plugins/dotnet-data/) | Skills for .NET data access and Entity Framework related tasks. |\n| [dotnet-diag](plugins/dotnet-diag/) | Skills for .NET performance investigations, debugging, and incident analysis. |\n| [dotnet-msbuild](plugins/dotnet-msbuild/) | Comprehensive MSBuild and .NET build skills: failure diagnosis, performance optimization, code quality, and modernization. |\n| [dotnet-nuget](plugins/dotnet-nuget/) | NuGet and .NET package management: dependency management and modernization.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 201793,
+      "forks_count": 17982,
+      "open_issues_count": 302,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "Open the plugin search interface:",
+        "Search for Superpowers:"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. \n\nNext up, once you say \"go\", it launches a *",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 39232,
+      "forks_count": 3719,
+      "open_issues_count": 60,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "**2026-05-20** 🎛️ **Rekordbox CLI** merged (#252) with guarded SQLCipher write paths, backup-required forced writes, smoke coverage, and root skill sync. 📚 **Calibre CLI** merged (#223) with library/search/metadata/conversion/export workflows, 41 unit tests, real-Calibre E2E evidence, and root skill validation. 🧊 **3MF CLI** merged (#209) with mesh inspection, hole resizing, repair, comparison, and preserved triangle attributes. 🎙️ **MiniMax CLI** merged (#189) with chat/TTS workflows, JSON-safe model/voice listing, REPL quote handling, and smoke/E2E coverage. 🎮 **UEAtelier** joined the registry (#297) as an Unreal Editor MCP self-extension workbench with a Python CLI proxy.",
+        "**2026-05-19** 🛠️ Existing harnesses got a quality/security pass — **Zoom** downloads recordings from direct URLs (#294), **Obsidian** search now uses the Local REST API vendor content types (#289), **LibreOffice** headless conversion is more robust on macOS (#290), and XML/SVG/ODF/MLT/MusicXML/CSL parsing now routes untrusted input through `defusedxml` (#296).",
+        "**2026-05-18** 📈 README presentation refreshed with the Trendshift badge and centered project header polish (#285, #286), keeping the landing section focused on discovery and project momentum.",
+        "**2026-05-17** 🌐 **CLI-Hub** registry handling was hardened (#281) — registry entries are now copied before `_source` tagging, preventing cached or mocked registry data from being mutated in place.",
+        "**2026-05-16** 🔧 **n8n** received the REPL banner crash fix that later merged into main (#280), restoring the no-subcommand interactive startup path with regression coverage."
+      ],
+      "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>\n\n<div align=\"center\">\n<a href=\"https://trendshift.io/repositories/22991\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22991\" alt=\"HKUDS%2FCLI-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n\n<p align=\"center\">\n  <strong>Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖.<br>\nCLI-Anything: Bridging the Gap Between AI Agents and the World's Software</strong><br>\n</p>\n\n**🌐 [CLI-Hub](https://hkuds.github.io/CLI-Anything/)**: `pip install cli-anything-hub` then `cli-hub install <name>` — browse, install, and manage all community-built CLIs. Want to add your own? [Open a PR](https://github.com/HKUDS/CLI-Anything/blob/main/CONTRIBUTING.md) — the hub updates instantly.\n\n**🎬 [See Demos](#-real-world-demos)**: Watch AI agents use generated CLIs plus preview, live preview, and trajectory loops to produce real artifacts — CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.\n\n**🙋 [Become a Contributor, or Request a CLI]**: [Join us](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 40579,
+      "forks_count": 2576,
+      "open_issues_count": 84,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 10915,
+      "forks_count": 2139,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-435-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"435 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n```\n░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒\n```\n\n> **84% of students already use AI tools. Only 18% feel prepared to use them\n> professionally.** This curricul",
+      "_meta_source": "api"
+    }
+  ]
+}

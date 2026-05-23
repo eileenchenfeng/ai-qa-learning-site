@@ -1,0 +1,187 @@
+{
+  "date": "2026-05-23",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "colbymchenry/codegraph",
+      "html_url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 16873,
+      "forks_count": 933,
+      "open_issues_count": 111,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# CodeGraph\n\n### Supercharge Claude Code, Cursor, Codex, OpenCode, and Hermes Agent with Semantic Code Intelligence\n\n**~35% cheaper · ~70% fewer tool calls · 100% local**\n\n[![npm version](https://img.shields.io/npm/v/@colbymchenry/codegraph.svg)](https://www.npmjs.com/package/@colbymchenry/codegraph)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Self-contained](https://img.shields.io/badge/Node.js-bundled%20%C2%B7%20none%20required-brightgreen.svg)](https://nodejs.org/)\n\n[![Windows](https://img.shields.io/badge/Windows-supported-blue.svg)](#supported-platforms)\n[![macOS](https://img.shields.io/badge/macOS-supported-blue.svg)](#supported-platforms)\n[![Linux](https://img.shields.io/badge/Linux-supported-blue.svg)](#supported-platforms)\n\n[![Claude Code](https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg)](#supported-agents)\n[![Cursor](https://img.shields.io/badge/Cursor-supported-blueviolet.svg)](#supported-agents)\n[![Codex CLI](https://img.shields.io/badge/Codex_CLI-supported-blueviolet.svg)](#supported-agents)\n[![opencode](https://img.shields.io/badge/opencode-supported-blueviolet.s",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ruvnet/RuView",
+      "html_url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "topics": [
+        "agentic-ai",
+        "densepose",
+        "esp32",
+        "firmware",
+        "mcu",
+        "mincut",
+        "monitoring",
+        "pose-estimation",
+        "rf",
+        "self",
+        "self-learning",
+        "spatial-intelligence",
+        "wifi",
+        "wifi-hacking",
+        "wifi-security",
+        "world-model"
+      ],
+      "stargazers_count": 64122,
+      "forks_count": 8470,
+      "open_issues_count": 86,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+        "**Presence and occupancy** — detect people through walls, count them, track entries and exits",
+        "**Vital signs** — breathing rate and heart rate, contactless, while sleeping or sitting",
+        "**Activity recognition** — walking, sitting, gestures, falls — from temporal CSI patterns",
+        "**Environment mapping** — RF fingerprinting identifies rooms, detects moved furniture, spots new objects",
+        "**Sleep quality** — overnight monitoring with sleep stage classification and apnea screening"
+      ],
+      "readme_excerpt": "# π RuView\n\n<p align=\"center\">\n  <a href=\"https://cognitum.one/seed\">\n    <img src=\"assets/ruview-seed.png\" alt=\"RuView - WiFi DensePose\" width=\"100%\">\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://cognitum.one/seed\">\n    <img src=\"assets/seed.png\" alt=\"Cognitum Seed\" width=\"100%\">\n  </a>\n</p>\n\n> **Beta Software** — Under active development. APIs and firmware may change. Known limitations:\n> - ESP32-C3 and original ESP32 are not supported (single-core, insufficient for CSI DSP)\n> - Single ESP32 deployments have limited spatial resolution — use 2+ nodes or add a [Cognitum Seed](https://cognitum.one) for best results\n> - Camera-free pose accuracy is limited (PCK@20 ≈ 2.5% with proxy labels) — [camera ground-truth training](docs/adr/ADR-079-camera-ground-truth-training.md) targets **35%+ PCK@20**; the pipeline is implemented, but the data-collection and evaluation phases (ADR-079 P7–P9) are still pending, so no measured camera-supervised PCK@20 has been published yet\n>\n> Contributions and bug reports welcome at [Issues](https://github.com/ruvnet/RuView/issues).\n\n## **See through walls with WiFi** ##\n\n**Turn ordinary WiFi into a spatial intelligence / sensing system.** Detect peopl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 12134,
+      "forks_count": 2294,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-435-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"435 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n```\n░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒\n```\n\n> **84% of students already use AI tools. Only 18% feel prepared to use them\n> professionally.** This curricul",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 41040,
+      "forks_count": 2609,
+      "open_issues_count": 88,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "dotnet/skills",
+      "html_url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "topics": [
+        "agent-skills"
+      ],
+      "stargazers_count": 2571,
+      "forks_count": 202,
+      "open_issues_count": 85,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Repository for skills to assist AI coding agents with .NET and C#",
+        "Launch Copilot CLI or Claude Code",
+        "Add the marketplace:",
+        "Install a plugin:",
+        "Restart to load the new plugins",
+        "View available skills:"
+      ],
+      "readme_excerpt": "# .NET Agent Skills\n\n[![Dashboard](https://github.com/dotnet/skills/actions/workflows/pages/pages-build-deployment/badge.svg)](https://dotnet.github.io/skills/)\n\nThis repository contains the .NET team's curated set of core skills and custom agents for coding agents. For information about the Agent Skills standard, see [agentskills.io](https://agentskills.io).\n\n[**📊 Dashboard**](https://dotnet.github.io/skills/) - Accuracy and efficiency scoring trends for contained plugins (https://dotnet.github.io/skills/)\n\n## What's Included\n\n| Plugin | Description |\n|--------|-------------|\n| [dotnet](plugins/dotnet/) | Collection of core .NET skills for handling common .NET coding tasks. |\n| [dotnet-data](plugins/dotnet-data/) | Skills for .NET data access and Entity Framework related tasks. |\n| [dotnet-diag](plugins/dotnet-diag/) | Skills for .NET performance investigations, debugging, and incident analysis. |\n| [dotnet-msbuild](plugins/dotnet-msbuild/) | Comprehensive MSBuild and .NET build skills: failure diagnosis, performance optimization, code quality, and modernization. |\n| [dotnet-nuget](plugins/dotnet-nuget/) | NuGet and .NET package management: dependency management and modernization.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Lum1104/Understand-Anything",
+      "html_url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "stargazers_count": 18942,
+      "forks_count": 1718,
+      "open_issues_count": 18,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">Understand Anything</h1>\n\n<p align=\"center\">\n  <strong>Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</strong>\n  <br />\n  <em>Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/23482\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23482\" alt=\"Lum1104%2FUnderstand-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> | <a href=\"READMEs/README.zh-CN.md\">简体中文</a> | <a href=\"READMEs/README.zh-TW.md\">繁體中文</a> | <a href=\"READMEs/README.ja-JP.md\">日本語</a> | <a href=\"READMEs/README.ko-KR.md\">한국어</a> | <a href=\"READMEs/README.es-ES.md\">Español</a> | <a href=\"READMEs/README.tr-TR.md\">Türkçe</a> | <a href=\"READMEs/README.ru-RU.md\">Русский</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#-quick-start\"><img src=\"https://img.shields.io/badge/Quick_Start-blue\" alt=\"Quick Start\" /></a>\n  <a href=\"https://github.com/Lum1104/Understand-Anything/blob/main/LICENSE\"><img src=\"https://img.shields.io/badg",
+      "_meta_source": "api"
+    }
+  ]
+}

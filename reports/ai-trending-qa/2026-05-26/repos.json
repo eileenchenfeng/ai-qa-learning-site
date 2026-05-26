@@ -1,0 +1,193 @@
+{
+  "date": "2026-05-26",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Lum1104/Understand-Anything",
+      "html_url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "stargazers_count": 31984,
+      "forks_count": 2621,
+      "open_issues_count": 52,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">Understand Anything</h1>\n\n<p align=\"center\">\n  <strong>Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</strong>\n  <br />\n  <em>Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/23482\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23482\" alt=\"Lum1104%2FUnderstand-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> | <a href=\"READMEs/README.zh-CN.md\">简体中文</a> | <a href=\"READMEs/README.zh-TW.md\">繁體中文</a> | <a href=\"READMEs/README.ja-JP.md\">日本語</a> | <a href=\"READMEs/README.ko-KR.md\">한국어</a> | <a href=\"READMEs/README.es-ES.md\">Español</a> | <a href=\"READMEs/README.tr-TR.md\">Türkçe</a> | <a href=\"READMEs/README.ru-RU.md\">Русский</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#-quick-start\"><img src=\"https://img.shields.io/badge/Quick_Start-blue\" alt=\"Quick Start\" /></a>\n  <a href=\"https://github.com/Lum1104/Understand-Anything/blob/main/LICENSE\"><img src=\"https://img.shields.io/badg",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 19035,
+      "forks_count": 3206,
+      "open_issues_count": 39,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-435-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"435 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n```\n░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒\n```\n\n> **84% of students already use AI tools. Only 18% feel prepared to use them\n> professionally.** This curricul",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 192738,
+      "forks_count": 29812,
+      "open_issues_count": 11,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md)\n\n# ECC\n\n![ECC - the harness-native operator system for agentic work](assets/hero.png)\n\n[![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/stargazers)\n[![Forks](https://img.shields.io/github/forks/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/network/members)\n[![Contributors](https://img.shields.io/github/contributors/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/graphs/contributors)\n[![npm ecc-universal](https://img.shields.io/npm/dw/ecc-universal?label=ecc-universal%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-universal)\n[![npm ecc-agentshield](https://img.shields.io/npm/dw/ecc-agentshield?label=ecc-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-agentshield)\n[![GitHub App Install](https://img.shields.io/badge/GitHub%2",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "cloud-security",
+        "cybersecurity",
+        "devsecops",
+        "ethical-hacking",
+        "incident-response",
+        "infosec",
+        "llm",
+        "malware-analysis",
+        "mcp",
+        "mitre-attack",
+        "nist-csf",
+        "osint",
+        "penetration-testing",
+        "red-team",
+        "security",
+        "security-automation",
+        "threat-hunting",
+        "threat-intelligence"
+      ],
+      "stargazers_count": 9399,
+      "forks_count": 1145,
+      "open_issues_count": 18,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+        "60 questions · Anonymous · Supervised by SRH Berlin",
+        "You get **50 Casky Tokens** for early access to casky.ai（https://casky.ai）",
+        "Results published open access under CC-BY 4.0",
+        "Run live cybersecurity skill exercises against real targets",
+        "See AI agents execute structured skills in real time"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Anthropic Cybersecurity Skills\" width=\"100%\">\n</p>\n\n<div align=\"center\">\n\n#  Anthropic Cybersecurity Skills\n\n### The largest open-source cybersecurity skills library for AI agents\n\n[![GARS-2026 Survey](https://img.shields.io/badge/GARS--2026-Take%20the%20Survey-E8B84B?style=for-the-badge&logo=googleforms&logoColor=black)](https://mahipal.engineer/survey?utm_source=github_badge&utm_medium=readme&utm_campaign=gars2026)\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)](LICENSE)\n[![Skills](https://img.shields.io/badge/skills-754-brightgreen?style=flat-square)](#whats-inside--26-security-domains)\n[![Frameworks](https://img.shields.io/badge/frameworks-5-orange?style=flat-square)](#five-frameworks-one-skill-library)\n[![Domains](https://img.shields.io/badge/domains-26-9cf?style=flat-square)](#whats-inside--26-security-domains)\n[![Platforms](https://img.shields.io/badge/platforms-26%2B-blueviolet?style=flat-square)](#compatible-platforms)\n[![GitHub stars](https://img.shields.io/github/stars/mukul975/Anthropic-Cybersecurity-Skills?style=flat-square)](https://github.com/mukul975/Anthropic-Cybersecuri",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "colbymchenry/codegraph",
+      "html_url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 25757,
+      "forks_count": 1428,
+      "open_issues_count": 173,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# CodeGraph\n\n### Supercharge Claude Code, Cursor, Codex, OpenCode, and Hermes Agent with Semantic Code Intelligence\n\n**~35% cheaper · ~70% fewer tool calls · 100% local**\n\n### [Documentation & Website →](https://colbymchenry.github.io/codegraph/)\n\n[![npm version](https://img.shields.io/npm/v/@colbymchenry/codegraph.svg)](https://www.npmjs.com/package/@colbymchenry/codegraph)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Self-contained](https://img.shields.io/badge/Node.js-bundled%20%C2%B7%20none%20required-brightgreen.svg)](https://nodejs.org/)\n\n[![Windows](https://img.shields.io/badge/Windows-supported-blue.svg)](#supported-platforms)\n[![macOS](https://img.shields.io/badge/macOS-supported-blue.svg)](#supported-platforms)\n[![Linux](https://img.shields.io/badge/Linux-supported-blue.svg)](#supported-platforms)\n\n[![Claude Code](https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg)](#supported-agents)\n[![Cursor](https://img.shields.io/badge/Cursor-supported-blueviolet.svg)](#supported-agents)\n[![Codex CLI](https://img.shields.io/badge/Codex_CLI-supported-blueviolet.svg)](#supported-agent",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "manaflow-ai/cmux",
+      "html_url": "https://github.com/manaflow-ai/cmux",
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "language": "Swift",
+      "topics": [
+        "amp",
+        "claude-code",
+        "codex",
+        "gemini",
+        "ghostty",
+        "opencode",
+        "terminal",
+        "tmux"
+      ],
+      "stargazers_count": 19577,
+      "forks_count": 1478,
+      "open_issues_count": 2127,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+        "**Browser import** — Import cookies, history, and sessions from Chrome, Firefox, Arc, and 20+ browsers so browser panes start authenticated",
+        "**Custom commands** — Define project-specific actions in `cmux.json`（https://cmux.com/docs/custom-commands） that launch from the command palette",
+        "**Scriptable** — CLI and socket API to create workspaces, split panes, send keystrokes, and automate the browser",
+        "**Native macOS app** — Built with Swift and AppKit, not Electron. Fast startup, low memory.",
+        "**Ghostty compatible** — Reads your existing `~/.config/ghostty/config` for themes, fonts, and colors"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">cmux</h1>\n<p align=\"center\">A Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg\">\n    <img src=\"./docs/assets/macos-badge.png\" alt=\"Download cmux for macOS\" width=\"180\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  English | <a href=\"README.ja.md\">日本語</a> | <a href=\"README.vi.md\">Tiếng Việt</a> | <a href=\"README.zh-CN.md\">简体中文</a> | <a href=\"README.zh-TW.md\">繁體中文</a> | <a href=\"README.ko.md\">한국어</a> | <a href=\"README.de.md\">Deutsch</a> | <a href=\"README.es.md\">Español</a> | <a href=\"README.fr.md\">Français</a> | <a href=\"README.it.md\">Italiano</a> | <a href=\"README.da.md\">Dansk</a> | <a href=\"README.pl.md\">Polski</a> | <a href=\"README.ru.md\">Русский</a> | <a href=\"README.bs.md\">Bosanski</a> | <a href=\"README.ar.md\">العربية</a> | <a href=\"README.no.md\">Norsk</a> | <a href=\"README.pt-BR.md\">Português (Brasil)</a> | <a href=\"README.th.md\">ไทย</a> | <a href=\"README.tr.md\">Türkçe</a> | <a href=\"README.km.md\">ភាសាខ្មែរ</a> | <a href=\"README.uk.md\">Українська</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://x.com/manaflowai\"><img src=\"",
+      "_meta_source": "api"
+    }
+  ]
+}

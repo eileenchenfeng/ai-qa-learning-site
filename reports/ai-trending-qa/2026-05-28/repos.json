@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-28",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "stargazers_count": 63052,
+      "forks_count": 9177,
+      "open_issues_count": 6,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "[x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`",
+        "[x] 支持视频文案 **AI自动生成**，也可以**自定义文案**",
+        "[x] 支持多种 **高清视频** 尺寸",
+        "[x] 竖屏 9:16，`1080x1920`",
+        "[x] 横屏 16:9，`1920x1080`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n<br>\n只需提供一个视频 <b>主题",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Lum1104/Understand-Anything",
+      "html_url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "stargazers_count": 40600,
+      "forks_count": 3240,
+      "open_issues_count": 96,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">Understand Anything</h1>\n\n<p align=\"center\">\n  <strong>Turn any codebase, knowledge base, or docs into an interactive knowledge graph you can explore, search, and ask questions about.</strong>\n  <br />\n  <em>Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/23482\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/23482\" alt=\"Lum1104%2FUnderstand-Anything | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> | <a href=\"READMEs/README.zh-CN.md\">简体中文</a> | <a href=\"READMEs/README.zh-TW.md\">繁體中文</a> | <a href=\"READMEs/README.ja-JP.md\">日本語</a> | <a href=\"READMEs/README.ko-KR.md\">한국어</a> | <a href=\"READMEs/README.es-ES.md\">Español</a> | <a href=\"READMEs/README.tr-TR.md\">Türkçe</a> | <a href=\"READMEs/README.ru-RU.md\">Русский</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#-quick-start\"><img src=\"https://img.shields.io/badge/Quick_Start-blue\" alt=\"Quick Start\" /></a>\n  <a href=\"https://github.com/Lum1104/Understand-Anything/blob/main/LICENSE\"><img src=\"https://img.shields.io/badg",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "hardikpandya/stop-slop",
+      "html_url": "https://github.com/hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 5854,
+      "forks_count": 437,
+      "open_issues_count": 15,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "A skill file for removing AI tells from prose"
+      ],
+      "readme_excerpt": "# Stop Slop\n\nA skill for removing AI tells from prose.\n\n<img width=\"3840\" height=\"2160\" alt=\"G-Yg4RVbIAAhVxW\" src=\"https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf\" />\n\n## What this is\n\nAI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.\n\n## Skill Structure\n\n```\nstop-slop/\n├── SKILL.md              # Core instructions\n├── references/\n│   ├── phrases.md        # Phrases to remove\n│   ├── structures.md     # Structural patterns to avoid\n│   └── examples.md       # Before/after transformations\n├── README.md\n└── LICENSE\n```\n\n## Quick start\n\n**Claude Code:** Add this folder as a skill.\n\n**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.\n\n**Custom instructions:** Copy core rules from `SKILL.md`.\n\n**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.\n\n## What it catches\n\n**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.\n\n**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, r",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 196244,
+      "forks_count": 30193,
+      "open_issues_count": 31,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md)\n\n# ECC\n\n![ECC - the harness-native operator system for agentic work](assets/hero.png)\n\n[![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/stargazers)\n[![Forks](https://img.shields.io/github/forks/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/network/members)\n[![Contributors](https://img.shields.io/github/contributors/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/graphs/contributors)\n[![npm ecc-universal](https://img.shields.io/npm/dw/ecc-universal?label=ecc-universal%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-universal)\n[![npm ecc-agentshield](https://img.shields.io/npm/dw/ecc-agentshield?label=ecc-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-agentshield)\n[![GitHub App Install](https://img.shields.io/badge/GitHub%2",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "html_url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "stargazers_count": 24663,
+      "forks_count": 1891,
+      "open_issues_count": 15,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "Open a Pull Request or Issue on GitHub",
+        "DM @lexnlin（https://x.com/lexnlin） or @blueemi99（https://x.com/blueemi99）",
+        "Email us at hello@tasteskill.dev"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/readme-banner.png\" alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"100%\" />\n</p>\n\n# Taste Skill\n\n<p align=\"center\">\n  <em>The Anti-Slop Frontend Framework for AI Agents</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\" title=\"Taste Skill - tasteskill.dev\">\n    <img src=\"assets/taste-skill-logo.webp\" width=\"80\" height=\"80\" alt=\"Taste Skill\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\">\n    <img src=\"https://img.shields.io/badge/OPEN-tasteskill.dev-%23a855f7?style=for-the-badge&labelColor=%230f172a\" alt=\"Open tasteskill.dev\" />\n  </a>\n</p>\n\nPortable **Agent Skills** that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes **image-generation skills** for reference boards (web, mobile, brand kits). Pair them with **ChatGPT Images** or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation.\n\n<p align=\"center\">\n<a href=\"https://github.com/Leonxlnx/taste-skill/stargazers\"><img src=\"https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=for-the-badge&logo=gith",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "html_url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "topics": [
+        "abliteration",
+        "llm",
+        "transformer"
+      ],
+      "stargazers_count": 22091,
+      "forks_count": 2355,
+      "open_issues_count": 74,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fully automatic censorship removal for language models"
+      ],
+      "readme_excerpt": "<img width=\"128\" height=\"128\" align=\"right\" alt=\"Logo\" src=\"https://github.com/user-attachments/assets/df5f2840-2f92-4991-aa57-252747d7182e\" />\n\n# Heretic: Fully automatic censorship removal for language models<br><br>[![Discord](https://img.shields.io/discord/1447831134212984903?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/gdXc48gSyT) [![Follow us on Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/follow-us-on-hf-md-dark.svg)](https://huggingface.co/heretic-org) [![Codeberg mirror](https://img.shields.io/badge/Codeberg%20mirror-black?logo=codeberg&style=for-the-badge)](https://codeberg.org/p-e-w/heretic)\n\n[![#1 Repository of the Day](https://trendshift.io/api/badge/repositories/20538)](https://trendshift.io/repositories/20538)\n\nHeretic is a tool that removes censorship (aka \"safety alignment\") from\ntransformer-based language models without expensive post-training.\nIt combines an advanced implementation of directional ablation, also known\nas \"abliteration\" ([Arditi et al. 2024](https://arxiv.org/abs/2406.11717),\nLai 2025 ([1](https://huggingface.co/blog/grimjim/projected-abliteration)",
+      "_meta_source": "api"
+    }
+  ]
+}

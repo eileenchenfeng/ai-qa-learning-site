@@ -1,0 +1,175 @@
+{
+  "date": "2026-05-29",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "stargazers_count": 67039,
+      "forks_count": 9683,
+      "open_issues_count": 10,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "[x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`",
+        "[x] 支持视频文案 **AI自动生成**，也可以**自定义文案**",
+        "[x] 支持多种 **高清视频** 尺寸",
+        "[x] 竖屏 9:16，`1080x1920`",
+        "[x] 横屏 16:9，`1920x1080`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n<br>\n只需提供一个视频 <b>主题",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 197506,
+      "forks_count": 30371,
+      "open_issues_count": 32,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md)\n\n# ECC\n\n![ECC - the harness-native operator system for agentic work](assets/hero.png)\n\n[![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/stargazers)\n[![Forks](https://img.shields.io/github/forks/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/network/members)\n[![Contributors](https://img.shields.io/github/contributors/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/graphs/contributors)\n[![npm ecc-universal](https://img.shields.io/npm/dw/ecc-universal?label=ecc-universal%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-universal)\n[![npm ecc-agentshield](https://img.shields.io/npm/dw/ecc-agentshield?label=ecc-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-agentshield)\n[![GitHub App Install](https://img.shields.io/badge/GitHub%2",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "html_url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "stargazers_count": 26794,
+      "forks_count": 2000,
+      "open_issues_count": 20,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "Open a Pull Request or Issue on GitHub",
+        "DM @lexnlin（https://x.com/lexnlin） or @blueemi99（https://x.com/blueemi99）",
+        "Email us at hello@tasteskill.dev"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/readme-banner.png\" alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"100%\" />\n</p>\n\n# Taste Skill\n\n<p align=\"center\">\n  <em>The Anti-Slop Frontend Framework for AI Agents</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\" title=\"Taste Skill - tasteskill.dev\">\n    <img src=\"assets/taste-skill-logo.webp\" width=\"80\" height=\"80\" alt=\"Taste Skill\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\">\n    <img src=\"https://img.shields.io/badge/OPEN-tasteskill.dev-%23a855f7?style=for-the-badge&labelColor=%230f172a\" alt=\"Open tasteskill.dev\" />\n  </a>\n</p>\n\nPortable **Agent Skills** that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes **image-generation skills** for reference boards (web, mobile, brand kits). Pair them with **ChatGPT Images** or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation.\n\n<p align=\"center\">\n<a href=\"https://github.com/Leonxlnx/taste-skill/stargazers\"><img src=\"https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=for-the-badge&logo=gith",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "hardikpandya/stop-slop",
+      "html_url": "https://github.com/hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 6527,
+      "forks_count": 473,
+      "open_issues_count": 18,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "A skill file for removing AI tells from prose"
+      ],
+      "readme_excerpt": "# Stop Slop\n\nA skill for removing AI tells from prose.\n\n<img width=\"3840\" height=\"2160\" alt=\"G-Yg4RVbIAAhVxW\" src=\"https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf\" />\n\n## What this is\n\nAI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.\n\n## Skill Structure\n\n```\nstop-slop/\n├── SKILL.md              # Core instructions\n├── references/\n│   ├── phrases.md        # Phrases to remove\n│   ├── structures.md     # Structural patterns to avoid\n│   └── examples.md       # Before/after transformations\n├── README.md\n└── LICENSE\n```\n\n## Quick start\n\n**Claude Code:** Add this folder as a skill.\n\n**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.\n\n**Custom instructions:** Copy core rules from `SKILL.md`.\n\n**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.\n\n## What it catches\n\n**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.\n\n**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, r",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "twentyhq/twenty",
+      "html_url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "topics": [
+        "crm",
+        "crm-system",
+        "customer",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "javascript",
+        "marketing",
+        "monorepo",
+        "nestjs",
+        "open-source",
+        "postgresql",
+        "react",
+        "reactjs",
+        "sales",
+        "typescript",
+        "web"
+      ],
+      "stargazers_count": 47955,
+      "forks_count": 6801,
+      "open_issues_count": 136,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open alternative to Salesforce, designed for AI."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://www.twenty.com\">\n    <img src=\"./packages/twenty-website/public/images/core/logo.svg\" width=\"100px\" alt=\"Twenty logo\" />\n  </a>\n</p>\n\n<h2 align=\"center\" >The #1 Open-Source CRM</h2>\n\n<p align=\"center\"><a href=\"https://twenty.com\"><img src=\"./packages/twenty-website/public/images/readme/globe-icon.svg\" width=\"12\" height=\"12\"/> Website</a> · <a href=\"https://docs.twenty.com\"><img src=\"./packages/twenty-website/public/images/readme/book-icon.svg\" width=\"12\" height=\"12\"/> Documentation</a> · <a href=\"https://github.com/orgs/twentyhq/projects/1\"><img src=\"./packages/twenty-website/public/images/readme/map-icon.svg\" width=\"12\" height=\"12\"/> Roadmap </a> · <a href=\"https://discord.gg/cx5n4Jzs57\"><img src=\"./packages/twenty-website/public/images/readme/discord-icon.svg\" width=\"12\" height=\"12\"/> Discord</a> · <a href=\"https://www.figma.com/file/xt8O9mFeLl46C5InWwoMrN/Twenty\"><img src=\"./packages/twenty-website/public/images/readme/figma-icon.webp\"  width=\"12\" height=\"12\"/>  Figma</a></p>\n\n<p align=\"center\">\n  <a href=\"https://www.twenty.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"./packages/twenty-website/public/images",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "html_url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "topics": [
+        "digitalplat",
+        "domain",
+        "domain-platform",
+        "domainname",
+        "domains",
+        "free",
+        "freedomain"
+      ],
+      "stargazers_count": 170918,
+      "forks_count": 3300,
+      "open_issues_count": 33,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "DigitalPlat FreeDomain: Free Domain For Everyone",
+        "**.DPDNS.ORG**",
+        "**.US.KG**",
+        "**.QZZ.IO**",
+        "**.XX.KG**",
+        "**.QD.JE**"
+      ],
+      "readme_excerpt": "## 🌐 Welcome to DigitalPlat Domain\n\n<div align=\"center\">\n  <img src=\"opensource/static/img/logo.jpg\" alt=\"logo\" width=\"240\">\n</div>\n\nWelcome to **DigitalPlat FreeDomain**, where we believe everyone deserves a digital identity. Whether you're an individual, or an organization, we’re offering free domain names to bring your ideas to life – no strings attached!\n\nWith FreeDomain, you’re free to register a unique domain and host it with your favorite DNS provider, like Cloudflare, FreeDNS by Afraid.org, or Hostry. Get online with complete freedom, and keep your wallet happy.\n\n### ✔️ Why Free Domains?\n\nAt **DigitalPlat FreeDomain**, we’re on a mission to make the web more accessible. We believe that the cost of a domain shouldn’t hold anyone back from creating a website. Our goal is to make the internet an open space where everyone can have their own place online, regardless of budget.\n\n> DigitalPlat FreeDomain is independently designed and maintained by [**Edward Hsing**](https://github.com/EdwardLab), founder of the DigitalPlat Foundation.\n\n---\n\n### 🌍 Available Domain Extensions\n\n- **.DPDNS.ORG**\n- **.US.KG**\n- **.QZZ.IO**\n- **.XX.KG**\n- **.QD.JE**\n\n_(More extensions coming soon!)_\n\n--",
+      "_meta_source": "api"
+    }
+  ]
+}

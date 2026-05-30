@@ -1,0 +1,172 @@
+{
+  "date": "2026-05-30",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "stargazers_count": 70076,
+      "forks_count": 10101,
+      "open_issues_count": 17,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "[x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`",
+        "[x] 支持视频文案 **AI自动生成**，也可以**自定义文案**",
+        "[x] 支持多种 **高清视频** 尺寸",
+        "[x] 竖屏 9:16，`1080x1920`",
+        "[x] 横屏 16:9，`1920x1080`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n<br>\n只需提供一个视频 <b>主题",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "microsoft/markitdown",
+      "html_url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "stargazers_count": 130220,
+      "forks_count": 8934,
+      "open_issues_count": 682,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Python tool for converting files and office documents to Markdown.",
+        "PowerPoint",
+        "Images (EXIF metadata and OCR)",
+        "Audio (EXIF metadata and speech transcription)"
+      ],
+      "readme_excerpt": "# MarkItDown\n\n[![PyPI](https://img.shields.io/pypi/v/markitdown.svg)](https://pypi.org/project/markitdown/)\n![PyPI - Downloads](https://img.shields.io/pypi/dd/markitdown)\n[![Built by AutoGen Team](https://img.shields.io/badge/Built%20by-AutoGen%20Team-blue)](https://github.com/microsoft/autogen)\n\n> [!IMPORTANT]\n> MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert_*` function needed for your use case (e.g., `convert_stream()`, or `convert_local()`). See the [Security Considerations](#security-considerations) section of the documentation for more information.\n\nMarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "twentyhq/twenty",
+      "html_url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "topics": [
+        "crm",
+        "crm-system",
+        "customer",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "javascript",
+        "marketing",
+        "monorepo",
+        "nestjs",
+        "open-source",
+        "postgresql",
+        "react",
+        "reactjs",
+        "sales",
+        "typescript",
+        "web"
+      ],
+      "stargazers_count": 48461,
+      "forks_count": 6871,
+      "open_issues_count": 131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open alternative to Salesforce, designed for AI."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://www.twenty.com\">\n    <img src=\"./packages/twenty-website/public/images/core/logo.svg\" width=\"100px\" alt=\"Twenty logo\" />\n  </a>\n</p>\n\n<h2 align=\"center\" >The #1 Open-Source CRM</h2>\n\n<p align=\"center\"><a href=\"https://twenty.com\"><img src=\"./packages/twenty-website/public/images/readme/globe-icon.svg\" width=\"12\" height=\"12\"/> Website</a> · <a href=\"https://docs.twenty.com\"><img src=\"./packages/twenty-website/public/images/readme/book-icon.svg\" width=\"12\" height=\"12\"/> Documentation</a> · <a href=\"https://github.com/orgs/twentyhq/projects/1\"><img src=\"./packages/twenty-website/public/images/readme/map-icon.svg\" width=\"12\" height=\"12\"/> Roadmap </a> · <a href=\"https://discord.gg/cx5n4Jzs57\"><img src=\"./packages/twenty-website/public/images/readme/discord-icon.svg\" width=\"12\" height=\"12\"/> Discord</a> · <a href=\"https://www.figma.com/file/xt8O9mFeLl46C5InWwoMrN/Twenty\"><img src=\"./packages/twenty-website/public/images/readme/figma-icon.webp\"  width=\"12\" height=\"12\"/>  Figma</a></p>\n\n<p align=\"center\">\n  <a href=\"https://www.twenty.com\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"./packages/twenty-website/public/images",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "anthropics/claude-code",
+      "html_url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 127955,
+      "forks_count": 20921,
+      "open_issues_count": 9056,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "Install Claude Code:",
+        "Navigate to your project directory and run `claude`."
+      ],
+      "readme_excerpt": "# Claude Code\n\n![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)\n\n[npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.\n\n**Learn more in the [official documentation](https://code.claude.com/docs/en/overview)**.\n\n<img src=\"./demo.gif\" />\n\n## Get started\n> [!NOTE]\n> Installation via npm is deprecated. Use one of the recommended methods below.\n\nFor more installation options, uninstall steps, and troubleshooting, see the [setup documentation](https://code.claude.com/docs/en/setup).\n\n1. Install Claude Code:\n\n    **MacOS/Linux (Recommended):**\n    ```bash\n    curl -fsSL https://claude.ai/install.sh | bash\n    ```\n\n    **Homebrew (MacOS/Linux):**\n    ```bash\n    brew install --cask claude-code\n    ```\n\n    **Windows (Recommended):**\n    ```powershell\n    irm https://claude.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "html_url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "stargazers_count": 28325,
+      "forks_count": 2093,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "Open a Pull Request or Issue on GitHub",
+        "DM @lexnlin（https://x.com/lexnlin） or @blueemi99（https://x.com/blueemi99）",
+        "Email us at hello@tasteskill.dev"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/readme-banner.png\" alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"100%\" />\n</p>\n\n# Taste Skill\n\n<p align=\"center\">\n  <em>The Anti-Slop Frontend Framework for AI Agents</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\" title=\"Taste Skill - tasteskill.dev\">\n    <img src=\"assets/taste-skill-logo.webp\" width=\"80\" height=\"80\" alt=\"Taste Skill\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\">\n    <img src=\"https://img.shields.io/badge/OPEN-tasteskill.dev-%23a855f7?style=for-the-badge&labelColor=%230f172a\" alt=\"Open tasteskill.dev\" />\n  </a>\n</p>\n\nPortable **Agent Skills** that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes **image-generation skills** for reference boards (web, mobile, brand kits). Pair them with **ChatGPT Images** or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation.\n\n<p align=\"center\">\n<a href=\"https://github.com/Leonxlnx/taste-skill/stargazers\"><img src=\"https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=for-the-badge&logo=gith",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "galilai-group/stable-worldmodel",
+      "html_url": "https://github.com/galilai-group/stable-worldmodel",
+      "description": "A platform for reproducible world model research and evaluation",
+      "language": "Python",
+      "topics": [
+        "deep-learning",
+        "jepa",
+        "model-predictive-control",
+        "pytorch",
+        "world-model"
+      ],
+      "stargazers_count": 1280,
+      "forks_count": 151,
+      "open_issues_count": 19,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A platform for reproducible world model research and evaluation"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">stable-worldmodel</h1>\n\n<p align=\"center\"><i>A platform for reproducible world model research and evaluation.</i></p>\n\n<p align=\"center\">\n  <a href=\"https://galilai-group.github.io/stable-worldmodel/\"><img alt=\"Documentation\" src=\"https://img.shields.io/badge/Docs-blue.svg\"/></a>\n  <a href=\"https://github.com/galilai-group/stable-worldmodel\"><img alt=\"Tests\" src=\"https://img.shields.io/github/actions/workflow/status/galilai-group/stable-worldmodel/tests.yaml?label=Tests\"/></a>\n  <a href=\"https://pypi.python.org/pypi/stable-worldmodel/#history\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/stable-worldmodel.svg\"/></a>\n  <a href=\"https://arxiv.org/abs/2605.21800v1\" target=\"_blank\" style=\"margin: 2px;\"><img alt=\"ArXiv\" src=\"https://img.shields.io/badge/arXiv-2605.21800-b5212f?logo=arxiv\" style=\"display: inline-block; vertical-align: middle;\"/></a>\n  <a href=\"https://pytorch.org/get-started/locally/\"><img alt=\"PyTorch\" src=\"https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white\"/></a>\n  <a href=\"https://github.com/astral-sh/ruff\"><img alt=\"Ruff\" src=\"https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/asset",
+      "_meta_source": "api"
+    }
+  ]
+}

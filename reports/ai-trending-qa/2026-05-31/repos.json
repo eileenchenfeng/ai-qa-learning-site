@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-31",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "microsoft/markitdown",
+      "html_url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "stargazers_count": 132789,
+      "forks_count": 9087,
+      "open_issues_count": 768,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Python tool for converting files and office documents to Markdown.",
+        "PowerPoint",
+        "Images (EXIF metadata and OCR)",
+        "Audio (EXIF metadata and speech transcription)"
+      ],
+      "readme_excerpt": "# MarkItDown\n\n[![PyPI](https://img.shields.io/pypi/v/markitdown.svg)](https://pypi.org/project/markitdown/)\n![PyPI - Downloads](https://img.shields.io/pypi/dd/markitdown)\n[![Built by AutoGen Team](https://img.shields.io/badge/Built%20by-AutoGen%20Team-blue)](https://github.com/microsoft/autogen)\n\n> [!IMPORTANT]\n> MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert_*` function needed for your use case (e.g., `convert_stream()`, or `convert_local()`). See the [Security Considerations](#security-considerations) section of the documentation for more information.\n\nMarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "stargazers_count": 72266,
+      "forks_count": 10358,
+      "open_issues_count": 10,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "[x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`",
+        "[x] 支持视频文案 **AI自动生成**，也可以**自定义文案**",
+        "[x] 支持多种 **高清视频** 尺寸",
+        "[x] 竖屏 9:16，`1080x1920`",
+        "[x] 横屏 16:9，`1920x1080`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</div>\n<br>\n只需提供一个视频 <b>主题",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "anthropics/claude-code",
+      "html_url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 128465,
+      "forks_count": 20953,
+      "open_issues_count": 8902,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "Install Claude Code:",
+        "Navigate to your project directory and run `claude`."
+      ],
+      "readme_excerpt": "# Claude Code\n\n![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)\n\n[npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.\n\n**Learn more in the [official documentation](https://code.claude.com/docs/en/overview)**.\n\n<img src=\"./demo.gif\" />\n\n## Get started\n> [!NOTE]\n> Installation via npm is deprecated. Use one of the recommended methods below.\n\nFor more installation options, uninstall steps, and troubleshooting, see the [setup documentation](https://code.claude.com/docs/en/setup).\n\n1. Install Claude Code:\n\n    **MacOS/Linux (Recommended):**\n    ```bash\n    curl -fsSL https://claude.ai/install.sh | bash\n    ```\n\n    **Homebrew (MacOS/Linux):**\n    ```bash\n    brew install --cask claude-code\n    ```\n\n    **Windows (Recommended):**\n    ```powershell\n    irm https://claude.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "stargazers_count": 4313,
+      "forks_count": 629,
+      "open_issues_count": 6,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+        "**Agent Team Design** — 6 architectural patterns: Pipeline, Fan-out/Fan-in, Expert Pool, Producer-Reviewer, Supervisor, and Hierarchical Delegation",
+        "**Skill Generation** — Auto-generates skills with Progressive Disclosure for efficient context management",
+        "**Orchestration** — Inter-agent data passing, error handling, and team coordination protocols",
+        "**Validation** — Trigger verification, dry-run testing, and with-skill vs without-skill comparison tests"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"harness_banner.png\" alt=\"Harness Banner\" width=\"600\">\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Version-1.2.0-brightgreen.svg\" alt=\"Version\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\" alt=\"License\"></a>\n  <img src=\"https://img.shields.io/badge/Claude_Code-Plugin-purple.svg\" alt=\"Claude Code Plugin\">\n  <img src=\"https://img.shields.io/badge/Patterns-6_Architectures-orange.svg\" alt=\"6 Architecture Patterns\">\n  <img src=\"https://img.shields.io/badge/Mode-Agent_Teams-green.svg\" alt=\"Agent Teams\">\n  <a href=\"https://github.com/revfactory/harness/stargazers\"><img src=\"https://img.shields.io/github/stars/revfactory/harness?style=social\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#category--where-harness-sits\"><img src=\"https://img.shields.io/badge/Layer-L3%20Meta--Factory-orange\" alt=\"Layer\"></a>\n  <a href=\"#category--where-harness-sits\"><img src=\"https://img.shields.io/badge/Sub--layer-Team--Architecture%20Factory-teal\" alt=\"Sub-layer\"></a>\n  <a href=\"#\"><img src=\"https://img.shields.io/badge/README-EN%20%7C%20KO%20%7C%20JA-lightgrey\" alt=\"i18n\"></a>\n</p>\n\n# Harness — The",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 199453,
+      "forks_count": 30623,
+      "open_issues_count": 38,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md)\n\n# ECC\n\n![ECC - the harness-native operator system for agentic work](assets/hero.png)\n\n[![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/stargazers)\n[![Forks](https://img.shields.io/github/forks/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/network/members)\n[![Contributors](https://img.shields.io/github/contributors/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/graphs/contributors)\n[![npm ecc-universal](https://img.shields.io/npm/dw/ecc-universal?label=ecc-universal%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-universal)\n[![npm ecc-agentshield](https://img.shields.io/npm/dw/ecc-agentshield?label=ecc-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-agentshield)\n[![GitHub App Install](https://img.shields.io/badge/GitHub%2",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "OpenBMB/VoxCPM",
+      "html_url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "topics": [
+        "audio",
+        "deeplearning",
+        "minicpm",
+        "multilingual",
+        "python",
+        "pytorch",
+        "speech",
+        "speech-synthesis",
+        "text-to-speech",
+        "tts",
+        "tts-model",
+        "voice-cloning",
+        "voice-design",
+        "voxcpm"
+      ],
+      "stargazers_count": 22868,
+      "forks_count": 2676,
+      "open_issues_count": 106,
+      "arch_category": "推理 / 部署",
+      "features": [
+        "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+        "🌍 **30-Language Multilingual** — Input text in any of the 30 supported languages and synthesize directly, no language tag needed",
+        "🎨 **Voice Design** — Create a brand-new voice from a natural-language description alone (gender, age, tone, emotion, pace …), no reference audio required",
+        "🎛️ **Controllable Cloning** — Clone any voice from a short reference clip, with optional style guidance to steer emotion, pace, and expression while preserving the original timbre",
+        "🎙️ **Ultimate Cloning** — Reproduce every vocal nuance: provide both reference audio and its transcript, and the model continues seamlessly from the reference, faithfully preserving every vocal detail — timbre, rhythm, emotion, and style (same as VoxCPM1.5)",
+        "🔊 **48kHz High-Quality Audio** — Accepts 16kHz reference audio and directly outputs 48kHz studio-quality audio via AudioVAE V2's asymmetric encode/decode design, with built-in super-resolution — no external upsampler needed"
+      ],
+      "readme_excerpt": "<h2 align=\"center\">VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning</h2>\n\n<p align=\"center\">\n  <b>English</b> | <a href=\"./README_zh.md\">中文</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/OpenBMB/VoxCPM/\"><img src=\"https://img.shields.io/badge/Project%20Page-GitHub-blue\" alt=\"Project Page\"></a>\n  <a href=\"https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo\"><img src=\"https://img.shields.io/badge/Live%20Playground-Demo-orange\" alt=\"Live Playground\"></a>\n  <a href=\"https://voxcpm.readthedocs.io/en/latest/\"><img src=\"https://img.shields.io/badge/Docs-ReadTheDocs-8CA1AF\" alt=\"Documentation\"></a>\n  <a href=\"https://huggingface.co/openbmb/VoxCPM2\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-VoxCPM2-yellow\" alt=\"Hugging Face\"></a>\n  <a href=\"https://modelscope.cn/models/OpenBMB/VoxCPM2\"><img src=\"https://img.shields.io/badge/ModelScope-VoxCPM2-purple\" alt=\"ModelScope\"></a>\n  <a href=\"https://openbmb.github.io/voxcpm2-demopage/\"><img src=\"https://img.shields.io/badge/DemoPage-Audio Samples-red\"></a>\n  \n</p>\n\n<div align=\"center\">\n  <img src=\"assets/voxcpm_logo.png\" alt=\"VoxCPM Logo\" width=\"35%\">",
+      "_meta_source": "api"
+    }
+  ]
+}

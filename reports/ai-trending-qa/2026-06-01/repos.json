@@ -1,0 +1,190 @@
+{
+  "date": "2026-06-01",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "stargazers_count": 75059,
+      "forks_count": 10677,
+      "open_issues_count": 12,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+        "[x] 完整的 **MVC架构**，代码 **结构清晰**，易于维护，支持 `API` 和 `Web界面`",
+        "[x] 支持视频文案 **AI自动生成**，也可以**自定义文案**",
+        "[x] 支持多种 **高清视频** 尺寸",
+        "[x] 竖屏 9:16，`1080x1920`",
+        "[x] 横屏 16:9，`1920x1080`"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<h1 align=\"center\">MoneyPrinterTurbo 💸</h1>\n\n<p align=\"center\">\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/stargazers\"><img src=\"https://img.shields.io/github/stars/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Stargazers\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/issues\"><img src=\"https://img.shields.io/github/issues/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Issues\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/network/members\"><img src=\"https://img.shields.io/github/forks/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"Forks\"></a>\n  <a href=\"https://github.com/harry0703/MoneyPrinterTurbo/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/harry0703/MoneyPrinterTurbo.svg?style=for-the-badge\" alt=\"License\"></a>\n</p>\n<br>\n<h3>简体中文 | <a href=\"README-en.md\">English</a> | <a href=\"README-ar.md\">العربية</a></h3>\n<div align=\"center\">\n  <a href=\"https://trendshift.io/repositories/8731\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/8731\" alt=\"harry0703%2FMoneyPrinterTurbo | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "microsoft/markitdown",
+      "html_url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "stargazers_count": 135591,
+      "forks_count": 9260,
+      "open_issues_count": 781,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Python tool for converting files and office documents to Markdown.",
+        "PowerPoint",
+        "Images (EXIF metadata and OCR)",
+        "Audio (EXIF metadata and speech transcription)"
+      ],
+      "readme_excerpt": "# MarkItDown\n\n[![PyPI](https://img.shields.io/pypi/v/markitdown.svg)](https://pypi.org/project/markitdown/)\n![PyPI - Downloads](https://img.shields.io/pypi/dd/markitdown)\n[![Built by AutoGen Team](https://img.shields.io/badge/Built%20by-AutoGen%20Team-blue)](https://github.com/microsoft/autogen)\n\n> [!IMPORTANT]\n> MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert_*` function needed for your use case (e.g., `convert_stream()`, or `convert_local()`). See the [Security Considerations](#security-considerations) section of the documentation for more information.\n\nMarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "html_url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
+      ],
+      "stargazers_count": 56924,
+      "forks_count": 5527,
+      "open_issues_count": 25,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!"
+      ],
+      "readme_excerpt": "<!-- mcp-name: io.github.D4Vinci/Scrapling -->\n\n<h1 align=\"center\">\n    <a href=\"https://scrapling.readthedocs.io\">\n        <picture>\n          <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_dark.svg?sanitize=true\">\n          <img alt=\"Scrapling Poster\" src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_light.svg?sanitize=true\">\n        </picture>\n    </a>\n    <br>\n    <small>Effortless Web Scraping for the Modern Web</small>\n</h1>\n\n<p align=\"center\">\n    <a href=\"https://trendshift.io/repositories/14244\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14244\" alt=\"D4Vinci%2FScrapling | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n    <br/>\n    <a href=\"https://github.com/D4Vinci/Scrapling/blob/main/docs/README_AR.md\">العربيه</a> | <a href=\"https://github.com/D4Vinci/Scrapling/blob/main/docs/README_ES.md\">Español</a> | <a href=\"https://github.com/D4Vinci/Scrapling/blob/main/docs/README_PT_BR.md\">Português (Brasil)</a> | <a href=\"https://github.com/D4Vinci/Scrapling/blob/main/docs/README_FR.md\">Français</a> | <a href=\"ht",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "nesquena/hermes-webui",
+      "html_url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai-agents",
+        "hermes",
+        "hermes-agent",
+        "nous-research"
+      ],
+      "stargazers_count": 10183,
+      "forks_count": 1384,
+      "open_issues_count": 210,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+        "Why Hermes — what it is and how it compares",
+        "Quick start — clone + `bootstrap.py` / `start.sh` / `ctl.sh`",
+        "Features — chat, sessions, workspace, voice, profiles, security, themes, panels, mobile",
+        "Configuration & access — auto-discovery, overrides, remote/Tailscale/phone, manual launch",
+        "Docker — single- and multi-container deploys"
+      ],
+      "readme_excerpt": "# Hermes Web UI\n\n[Hermes Agent](https://hermes-agent.nousresearch.com/) is a sophisticated autonomous agent that lives on your server, accessed via a terminal or messaging apps, that remembers what it learns and gets more capable the longer it runs.\n\nHermes WebUI is a lightweight, dark-themed web app interface in your browser for [Hermes Agent](https://hermes-agent.nousresearch.com/).\nFull parity with the CLI experience - everything you can do from a terminal,\nyou can do from this UI. No build step, no framework, no bundler. Just Python\nand vanilla JS.\n\nLayout: three-panel. Left sidebar for sessions and navigation, center for chat,\nright for workspace file browsing. Model, profile, and workspace controls live in\nthe **composer footer** — always visible while composing. A circular context ring\nshows token usage at a glance. All settings and session tools are in the\n**Hermes Control Center** (launcher at the sidebar bottom).\n\n<img width=\"2448\" height=\"1748\" alt=\"Hermes Web UI — three-panel layout\" src=\"https://github.com/user-attachments/assets/6bf8af4c-209d-441e-8b92-6515d7a0c369\" />\n\n<table>\n  <tr>\n    <td width=\"50%\" align=\"center\">\n      <img width=\"2940\" height=\"1848\" alt=\"Light",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "OpenBMB/VoxCPM",
+      "html_url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "topics": [
+        "audio",
+        "deeplearning",
+        "minicpm",
+        "multilingual",
+        "python",
+        "pytorch",
+        "speech",
+        "speech-synthesis",
+        "text-to-speech",
+        "tts",
+        "tts-model",
+        "voice-cloning",
+        "voice-design",
+        "voxcpm"
+      ],
+      "stargazers_count": 23704,
+      "forks_count": 2730,
+      "open_issues_count": 108,
+      "arch_category": "推理 / 部署",
+      "features": [
+        "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+        "🌍 **30-Language Multilingual** — Input text in any of the 30 supported languages and synthesize directly, no language tag needed",
+        "🎨 **Voice Design** — Create a brand-new voice from a natural-language description alone (gender, age, tone, emotion, pace …), no reference audio required",
+        "🎛️ **Controllable Cloning** — Clone any voice from a short reference clip, with optional style guidance to steer emotion, pace, and expression while preserving the original timbre",
+        "🎙️ **Ultimate Cloning** — Reproduce every vocal nuance: provide both reference audio and its transcript, and the model continues seamlessly from the reference, faithfully preserving every vocal detail — timbre, rhythm, emotion, and style (same as VoxCPM1.5)",
+        "🔊 **48kHz High-Quality Audio** — Accepts 16kHz reference audio and directly outputs 48kHz studio-quality audio via AudioVAE V2's asymmetric encode/decode design, with built-in super-resolution — no external upsampler needed"
+      ],
+      "readme_excerpt": "<h2 align=\"center\">VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning</h2>\n\n<p align=\"center\">\n  <b>English</b> | <a href=\"./README_zh.md\">中文</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/OpenBMB/VoxCPM/\"><img src=\"https://img.shields.io/badge/Project%20Page-GitHub-blue\" alt=\"Project Page\"></a>\n  <a href=\"https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo\"><img src=\"https://img.shields.io/badge/Live%20Playground-Demo-orange\" alt=\"Live Playground\"></a>\n  <a href=\"https://voxcpm.readthedocs.io/en/latest/\"><img src=\"https://img.shields.io/badge/Docs-ReadTheDocs-8CA1AF\" alt=\"Documentation\"></a>\n  <a href=\"https://huggingface.co/openbmb/VoxCPM2\"><img src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-VoxCPM2-yellow\" alt=\"Hugging Face\"></a>\n  <a href=\"https://modelscope.cn/models/OpenBMB/VoxCPM2\"><img src=\"https://img.shields.io/badge/ModelScope-VoxCPM2-purple\" alt=\"ModelScope\"></a>\n  <a href=\"https://openbmb.github.io/voxcpm2-demopage/\"><img src=\"https://img.shields.io/badge/DemoPage-Audio Samples-red\"></a>\n  \n</p>\n\n<div align=\"center\">\n  <img src=\"assets/voxcpm_logo.png\" alt=\"VoxCPM Logo\" width=\"35%\">",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "stargazers_count": 4715,
+      "forks_count": 658,
+      "open_issues_count": 6,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+        "**Agent Team Design** — 6 architectural patterns: Pipeline, Fan-out/Fan-in, Expert Pool, Producer-Reviewer, Supervisor, and Hierarchical Delegation",
+        "**Skill Generation** — Auto-generates skills with Progressive Disclosure for efficient context management",
+        "**Orchestration** — Inter-agent data passing, error handling, and team coordination protocols",
+        "**Validation** — Trigger verification, dry-run testing, and with-skill vs without-skill comparison tests"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"harness_banner.png\" alt=\"Harness Banner\" width=\"600\">\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Version-1.2.0-brightgreen.svg\" alt=\"Version\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\" alt=\"License\"></a>\n  <img src=\"https://img.shields.io/badge/Claude_Code-Plugin-purple.svg\" alt=\"Claude Code Plugin\">\n  <img src=\"https://img.shields.io/badge/Patterns-6_Architectures-orange.svg\" alt=\"6 Architecture Patterns\">\n  <img src=\"https://img.shields.io/badge/Mode-Agent_Teams-green.svg\" alt=\"Agent Teams\">\n  <a href=\"https://github.com/revfactory/harness/stargazers\"><img src=\"https://img.shields.io/github/stars/revfactory/harness?style=social\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#category--where-harness-sits\"><img src=\"https://img.shields.io/badge/Layer-L3%20Meta--Factory-orange\" alt=\"Layer\"></a>\n  <a href=\"#category--where-harness-sits\"><img src=\"https://img.shields.io/badge/Sub--layer-Team--Architecture%20Factory-teal\" alt=\"Sub-layer\"></a>\n  <a href=\"#\"><img src=\"https://img.shields.io/badge/README-EN%20%7C%20KO%20%7C%20JA-lightgrey\" alt=\"i18n\"></a>\n</p>\n\n# Harness — The",
+      "_meta_source": "api"
+    }
+  ]
+}

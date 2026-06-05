@@ -1,0 +1,203 @@
+{
+  "date": "2026-06-05",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "chopratejas/headroom",
+      "html_url": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "anthropic",
+        "claude-code",
+        "compression",
+        "context-engineering",
+        "context-window",
+        "cursor",
+        "fastapi",
+        "langchain",
+        "llm",
+        "mcp",
+        "openai",
+        "prompt-engineering",
+        "proxy",
+        "python",
+        "rag",
+        "token-optimization",
+        "tokens",
+        "typescript"
+      ],
+      "stargazers_count": 12932,
+      "forks_count": 833,
+      "open_issues_count": 173,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+        "**Library** — `compress(messages)` in Python or TypeScript, inline in any app",
+        "**Proxy** — `headroom proxy --port 8787`, zero code changes, any language",
+        "**Agent wrap** — `headroom wrap claude|codex|cursor|aider|copilot` in one command",
+        "**MCP server** — `headroom_compress`, `headroom_retrieve`, `headroom_stats` for any MCP client",
+        "**Cross-agent memory** — shared store across Claude, Codex, Gemini, auto-dedup"
+      ],
+      "readme_excerpt": "<div align=\"center\"><pre>\n  ██╗  ██╗███████╗ █████╗ ██████╗ ██████╗  ██████╗  ██████╗ ███╗   ███╗\n  ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██╔═══██╗████╗ ████║\n  ███████║█████╗  ███████║██║  ██║██████╔╝██║   ██║██║   ██║██╔████╔██║\n  ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══██╗██║   ██║██║   ██║██║╚██╔╝██║\n  ██║  ██║███████╗██║  ██║██████╔╝██║  ██║╚██████╔╝╚██████╔╝██║ ╚═╝ ██║\n  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝\n                  The context compression layer for AI agents\n</pre></div>\n\n<p align=\"center\"><strong>60–95% fewer tokens · library · proxy · MCP · 6 algorithms · local-first · reversible</strong></p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/chopratejas/headroom/actions/workflows/ci.yml\"><img src=\"https://github.com/chopratejas/headroom/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://app.codecov.io/gh/chopratejas/headroom\"><img src=\"https://codecov.io/gh/chopratejas/headroom/graph/badge.svg\" alt=\"codecov\"></a>\n  <a href=\"https://pypi.org/project/headroom-ai/\"><img src=\"https://img.shields.io/pypi/v/headroom-ai.svg\" alt=\"PyPI\"></a>\n  <a href=\"https://www.npmjs.com/package/headroom-ai\"><img src=\"https://i",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "html_url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "stargazers_count": 181303,
+      "forks_count": 31111,
+      "open_issues_count": 17828,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent that grows with you"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\">\n</p>\n\n# Hermes Agent ☤\n\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/docs/\"><img src=\"https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge\" alt=\"Documentation\"></a>\n  <a href=\"https://discord.gg/NousResearch\"><img src=\"https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/NousResearch/hermes-agent/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://nousresearch.com\"><img src=\"https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge\" alt=\"Built by Nous Research\"></a>\n  <a href=\"README.zh-CN.md\"><img src=\"https://img.shields.io/badge/Lang-中文-red?style=for-the-badge\" alt=\"中文\"></a>\n</p>\n\n**The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past co",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "stargazers_count": 207469,
+      "forks_count": 31841,
+      "open_issues_count": 81,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+      ],
+      "readme_excerpt": "**Language:** English | [Português (Brasil)](docs/pt-BR/README.md) | [简体中文](README.zh-CN.md) | [繁體中文](docs/zh-TW/README.md) | [日本語](docs/ja-JP/README.md) | [한국어](docs/ko-KR/README.md) | [Türkçe](docs/tr/README.md) | [Русский](docs/ru/README.md) | [Tiếng Việt](docs/vi-VN/README.md) | [ไทย](docs/th/README.md) | [Deutsch](docs/de-DE/README.md)\n\n# ECC\n\n![ECC - the harness-native operator system for agentic work](assets/hero.png)\n\n[![Stars](https://img.shields.io/github/stars/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/stargazers)\n[![Forks](https://img.shields.io/github/forks/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/network/members)\n[![Contributors](https://img.shields.io/github/contributors/affaan-m/ECC?style=flat)](https://github.com/affaan-m/ECC/graphs/contributors)\n[![npm ecc-universal](https://img.shields.io/npm/dw/ecc-universal?label=ecc-universal%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-universal)\n[![npm ecc-agentshield](https://img.shields.io/npm/dw/ecc-agentshield?label=ecc-agentshield%20weekly%20downloads&logo=npm)](https://www.npmjs.com/package/ecc-agentshield)\n[![GitHub App Install](https://img.shields.io/badge/GitHub%2",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "PaddlePaddle/PaddleOCR",
+      "html_url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "topics": [
+        "ai4science",
+        "chineseocr",
+        "document-parsing",
+        "document-translation",
+        "kie",
+        "ocr",
+        "paddleocr-vl",
+        "pdf-extractor-rag",
+        "pdf-parser",
+        "pdf2markdown",
+        "pp-ocr",
+        "pp-structure",
+        "rag"
+      ],
+      "stargazers_count": 80028,
+      "forks_count": 10611,
+      "open_issues_count": 204,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+        "**SOTA Document VLM**: Featuring **PaddleOCR-VL-1.6 (0.9B)**, the industry's leading lightweight vision-language model for document parsing. It achieves 96.3% accuracy on OmniDocBench v1.6, leads in text, formula, and table recognition, and shows significantly enhanced capabilities in ancient documents, rare characters, seals, and charts, with structured outputs in **Markdown** and **JSON** formats.",
+        "**Structure-Aware Conversion**: Powered by **PP-StructureV3**, seamlessly convert complex PDFs and images into **Markdown** or **JSON**. Unlike the PaddleOCR-VL series models, it provides more fine-grained coordinate information, including table cell coordinates, text coordinates, and more.",
+        "**Production-Ready Efficiency**: Achieve commercial-grade accuracy with an ultra-small footprint. Outperforms numerous closed-source solutions in public benchmarks while remaining resource-efficient for edge/cloud deployment.",
+        "**100+ Languages Supported**: Native recognition for a vast global library. Our **PP-OCRv5** single-model solution elegantly handles multilingual mixed documents (Chinese, English, Japanese, Pinyin, etc.).",
+        "**Complex Element Mastery**: Beyond standard text recognition, we support **natural scene text spotting** across a wide range of environments, including IDs, street views, books, and industrial components"
+      ],
+      "readme_excerpt": "\n<div align=\"center\">\n  <p>\n      <img width=\"800\" src=\"https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Banner.png\" alt=\"Star-history\">\n  </p>\n\n\n\n<h3>Global Leading OCR Toolkit & Document AI Engine</h3>\n\nEnglish | [简体中文](./readme/README_cn.md) | [繁體中文](./readme/README_tcn.md) | [日本語](./readme/README_ja.md) | [한국어](./readme/README_ko.md) | [Français](./readme/README_fr.md) | [Русский](./readme/README_ru.md) | [Español](./readme/README_es.md) | [العربية](./readme/README_ar.md)\n\n<!-- icon -->\n\n[![PyPI Downloads](https://static.pepy.tech/badge/paddleocr)](https://pepy.tech/projects/paddleocr)\n[![Used by](https://img.shields.io/badge/Used%20by-6k%2B%20repositories-blue)](https://github.com/PaddlePaddle/PaddleOCR/network/dependents)\n![python](https://img.shields.io/badge/python-3.8~3.12-aff.svg)\n![os](https://img.shields.io/badge/os-linux%2C%20win%2C%20mac-pink.svg)\n![hardware](https://img.shields.io/badge/hardware-cpu%2C%20gpu%2C%20xpu%2C%20npu-yellow.svg)\n\n[![AI Studio](https://img.shields.io/badge/PaddleOCR-_Offiical_Website-1927BA?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAABlBMVEU2P+X///+1KuUwAAAHKklEQVR42u3",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "github/spec-kit",
+      "html_url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "copilot",
+        "development",
+        "engineering",
+        "prd",
+        "spec",
+        "spec-driven"
+      ],
+      "stargazers_count": 108691,
+      "forks_count": 9604,
+      "open_issues_count": 415,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "💫 Toolkit to help you get started with Spec-Driven Development",
+        "🤔 What is Spec-Driven Development?",
+        "⚡ Get Started",
+        "📽️ Video Overview",
+        "🌍 Community",
+        "🤖 Supported AI Coding Agent Integrations"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n    <img src=\"./media/logo_large.webp\" alt=\"Spec Kit Logo\" width=\"200\" height=\"200\"/>\n    <h1>🌱 Spec Kit</h1>\n    <h3><em>Build high-quality software faster.</em></h3>\n</div>\n\n<p align=\"center\">\n    <strong>An open source toolkit that allows you to focus on product scenarios and predictable outcomes instead of vibe coding every piece from scratch.</strong>\n</p>\n\n<p align=\"center\">\n    <a href=\"https://github.com/github/spec-kit/releases/latest\"><img src=\"https://img.shields.io/github/v/release/github/spec-kit\" alt=\"Latest Release\"/></a>\n    <a href=\"https://github.com/github/spec-kit/stargazers\"><img src=\"https://img.shields.io/github/stars/github/spec-kit?style=social\" alt=\"GitHub stars\"/></a>\n    <a href=\"https://github.com/github/spec-kit/blob/main/LICENSE\"><img src=\"https://img.shields.io/github/license/github/spec-kit\" alt=\"License\"/></a>\n    <a href=\"https://github.github.io/spec-kit/\"><img src=\"https://img.shields.io/badge/docs-GitHub_Pages-blue\" alt=\"Documentation\"/></a>\n</p>\n\n---\n\n## Table of Contents\n\n- [🤔 What is Spec-Driven Development?](#-what-is-spec-driven-development)\n- [⚡ Get Started](#-get-started)\n- [📽️ Video Overview](#️-video-overview)\n- [🌍",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "html_url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-companion",
+        "ai-vtuber",
+        "ai-waifu",
+        "chatbots",
+        "live2d",
+        "live2d-web",
+        "llm",
+        "neuro-sama",
+        "ollama"
+      ],
+      "stargazers_count": 9718,
+      "forks_count": 1162,
+      "open_issues_count": 128,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+        "🖥️ **Cross-platform support**: Perfect compatibility with macOS, Linux, and Windows. We support NVIDIA and non-NVIDIA GPUs, with options to run on CPU or use cloud APIs for resource-intensive tasks. Some components support GPU acceleration on macOS.",
+        "🔒 **Offline mode support**: Run completely offline using local models - no internet required. Your conversations stay on your device, ensuring privacy and security.",
+        "💻 **Attractive and powerful web and desktop clients**: Offers both web version and desktop client usage modes, supporting rich interactive features and personalization settings. The desktop client can switch freely between window mode and desktop pet mode, allowing the AI companion to b"
+      ],
+      "readme_excerpt": "![](./assets/banner.jpg)\n\n<h1 align=\"center\">Open-LLM-VTuber</h1>\n<h3 align=\"center\">\n\n[![GitHub release](https://img.shields.io/github/v/release/Open-LLM-VTuber/Open-LLM-VTuber)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/releases) \n[![license](https://img.shields.io/github/license/Open-LLM-VTuber/Open-LLM-VTuber)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/blob/master/LICENSE) \n[![CodeQL](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/actions/workflows/codeql.yml/badge.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/actions/workflows/codeql.yml)\n[![Ruff](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/actions/workflows/ruff.yml/badge.svg)](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber/actions/workflows/ruff.yml)\n[![Docker](https://img.shields.io/badge/Open-LLM-VTuber%2FOpen--LLM--VTuber-%25230db7ed.svg?logo=docker&logoColor=blue&labelColor=white&color=blue)](https://hub.docker.com/r/Open-LLM-VTuber/open-llm-vtuber) \n[![QQ User Group](https://img.shields.io/badge/QQ_User_Group-792615362-white?style=flat&logo=qq&logoColor=white)](https://qm.qq.com/q/ngvNUQpuKI)\n[![Static Badge](https://img.shields.io/badge/Join%20Chat-Zulip?style=flat&logo=zulip",
+      "_meta_source": "api"
+    }
+  ]
+}

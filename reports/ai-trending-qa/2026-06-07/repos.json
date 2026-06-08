@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-07",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 29015,
+      "forks_count": 2457,
+      "open_issues_count": 102,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "CopilotKit/CopilotKit",
+      "html_url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more.  Makers of the AG-UI Protocol",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-native",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agent",
+        "ai-assistant",
+        "assistant",
+        "assistant-chat-bots",
+        "copilot",
+        "copilot-chat",
+        "generative-ui",
+        "js",
+        "llm",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "ts",
+        "typescript"
+      ],
+      "stargazers_count": 33305,
+      "forks_count": 4251,
+      "open_issues_count": 533,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+        "**Chat UI** – A fully customizable chat interface that supports message streaming, tool calls, and agent responses.",
+        "**Backend Tool Rendering** – Enables agents to call backend tools that return UI components rendered directly in the client.",
+        "**Generative UI** – Allows agents to generate and update UI components dynamically at runtime based on user intent and agent state.",
+        "**Shared State** – A synchronized state layer that both agents and UI components can read from and write to in real time.",
+        "**Human-in-the-Loop** – Lets agents pause execution to request user input, confirmation, or edits before continuing."
+      ],
+      "readme_excerpt": "<div align=center>\n\n<img width=\"120\" height=\"120\" alt=\"FavIcon\" src=\"https://github.com/user-attachments/assets/779de607-2b8d-4751-872b-1243e97c7d18\" />\n\n# CopilotKit\n\n<div align=center>\n\n[Docs](https://docs.copilotkit.ai/?ref=github_readme) ·\n[Examples](https://www.copilotkit.ai/examples) ·\n[Enterprise Intelligence Platform](https://go.copilotkit.ai/enterprise-intelligence-platform) ·\n[Discord](https://discord.gg/6dffbvGU3D?ref=github_readme)\n\n</div>\n\nBuild **agent-native applications** — on any framework, on any surface.\n\nGenerative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser.\n\n</div>\n\n[![CopilotKit](https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a)](https://go.copilotkit.ai/copilotkit-docs)\n\n<div align=\"center\" style=\"display:flex;justify-content:start;gap:16px;height:20px;margin: 0;\">\n  <a href=\"https://www.npmjs.com/package/@copilotkit/react-core\" target=\"_blank\">\n    <img src=\"https://img.shields.io/npm/v/%40copilotkit%2Freact-core?logo=npm&logoColor=%23FFFFFF&label=Version&color=%236963ff\" alt=\"NPM\">\n  </a>\n\n  <a href=\"https://github.com/copilotkit/copilotkit/blob/main/LICENSE",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "MemPalace/mempalace",
+      "html_url": "https://github.com/MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "chromadb",
+        "llm",
+        "mcp",
+        "memory",
+        "python"
+      ],
+      "stargazers_count": 54366,
+      "forks_count": 7116,
+      "open_issues_count": 576,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The best-benchmarked open-source AI memory system. And it's free."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"assets/mempalace_logo.png\" alt=\"MemPalace\" width=\"240\">\n\n# MemPalace\n\nLocal-first AI memory. Verbatim storage, pluggable backend, 96.6% R@5 raw on LongMemEval — zero API calls.\n\n[![][version-shield]][release-link]\n[![][python-shield]][python-link]\n[![][license-shield]][license-link]\n[![][discord-shield]][discord-link]\n\n</div>\n\n> [!CAUTION]\n> **Beware of impostor sites.** MemPalace has no other official websites. The **only** official sources are this **[GitHub repository](https://github.com/MemPalace/mempalace)**, the **[PyPI package](https://pypi.org/project/mempalace/)**, and the docs at **[mempalaceofficial.com](https://mempalaceofficial.com)**. Any other domain (including `.tech`, `.net`, or other `.com` variants) is an impostor and may distribute malware. Details and timeline: [docs/HISTORY.md](docs/HISTORY.md).\n\n> [!IMPORTANT]\n> **Claude Code sessions expire in 30 days without auto-save hooks wired.** [Read this →](https://github.com/MemPalace/mempalace/discussions/1388)\n>\n> Need the shortest recovery/setup path? Use the [Claude Code retention setup checklist](https://mempalaceofficial.com/guide/claude-code-retention.html).\n\n---\n\n## What it is\n",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "html_url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "augmentation",
+        "humans",
+        "productivity"
+      ],
+      "stargazers_count": 15029,
+      "forks_count": 2126,
+      "open_issues_count": 209,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "**PAI** — the OS itself. Skills, memory, the Algorithm, your Telos, your identity files.",
+        "**Pulse** — the Life Dashboard at `localhost:31337`. Where you actually see your state, goals, and work.",
+        "**The DA** — your Digital Assistant. The voice and personality you talk to."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"./images/pai-logo-v7.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"./images/pai-logo-v7.png\">\n  <img alt=\"PAI Logo\" src=\"./images/pai-logo-v7.png\" width=\"300\">\n</picture>\n\n<br/>\n<br/>\n\n# Personal AI Infrastructure\n\n[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.)](https://github.com/danielmiessler/Personal_AI_Infrastructure)\n\n<br/>\n\n<!-- Social Proof -->\n![Stars](https://img.shields.io/github/stars/danielmiessler/Personal_AI_Infrastructure?style=social)\n![Forks](https://img.shields.io/github/forks/danielmiessler/Personal_AI_Infrastructure?style=social)\n![Watchers](https://img.shields.io/github/watchers/danielmiessler/Personal_AI_Infrastructure?style=social)\n\n<!-- Project Health -->\n![Release](https://img.shields.io/github/v/release/danielmiessler/Personal_AI_Infrastructure?style=flat&logo=github&color=8B5CF6)\n![Last Commit](https://img.shields.io/github/last-commit/danielmiessler/Person",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "openai/plugins",
+      "html_url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 1813,
+      "forks_count": 259,
+      "open_issues_count": 28,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenAI Plugins",
+        "`plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules",
+        "`plugins/notion` for planning, research, meetings, and knowledge capture",
+        "`plugins/build-ios-apps` for SwiftUI implementation, refactors, performance, and debugging",
+        "`plugins/build-macos-apps` for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging guidance",
+        "`plugins/build-web-apps` for deployment, UI, payments, and database workflows"
+      ],
+      "readme_excerpt": "# Plugins\n\nThis repository contains a curated collection of Codex plugin examples.\n\nEach plugin lives under `plugins/<name>/` with a required\n`.codex-plugin/plugin.json` manifest and optional companion surfaces such as\n`skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`,\n`hooks.json`, `assets/`, and other supporting files.\n\nHighlighted richer examples in this repo include:\n\n- `plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules\n- `plugins/notion` for planning, research, meetings, and knowledge capture\n- `plugins/build-ios-apps` for SwiftUI implementation, refactors, performance, and debugging\n- `plugins/build-macos-apps` for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging guidance\n- `plugins/build-web-apps` for deployment, UI, payments, and database workflows\n- `plugins/expo` for Expo and React Native apps, SDK upgrades, EAS workflows, and Codex Run actions\n- `plugins/netlify`, `plugins/remotion`, and `plugins/google-slides` for additional public skill- and MCP-backed plugin bundles\n",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "html_url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "stargazers_count": 22507,
+      "forks_count": 1923,
+      "open_issues_count": 53,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕",
+        "🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费",
+        "📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒",
+        "📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看",
+        "📺 \"B站上有个技术视频，帮我总结一下\" → **连不上**，海外/服务器 IP 被屏蔽"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">👁️ Agent Reach</h1>\n\n<p align=\"center\">\n  <strong>给你的 AI Agent 一键装上互联网能力</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\" alt=\"MIT License\"></a>\n  <a href=\"https://www.python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white\" alt=\"Python 3.8+\"></a>\n  <a href=\"https://github.com/Panniantong/agent-reach/stargazers\"><img src=\"https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速上手\">快速开始</a> · <a href=\"docs/README_en.md\">English</a> · <a href=\"docs/README_ja.md\">日本語</a> · <a href=\"docs/README_ko.md\">한국어</a> · <a href=\"#支持的平台\">支持平台</a> · <a href=\"#设计理念\">设计理念</a>\n</p>\n\n---\n\n## 为什么需要 Agent Reach？\n\nAI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：\n\n- 📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕\n- 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费\n- 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒\n- 📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看\n- 📺 \"B站上有个技术视频，帮我总结一下\" → **连不上**，海外/服务器 IP 被屏蔽\n- 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差\n- 🌐 \"",
+      "_meta_source": "api"
+    }
+  ]
+}

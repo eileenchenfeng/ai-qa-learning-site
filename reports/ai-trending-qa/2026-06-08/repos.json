@@ -1,0 +1,198 @@
+{
+  "date": "2026-06-08",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 31737,
+      "forks_count": 2644,
+      "open_issues_count": 111,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "opencv/opencv",
+      "html_url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "computer-vision",
+        "deep-learning",
+        "image-processing",
+        "opencv"
+      ],
+      "stargazers_count": 88175,
+      "forks_count": 56600,
+      "open_issues_count": 2735,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "Open Source Computer Vision Library",
+        "Homepage: <https://opencv.org>",
+        "Courses: <https://opencv.org/courses>",
+        "Docs: <https://docs.opencv.org/4.x/>",
+        "Q&A forum: <https://forum.opencv.org>",
+        "previous forum (read only): <http://answers.opencv.org>"
+      ],
+      "readme_excerpt": "## OpenCV: Open Source Computer Vision Library\n\n\n### Resources\n\n* Homepage: <https://opencv.org>\n  * Courses: <https://opencv.org/courses>\n* Docs: <https://docs.opencv.org/4.x/>\n* Q&A forum: <https://forum.opencv.org>\n  * previous forum (read only): <http://answers.opencv.org>\n* Issue tracking: <https://github.com/opencv/opencv/issues>\n* Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib>\n* Donate to OpenCV: <https://opencv.org/support/>\n\n\n### Contributing\n\nPlease read the [contribution guidelines](https://github.com/opencv/opencv/wiki/How_to_contribute) before starting work on a pull request.\n\n#### Summary of the guidelines:\n\n* One pull request per issue;\n* Choose the right base branch;\n* Include tests and documentation;\n* Clean up \"oops\" commits before submitting;\n* Follow the [coding style guide](https://github.com/opencv/opencv/wiki/Coding_Style_Guide).\n\n### Additional Resources\n\n* [Submit your OpenCV-based project](https://form.jotform.com/233105358823151) for inclusion in Community Friday on opencv.org\n* [Subscribe to the OpenCV YouTube Channel](http://youtube.com/@opencvofficial) featuring OpenCV Live, an hour-long streaming show\n* [Follow OpenCV on L",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "html_url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "stargazers_count": 37160,
+      "forks_count": 2663,
+      "open_issues_count": 27,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "Open a Pull Request or Issue on GitHub",
+        "DM @lexnlin（https://x.com/lexnlin） or @blueemi99（https://x.com/blueemi99）",
+        "Email us at hello@tasteskill.dev"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/readme-banner.png\" alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"100%\" />\n</p>\n\n# Taste Skill\n\n<p align=\"center\">\n  <em>The Anti-Slop Frontend Framework for AI Agents</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\" title=\"Taste Skill - tasteskill.dev\">\n    <img src=\"assets/taste-skill-logo.webp\" width=\"80\" height=\"80\" alt=\"Taste Skill\" />\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://tasteskill.dev\">\n    <img src=\"https://img.shields.io/badge/OPEN-tasteskill.dev-%23a855f7?style=for-the-badge&labelColor=%230f172a\" alt=\"Open tasteskill.dev\" />\n  </a>\n</p>\n\nPortable **Agent Skills** that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes **image-generation skills** for reference boards (web, mobile, brand kits). Pair them with **ChatGPT Images** or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation.\n\n<p align=\"center\">\n<a href=\"https://github.com/Leonxlnx/taste-skill/stargazers\"><img src=\"https://img.shields.io/github/stars/Leonxlnx/taste-skill?style=for-the-badge&logo=gith",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "html_url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "stargazers_count": 186249,
+      "forks_count": 32038,
+      "open_issues_count": 19243,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The agent that grows with you"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.png\" alt=\"Hermes Agent\" width=\"100%\">\n</p>\n\n# Hermes Agent ☤\n\n<p align=\"center\">\n  <a href=\"https://hermes-agent.nousresearch.com/docs/\"><img src=\"https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge\" alt=\"Documentation\"></a>\n  <a href=\"https://discord.gg/NousResearch\"><img src=\"https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/NousResearch/hermes-agent/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-green?style=for-the-badge\" alt=\"License: MIT\"></a>\n  <a href=\"https://nousresearch.com\"><img src=\"https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge\" alt=\"Built by Nous Research\"></a>\n  <a href=\"README.zh-CN.md\"><img src=\"https://img.shields.io/badge/Lang-中文-red?style=for-the-badge\" alt=\"中文\"></a>\n  <a href=\"README.ur-pk.md\"><img src=\"https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge\" alt=\"اردو\"></a>\n</p>\n\n**The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — i",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "yikart/AiToEarn",
+      "html_url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "topics": [
+        "auto-publish",
+        "douyin",
+        "douyin-api",
+        "electron-app",
+        "electron-react",
+        "kuaishou",
+        "kwai",
+        "published",
+        "shipinhao",
+        "tool",
+        "xiaohongshu"
+      ],
+      "stargazers_count": 18963,
+      "forks_count": 2926,
+      "open_issues_count": 25,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Let's use AI to Earn!",
+        "**2026-05-21**: 2.4 version（https://github.com/yikart/AiToEarn/releases/tag/v2.4.0） — 草稿生成新增支持 HappyHorse 1.0 和 Seedance 2.0，增强视频/图文草稿批量生成、多模型选择、参考图片/视频、目标平台限制与文案提示词；带来全新界面风格，并增强 Twitter/X 探索与互动能力。",
+        "**2026-04-20**: OpenClaw（龙虾）新增 AiToEarn 赚钱支持，可在龙虾中直接接收并执行内容变现任务。",
+        "**2026-03-26**: 2.1 version（https://www.aitoearn.ai/） — 内容交易市场上线；新增 OpenClaw（龙虾）支持，可在龙虾中直接使用 AiToEarn；新增 MCP 协议支持，可在 Claude、Cursor 等任何支持 MCP 的 Agent 或大模型中使用 AiToEarn。",
+        "**2026-02-07**: 1.8.0 version（https://www.aitoearn.ai/），新增线下商户推广解决方案，支持餐厅、零售店、民宿、美容美发、健身房等多种线下业态，将线下推广活动转化为可执行的线上传播任务，通过内容发布与用户参与机制，帮助门店获取更多线上曝光和到店流量。",
+        "**2025-12-15**: \"All In Agent\" 的开始！我们加入了能够自动内容生成和发布以及一些帮助你操作 Aitoearn 的超级 AI 智能 Agent。v1.4.3（https://github.com/yikart/AiToEarn/releases/tag/v1.4.3）"
+      ],
+      "readme_excerpt": "# [Aitoearn：OPC（一人公司）的AI内容营销智能体](https://aitoearn.ai)\n\n<a href=\"https://trendshift.io/repositories/20785\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/20785\" alt=\"yikart%2FAiToEarn | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[![GitHub stars](https://img.shields.io/github/stars/yikart/AiToEarn?color=fa6470)](https://github.com/yikart/AiToEarn/stargazers)\n[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n[![Required Node.JS 20.18.x](https://img.shields.io/static/v1?label=node&message=20.18.x&logo=node.js&color=3f893e)](https://nodejs.org/about/releases)\n\n简体中文 | [English](README_EN.md) | [日本語](README_JA.md)\n\n**Monetize · Publish · Engage · Create —— 一站式平台。**\n\nAiToEarn 通过 **AI Agent自动化**，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。\n\n支持渠道：\n抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn\n\n## 🚀 快速使用 AiToEarn（5 种方式）\n\n| 方式 | 适合谁 | 需要部署吗 |\n|------|--------|-----------|\n| [① 打开网站直接用](#use-web) | 所有用户 | ❌ 不需要 |\n| [② 在龙虾 OpenClaw 中用](#use-in-openclaw) | 龙虾用户 | ❌ 不需要 |\n| [③ 在 Claude / Cursor 等 AI 助手中用](#use-in-claude) | AI 工具用户 | ❌ 不需要 |\n| [④ Docker 一键部署](",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "aaif-goose/goose",
+      "html_url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "topics": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ],
+      "stargazers_count": 47628,
+      "forks_count": 5021,
+      "open_issues_count": 325,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "Quickstart（https://goose-docs.ai/docs/quickstart）",
+        "Installation（https://goose-docs.ai/docs/getting-started/installation）",
+        "Tutorials（https://goose-docs.ai/docs/category/tutorials）",
+        "Documentation（https://goose-docs.ai/docs/category/getting-started）",
+        "Governance（https://github.com/aaif-goose/goose/blob/main/GOVERNANCE.md）"
+      ],
+      "readme_excerpt": "> **🦆 goose has moved!** This project has moved from `block/goose` to the [Agentic AI Foundation (AAIF)](https://aaif.io/) at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition.\n\n<div align=\"center\">\n\n# goose\n\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n<p align=\"center\">\n  <a href=\"https://opensource.org/licenses/Apache-2.0\"\n    ><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a>\n  <a href=\"https://discord.gg/goose-oss\"\n    ><img src=\"https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/aaif-goose/goose/actions/workflows/ci.yml\"\n     ><img src=\"https://img.shields.io/github/actions/workflow/status/aaif-goose/goose/ci.yml?branch=main\" alt=\"CI\"></a>\n  <a href=\"https://insights.linuxfoundation.org/project/goose\"><img src=\"https://insights.linuxfoundation.org/api/badge/health-score?project=goose\"></a>\n  <a href=\"https://repology.org/project/goose-cli/versions\"><img src=\"https://repology.org/badge/tiny-repos/goose-cli.svg\" alt",
+      "_meta_source": "api"
+    }
+  ]
+}

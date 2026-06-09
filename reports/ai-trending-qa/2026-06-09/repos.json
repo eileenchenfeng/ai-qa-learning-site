@@ -1,0 +1,206 @@
+{
+  "date": "2026-06-09",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 35038,
+      "forks_count": 2867,
+      "open_issues_count": 124,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "RyanCodrai/turbovec",
+      "html_url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "topics": [
+        "ann",
+        "avx512",
+        "embedding",
+        "embeddings",
+        "faiss",
+        "nearest-neighbor",
+        "neon",
+        "python",
+        "quant",
+        "quantization",
+        "rag",
+        "rust",
+        "simd",
+        "turboquant",
+        "vector-search"
+      ],
+      "stargazers_count": 9154,
+      "forks_count": 821,
+      "open_issues_count": 13,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "A vector index built on TurboQuant, written in Rust with Python bindings",
+        "**Online ingest.** Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows.",
+        "**Faster than FAISS.** Hand-written NEON (ARM) and AVX-512BW (x86) kernels beat FAISS IndexPQFastScan by 12–20% on ARM and match-or-beat it on x86.",
+        "**Filter at search time.** Pass an id allowlist (or a slot bitmask) to `search()` and the kernel honours it directly. You always get up to `k` results from the allowed set — no over-fetching, no recall hit on selective filters.",
+        "**Pure local.** No managed service, no data leaving your machine or VPC. Pair with any open-source embedding model for a fully air-gapped RAG stack.",
+        "LangChain — `pip install turbovec[langchain]` · replaces `langchain_core.vectorstores.InMemoryVectorStore`"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/header.png\" alt=\"turbovec — Google's TurboQuant for vector search\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/RyanCodrai/turbovec/blob/main/LICENSE\"><img src=\"https://img.shields.io/pypi/l/turbovec\" alt=\"License\"></a>\n  <a href=\"https://pypi.org/project/turbovec/\"><img src=\"https://img.shields.io/pypi/v/turbovec?label=pypi&color=blue\" alt=\"PyPI version\"></a>\n  <a href=\"https://crates.io/crates/turbovec\"><img src=\"https://img.shields.io/crates/v/turbovec?label=crates.io&color=blue\" alt=\"crates.io version\"></a>\n  <a href=\"https://arxiv.org/abs/2504.19874\"><img src=\"https://img.shields.io/badge/paper-arXiv-b31b1b.svg\" alt=\"TurboQuant paper\"></a>\n</p>\n\n---\n\n**A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS.**\n\nturbovec is a Rust vector index with Python bindings, built on Google Research's [**TurboQuant**](https://arxiv.org/abs/2504.19874) algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase.\n\n- **Online ingest.** Add vectors, they're indexed — no train step, no ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google/skills",
+      "html_url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "stargazers_count": 12555,
+      "forks_count": 974,
+      "open_issues_count": 15,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent Skills for Google products and technologies",
+        "**Gemini API on Agent Platform**",
+        "**Gemini Interactions API on Agent Platform**",
+        "**Managed Agents API on Agent Platform**",
+        "**Skill Registry API on Agent Platform**",
+        "**AlloyDB Basics**"
+      ],
+      "readme_excerpt": "# Agent Skills\n\n[![Install via skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh/google/skills)\n\nThis repository contains [Agent Skills](https://agentskills.io/home) for Google\nproducts and technologies, including [Google Cloud](https://cloud.google.com).\n\n> [!NOTE]\n> This repository is under active development.\n\n## Installation\n\n```bash\nnpx skills add google/skills\n```\n\nFrom the `npx install` command, you can select the specific skills from this\nrepo to install.\n\n## Available Skills\n\n-   [**Gemini API on Agent Platform**](./skills/cloud/gemini-api)\n-   [**Gemini Interactions API on Agent Platform**](./skills/cloud/gemini-api)\n-   [**Managed Agents API on Agent Platform**](./skills/cloud/gemini-agents-api)\n-   [**Skill Registry API on Agent Platform**](./skills/cloud/agent-platform-skill-registry)\n-   [**AlloyDB Basics**](./skills/cloud/alloydb-basics)\n-   [**BigQuery Basics**](./skills/cloud/bigquery-basics)\n-   [**Cloud Run Basics**](./skills/cloud/cloud-run-basics)\n-   [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)\n-   [**Firebase Basics**](./skills/cloud/firebase-basics)\n-   [**Kubernetes Engine (GKE) Basics**](./skills/cloud/gke-basic",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "html_url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "stargazers_count": 24491,
+      "forks_count": 2049,
+      "open_issues_count": 69,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕",
+        "🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费",
+        "📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒",
+        "📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看",
+        "📺 \"B站上有个技术视频，帮我总结一下\" → **连不上**，海外/服务器 IP 被屏蔽"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">👁️ Agent Reach</h1>\n\n<p align=\"center\">\n  <strong>给你的 AI Agent 一键装上互联网能力</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\" alt=\"MIT License\"></a>\n  <a href=\"https://www.python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white\" alt=\"Python 3.8+\"></a>\n  <a href=\"https://github.com/Panniantong/agent-reach/stargazers\"><img src=\"https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速上手\">快速开始</a> · <a href=\"docs/README_en.md\">English</a> · <a href=\"docs/README_ja.md\">日本語</a> · <a href=\"docs/README_ko.md\">한국어</a> · <a href=\"#支持的平台\">支持平台</a> · <a href=\"#设计理念\">设计理念</a>\n</p>\n\n---\n\n## 为什么需要 Agent Reach？\n\nAI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：\n\n- 📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕\n- 🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费\n- 📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒\n- 📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看\n- 📺 \"B站上有个技术视频，帮我总结一下\" → **连不上**，海外/服务器 IP 被屏蔽\n- 🔍 \"帮我在网上搜一下最新的 LLM 框架对比\" → **没有好用的搜索**，要么付费要么质量差\n- 🌐 \"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "html_url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "augmentation",
+        "humans",
+        "productivity"
+      ],
+      "stargazers_count": 15509,
+      "forks_count": 2163,
+      "open_issues_count": 212,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "**PAI** — the OS itself. Skills, memory, the Algorithm, your Telos, your identity files.",
+        "**Pulse** — the Life Dashboard at `localhost:31337`. Where you actually see your state, goals, and work.",
+        "**The DA** — your Digital Assistant. The voice and personality you talk to."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"./images/pai-logo-v7.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"./images/pai-logo-v7.png\">\n  <img alt=\"PAI Logo\" src=\"./images/pai-logo-v7.png\" width=\"300\">\n</picture>\n\n<br/>\n<br/>\n\n# Personal AI Infrastructure\n\n[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=60A5FA&center=true&vCenter=true&width=600&lines=Everyone+needs+access+to+the+best+AI.;AI+should+magnify+everyone.;Your+Life+Operating+System.)](https://github.com/danielmiessler/Personal_AI_Infrastructure)\n\n<br/>\n\n<!-- Social Proof -->\n![Stars](https://img.shields.io/github/stars/danielmiessler/Personal_AI_Infrastructure?style=social)\n![Forks](https://img.shields.io/github/forks/danielmiessler/Personal_AI_Infrastructure?style=social)\n![Watchers](https://img.shields.io/github/watchers/danielmiessler/Personal_AI_Infrastructure?style=social)\n\n<!-- Project Health -->\n![Release](https://img.shields.io/github/v/release/danielmiessler/Personal_AI_Infrastructure?style=flat&logo=github&color=8B5CF6)\n![Last Commit](https://img.shields.io/github/last-commit/danielmiessler/Person",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "santifer/career-ops",
+      "html_url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "automation",
+        "career",
+        "careerops",
+        "claude",
+        "claude-code",
+        "cli",
+        "golang",
+        "interview-prep",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "stargazers_count": 50709,
+      "forks_count": 10351,
+      "open_issues_count": 190,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+        "**Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)",
+        "**Generates tailored PDFs** -- ATS-optimized CVs customized per job description",
+        "**Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)",
+        "**Processes in batch** -- evaluate 10+ offers in parallel with sub-agents",
+        "**Tracks everything** in a single source of truth with integrity checks"
+      ],
+      "readme_excerpt": "# Career-Ops\n\n[English](README.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md) | [Українська](README.ua.md) | [Русский](README.ru.md)\n\n<p align=\"center\">\n  <a href=\"https://x.com/santifer\"><img src=\"docs/hero-banner.jpg\" alt=\"Career-Ops Multi-Agent Job Search System\" width=\"800\"></a>\n</p>\n\n<p align=\"center\">\n  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>\n  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>\n  <em>Now it's open source.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/25195\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25195\" alt=\"santifer%2Fcareer-ops | Trendshift\" style=\"width: 245px; height: 54px; vertical-align: middle;\" width=\"245\" height=\"54\"/></a>\n  &nbsp;&nbsp;\n  <a href=\"https://www.producthunt.com/products/santifer-io?utm_source=badge-featured&utm_medium=badge\" target=\"_blank\"><img src=\"docs/press/producthunt.svg\" alt=\"Career-Ops on Claude | Product Hunt\" style=\"width: 206",
+      "_meta_source": "api"
+    }
+  ]
+}

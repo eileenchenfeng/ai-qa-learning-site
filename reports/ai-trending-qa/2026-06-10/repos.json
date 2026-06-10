@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-10",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 37793,
+      "forks_count": 3056,
+      "open_issues_count": 139,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "RyanCodrai/turbovec",
+      "html_url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "topics": [
+        "ann",
+        "avx512",
+        "embedding",
+        "embeddings",
+        "faiss",
+        "nearest-neighbor",
+        "neon",
+        "python",
+        "quant",
+        "quantization",
+        "rag",
+        "rust",
+        "simd",
+        "turboquant",
+        "vector-search"
+      ],
+      "stargazers_count": 10351,
+      "forks_count": 887,
+      "open_issues_count": 7,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "A vector index built on TurboQuant, written in Rust with Python bindings",
+        "**Online ingest.** Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows.",
+        "**Faster than FAISS.** Hand-written NEON (ARM) and AVX-512BW (x86) kernels beat FAISS IndexPQFastScan by 12–20% on ARM and match-or-beat it on x86.",
+        "**Filter at search time.** Pass an id allowlist (or a slot bitmask) to `search()` and the kernel honours it directly. You always get up to `k` results from the allowed set — no over-fetching, no recall hit on selective filters.",
+        "**Pure local.** No managed service, no data leaving your machine or VPC. Pair with any open-source embedding model for a fully air-gapped RAG stack.",
+        "LangChain — `pip install turbovec[langchain]` · replaces `langchain_core.vectorstores.InMemoryVectorStore`"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/header.png\" alt=\"turbovec — Google's TurboQuant for vector search\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/RyanCodrai/turbovec/blob/main/LICENSE\"><img src=\"https://img.shields.io/pypi/l/turbovec\" alt=\"License\"></a>\n  <a href=\"https://pypi.org/project/turbovec/\"><img src=\"https://img.shields.io/pypi/v/turbovec?label=pypi&color=blue\" alt=\"PyPI version\"></a>\n  <a href=\"https://crates.io/crates/turbovec\"><img src=\"https://img.shields.io/crates/v/turbovec?label=crates.io&color=blue\" alt=\"crates.io version\"></a>\n  <a href=\"https://arxiv.org/abs/2504.19874\"><img src=\"https://img.shields.io/badge/paper-arXiv-b31b1b.svg\" alt=\"TurboQuant paper\"></a>\n</p>\n\n---\n\n**A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS.**\n\nturbovec is a Rust vector index with Python bindings, built on Google Research's [**TurboQuant**](https://arxiv.org/abs/2504.19874) algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase.\n\n- **Online ingest.** Add vectors, they're indexed — no train step, no ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "roboflow/supervision",
+      "html_url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "topics": [
+        "classification",
+        "coco",
+        "computer-vision",
+        "deep-learning",
+        "hacktoberfest",
+        "image-processing",
+        "instance-segmentation",
+        "low-code",
+        "machine-learning",
+        "metrics",
+        "object-detection",
+        "oriented-bounding-box",
+        "pascal-voc",
+        "python",
+        "pytorch",
+        "tensorflow",
+        "tracking",
+        "video-processing",
+        "yolo"
+      ],
+      "stargazers_count": 43132,
+      "forks_count": 3843,
+      "open_issues_count": 102,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "We write your reusable computer vision tools. 💜",
+        "inference"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <p>\n    <a align=\"center\" href=\"\" target=\"https://supervision.roboflow.com\">\n      <img\n        width=\"100%\"\n        src=\"https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529\"\n      >\n    </a>\n  </p>\n\n<br>\n\n[notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [maestro](https://github.com/roboflow/multimodal-maestro)\n\n<br>\n\n[![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision) [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision) [![license](https://img.shields.io/pypi/l/supervision)](LICENSE.md) [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision) [![codecov](https://codecov.io/gh/roboflow/supervision/graph/badge.svg?token=HMNJ5FVZ36)](https://codecov.io/gh/roboflow/supervision)\n\n[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision) [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "opencv/opencv",
+      "html_url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "language": "C++",
+      "topics": [
+        "c-plus-plus",
+        "computer-vision",
+        "deep-learning",
+        "image-processing",
+        "opencv"
+      ],
+      "stargazers_count": 88721,
+      "forks_count": 56628,
+      "open_issues_count": 2728,
+      "arch_category": "应用层 / UI",
+      "features": [
+        "Open Source Computer Vision Library",
+        "Homepage: <https://opencv.org>",
+        "Courses: <https://opencv.org/courses>",
+        "Docs: <https://docs.opencv.org/4.x/>",
+        "Q&A forum: <https://forum.opencv.org>",
+        "previous forum (read only): <http://answers.opencv.org>"
+      ],
+      "readme_excerpt": "## OpenCV: Open Source Computer Vision Library\n\n\n### Resources\n\n* Homepage: <https://opencv.org>\n  * Courses: <https://opencv.org/courses>\n* Docs: <https://docs.opencv.org/4.x/>\n* Q&A forum: <https://forum.opencv.org>\n  * previous forum (read only): <http://answers.opencv.org>\n* Issue tracking: <https://github.com/opencv/opencv/issues>\n* Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib>\n* Donate to OpenCV: <https://opencv.org/support/>\n\n\n### Contributing\n\nPlease read the [contribution guidelines](https://github.com/opencv/opencv/wiki/How_to_contribute) before starting work on a pull request.\n\n#### Summary of the guidelines:\n\n* One pull request per issue;\n* Choose the right base branch;\n* Include tests and documentation;\n* Clean up \"oops\" commits before submitting;\n* Follow the [coding style guide](https://github.com/opencv/opencv/wiki/Coding_Style_Guide).\n\n### Additional Resources\n\n* [Submit your OpenCV-based project](https://form.jotform.com/233105358823151) for inclusion in Community Friday on opencv.org\n* [Subscribe to the OpenCV YouTube Channel](http://youtube.com/@opencvofficial) featuring OpenCV Live, an hour-long streaming show\n* [Follow OpenCV on L",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "aaif-goose/goose",
+      "html_url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "topics": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ],
+      "stargazers_count": 48558,
+      "forks_count": 5097,
+      "open_issues_count": 353,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+        "Quickstart（https://goose-docs.ai/docs/quickstart）",
+        "Installation（https://goose-docs.ai/docs/getting-started/installation）",
+        "Tutorials（https://goose-docs.ai/docs/category/tutorials）",
+        "Documentation（https://goose-docs.ai/docs/category/getting-started）",
+        "Governance（https://github.com/aaif-goose/goose/blob/main/GOVERNANCE.md）"
+      ],
+      "readme_excerpt": "> **🦆 goose has moved!** This project has moved from `block/goose` to the [Agentic AI Foundation (AAIF)](https://aaif.io/) at the Linux Foundation. Some links and references are still being updated — please bear with us during the transition.\n\n<div align=\"center\">\n\n# goose\n\n_your native open source AI agent — desktop app, CLI, and API — for code, workflows, and everything in between_\n\n<p align=\"center\">\n  <a href=\"https://opensource.org/licenses/Apache-2.0\"\n    ><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\"></a>\n  <a href=\"https://discord.gg/goose-oss\"\n    ><img src=\"https://img.shields.io/discord/1287729918100246654?logo=discord&logoColor=white&label=Join+Us&color=blueviolet\" alt=\"Discord\"></a>\n  <a href=\"https://github.com/aaif-goose/goose/actions/workflows/ci.yml\"\n     ><img src=\"https://img.shields.io/github/actions/workflow/status/aaif-goose/goose/ci.yml?branch=main\" alt=\"CI\"></a>\n  <a href=\"https://insights.linuxfoundation.org/project/goose\"><img src=\"https://insights.linuxfoundation.org/api/badge/health-score?project=goose\"></a>\n  <a href=\"https://repology.org/project/goose-cli/versions\"><img src=\"https://repology.org/badge/tiny-repos/goose-cli.svg\" alt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Andyyyy64/whichllm",
+      "html_url": "https://github.com/Andyyyy64/whichllm",
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "apple-silicon",
+        "benchmarks",
+        "cli",
+        "command-line-tool",
+        "gguf",
+        "gpu",
+        "huggingface",
+        "inference",
+        "llm",
+        "local-llm",
+        "ollama",
+        "python",
+        "vram"
+      ],
+      "stargazers_count": 4185,
+      "forks_count": 234,
+      "open_issues_count": 19,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+        "**Evidence-based ranking, not a size heuristic** — The top pick is",
+        "**Recency-aware** — Stale leaderboards are demoted along each model's",
+        "**Evidence-graded and guarded** — Every score is tagged",
+        "**Architecture-aware estimates** — VRAM = weights + GQA KV cache +",
+        "**One command, scriptable** — `whichllm` prints the answer; add"
+      ],
+      "readme_excerpt": "# whichllm\n\n[![PyPI version](https://img.shields.io/pypi/v/whichllm)](https://pypi.org/project/whichllm/)\n[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![Tests](https://github.com/Andyyyy64/whichllm/actions/workflows/test.yml/badge.svg)](https://github.com/Andyyyy64/whichllm/actions/workflows/test.yml)\n[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-EA4AAA?logo=githubsponsors)](https://github.com/sponsors/Andyyyy64)\n\n**Find the best local LLM that actually runs on your hardware.**\n\nAuto-detects your GPU/CPU/RAM and ranks the top models from HuggingFace that fit your system.\n\n[日本語版はこちら](docs/README.ja.md)\n\n## Quick start\n\nRun the recommendation command once, with no project setup.\n\n```bash\nuvx whichllm@latest\n```\n\nSimulate a GPU before you buy hardware.\n\n```bash\nuvx whichllm@latest --gpu \"RTX 4090\"\n```\n\nInstall it when you use it often.\n\n```bash\nuv tool install whichllm\nuv tool upgrade whichllm  # update an existing install\n```\n\nOther install paths.\n\n```bash\nbrew install andyyyy64/whichllm/whichllm\n",
+      "_meta_source": "api"
+    }
+  ]
+}

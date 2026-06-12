@@ -1,0 +1,201 @@
+{
+  "date": "2026-06-11",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 52370,
+      "forks_count": 5758,
+      "open_issues_count": 108,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "phuryn/pm-skills",
+      "html_url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "language": null,
+      "topics": [
+        "agent-skill-repository",
+        "agent-skills",
+        "agentic-skills",
+        "claude-code-marketplace",
+        "claude-code-plugins",
+        "claude-cowork-plugin",
+        "product-management"
+      ],
+      "stargazers_count": 15269,
+      "forks_count": 1641,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+        "Open **Customize** (bottom-left)",
+        "Go to **Browse plugins** → **Personal** → **+**",
+        "Select **Add marketplace from GitHub**",
+        "Enter: `phuryn/pm-skills`"
+      ],
+      "readme_excerpt": "![GitHub stars](https://img.shields.io/github/stars/phuryn/pm-skills)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/LICENSE)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/CONTRIBUTING.md)\n[![Companion: pm-skills](https://img.shields.io/badge/companion-pm--brain-blue)](https://github.com/phuryn/pm-brain)\n\n# PM Skills Marketplace: The AI Operating System for Better Product Decisions\n\n> 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code. \n\n![PM Skills marketplace: skills, commands, and all 9 plugins at a glance](.docs/images/plugins.png)\n\nDesigned for Claude Code and Cowork. Skills compatible with other AI assistants.\n\n## Start Here\n\nNew idea? → `/discover`  \nNeed strategic clarity? → `/strategy`  \nWriting a PRD? → `/write-prd`  \nPlanning a launch? → `/plan-launch`  \nDefining metrics? → `/north-star`\n\nIf this project helps you, ⭐ the repo.\n\n## Why PM Skills Marketplace?\n\nGeneric AI gives you text. ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "stargazers_count": 39244,
+      "forks_count": 3164,
+      "open_issues_count": 147,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary"
+      ],
+      "readme_excerpt": "# /last30days\n\n<p align=\"center\">\n  <a href=\"https://github.com/mvanhorn/last30days-skill\">\n    <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" />\n  </a>\n  <br/>\n  <a href=\"https://trendshift.io/repositories/21997\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/repositories/21997\" alt=\"mvanhorn/last30days-skill | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/>\n  </a>\n</p>\n\n**An AI agent-led search engine scored by upvotes, likes, and real money - not editors.**\n\nThis README tracks the current v3 pipeline. The runtime skill spec lives in [skills/last30days/SKILL.md](skills/last30days/SKILL.md), which is the source of truth for the latest command and setup behavior.\n\n**Claude Code (recommended — auto-updates via marketplace):**\n```\n/plugin marketplace add mvanhorn/last30days-skill\n/plugin install last30days\n```\n\n**Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts:**\n```\nnpx skills add mvanhorn/last30days-skill -g\n```\n(`-g` installs globally for your user, available ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "html_url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cybersecurity",
+        "identification",
+        "information-gathering",
+        "infosec",
+        "investigation",
+        "open-source",
+        "osint",
+        "osint-framework",
+        "osint-python",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "scraping",
+        "sherlock",
+        "social-network",
+        "socmint",
+        "username"
+      ],
+      "stargazers_count": 32139,
+      "forks_count": 2358,
+      "open_issues_count": 45,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+        "In one minute",
+        "Main features",
+        "Installation",
+        "Contributing"
+      ],
+      "readme_excerpt": "# Maigret\n\n<div align=\"center\">\n  <div>\n    <a href=\"https://pypi.org/project/maigret/\">\n        <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://pepy.tech/project/maigret\">\n      <img alt=\"Downloads/month\" src=\"https://static.pepy.tech/badge/maigret/month\" />\n      <img alt=\"Total downloads\" src=\"https://static.pepy.tech/badge/maigret\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\">\n        <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\" />\n    </a>\n  </div>\n  <br>\n  <div>\n    <img src=\"https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png\" height=\"300\" alt=\"Maigret logo\"/>\n  </div>\n  ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "html_url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "language": null,
+      "topics": [
+        "ai",
+        "bolt",
+        "cluely",
+        "copilot",
+        "cursor",
+        "cursorai",
+        "devin",
+        "github-copilot",
+        "lovable",
+        "open-source",
+        "perplexity",
+        "replit",
+        "system-prompts",
+        "trae",
+        "trae-ai",
+        "trae-ide",
+        "v0",
+        "vscode",
+        "windsurf",
+        "windsurf-ai"
+      ],
+      "stargazers_count": 139602,
+      "forks_count": 34597,
+      "open_issues_count": 150,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+        "**Cryptocurrency:**",
+        "**BTC:** `bc1q7zldmzjwspnaa48udvelwe6k3fef7xrrhg5625`",
+        "**LTC:** `LRWgqwEYDwqau1WeiTs6Mjg85NJ7m3fsdQ`",
+        "**ETH:** `0x3f844B2cc3c4b7242964373fB0A41C4fdffB192A`",
+        "**Patreon:** https://patreon.com/lucknite"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <sub>Thanks to</sub>  \n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/latitude-dev/latitude-llm\">\n    <img src=\"assets/latitude-dark.png\" alt=\"Latitude Logo\" width=\"700\"/>\n  </a>\n</p>\n\n<div align=\"center\" markdown=\"1\">\n\n### [Issue Tracking for AI Agents](https://github.com/latitude-dev/latitude-llm)  \n[Open Source Monitoring platform](https://github.com/latitude-dev/latitude-llm)\n\n</div>\n\n---\n\n<a href=\"https://discord.gg/NwzrWErdMU\" target=\"_blank\">\n  <img src=\"https://img.shields.io/discord/1402660735833604126?label=LeaksLab%20Discord&logo=discord&style=for-the-badge\" alt=\"LeaksLab Discord\" />\n</a>\n\n\n<a href=\"https://trendshift.io/repositories/14084\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14084\" alt=\"x1xhlol%2Fsystem-prompts-and-models-of-ai-tools | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n\n[![Build Status](https://app.cloudback.it/badge/x1xhlol/system-prompts-and-models-of-ai-tools)](https://cloudback.it)\n[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/x1xhlol/system-prompts-and-models-of-ai-tools)\n\n---\n\n## Support the Project\n\nIf you find this collection valu",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 223819,
+      "forks_count": 19902,
+      "open_issues_count": 285,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "Open the plugin search interface:",
+        "Search for Superpowers:"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. \n\nNext up, once you say \"go\", it launches a *",
+      "_meta_source": "api"
+    }
+  ]
+}

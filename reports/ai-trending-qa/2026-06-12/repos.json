@@ -1,0 +1,181 @@
+{
+  "date": "2026-06-12",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "apple/container",
+      "html_url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "language": "Swift",
+      "topics": [],
+      "stargazers_count": 33141,
+      "forks_count": 920,
+      "open_issues_count": 308,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+        "Take a guided tour of `container` by building, running, and publishing a simple web server image.",
+        "Learn how to use various `container` features.",
+        "Read a brief description and technical overview of `container`.",
+        "Browse the full command reference.",
+        "Build and run `container` on your own development system."
+      ],
+      "readme_excerpt": "<h1>\n  <img alt=\"Containerization logo\" src=\"./assets/Containerization-Logo.png\" width=\"70\" valign=\"middle\">\n  &nbsp;container\n</h1>\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible container images](https://github.com/opencontainers/image-spec), so you can pull and run images from any standard container registry. You can push images that you build to those registries as well, and run the images in any other OCI-compatible application.\n\n`container` uses the [Containerization](https://github.com/apple/containerization) Swift package for low-level container, image, and process management.\n\n![introductory movie showing some basic commands](./docs/assets/landing-movie.gif)\n\n## Get started\n\n### Requirements\n\nYou need a Mac with Apple silicon to run `container`. To build it, see the [BUILDING](./BUILDING.md) document.\n\n`container` is supported on macOS 26, since it takes advantage of new features and enhancements to virtualization and networking in this release. We do not support older versions of macOS and the `con",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 55211,
+      "forks_count": 5990,
+      "open_issues_count": 120,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "maziyarpanahi/openmed",
+      "html_url": "https://github.com/maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "topics": [
+        "bert",
+        "deepseek",
+        "healthcare",
+        "ios",
+        "llm",
+        "mlx",
+        "ner",
+        "on-device",
+        "on-premise",
+        "pii",
+        "pii-detection",
+        "qwen",
+        "sovereign-ai",
+        "swift",
+        "swift-package",
+        "swiftui"
+      ],
+      "stargazers_count": 2859,
+      "forks_count": 280,
+      "open_issues_count": 84,
+      "arch_category": "推理 / 部署",
+      "features": [
+        "open-source healthcare ai",
+        "**Specialized models** — 1,000+ curated biomedical & clinical models, many outperforming proprietary stacks.",
+        "**HIPAA-aware de-identification** — all 18 Safe Harbor identifiers, smart entity merging, format-preserving fakes.",
+        "**Runs everywhere** — CPU, CUDA, Apple Silicon (MLX), and natively in iOS/macOS apps via OpenMedKit.",
+        "**One-line deployment** — Python API, Dockerized REST service, or batch pipelines.",
+        "**Zero lock-in** — Apache-2.0, your infrastructu"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"docs/brand/openmed-mascot-lockup.png\" alt=\"OpenMed — local-first healthcare AI\" width=\"400\" />\n\n<h3>Local-first healthcare AI that never leaves the device</h3>\n\n<p><b>Turn clinical text into structured insight with one line of code.</b><br/>\nEntity extraction, PII de-identification, and 1,000+ specialized medical models that run entirely on\nyour own hardware — from a one-liner in Python to a native Swift app on iPhone, powered by Apple MLX.\nNo cloud. No vendor lock-in. No patient data leaving your network.</p>\n\n<p>\n  <a href=\"https://pypi.org/project/openmed/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/openmed?style=for-the-badge&label=PyPI&logo=pypi&logoColor=white&color=0D6E6E\"></a>\n  <a href=\"https://www.python.org/downloads/\"><img alt=\"Python\" src=\"https://img.shields.io/badge/Python-3.10+-128787?style=for-the-badge&logo=python&logoColor=white\"></a>\n  <a href=\"https://huggingface.co/OpenMed\"><img alt=\"Models\" src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Models-1%2C000+-F5E27A?style=for-the-badge&labelColor=0E1116\"></a>\n  <a href=\"https://arxiv.org/abs/2508.01630\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2508.01630-C545",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "phuryn/pm-skills",
+      "html_url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "language": null,
+      "topics": [
+        "agent-skill-repository",
+        "agent-skills",
+        "agentic-skills",
+        "claude-code-marketplace",
+        "claude-code-plugins",
+        "claude-cowork-plugin",
+        "product-management"
+      ],
+      "stargazers_count": 16405,
+      "forks_count": 1700,
+      "open_issues_count": 22,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+        "Open **Customize** (bottom-left)",
+        "Go to **Browse plugins** → **Personal** → **+**",
+        "Select **Add marketplace from GitHub**",
+        "Enter: `phuryn/pm-skills`"
+      ],
+      "readme_excerpt": "![GitHub stars](https://img.shields.io/github/stars/phuryn/pm-skills)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/LICENSE)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/CONTRIBUTING.md)\n[![Companion: pm-skills](https://img.shields.io/badge/companion-pm--brain-blue)](https://github.com/phuryn/pm-brain)\n\n# PM Skills Marketplace: The AI Operating System for Better Product Decisions\n\n> 68 PM skills and 42 chained workflows across 9 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, growth, and shipping AI-built code. \n\n![PM Skills marketplace: skills, commands, and all 9 plugins at a glance](.docs/images/plugins.png)\n\nDesigned for Claude Code and Cowork. Skills compatible with other AI assistants.\n\n## Start Here\n\nNew idea? → `/discover`  \nNeed strategic clarity? → `/strategy`  \nWriting a PRD? → `/write-prd`  \nPlanning a launch? → `/plan-launch`  \nDefining metrics? → `/north-star`\n\nIf this project helps you, ⭐ the repo.\n\n## Why PM Skills Marketplace?\n\nGeneric AI gives you text. ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "html_url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 2835,
+      "forks_count": 222,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "**Development guide** — Architecture, package layout, and how to extend the analyzer pipeline.",
+        "**Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files",
+        "**64 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning",
+        "**Two-stage analysis**: Fast static analysis + optional LLM semantic evaluation",
+        "**Live vulnerability lookups**: SC4 queries OSV.dev（https://osv.dev） for real-time CVE data with automatic offline fallback"
+      ],
+      "readme_excerpt": "# SkillSpector\n\n**Security scanner for AI agent skills.** Detect vulnerabilities, malicious patterns, and security risks before installing agent skills.\n\n[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)\n\n## Overview\n\nAI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) execute with implicit trust and minimal vetting. Research shows that **26.1% of skills contain vulnerabilities** and **5.2% show likely malicious intent**.\n\nSkillSpector helps you answer: **\"Is this skill safe to install?\"**\n\n## Documentation\n\n- **[Development guide](docs/DEVELOPMENT.md)** — Architecture, package layout, and how to extend the analyzer pipeline.\n\n## Features\n\n- **Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files\n- **64 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST)",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "html_url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "cybersecurity",
+        "identification",
+        "information-gathering",
+        "infosec",
+        "investigation",
+        "open-source",
+        "osint",
+        "osint-framework",
+        "osint-python",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "scraping",
+        "sherlock",
+        "social-network",
+        "socmint",
+        "username"
+      ],
+      "stargazers_count": 32724,
+      "forks_count": 2397,
+      "open_issues_count": 44,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+        "In one minute",
+        "Main features",
+        "Installation",
+        "Contributing"
+      ],
+      "readme_excerpt": "# Maigret\n\n<div align=\"center\">\n  <div>\n    <a href=\"https://pypi.org/project/maigret/\">\n        <img alt=\"PyPI version badge for Maigret\" src=\"https://img.shields.io/pypi/v/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://pepy.tech/project/maigret\">\n      <img alt=\"Downloads/month\" src=\"https://static.pepy.tech/badge/maigret/month\" />\n      <img alt=\"Total downloads\" src=\"https://static.pepy.tech/badge/maigret\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"Minimum Python version required: 3.10+\" src=\"https://img.shields.io/badge/Python-3.10%2B-brightgreen?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret/blob/main/LICENSE\">\n        <img alt=\"License badge for Maigret\" src=\"https://img.shields.io/github/license/soxoj/maigret?style=flat-square\" />\n    </a>\n    <a href=\"https://github.com/soxoj/maigret\">\n        <img alt=\"View count for Maigret project\" src=\"https://komarev.com/ghpvc/?username=maigret&color=brightgreen&label=views&style=flat-square\" />\n    </a>\n  </div>\n  <br>\n  <div>\n    <img src=\"https://raw.githubusercontent.com/soxoj/maigret/main/static/maigret.png\" height=\"300\" alt=\"Maigret logo\"/>\n  </div>\n  ",
+      "_meta_source": "api"
+    }
+  ]
+}

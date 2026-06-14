@@ -1,0 +1,170 @@
+{
+  "date": "2026-06-13",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 57030,
+      "forks_count": 6153,
+      "open_issues_count": 131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "apple/container",
+      "html_url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "language": "Swift",
+      "topics": [],
+      "stargazers_count": 35305,
+      "forks_count": 988,
+      "open_issues_count": 314,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+        "Take a guided tour of `container` by building, running, and publishing a simple web server image.",
+        "Learn how to use various `container` features.",
+        "Read a brief description and technical overview of `container`.",
+        "Browse the full command reference.",
+        "Build and run `container` on your own development system."
+      ],
+      "readme_excerpt": "<h1>\n  <img alt=\"Containerization logo\" src=\"./assets/Containerization-Logo.png\" width=\"70\" valign=\"middle\">\n  &nbsp;container\n</h1>\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible container images](https://github.com/opencontainers/image-spec), so you can pull and run images from any standard container registry. You can push images that you build to those registries as well, and run the images in any other OCI-compatible application.\n\n`container` uses the [Containerization](https://github.com/apple/containerization) Swift package for low-level container, image, and process management.\n\n![introductory movie showing some basic commands](./docs/assets/landing-movie.gif)\n\n## Get started\n\n### Requirements\n\nYou need a Mac with Apple silicon to run `container`. To build it, see the [BUILDING](./BUILDING.md) document.\n\n`container` is supported on macOS 26, since it takes advantage of new features and enhancements to virtualization and networking in this release. We do not support older versions of macOS and the `con",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "iptv-org/iptv",
+      "html_url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "topics": [
+        "iptv",
+        "m3u",
+        "playlist",
+        "streams",
+        "tv"
+      ],
+      "stargazers_count": 118108,
+      "forks_count": 6308,
+      "open_issues_count": 110,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Collection of publicly available IPTV channels from all over the world",
+        "🚀 How to use?",
+        "📺 Playlists",
+        "🗄 Database",
+        "📚 Resources"
+      ],
+      "readme_excerpt": "# IPTV [![update](https://github.com/iptv-org/iptv/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/iptv/actions/workflows/update.yml)\r\n\r\nCollection of publicly available IPTV (Internet Protocol television) channels from all over the world.\r\n\r\n## Table of contents\r\n\r\n- 🚀 [How to use?](#how-to-use)\r\n- 📺 [Playlists](#playlists)\r\n- 🗓 [EPG](#epg)\r\n- 🗄 [Database](#database)\r\n- 👨‍💻 [API](#api)\r\n- 📚 [Resources](#resources)\r\n- 💬 [Discussions](#discussions)\r\n- ❓ [FAQ](#faq)\r\n- 🛠 [Contribution](#contribution)\r\n- ⚖ [Legal](#legal)\r\n- © [License](#license)\r\n\r\n## How to use?\r\n\r\nSimply paste the link to one of the playlists into [any video player](https://github.com/iptv-org/awesome-iptv#apps) that supports live streaming and press _Open_.\r\n\r\n![VLC Network Panel](https://github.com/iptv-org/iptv/raw/master/.readme/preview.png)\r\n\r\n## Playlists\r\n\r\nThe main playlist containing all channels available in the repository can be found at:\r\n\r\n```\r\nhttps://iptv-org.github.io/iptv/index.m3u\r\n```\r\n\r\nLinks to other playlists can be found in the [PLAYLISTS.md](PLAYLISTS.md) file.\r\n\r\n## EPG\r\n\r\n[Electronic Program Guide](https://en.wikipedia.org/wiki/Electronic_program_guide) for most of the",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 226159,
+      "forks_count": 20099,
+      "open_issues_count": 277,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "Open the plugin search interface:",
+        "Search for Superpowers:"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. \n\nNext up, once you say \"go\", it launches a *",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "maziyarpanahi/openmed",
+      "html_url": "https://github.com/maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "topics": [
+        "bert",
+        "deepseek",
+        "healthcare",
+        "ios",
+        "llm",
+        "mlx",
+        "ner",
+        "on-device",
+        "on-premise",
+        "pii",
+        "pii-detection",
+        "qwen",
+        "sovereign-ai",
+        "swift",
+        "swift-package",
+        "swiftui"
+      ],
+      "stargazers_count": 3234,
+      "forks_count": 308,
+      "open_issues_count": 74,
+      "arch_category": "推理 / 部署",
+      "features": [
+        "open-source healthcare ai",
+        "**Specialized models** — 1,000+ curated biomedical & clinical models, many outperforming proprietary stacks.",
+        "**HIPAA-aware de-identification** — all 18 Safe Harbor identifiers, smart entity merging, format-preserving fakes.",
+        "**Runs everywhere** — CPU, CUDA, Apple Silicon (MLX), and natively in iOS/macOS apps via OpenMedKit.",
+        "**One-line deployment** — Python API, Dockerized REST service, or batch pipelines.",
+        "**Zero lock-in** — Apache-2.0, your infrastructu"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"docs/brand/openmed-mascot-lockup.png\" alt=\"OpenMed — local-first healthcare AI\" width=\"400\" />\n\n<h3>Local-first healthcare AI that never leaves the device</h3>\n\n<p><b>Turn clinical text into structured insight with one line of code.</b><br/>\nEntity extraction, PII de-identification, and 1,000+ specialized medical models that run entirely on\nyour own hardware — from a one-liner in Python to a native Swift app on iPhone, powered by Apple MLX.\nNo cloud. No vendor lock-in. No patient data leaving your network.</p>\n\n<p>\n  <a href=\"https://pypi.org/project/openmed/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/openmed?style=for-the-badge&label=PyPI&logo=pypi&logoColor=white&color=0D6E6E\"></a>\n  <a href=\"https://www.python.org/downloads/\"><img alt=\"Python\" src=\"https://img.shields.io/badge/Python-3.10+-128787?style=for-the-badge&logo=python&logoColor=white\"></a>\n  <a href=\"https://huggingface.co/OpenMed\"><img alt=\"Models\" src=\"https://img.shields.io/badge/%F0%9F%A4%97%20Models-1%2C000+-F5E27A?style=for-the-badge&labelColor=0E1116\"></a>\n  <a href=\"https://arxiv.org/abs/2508.01630\"><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2508.01630-C545",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "LMCache/LMCache",
+      "html_url": "https://github.com/LMCache/LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "language": "Python",
+      "topics": [
+        "amd",
+        "cuda",
+        "fast",
+        "inference",
+        "kv-cache",
+        "llm",
+        "pytorch",
+        "rocm",
+        "speed",
+        "vllm"
+      ],
+      "stargazers_count": 8665,
+      "forks_count": 1289,
+      "open_issues_count": 309,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+        "[2026/05] 🔥 Agentic workload benchmark on AMD MI300X (blog（https://blog.lmcache.ai/en/2026/05/12/benchmarking-lmcache-for-multi-turn-agentic-workloads-on-amd-mi300x/）).",
+        "[2026/04] 🔥 LMCache's new multiprocess(MP) architecture release (blog（https://blog.lmcache.ai/en/2026/04/03/lmcaches-new-architecture-boosts-moe-inference-performance-by-10x/）).",
+        "[2026/03] LMCache at GTC 2026 (post（https://www.linkedin.com/posts/lmcache-lab_llm-opensource-nvidiagtc-activity-7442721875664826369-pMAu?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkIIvQBTyG53kXXX70OZdE5rhpllYQqmIA）).",
+        "[2026/01] LMCache multi-node P2P CPU memory sharing, from experimental feature to production (blog（https://blog.lmcache.ai/en/2026/01/21/p2p-1/）).",
+        "[2025/11] LMCache x CoreWeave accelerate efficient LLM inference for Cohere (blog（https://blog.lmcache.ai/en/2025/10/29/breaking-the-memory-barrier-how-lmcache-and-coreweave-power-efficient-llm-inference-for-cohere/）)."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <p align=\"center\">\n    <img src=\"asset/logo.png\" alt=\"lmcache logo\" width=\"45%\">\n  </p>\n  <h3 align=\"center\">\n    A KV Cache Management Layer for Scalable LLM Inference\n  </h3>\n    <hr width=\"78%\">\n\n  <h3 align=\"center\">\n    <a href=\"https://blog.lmcache.ai/\">Blog</a> |\n    <a href=\"https://docs.lmcache.ai/\">Documentation</a> |\n    <a href=\"https://join.slack.com/t/lmcacheworkspace/shared_invite/zt-3zxjao8h0-lRfBfnLqbALOtLsWn2ITxA\">Join Slack</a> |\n    <a href=\"https://docs.lmcache.ai/community/meetings.html\">Community Meeting</a> |\n    <a href=\"https://github.com/LMCache/LMCache/issues/2923\">Roadmap</a>\n  </h3>\n\n  [![PyPI](https://img.shields.io/pypi/v/lmcache)](https://pypi.org/project/lmcache/)\n  [![PyPI - Downloads](https://img.shields.io/pypi/dm/lmcache)](https://pypi.org/project/lmcache/)\n  [![GitHub commit activity](https://img.shields.io/github/commit-activity/w/LMCache/LMCache)](https://github.com/LMCache/LMCache/graphs/commit-activity)\n  [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/LMCache/LMCache/)\n\n</div>\n\n## Updates\n- [2026/05] 🔥 Agentic workload benchmark on AMD MI300X ([blog](https://blog.lmcache.ai/en/2026/05/12/bench",
+      "_meta_source": "api"
+    }
+  ]
+}

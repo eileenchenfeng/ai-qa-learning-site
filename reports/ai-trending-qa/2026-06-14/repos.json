@@ -1,0 +1,162 @@
+{
+  "date": "2026-06-14",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "iptv-org/iptv",
+      "html_url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "topics": [
+        "iptv",
+        "m3u",
+        "playlist",
+        "streams",
+        "tv"
+      ],
+      "stargazers_count": 119346,
+      "forks_count": 6381,
+      "open_issues_count": 70,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Collection of publicly available IPTV channels from all over the world",
+        "🚀 How to use?",
+        "📺 Playlists",
+        "🗄 Database",
+        "📚 Resources"
+      ],
+      "readme_excerpt": "# IPTV [![update](https://github.com/iptv-org/iptv/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/iptv/actions/workflows/update.yml)\r\n\r\nCollection of publicly available IPTV (Internet Protocol television) channels from all over the world.\r\n\r\n## Table of contents\r\n\r\n- 🚀 [How to use?](#how-to-use)\r\n- 📺 [Playlists](#playlists)\r\n- 🗓 [EPG](#epg)\r\n- 🗄 [Database](#database)\r\n- 👨‍💻 [API](#api)\r\n- 📚 [Resources](#resources)\r\n- 💬 [Discussions](#discussions)\r\n- ❓ [FAQ](#faq)\r\n- 🛠 [Contribution](#contribution)\r\n- ⚖ [Legal](#legal)\r\n- © [License](#license)\r\n\r\n## How to use?\r\n\r\nSimply paste the link to one of the playlists into [any video player](https://github.com/iptv-org/awesome-iptv#apps) that supports live streaming and press _Open_.\r\n\r\n![VLC Network Panel](https://github.com/iptv-org/iptv/raw/master/.readme/preview.png)\r\n\r\n## Playlists\r\n\r\nThe main playlist containing all channels available in the repository can be found at:\r\n\r\n```\r\nhttps://iptv-org.github.io/iptv/index.m3u\r\n```\r\n\r\nLinks to other playlists can be found in the [PLAYLISTS.md](PLAYLISTS.md) file.\r\n\r\n## EPG\r\n\r\n[Electronic Program Guide](https://en.wikipedia.org/wiki/Electronic_program_guide) for most of the",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 58615,
+      "forks_count": 6335,
+      "open_issues_count": 135,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n7 slash commands that map to the development lifecycle. Each one activates the right skills automatically.\n\n| What you're doing | Command | Key principle |\n|-------------------|---------|---------------|\n| Define what to build | `/spec` | Spec before code |\n| Plan how to build it | `/plan` | Small, atomic tasks |",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "chatwoot/chatwoot",
+      "html_url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "topics": [
+        "actioncable",
+        "chat-widget",
+        "conversation",
+        "customer-support",
+        "dashboard",
+        "design",
+        "docker",
+        "docker-image",
+        "heroku",
+        "intercom",
+        "javascript",
+        "livechat",
+        "opensource",
+        "rails",
+        "ruby",
+        "sass",
+        "vuejs",
+        "whatsapp",
+        "zendesk"
+      ],
+      "stargazers_count": 30920,
+      "forks_count": 7556,
+      "open_issues_count": 1179,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+        "Private Notes and @mentions for internal team discussions.",
+        "Labels to organize and categorize conversations.",
+        "Keyboard Shortcuts and a Command Bar for quick navigation.",
+        "Canned Responses to reply faster to frequently asked questions.",
+        "Auto-Assignment to route conversations based on agent availability."
+      ],
+      "readme_excerpt": "<img src=\"./.github/screenshots/header.png#gh-light-mode-only\" width=\"100%\" alt=\"Header light mode\"/>\n<img src=\"./.github/screenshots/header-dark.png#gh-dark-mode-only\" width=\"100%\" alt=\"Header dark mode\"/>\n\n___\n\n# Chatwoot\n\nThe modern customer support platform, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.\n\n<p>\n  <img src=\"https://img.shields.io/circleci/build/github/chatwoot/chatwoot\" alt=\"CircleCI Badge\">\n    <a href=\"https://hub.docker.com/r/chatwoot/chatwoot/\"><img src=\"https://img.shields.io/docker/pulls/chatwoot/chatwoot\" alt=\"Docker Pull Badge\"></a>\n  <a href=\"https://hub.docker.com/r/chatwoot/chatwoot/\"><img src=\"https://img.shields.io/docker/cloud/build/chatwoot/chatwoot\" alt=\"Docker Build Badge\"></a>\n  <img src=\"https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot\" alt=\"Commits-per-month\">\n  <a title=\"Crowdin\" target=\"_self\" href=\"https://chatwoot.crowdin.com/chatwoot\"><img src=\"https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg\"></a>\n  <a href=\"https://discord.gg/cJXdrwS\"><img src=\"https://img.shields.io/discord/647412545203994635\" alt=\"Discord\"></a>\n  <a href=\"https://status.chatwoot.com\"><img src=\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 227091,
+      "forks_count": 20197,
+      "open_issues_count": 280,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "Open the plugin search interface:",
+        "Search for Superpowers:"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. \n\nNext up, once you say \"go\", it launches a *",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "apple/container",
+      "html_url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "language": "Swift",
+      "topics": [],
+      "stargazers_count": 36439,
+      "forks_count": 1038,
+      "open_issues_count": 323,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+        "Take a guided tour of `container` by building, running, and publishing a simple web server image.",
+        "Learn how to use various `container` features.",
+        "Read a brief description and technical overview of `container`.",
+        "Browse the full command reference.",
+        "Build and run `container` on your own development system."
+      ],
+      "readme_excerpt": "<h1>\n  <img alt=\"Containerization logo\" src=\"./assets/Containerization-Logo.png\" width=\"70\" valign=\"middle\">\n  &nbsp;container\n</h1>\n\n`container` is a tool that you can use to create and run Linux containers as lightweight virtual machines on your Mac. It's written in Swift, and optimized for Apple silicon.\n\nThe tool consumes and produces [OCI-compatible container images](https://github.com/opencontainers/image-spec), so you can pull and run images from any standard container registry. You can push images that you build to those registries as well, and run the images in any other OCI-compatible application.\n\n`container` uses the [Containerization](https://github.com/apple/containerization) Swift package for low-level container, image, and process management.\n\n![introductory movie showing some basic commands](./docs/assets/landing-movie.gif)\n\n## Get started\n\n### Requirements\n\nYou need a Mac with Apple silicon to run `container`. To build it, see the [BUILDING](./BUILDING.md) document.\n\n`container` is supported on macOS 26, since it takes advantage of new features and enhancements to virtualization and networking in this release. We do not support older versions of macOS and the `con",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "kenn-io/agentsview",
+      "html_url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 2422,
+      "forks_count": 220,
+      "open_issues_count": 90,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+        "Automatic pricing via LiteLLM rates (with offline fallback)",
+        "Prompt-caching-aware cost calculation (cache creation / read tokens)",
+        "Per-model breakdown with `--breakdown`",
+        "Date filtering (`--since`, `--until`, `--all`), agent filtering (`--agent`)",
+        "JSON output (`--json`) for scripting"
+      ],
+      "readme_excerpt": "# agentsview\n\nBrowse, search, and track costs across all your AI coding agents. One binary, no\naccounts, everything local.\n\n<p align=\"center\">\n  <img src=\"https://agentsview.io/screenshots/dashboard.png\" alt=\"Analytics dashboard\" width=\"720\">\n</p>\n\n## Install\n\n```bash\n# macOS / Linux\ncurl -fsSL https://agentsview.io/install.sh | bash\n\n# Windows\npowershell -ExecutionPolicy ByPass -c \"irm https://agentsview.io/install.ps1 | iex\"\n```\n\nOr download the **desktop app** (macOS / Windows) from\n[GitHub Releases](https://github.com/kenn-io/agentsview/releases) or via\nhomebrew: `brew install --cask agentsview`\n\nOr run the published Docker image:\n\n```bash\ndocker run --rm -p 127.0.0.1:8080:8080 \\\n  -v agentsview-data:/data \\\n  -v \"$HOME/.claude/projects:/agents/claude:ro\" \\\n  -v \"$HOME/.forge:/agents/forge:ro\" \\\n  -e CLAUDE_PROJECTS_DIR=/agents/claude \\\n  -e FORGE_DIR=/agents/forge \\\n  ghcr.io/kenn-io/agentsview:latest\n```\n\n## Quick Start\n\n```bash\nagentsview serve           # start server, open web UI\nagentsview usage daily     # print daily cost summary\n```\n\nOn first run, agentsview discovers sessions from every supported agent on your\nmachine, syncs them into a local SQLite database, and open",
+      "_meta_source": "api"
+    }
+  ]
+}

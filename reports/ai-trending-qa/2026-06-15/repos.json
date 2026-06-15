@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-15",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "iptv-org/iptv",
+      "html_url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "topics": [
+        "iptv",
+        "m3u",
+        "playlist",
+        "streams",
+        "tv"
+      ],
+      "stargazers_count": 121468,
+      "forks_count": 6513,
+      "open_issues_count": 42,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Collection of publicly available IPTV channels from all over the world",
+        "🚀 How to use?",
+        "📺 Playlists",
+        "🗄 Database",
+        "📚 Resources"
+      ],
+      "readme_excerpt": "# IPTV [![update](https://github.com/iptv-org/iptv/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/iptv/actions/workflows/update.yml)\r\n\r\nCollection of publicly available IPTV (Internet Protocol television) channels from all over the world.\r\n\r\n## Table of contents\r\n\r\n- 🚀 [How to use?](#how-to-use)\r\n- 📺 [Playlists](#playlists)\r\n- 🗓 [EPG](#epg)\r\n- 🗄 [Database](#database)\r\n- 👨‍💻 [API](#api)\r\n- 📚 [Resources](#resources)\r\n- 💬 [Discussions](#discussions)\r\n- ❓ [FAQ](#faq)\r\n- 🛠 [Contribution](#contribution)\r\n- ⚖ [Legal](#legal)\r\n- © [License](#license)\r\n\r\n## How to use?\r\n\r\nSimply paste the link to one of the playlists into [any video player](https://github.com/iptv-org/awesome-iptv#apps) that supports live streaming and press _Open_.\r\n\r\n![VLC Network Panel](https://github.com/iptv-org/iptv/raw/master/.readme/preview.png)\r\n\r\n## Playlists\r\n\r\nThe main playlist containing all channels available in the repository can be found at:\r\n\r\n```\r\nhttps://iptv-org.github.io/iptv/index.m3u\r\n```\r\n\r\nLinks to other playlists can be found in the [PLAYLISTS.md](PLAYLISTS.md) file.\r\n\r\n## EPG\r\n\r\n[Electronic Program Guide](https://en.wikipedia.org/wiki/Electronic_program_guide) for most of the",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "chatwoot/chatwoot",
+      "html_url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "topics": [
+        "actioncable",
+        "chat-widget",
+        "conversation",
+        "customer-support",
+        "dashboard",
+        "design",
+        "docker",
+        "docker-image",
+        "heroku",
+        "intercom",
+        "javascript",
+        "livechat",
+        "opensource",
+        "rails",
+        "ruby",
+        "sass",
+        "vuejs",
+        "whatsapp",
+        "zendesk"
+      ],
+      "stargazers_count": 31331,
+      "forks_count": 7599,
+      "open_issues_count": 1185,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+        "Private Notes and @mentions for internal team discussions.",
+        "Labels to organize and categorize conversations.",
+        "Keyboard Shortcuts and a Command Bar for quick navigation.",
+        "Canned Responses to reply faster to frequently asked questions.",
+        "Auto-Assignment to route conversations based on agent availability."
+      ],
+      "readme_excerpt": "<img src=\"./.github/screenshots/header.png#gh-light-mode-only\" width=\"100%\" alt=\"Header light mode\"/>\n<img src=\"./.github/screenshots/header-dark.png#gh-dark-mode-only\" width=\"100%\" alt=\"Header dark mode\"/>\n\n___\n\n# Chatwoot\n\nThe modern customer support platform, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.\n\n<p>\n  <img src=\"https://img.shields.io/circleci/build/github/chatwoot/chatwoot\" alt=\"CircleCI Badge\">\n    <a href=\"https://hub.docker.com/r/chatwoot/chatwoot/\"><img src=\"https://img.shields.io/docker/pulls/chatwoot/chatwoot\" alt=\"Docker Pull Badge\"></a>\n  <a href=\"https://hub.docker.com/r/chatwoot/chatwoot/\"><img src=\"https://img.shields.io/docker/cloud/build/chatwoot/chatwoot\" alt=\"Docker Build Badge\"></a>\n  <img src=\"https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot\" alt=\"Commits-per-month\">\n  <a title=\"Crowdin\" target=\"_self\" href=\"https://chatwoot.crowdin.com/chatwoot\"><img src=\"https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg\"></a>\n  <a href=\"https://discord.gg/cJXdrwS\"><img src=\"https://img.shields.io/discord/647412545203994635\" alt=\"Discord\"></a>\n  <a href=\"https://status.chatwoot.com\"><img src=\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "html_url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 5559,
+      "forks_count": 422,
+      "open_issues_count": 51,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+        "**Development guide** — Architecture, package layout, and how to extend the analyzer pipeline.",
+        "**Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files",
+        "**64 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning",
+        "**Two-stage analysis**: Fast static analysis + optional LLM semantic evaluation",
+        "**Live vulnerability lookups**: SC4 queries OSV.dev（https://osv.dev） for real-time CVE data with automatic offline fallback"
+      ],
+      "readme_excerpt": "# SkillSpector\n\n**Security scanner for AI agent skills.** Detect vulnerabilities, malicious patterns, and security risks before installing agent skills.\n\n[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)\n\n## Overview\n\nAI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) execute with implicit trust and minimal vetting. Research shows that **26.1% of skills contain vulnerabilities** and **5.2% show likely malicious intent**.\n\nSkillSpector helps you answer: **\"Is this skill safe to install?\"**\n\n## Documentation\n\n- **[Development guide](docs/DEVELOPMENT.md)** — Architecture, package layout, and how to extend the analyzer pipeline.\n\n## Features\n\n- **Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files\n- **64 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST)",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "GorvGoyl/Clone-Wars",
+      "html_url": "https://github.com/GorvGoyl/Clone-Wars",
+      "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+      "language": null,
+      "topics": [
+        "airbnb",
+        "clone",
+        "instagram",
+        "netflix",
+        "reddit",
+        "spotify",
+        "tiktok",
+        "twitter",
+        "whatsapp"
+      ],
+      "stargazers_count": 35606,
+      "forks_count": 3194,
+      "open_issues_count": 35,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+        "Clones with Tutorials Table",
+        "Clones / Alternatives Table",
+        "Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purposes.",
+        "Alternatives: fully-functional open-source alternatives of popular software."
+      ],
+      "readme_excerpt": "![clone wars](img/og.png)\n\n# Clone Wars - Open source clones of popular sites\n\n> 100+ open-source clones and alternatives of popular sites like Airbnb, Amazon, Instagram, Netflix, TikTok, Spotify, WhatsApp, YouTube, etc. List contains source code, tutorials, demo links, tech stack, and GitHub stars count. Great for learning purpose!\n\n_-Made by <a href= \"https://gourav.io\" title=\"Gourav Goyal\"> Gourav Goyal </a>_\n\n## See full tables with better view 👉 [gourav.io/clone-wars](https://gourav.io/clone-wars)\n\n---\n\nI need your help to maintain this list up to date 🙏. See [contribution Guide](#contribution-guide).\n\n[I'm also looking for a maintainer to merge PRs of new clones](https://github.com/GorvGoyl/Clone-Wars/issues/209).\n\n### There are 2 tables:\n\n1. [Clones with Tutorials Table](#clones-with-tutorials)\n\n   Full-stack clones with link to free tutorials.\n\n2. [Clones / Alternatives Table](#clones-and-alternatives)\n\n   Two kinds of projects on this list:\n\n   1. Clones: look quite similar (UI-wise) but aren't fully-functional, mostly made for learning purposes.\n   2. Alternatives: fully-functional open-source alternatives of popular software.\n      Seeing GitHub stars will give you a rou",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "andrewyng/aisuite",
+      "html_url": "https://github.com/andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers ",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 14454,
+      "forks_count": 1507,
+      "open_issues_count": 135,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Simple, unified interface to multiple Generative AI providers",
+        "**Chat Completions API** — a unified, OpenAI-style interface for *OpenAI, Anthropic, Google, Mistral, Hugging Face, AWS, Cohere, Ollama, OpenRouter*, and more. Swap providers by changing one string.",
+        "**Agents API · Toolkits · MCP** — give models real Python functions as tools, run multi-turn loops, attach ready-made toolkits (files, git, shell) or any MCP server, and govern it all with tool policies.",
+        "**OpenCoworker** — a desktop AI coworker built using aisuite, shipped as an app for everyday tasks."
+      ],
+      "readme_excerpt": "> ![NEW](https://img.shields.io/badge/%E2%9C%A8_NEW-8250df?style=for-the-badge)\n> ## OpenCoworker\n> **An AI agent that lives on your desktop, built on aisuite.**\n>\n> OpenCoworker is a desktop AI agent that can not only chat, but also do deep research and carry out tasks for\n> you on your computer. It can read files (with permission) to gain context, read/send messages (slack, email, etc.),\n> and create real deliverables like PDF reports, documents, spreadsheets. It also supports scheduled automations,\n> such as providing you a daily news summary. \n>\n> Requires bringing your own API key (OpenAI, Anthropic, Google) or run fully local with Ollama. Your data stays on your machine.\n>\n> [**⬇ Download for macOS**](https://github.com/andrewyng/aisuite/releases/latest/download/OpenCoworker-macos-arm64.dmg)\n> <sub>&nbsp;&nbsp;macOS 13+ (Apple Silicon)</sub> &nbsp;&nbsp;\n> \n> [**⬇ Download for Windows**](https://github.com/andrewyng/aisuite/releases/latest/download/OpenCoworker-windows-setup.exe)\n> <sub>&nbsp;&nbsp;Windows 10/11 (x64) &nbsp;·&nbsp; </sub>\n>\n> [**Quickstart:**](docs/opencoworker-quickstart.md) — install, connect a model, first tasks, automations.\n> \n> Its source lives in this ",
+      "_meta_source": "api"
+    }
+  ]
+}

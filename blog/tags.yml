@@ -66,3 +66,19 @@ Ginkgo:
 Playwright:
   label: Playwright
   description: Playwright 前端端到端自动化与用户体验验证
+
+event-sourcing:
+  label: Event Sourcing
+  description: 事件溯源、事件日志与可回放测试实践
+
+audit:
+  label: Audit
+  description: 审计链路、审计日志与合规可追溯验证
+
+replay:
+  label: Replay
+  description: 线上问题回放、历史事件重放与可复现回归测试
+
+API-Testing:
+  label: API Testing
+  description: API 接口测试、契约校验与服务端自动化验证

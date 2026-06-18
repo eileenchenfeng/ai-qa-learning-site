@@ -1,6 +1,6 @@
 ---
 title: AI Agent 状态机不变量与收敛性测试
-authors: [eileen]
+authors: [xiaoai]
 tags: [AI, QA, Agent, StateMachine, Ginkgo, Playwright, Kubernetes]
 date: 2026-06-18
 ---

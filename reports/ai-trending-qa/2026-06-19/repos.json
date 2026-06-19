@@ -1,0 +1,173 @@
+{
+  "date": "2026-06-19",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "google-research/timesfm",
+      "html_url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 23397,
+      "forks_count": 2230,
+      "open_issues_count": 217,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "All checkpoints:",
+        "Google Research blog（https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/）.",
+        "TimesFM in Google 1P Products:",
+        "BigQuery ML（https://cloud.google.com/bigquery/docs/timesfm-model）: Enterprise level SQL queries for scalability and reliability.",
+        "Google Sheets（https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html）: For your daily spreadsheet."
+      ],
+      "readme_excerpt": "# TimesFM\n\nTimesFM (Time Series Foundation Model) is a pretrained time-series foundation\nmodel developed by Google Research for time-series forecasting.\n\n*   Paper:\n    [A decoder-only foundation model for time-series forecasting](https://arxiv.org/abs/2310.10688),\n    ICML 2024.\n*   All checkpoints:\n    [TimesFM Hugging Face Collection](https://huggingface.co/collections/google/timesfm-release-66e4be5fdb56e960c1e482a6).\n*   [Google Research blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/).\n*   TimesFM in Google 1P Products:\n    *   [BigQuery ML](https://cloud.google.com/bigquery/docs/timesfm-model): Enterprise level SQL queries for scalability and reliability.\n    *   [Google Sheets](https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html): For your daily spreadsheet. \n    *   [Vertex Model Garden](https://pantheon.corp.google.com/vertex-ai/publishers/google/model-garden/timesfm): Dockerized endpoint for agentic calling.\n\nThis open version is not an officially supported Google product.\n\n**Latest Model Version:** TimesFM 2.5\n\n**Archived Model Versions:**\n\n-   1.0 and 2.0: relevant code",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 232567,
+      "forks_count": 20659,
+      "open_issues_count": 268,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "In the Codex app, click on Plugins in the sidebar.",
+        "You should see `Superpowers` in the Coding section."
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n\n## We're Hiring!\n\nWe're hiring someone to help out full time with Superpowers community and code work. \nYou can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/\nIf this sounds like someone you know, definitely send them our way.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "zai-org/GLM-5",
+      "html_url": "https://github.com/zai-org/GLM-5",
+      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "language": null,
+      "topics": [
+        "agentic-ai",
+        "coding",
+        "llm",
+        "long-horizon"
+      ],
+      "stargazers_count": 4219,
+      "forks_count": 434,
+      "open_issues_count": 34,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "GLM-5: From Vibe Coding to Agentic Engineering",
+        "**Solid 1M Context:** A solid 1M-token context that stably sustains long-horizon work",
+        "**Advanced Coding with Flexible Effort**: Stronger coding capabilities with multiple thinking effort levels to balance performance and latency",
+        "**Improved Architecture**: We propose IndexShare（https://arxiv.org/abs/2603.12201）, which reuses the same indexer across every four sparse attention layers, reducing per-token FLOPs by 2.9× at a 1M context length. We also improve GLM-5.2’s MTP layer for speculative decoding, increasing the acceptance length by up to 20%"
+      ],
+      "readme_excerpt": "# GLM-5.2 & GLM-5.1 & GLM-5\n\n<div align=\"center\">\n<img src=resources/logo.svg width=\"15%\"/>\n</div>\n<p align=\"center\">\n    👋 Join our <a href=\"resources/WECHAT.md\" target=\"_blank\">Wechat</a> or <a href=\"https://discord.gg/Hc5z9bx5Xw\" target=\"_blank\">Discord</a> community.\n    <br>\n    📖 Check out the GLM-5.2 <a href=\"https://z.ai/blog/glm-5.2\" target=\"_blank\">blog</a> and GLM-5 <a href=\"https://arxiv.org/abs/2602.15763\" target=\"_blank\">Technical report</a>.\n    <br>\n    📍 Use GLM-5.2 API services on <a href=\"https://docs.z.ai/guides/llm/glm-5.2\">Z.ai API Platform. </a>\n    <br>\n    🔜 Try GLM-5.2 at <a href=\"https://z.ai\">z.ai</a>.\n</p>\n\n## Introduction\n\n### GLM-5.2\n\nGLM-5.2, our latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a **solid 1M-token context**. \n\nGLM-5.2's new capabilities include:\n- **Solid 1M Context:** A solid 1M-token context that stably sustains long-horizon work\n- **Advanced Coding with Flexible Effort**: Stronger coding capabilities with multiple thinking effort levels to balance performance and latency\n- **Improved Architectur",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "DeusData/codebase-memory-mcp",
+      "html_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "topics": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "cypher",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
+      ],
+      "stargazers_count": 7238,
+      "forks_count": 574,
+      "open_issues_count": 113,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "**Extreme indexing speed** — Linux kernel (28M LOC, 75K files) in 3 minutes. RAM-first pipeline: LZ4 compression, in-memory SQLite, fused Aho-Corasick pattern matching. Memory released after indexing.",
+        "**Plug and play** — single static binary for macOS (arm64/amd64), Linux (arm64/amd64), and Windows (amd64). No Docker, no runtime dependencies, no API keys. Download → `install` → restart agent → done.",
+        "**158 languages** — vendored tree-sitter grammars compiled into the binary. Nothing to install, nothing that breaks.",
+        "**120x fewer tokens** — 5 structural queries: ~3,400 tokens vs ~412,000 via file-by-file search. One graph query replaces dozens of grep/read cycles.",
+        "**11 agents, one command** — `install` auto-detects Claude Code, Codex CLI, Gemini CLI, Zed, OpenCode, Antigravity, Aider, KiloCode, VS Code, OpenClaw, and Kiro — configures MCP entries, instruction files, and pre-tool hooks for each."
+      ],
+      "readme_excerpt": "# codebase-memory-mcp\n\n[![GitHub Release](https://img.shields.io/github/v/release/DeusData/codebase-memory-mcp?style=flat&color=blue)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)\n[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n[![CI](https://img.shields.io/github/actions/workflow/status/DeusData/codebase-memory-mcp/dry-run.yml?label=CI)](https://github.com/DeusData/codebase-memory-mcp/actions/workflows/dry-run.yml)\n[![Tests](https://img.shields.io/badge/tests-5604_passing-brightgreen)](https://github.com/DeusData/codebase-memory-mcp)\n[![Languages](https://img.shields.io/badge/languages-158-orange)](https://github.com/DeusData/codebase-memory-mcp)\n[![Hybrid LSP](https://img.shields.io/badge/Hybrid_LSP-9_languages-blue)](#hybrid-lsp)\n[![Agents](https://img.shields.io/badge/agents-11-purple)](https://github.com/DeusData/codebase-memory-mcp)\n[![Pure C](https://img.shields.io/badge/pure_C-zero_dependencies-blue)](https://github.com/DeusData/codebase-memory-mcp)\n[![Platform](https://img.shields.io/badge/macOS_%7C_Linux_%7C_Windows-supported-lightgrey)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)\n[![OpenSSF Scorecard](https:/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alibaba/zvec",
+      "html_url": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "topics": [
+        "agent-skills",
+        "db",
+        "embedded",
+        "faiss",
+        "hnsw",
+        "llm-memory",
+        "local",
+        "rag",
+        "search-engine",
+        "semantic-search",
+        "similarity-search",
+        "vector-database",
+        "vector-db"
+      ],
+      "stargazers_count": 11296,
+      "forks_count": 655,
+      "open_issues_count": 59,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A lightweight, lightning-fast, in-process vector database",
+        "**Blazing Fast**: Searches billions of vectors in milliseconds.",
+        "**Simple, Just Works**: Install and start searching in seconds. Pure local, no servers, no config, no fuss.",
+        "**Dense + Sparse Vectors**: Support dense and sparse embeddings, multi-vector queries, and a rich selection of vector index types（https://zvec.org/en/docs/db/concepts/vector-index/#vector-index-types） that scale from memory to disk.",
+        "**Full-Text Search (FTS)**: Native keyword-based full-text search — query string fields with natural-language or structured expressions.",
+        "**Hybrid Search**: Fuse vector similarity, full-text search, and structured filters in a single query for precise results."
+      ],
+      "readme_excerpt": "<p align=\"right\">\n  English | <a href=\"./README_CN.md\">中文</a>\n</p>\n\n<div align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://zvec.oss-cn-hongkong.aliyuncs.com/logo/github_log_2.svg\" />\n    <img src=\"https://zvec.oss-cn-hongkong.aliyuncs.com/logo/github_logo_1.svg\" width=\"400\" alt=\"zvec logo\" />\n  </picture>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://codecov.io/github/alibaba/zvec\"><img src=\"https://codecov.io/github/alibaba/zvec/graph/badge.svg?token=O81CT45B66\" alt=\"Code Coverage\"/></a>\n  <a href=\"https://github.com/alibaba/zvec/actions/workflows/01-ci-pipeline.yml\"><img src=\"https://github.com/alibaba/zvec/actions/workflows/01-ci-pipeline.yml/badge.svg?branch=main\" alt=\"Main\"/></a>\n  <a href=\"https://github.com/alibaba/zvec/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/license-Apache%202.0-blue.svg\" alt=\"License\"/></a>\n  <a href=\"https://pypi.org/project/zvec/\"><img src=\"https://img.shields.io/pypi/v/zvec.svg\" alt=\"PyPI Release\"/></a>\n  <a href=\"https://pypi.org/project/zvec/\"><img src=\"https://img.shields.io/badge/python-3.10%20~%203.14-blue.svg\" alt=\"Python Versions\"/></a>\n  <a href=\"https://www.npmjs.com/package/@zvec/zve",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "withastro/flue",
+      "html_url": "https://github.com/withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 5557,
+      "forks_count": 307,
+      "open_issues_count": 20,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The sandbox agent framework.",
+        "**Agents（https://flueframework.com/docs/guide/building-agents/）** — Build agents that can keep context across conversations and events as they autonomously work toward a goal.",
+        "**Workflows（https://flueframework.com/docs/guide/workflows/）** — Run structured automations where your code guides agent reasoning from a clear input to a finished result.",
+        "**Sandboxes（https://flueframework.com/docs/guide/sandboxes/）** — Give agents a secure environment where they can use tools, modify files, and autonomously complete real work.",
+        "**Durable Execution（https://flueframework.com/docs/guide/durable-execution/）** — Learn how agents preserve progress through failures and restarts with durable recovery for accepted work.",
+        "**Subagents（https://flueframework.com/docs/guide/subagents/）** — Define specialized roles for different tasks, then let your agent delegate work to the right expert."
+      ],
+      "readme_excerpt": "# Flue — The Agent Harness Framework\n\nNot another SDK. Build autonomous agents and powerful AI workflows with Flue's programmable TypeScript harness.\n\n```ts\n// agents/triage.ts\nimport { createAgent, type AgentRouteHandler } from '@flue/runtime';\nimport { local } from '@flue/runtime/node';\nimport triage from '../skills/triage/SKILL.md' with { type: 'skill' };\nimport verify from '../skills/verify/SKILL.md' with { type: 'skill' };\nimport * as githubTools from '../tools/github.ts';\n\n// Give agents the context and autonomy to solve complex tasks:\nconst instructions = `\nTriage a bug report end-to-end: reproduce the bug,\ndiagnose the root cause, verify whether the behavior is\nintentional, and attempt a fix.\n\n...`;\n\n// Expose (and protect) your agents over HTTP:\nexport const route: AgentRouteHandler = async (_c, next) => next();\n\n// Compose the complete harness your agent needs to do real work,\n// complete with virtual, local, or remote container sandbox.\nexport default createAgent(() => ({\n  model: 'anthropic/claude-sonnet-4-6',\n  tools: [...githubTools],\n  skills: [triage, verify],\n  sandbox: local(),\n  instructions,\n}));\n```\n\n## The framework for building the next generation of agents.\n",
+      "_meta_source": "api"
+    }
+  ]
+}

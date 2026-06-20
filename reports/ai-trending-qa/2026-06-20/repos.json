@@ -1,0 +1,186 @@
+{
+  "date": "2026-06-20",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "DeusData/codebase-memory-mcp",
+      "html_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "topics": [
+        "aider",
+        "ast",
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "cypher",
+        "developer-tools",
+        "gemini-cli",
+        "graph-visualization",
+        "kilocode",
+        "knowledge-graph",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "sqlite",
+        "tree-sitter",
+        "windsurf"
+      ],
+      "stargazers_count": 8413,
+      "forks_count": 641,
+      "open_issues_count": 121,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "**Extreme indexing speed** — Linux kernel (28M LOC, 75K files) in 3 minutes. RAM-first pipeline: LZ4 compression, in-memory SQLite, fused Aho-Corasick pattern matching. Memory released after indexing.",
+        "**Plug and play** — single static binary for macOS (arm64/amd64), Linux (arm64/amd64), and Windows (amd64). No Docker, no runtime dependencies, no API keys. Download → `install` → restart agent → done.",
+        "**158 languages** — vendored tree-sitter grammars compiled into the binary. Nothing to install, nothing that breaks.",
+        "**120x fewer tokens** — 5 structural queries: ~3,400 tokens vs ~412,000 via file-by-file search. One graph query replaces dozens of grep/read cycles.",
+        "**11 agents, one command** — `install` auto-detects Claude Code, Codex CLI, Gemini CLI, Zed, OpenCode, Antigravity, Aider, KiloCode, VS Code, OpenClaw, and Kiro — configures MCP entries, instruction files, and pre-tool hooks for each."
+      ],
+      "readme_excerpt": "# codebase-memory-mcp\n\n[![GitHub Release](https://img.shields.io/github/v/release/DeusData/codebase-memory-mcp?style=flat&color=blue)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)\n[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)\n[![CI](https://img.shields.io/github/actions/workflow/status/DeusData/codebase-memory-mcp/dry-run.yml?label=CI)](https://github.com/DeusData/codebase-memory-mcp/actions/workflows/dry-run.yml)\n[![Tests](https://img.shields.io/badge/tests-5604_passing-brightgreen)](https://github.com/DeusData/codebase-memory-mcp)\n[![Languages](https://img.shields.io/badge/languages-158-orange)](https://github.com/DeusData/codebase-memory-mcp)\n[![Hybrid LSP](https://img.shields.io/badge/Hybrid_LSP-9_languages-blue)](#hybrid-lsp)\n[![Agents](https://img.shields.io/badge/agents-11-purple)](https://github.com/DeusData/codebase-memory-mcp)\n[![Pure C](https://img.shields.io/badge/pure_C-zero_dependencies-blue)](https://github.com/DeusData/codebase-memory-mcp)\n[![Platform](https://img.shields.io/badge/macOS_%7C_Linux_%7C_Windows-supported-lightgrey)](https://github.com/DeusData/codebase-memory-mcp/releases/latest)\n[![OpenSSF Scorecard](https:/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google-research/timesfm",
+      "html_url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 24136,
+      "forks_count": 2276,
+      "open_issues_count": 223,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "All checkpoints:",
+        "Google Research blog（https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/）.",
+        "TimesFM in Google 1P Products:",
+        "BigQuery ML（https://cloud.google.com/bigquery/docs/timesfm-model）: Enterprise level SQL queries for scalability and reliability.",
+        "Google Sheets（https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html）: For your daily spreadsheet."
+      ],
+      "readme_excerpt": "# TimesFM\n\nTimesFM (Time Series Foundation Model) is a pretrained time-series foundation\nmodel developed by Google Research for time-series forecasting.\n\n*   Paper:\n    [A decoder-only foundation model for time-series forecasting](https://arxiv.org/abs/2310.10688),\n    ICML 2024.\n*   All checkpoints:\n    [TimesFM Hugging Face Collection](https://huggingface.co/collections/google/timesfm-release-66e4be5fdb56e960c1e482a6).\n*   [Google Research blog](https://research.google/blog/a-decoder-only-foundation-model-for-time-series-forecasting/).\n*   TimesFM in Google 1P Products:\n    *   [BigQuery ML](https://cloud.google.com/bigquery/docs/timesfm-model): Enterprise level SQL queries for scalability and reliability.\n    *   [Google Sheets](https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html): For your daily spreadsheet. \n    *   [Vertex Model Garden](https://pantheon.corp.google.com/vertex-ai/publishers/google/model-garden/timesfm): Dockerized endpoint for agentic calling.\n\nThis open version is not an officially supported Google product.\n\n**Latest Model Version:** TimesFM 2.5\n\n**Archived Model Versions:**\n\n-   1.0 and 2.0: relevant code",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "palmier-io/palmier-pro",
+      "html_url": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "topics": [
+        "ai-video",
+        "claude",
+        "macos",
+        "mcp",
+        "seedance2",
+        "swift",
+        "video-editor"
+      ],
+      "stargazers_count": 2029,
+      "forks_count": 199,
+      "open_issues_count": 22,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "macOS video editor built for AI",
+        "**Discord:** Join the community on **Discord（https://discord.com/invite/SMVW6pKYmg）**.",
+        "**Twitter / X:** Follow **@Palmier_io（https://x.com/Palmier_io）** for updates and announcements.",
+        "**Instagram:** Follow @palmier.io（https://www.instagram.com/palmier.io）",
+        "**Feedback &amp; Support:** Create a Github Issue（https://github.com/palmier-io/palmier-pro/issues） or email us at founders@palmier.io"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# Palmier Pro\n\n**The video editor built for AI.**\n\n<a href=\"https://github.com/palmier-io/palmier-pro/releases/latest/download/PalmierPro.dmg\">\n  <img src=\"./assets/macos-badge.png\" alt=\"Download palmierpro for macOS\" width=\"180\" />\n</a>\n\n<sub><i>Requires macOS 26 (Tahoe) on Apple Silicon</i></sub>\n\n<a href=\"https://x.com/Palmier_io\"><img src=\"https://img.shields.io/badge/Follow-%40Palmier__io-000000?style=flat&logo=x&logoColor=white\" alt=\"Follow on X\" /></a>\n<a href=\"https://discord.com/invite/SMVW6pKYmg\"><img src=\"https://img.shields.io/badge/Join-Discord-5865F2?style=flat&logo=discord&logoColor=white\" alt=\"Join Discord\" /></a>\n<a href=\"https://www.ycombinator.com/companies/palmier\"><img src=\"https://img.shields.io/badge/Y%20Combinator-S24-orange\" alt=\"Y Combinator S24\" /></a>\n\n</div>\n\n<img src=\"./assets/palmier-ui.png\" alt=\"palmierpro UI\" width=\"900\" />\n\n---\n\nPalmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline.\n\n### Swift-native video editor\n\nWe built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow.\n\n### Built-i",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "koala73/worldmonitor",
+      "html_url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "dashboard",
+        "geopolitics",
+        "monitoring",
+        "news",
+        "opensource",
+        "osint",
+        "palantir",
+        "situation"
+      ],
+      "stargazers_count": 57365,
+      "forks_count": 9146,
+      "open_issues_count": 183,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "**500+ curated news feeds** across 15 categories, AI-synthesized into briefs",
+        "**Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56 map layer types",
+        "**Cross-stream correlation** — military, economic, disaster, and escalation signal convergence",
+        "**Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries",
+        "**Finance radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite"
+      ],
+      "readme_excerpt": "# World Monitor\n\n**Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.\n\n[![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)\n[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)\n[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\n[![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)\n[![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)\n\n<p align=\"center\">\n  <a href=\"https://worldmonitor.app\"><img src=\"https://img.shields.io/badge/Web_App-worldmonitor.app-blue?style=for-the-badge&logo=googlechrome&logoColor=white\" alt=\"Web ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "aishwaryanr/awesome-generative-ai-guide",
+      "html_url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+      "language": "HTML",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "generative-ai",
+        "interview-questions",
+        "large-language-models",
+        "llms",
+        "notebook-jupyter",
+        "vision-and-language"
+      ],
+      "stargazers_count": 27686,
+      "forks_count": 5740,
+      "open_issues_count": 19,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+        "Monthly Best GenAI Papers List（https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#star-best-genai-papers-list-january-2024）",
+        "GenAI Interview Resources（https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#computer-interview-prep）",
+        "Applied LLMs Mastery 2024 (created by Aishwarya Naresh Reganti) course material（https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#ongoing-applied-llms-mastery-2024）",
+        "Generative AI Genius 2024 (created by Aishwarya Naresh Reganti) course material（https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free_courses/generative_ai_genius/README.md）",
+        "AI Evals for Everyone (created by Aishwarya Naresh Reganti & Kiriti Badam) - Get Certified!（https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free_courses/ai_evals_for_everyone/README.md）"
+      ],
+      "readme_excerpt": "# :star: :bookmark: awesome-generative-ai-guide\n\nGenerative AI is experiencing rapid growth, and this repository serves as a comprehensive hub for updates on generative AI research, interview materials, notebooks, and more!\n\n<a href=\"https://trendshift.io/repositories/7663\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/7663\" alt=\"aishwaryanr%2Fawesome-generative-ai-guide | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\nExplore the following resources:\n\n1. [Monthly Best GenAI Papers List](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#star-best-genai-papers-list-january-2024)\n2. [GenAI Interview Resources](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#computer-interview-prep)\n3. [Applied LLMs Mastery 2024 (created by Aishwarya Naresh Reganti) course material](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#ongoing-applied-llms-mastery-2024)\n4. [Generative AI Genius 2024 (created by Aishwarya Naresh Reganti) course material](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/free_courses/generative_ai_genius/README.md)",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "BuilderIO/agent-native",
+      "html_url": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agent-native applications.",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai",
+        "react"
+      ],
+      "stargazers_count": 1102,
+      "forks_count": 119,
+      "open_issues_count": 19,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A framework for building agent-native applications.",
+        "**Everything syncs** — Agent and UI share one database and one state. Changes from either side show up instantly on the other.",
+        "**Real-time multiplayer** — Humans and agents collaborate in the same document simultaneously: CRDT merging, live presence (cursors, selection rings, who's on which slide), and the agent as a first-class peer editor. Works on any SQL database and any host, including serverless.",
+        "**Context-aware** — The agent knows what you're looking at. Select text, hit Cmd+I, and tell it what to do.",
+        "**Per-user workspace** — Skills, memory, instructions, sub-agents, and MCP servers — SQL-backed, customizable per user. Claude-Code-level flexibility, SaaS-grade economics.",
+        "**Agents call agents** — Tag another agent from any app. They discover each other over A2A and take action across your stack."
+      ],
+      "readme_excerpt": "# Agent-Native\n\n### Open-source framework for agentic applications you own.\n\nDon't choose between rich user interfaces and autonomous agents. Every Agent-Native app is both.\n\n## Agents and UIs — Fully Connected\n\nThe agent and the UI are equal citizens of the same system. Every action works both ways — click it or ask for it.\n\n![Agents and UIs fully connected](https://cdn.builder.io/api/v1/file/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fadc1e9e9368e4a8cb1b4dbb5aae5aaa2)\n\n- **Everything syncs** — Agent and UI share one database and one state. Changes from either side show up instantly on the other.\n- **Real-time multiplayer** — Humans and agents collaborate in the same document simultaneously: CRDT merging, live presence (cursors, selection rings, who's on which slide), and the agent as a first-class peer editor. Works on any SQL database and any host, including serverless.\n- **Context-aware** — The agent knows what you're looking at. Select text, hit Cmd+I, and tell it what to do.\n- **Per-user workspace** — Skills, memory, instructions, sub-agents, and MCP servers — SQL-backed, customizable per user. Claude-Code-level flexibility, SaaS-grade economics.\n- **Agents call agents** — Tag another ag",
+      "_meta_source": "api"
+    }
+  ]
+}

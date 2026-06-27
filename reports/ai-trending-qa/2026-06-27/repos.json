@@ -1,0 +1,187 @@
+{
+  "date": "2026-06-27",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "google-labs-code/design.md",
+      "html_url": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 21454,
+      "forks_count": 1736,
+      "open_issues_count": 42,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+        "**Primary (#1A1C1E):** Deep ink for headlines and core text.",
+        "**Secondary (#6C7278):** Sophisticated slate for borders, captions, metadata.",
+        "**Tertiary (#B8422E):** \"Boston Clay\" — the sole driver for interaction.",
+        "**Neutral (#F7F5F2):** Warm limestone foundation, softer than pure white.",
+        "**YAML front matter** — Machine-readable design tokens, delimited by `---` fences at the top of the file."
+      ],
+      "readme_excerpt": "# DESIGN.md\n\nA format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.\n\n## The Format\n\nA DESIGN.md file combines machine-readable design tokens (YAML front matter) with human-readable design rationale (markdown prose). Tokens give agents exact values. Prose tells them *why* those values exist and how to apply them.\n\n```md\n---\nname: Heritage\ncolors:\n  primary: \"#1A1C1E\"\n  secondary: \"#6C7278\"\n  tertiary: \"#B8422E\"\n  neutral: \"#F7F5F2\"\ntypography:\n  h1:\n    fontFamily: Public Sans\n    fontSize: 3rem\n  body-md:\n    fontFamily: Public Sans\n    fontSize: 1rem\n  label-caps:\n    fontFamily: Space Grotesk\n    fontSize: 0.75rem\nrounded:\n  sm: 4px\n  md: 8px\nspacing:\n  sm: 8px\n  md: 16px\n---\n\n## Overview\n\nArchitectural Minimalism meets Journalistic Gravitas. The UI evokes a\npremium matte finish — a high-end broadsheet or contemporary gallery.\n\n## Colors\n\nThe palette is rooted in high-contrast neutrals and a single accent color.\n\n- **Primary (#1A1C1E):** Deep ink for headlines and core text.\n- **Secondary (#6C7278):** Sophisticated slate for borders, captions, metadata.\n- **Tertiary (#B8422E):** \"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "commaai/openpilot",
+      "html_url": "https://github.com/commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "language": "Python",
+      "topics": [
+        "advanced-driver-assistance-systems",
+        "driver-assistance-systems",
+        "robotics"
+      ],
+      "stargazers_count": 61830,
+      "forks_count": 11051,
+      "open_issues_count": 138,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+        "**Supported Device:** a comma four, available at comma.ai/shop/comma-four（https://www.comma.ai/shop/comma-four）.",
+        "**Software:** The setup procedure for the comma four allows users to enter a URL for custom software. Use the URL `openpilot.comma.ai` to install the release version.",
+        "**Supported Car:** Ensure that you have one of the 300+ supported cars.",
+        "**Car Harness:** You will also need a car harness（https://comma.ai/shop/car-harness） to connect your comma four to your car.",
+        "Join the community Discord（https://discord.comma.ai）"
+      ],
+      "readme_excerpt": "<div align=\"center\" style=\"text-align: center;\">\n\n<h1>openpilot</h1>\n\n<p>\n  <b>openpilot is an operating system for robotics.</b>\n  <br>\n  Currently, it upgrades the driver assistance system in 300+ supported cars.\n</p>\n\n<h3>\n  <a href=\"https://docs.comma.ai\">Docs</a>\n  <span> · </span>\n  <a href=\"https://docs.comma.ai/contributing/roadmap/\">Roadmap</a>\n  <span> · </span>\n  <a href=\"https://github.com/commaai/openpilot/blob/master/docs/CONTRIBUTING.md\">Contribute</a>\n  <span> · </span>\n  <a href=\"https://discord.comma.ai\">Community</a>\n  <span> · </span>\n  <a href=\"https://comma.ai/shop\">Try it on a comma four</a>\n</h3>\n\nQuick start: `bash <(curl -fsSL openpilot.comma.ai)`\n\n[![openpilot tests](https://github.com/commaai/openpilot/actions/workflows/tests.yaml/badge.svg)](https://github.com/commaai/openpilot/actions/workflows/tests.yaml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![X Follow](https://img.shields.io/twitter/follow/comma_ai)](https://x.com/comma_ai)\n[![Discord](https://img.shields.io/discord/469524606043160576)](https://discord.comma.ai)\n\n</div>\n\n<table>\n  <tr>\n    <td><a href=\"https://youtu.be/NmBfgOanCyk\" title=\"Video By Greer Via",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "opendatalab/MinerU",
+      "html_url": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "topics": [
+        "ai4science",
+        "document-analysis",
+        "docx",
+        "extract-data",
+        "layout-analysis",
+        "ocr",
+        "parser",
+        "pdf",
+        "pdf-converter",
+        "pdf-extractor-llm",
+        "pdf-extractor-pretrain",
+        "pdf-extractor-rag",
+        "pdf-parser",
+        "pptx",
+        "python",
+        "xlsx"
+      ],
+      "stargazers_count": 70518,
+      "forks_count": 5942,
+      "open_issues_count": 28,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows."
+      ],
+      "readme_excerpt": "<div align=\"center\" xmlns=\"http://www.w3.org/1999/html\">\n<!-- logo -->\n<p align=\"center\">\n  <img src=\"https://gcore.jsdelivr.net/gh/opendatalab/MinerU@master/docs/images/MinerU-logo.png\" width=\"300px\" style=\"vertical-align:middle;\">\n</p>\n\n<!-- icon -->\n\n[![stars](https://img.shields.io/github/stars/opendatalab/MinerU.svg)](https://github.com/opendatalab/MinerU)\n[![forks](https://img.shields.io/github/forks/opendatalab/MinerU.svg)](https://github.com/opendatalab/MinerU)\n[![open issues](https://img.shields.io/github/issues-raw/opendatalab/MinerU)](https://github.com/opendatalab/MinerU/issues)\n[![issue resolution](https://img.shields.io/github/issues-closed-raw/opendatalab/MinerU)](https://github.com/opendatalab/MinerU/issues)\n[![PyPI version](https://img.shields.io/pypi/v/mineru)](https://pypi.org/project/mineru/)\n[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mineru)](https://pypi.org/project/mineru/)\n[![Downloads](https://static.pepy.tech/badge/mineru)](https://pepy.tech/project/mineru)\n[![Downloads](https://static.pepy.tech/badge/mineru/month)](https://pepy.tech/project/mineru)\n[![OpenDataLab](https://img.shields.io/badge/webapp_on_mineru.net-blue?logo=data:image",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "html_url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "language": null,
+      "topics": [],
+      "stargazers_count": 9299,
+      "forks_count": 2567,
+      "open_issues_count": 30,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+        "**灵魂追问法** — 连续追问（几分？哪个省？家里做什么的？）快速锁定方案",
+        "**中位数原则** — 不看顶尖不看最差，看中间50%的人过得怎么样"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 张雪峰.skill\n\n<p align=\"center\">\n  <img src=\"assets/hero.gif\" alt=\"zhangxuefeng-skill Hero Animation\" />\n  <br/>\n  <sub>动画由 <a href=\"https://github.com/alchaincyf/huashu-design\">huashu-design</a> skill 制作</sub>\n</p>\n\n> *「社会就是一个大筛子，用学历筛孩子，用房子筛父母，用工作筛家庭。」*\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-green)](https://agentskills.io)\n[![skills.sh](https://img.shields.io/badge/skills.sh-Compatible-blue)](https://skills.sh)\n[![Multi-Runtime](https://img.shields.io/badge/Runtime-Claude%20Code%20·%20Codex%20·%20Cursor%20·%20OpenClaw%20·%20Hermes-blueviolet)](#安装)\n[![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)\n\n<br>\n\n**张雪峰的认知操作系统。不是语录合集，是可运行的思维框架。**\n\n<br>\n\n基于5本著作、15+篇权威媒体深度采访、30+条一手语录、<br>\n11个关键决策记录和完整人生时间线的深度调研，<br>\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n\n[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)\n\n</div>\n\n---\n\n## 效果示例\n\n### 问：我孩子今年高考，560分，河南的，想学金融，你怎么看？\n\n```\n张雪峰    ❯ 停停停，你先别急着说金融。我问你几个问题。\n\n            家里是做金融的吗？爸妈在银行、证券公司、基金公司？\n            有没有亲戚在这个行业里？\n\n            没有？那我跟你说，金融这个行业，千万别碰。\n\n          ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "xbtlin/ai-berkshire",
+      "html_url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework   built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "berkshire-hathaway",
+        "charlie-munger",
+        "china-stock",
+        "claude",
+        "claude-code",
+        "financial-analysis",
+        "fintech",
+        "fundamental-analysis",
+        "investment",
+        "investment-research",
+        "llm",
+        "mcp",
+        "portfolio-management",
+        "stock-analysis",
+        "stock-market",
+        "value-investing",
+        "warren-buffett"
+      ],
+      "stargazers_count": 3216,
+      "forks_count": 480,
+      "open_issues_count": 15,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+        "**段永平**（商业模式）：好生意，C2M模式难以复制 → 评分 3.7/5",
+        "**巴菲特**（财务估值）：扣现金PE仅6.3x，印钞机 → 评分 4.4/5",
+        "**芒格**（逆向思考）：护城河比想象中浅，抖音3年做到4万亿GMV → 评分 3.5/5",
+        "**李录**（长期确定性）：管理层文化有隐患，10年后不确定 → 评分 2.0/5",
+        "7家公司横向对比，评分标准完全一致"
+      ],
+      "readme_excerpt": "中文 | [English](README_EN.md)\n\n# AI Berkshire - AI 时代的价值投资研究框架\n\n> \"Price is what you pay, value is what you get.\" — Warren Buffett\n>\n> 用 AI 重新定义投资研究的深度与效率。\n\n**AI Berkshire** 是一套基于 [Claude Code](https://claude.ai/code) 的投资研究 Skill 合集，将巴菲特、芒格、段永平、李录四位价值投资大师的方法论系统化、结构化，通过 AI Agent 实现专业级投资研究。\n\n一个人 + Claude = 一个投研团队。\n\n---\n\n## Real Track Record\n\n> 不是纸上谈兵。这套框架背后是真金白银验证的投资体系。\n\n### 2024 全年收益：+69.29%\n\n<img src=\"assets/2024-returns.jpg\" width=\"300\" />\n\n### 2025 年至今收益：+66.38%\n\n<img src=\"assets/2025-returns.jpg\" width=\"300\" />\n\n### 与主要指数对比\n\n| 指标 | 2024 全年 | 2025 至今 |\n|------|----------|----------|\n| **本框架实盘** | **+69.29%** | **+66.38%** |\n| 恒生指数 | +17.67% | +27.77% |\n| 标普500 | +23.31% | +16.39% |\n| 沪深300 | +14.68% | +17.66% |\n| 纳斯达克 | +28.64% | +20.36% |\n\n**2024 年超额收益**：跑赢标普500 **46个百分点**，跑赢恒生指数 **52个百分点**\n\n**2025 年超额收益**：跑赢标普500 **50个百分点**，跑赢恒生指数 **39个百分点**\n\n**两年累计实盘收益超 146万元**，连续两年大幅跑赢全球主要指数。\n\n> *免责声明：历史收益不代表未来表现。截图来自富途证券真实账户。*\n\n---\n\n## 为什么不能直接问 AI？\n\n你当然可以直接问 Claude：\"帮我分析拼多多值不值得买\"。你会得到一篇\"一方面...另一方面...\"的平衡分析，最后以\"投资有风险，请自行判断\"收尾。\n\n**这种分析看起来对，但没法拿来做决策。**\n\nAI Berkshire 解决的不是\"能不能分析\"的问题，而是**分析质量和决策纪律**的问题。以下是核心差异：\n\n### 1. 强制给结论，不打太极\n\n直接问AI，你得到的是两面讨好的\"分析\"。AI Berkshire 强制输出：**通过/不通过/灰色地带**，带具体价格区间和分层建议",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "calesthio/OpenMontage",
+      "html_url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot",
+        "cursor",
+        "elevenlabs",
+        "ffmpeg",
+        "flux",
+        "image-generation",
+        "open-source",
+        "openai",
+        "python",
+        "remotion",
+        "stable-diffusion",
+        "text-to-speech",
+        "text-to-video",
+        "video-generation",
+        "video-production"
+      ],
+      "stargazers_count": 23826,
+      "forks_count": 2648,
+      "open_issues_count": 111,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+        "**Paste a reference video**",
+        "**The agent analyzes transcript, pacing, scenes, keyframes, and style**",
+        "**You get 2-3 differentiated concepts, an honest tool path, cost estimates, and a sample before full production**"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"OpenMontage\" width=\"200\">\n</p>\n\n<h1 align=\"center\">OpenMontage</h1>\n\n<p align=\"center\"><strong>The first open-source, agentic video production system.</strong></p>\n\n<p align=\"center\">\n  <a href=\"#start-from-a-video-you-already-love\">Paste A Video</a> &nbsp;·&nbsp;\n  <a href=\"#quick-start\">Quick Start</a> &nbsp;·&nbsp;\n  <a href=\"#try-these-prompts\">Try These Prompts</a> &nbsp;·&nbsp;\n  <a href=\"#pipelines\">Pipelines</a> &nbsp;·&nbsp;\n  <a href=\"#how-it-works\">How It Works</a> &nbsp;·&nbsp;\n  <a href=\"docs/PROVIDERS.md\">Providers</a> &nbsp;·&nbsp;\n  <a href=\"docs/PR_REVIEW_GUIDE.md\">Review Guide</a> &nbsp;·&nbsp;\n  <a href=\"AGENT_GUIDE.md\">Agent Guide</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-AGPLv3-blue.svg\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/trending\"><img src=\"https://img.shields.io/badge/%F0%9F%8F%86%20%231%20on%20GitHub%20Trending-Repository%20of%20the%20Day-8957E5?style=for-the-badge&labelColor=1a1a2e\" alt=\"#1 on GitHub Trending — Repository of the Day\"></a>\n</p>\n\n<p align=\"center\"><strong>Follow The Build</strong></p>\n\n<p align=\"cen",
+      "_meta_source": "api"
+    }
+  ]
+}

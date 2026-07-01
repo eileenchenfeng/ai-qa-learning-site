@@ -1,0 +1,183 @@
+{
+  "date": "2026-07-01",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "topics": [
+        "excercises",
+        "fitness",
+        "fitness-app"
+      ],
+      "stargazers_count": 7102,
+      "forks_count": 838,
+      "open_issues_count": 9,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "🇪🇸 Spanish, 🇮🇹 Italian, 🇹🇷 Turkish, 🇷🇺 Russian, and 🇨🇳 Chinese translations of the instructions",
+        "the interactive browser (`index.html`) and developer setup guide (`setup.html`)",
+        "formatting and cleanup",
+        "Data Source & Attribution",
+        "Overview"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 💪 Exercises Dataset\n\n**A developer setup wizard + structured, multilingual exercise dataset — scaffold your own exercise app backend (DB schema, API code, LLM prompt) over 1,324 exercises with category, body-part, equipment, target and muscle-group data and step-by-step instructions in 6 languages (English, Spanish, Italian, Turkish, Russian, Chinese). Exercise media is not included.**\n\n[![Exercises](https://img.shields.io/badge/Exercises-1324-blue?style=flat-square)](data/exercises.json)\n[![Languages](https://img.shields.io/badge/Languages-6-green?style=flat-square)](#-overview)\n[![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)](data/exercises.json)\n[![Media](https://img.shields.io/badge/Media-not%20included-lightgrey?style=flat-square)](#-notice--exercise-media-is-not-included)\n\n</div>\n\n---\n\n## ⚠️ Notice — exercise media is not included\n\n> **This repository is a developer setup wizard and structured exercise dataset.** The exercise **media (thumbnail images and animation GIFs) is not included here.**\n>\n> There are **multiple, conflicting ownership claims** over this media, so it is **not redistributed in this repository.** Each ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "code-quality",
+        "ctf-tools",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "hacking",
+        "llm-security",
+        "offensive-security",
+        "penetration-testing",
+        "pentesting-tools",
+        "red-teaming",
+        "security",
+        "security-automation"
+      ],
+      "stargazers_count": 28302,
+      "forks_count": 3135,
+      "open_issues_count": 115,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "**Full pentesting toolkit** - reconnaissance, exploitation, and validation out of the box",
+        "**Multi-agent orchestration** - teams of AI pentesters that collaborate and scale",
+        "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners",
+        "**Developer‑first CLI** - actionable findings with remediation guidance",
+        "**Auto‑fix & reporting** - generate patches and compliance-ready pentest reports"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://strix.ai/\">\n    <img src=\"https://github.com/usestrix/.github/raw/main/imgs/cover.png\" alt=\"Strix Banner\" width=\"100%\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Strix\n\n### The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.\n\n<br/>\n\n\n<a href=\"https://docs.strix.ai\"><img src=\"https://img.shields.io/badge/Docs-docs.strix.ai-2b9246?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\"></a>\n<a href=\"https://strix.ai\"><img src=\"https://img.shields.io/badge/Website-strix.ai-f0f0f0?style=for-the-badge&logoColor=000000\" alt=\"Website\"></a>\n[![](https://dcbadge.limes.pink/api/server/strix-ai)](https://discord.gg/strix-ai)\n\n<a href=\"https://deepwiki.com/usestrix/strix\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n<a href=\"https://github.com/usestrix/strix\"><img src=\"https://img.shields.io/github/stars/usestrix/strix?style=flat-square\" alt=\"GitHub Stars\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-3b82f6?style=flat-square\" alt=\"License\"></a>\n<a href=\"https://pypi.org/project/strix-agent/\"><img src=\"https://img.shields.io/pypi/v/strix-agent?styl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 121246,
+      "forks_count": 19801,
+      "open_issues_count": 86,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "**🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)",
+        "**🧠 Personality-Driven**: Unique voice, communication style, and approach",
+        "**📋 Deliverable-Focused**: Real code, processes, and measurable outcomes",
+        "**✅ Production-Ready**: Battle-tested workflows and success metrics",
+        "Identity & personality traits"
+      ],
+      "readme_excerpt": "# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)\n[![Download the app](https://img.shields.io/github/v/release/msitarzewski/agency-agents-app?label=Download%20app&color=2563eb)](https://github.com/msitarzewski/agency-agents-app/releases/latest)\n\n> ### 🆕 There's an app now\n>\n> **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "altic-dev/FluidVoice",
+      "html_url": "https://github.com/altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "dictation",
+        "ios",
+        "llama-cpp",
+        "macos",
+        "swift"
+      ],
+      "stargazers_count": 5033,
+      "forks_count": 306,
+      "open_issues_count": 94,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+        "**Insanely fast Parakeet** — rebuilt Parakeet implementation with pretty much zero delay between speaking and seeing words on screen",
+        "**Fluid Intelligence** — fully local AI model for on-device dictation enhancement. No cloud, no API keys, no data leaving your Mac",
+        "**Better Theming** — adaptive light/dark theme with a compact toolbar switcher",
+        "**Refreshed Onboarding** — language-first voice engine setup, real dictation tryout, and AI enhancement setup in one clean pass",
+        "**Fluid Intelligence** — on-device AI enhancement for smart formatting, context-aware capitalization, and post-processing, all running locally on your Mac with zero data leaving your machine"
+      ],
+      "readme_excerpt": "# FluidVoice\n\n<p align=\"center\">\n  <a href=\"https://github.com/altic-dev/FluidVoice/stargazers\"><img src=\"https://img.shields.io/github/stars/altic-dev/FluidVoice?style=social\" alt=\"GitHub stars\"/></a>\n  <a href=\"https://github.com/sponsors/altic-dev\"><img src=\"https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors&logoColor=white\" alt=\"Sponsor FluidVoice\"/></a>\n  <a href=\"https://x.com/ALTIC_DEV\"><img src=\"https://img.shields.io/badge/X-%40ALTIC__DEV-black?logo=x&logoColor=white\" alt=\"X @ALTIC_DEV\"/></a>\n  <br />\n  <a href=\"https://huggingface.co/nvidia/parakeet_realtime_eou_120m-v1\"><img src=\"https://img.shields.io/badge/Models-Nemotron%20Speech%203.5%20%7C%20Parakeet%20Flash%20%7C%20Parakeet%20v3%20%26%20v2%20%7C%20Cohere%20%7C%20Apple%20Speech%20%7C%20Whisper-blue\" alt=\"Supported Models\"/></a>\n  <br /><br />\n  <a href=\"https://trendshift.io/repositories/16601?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-16601\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/16601\" alt=\"altic-dev%2FFluidVoice | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\nOpen source voice-to-text dictati",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "html_url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "gemini-cli",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "stargazers_count": 8725,
+      "forks_count": 1406,
+      "open_issues_count": 128,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/>\n\n<br/>\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n### Never stop coding. Connect every AI tool to **236 providers** — **50+ free** — through one endpoint.\n\n**Plug Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini. Auto-fallback.**\n<br/>\n\n**RTK + Caveman compression saves 15–95% tokens. Never hit limits.**\n\n<br/>\n\n**~1.6B documented free tokens/month** — up to **~2.1B in your first month** with signup credits — aggregated across the free tiers, plus a long tail of permanently-free, no-cap providers, and the compression above stretches every one further. ([how we count →](docs/reference/FREE_TIERS.md#tldr--how-much-free-inference-does-omniroute-actually-aggregate))\n\n<br/>\n\n[![231 AI Providers](https://img.shields.io/badge/231-AI_Providers-6C5CE7?style=for-the-badge)](#-231-ai-providers--50-free)\n[![50+ Free](https://img.shields.io/badge/50%2B-Free_Tiers-00B894?style=for-the-badge)](#-231-ai-providers--50-free)\n[![1.6B Free Tokens/mo](https://img.shields.io/badge/1.6B-Free_Tokens%2Fmo-00B894?style=for-the-badge)](docs/reference/FREE_TIERS.md)\n",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "browser-use/video-use",
+      "html_url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 12742,
+      "forks_count": 1611,
+      "open_issues_count": 47,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Edit videos with coding agents",
+        "**Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes",
+        "**Auto color grades** every segment (warm cinematic, neutral punch, or any custom ffmpeg chain)",
+        "**30ms audio fades** at every cut so you never hear a pop",
+        "**Burns subtitles** in your style — 2-word UPPERCASE chunks by default, fully customizable",
+        "**Generates animation overlays** via HyperFrames（https://github.com/heygen-com/hyperframes）, Remotion（https://www.remotion.dev/）, Manim（https://www.manim.community/）, or PIL — spawned in parallel sub-agents, one per animation"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"static/video-use-banner.png\" alt=\"video-use\" width=\"100%\">\n</p>\n\n# video-use\n\nIntroducing **video-use** — edit videos with Claude Code. 100% open source.\n\nDrop raw footage in a folder, chat with Claude Code, get `final.mp4` back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus.\n\nTry video-use in [Browser Use Cloud](https://cloud.browser-use.com/v4?utm_campaign=video-use-use-in-cloud&utm_source=github).\n\n## What it does\n\n- **Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes\n- **Auto color grades** every segment (warm cinematic, neutral punch, or any custom ffmpeg chain)\n- **30ms audio fades** at every cut so you never hear a pop\n- **Burns subtitles** in your style — 2-word UPPERCASE chunks by default, fully customizable\n- **Generates animation overlays** via [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://www.remotion.dev/), [Manim](https://www.manim.community/), or PIL — spawned in parallel sub-agents, one per animation\n- **Self-evaluates the rendered output** at every cut boundary before showing you anything\n- **Persists session memor",
+      "_meta_source": "api"
+    }
+  ]
+}

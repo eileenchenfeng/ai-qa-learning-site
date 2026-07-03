@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-03",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "code-quality",
+        "ctf-tools",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "hacking",
+        "llm-security",
+        "offensive-security",
+        "penetration-testing",
+        "pentesting-tools",
+        "red-teaming",
+        "security",
+        "security-automation"
+      ],
+      "stargazers_count": 32564,
+      "forks_count": 3403,
+      "open_issues_count": 135,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "**Full pentesting toolkit** - reconnaissance, exploitation, and validation out of the box",
+        "**Multi-agent orchestration** - teams of AI pentesters that collaborate and scale",
+        "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners",
+        "**Developer‑first CLI** - actionable findings with remediation guidance",
+        "**Auto‑fix & reporting** - generate patches and compliance-ready pentest reports"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://strix.ai/\">\n    <img src=\"https://github.com/usestrix/.github/raw/main/imgs/cover.png\" alt=\"Strix Banner\" width=\"100%\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Strix\n\n### The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.\n\n<br/>\n\n\n<a href=\"https://docs.strix.ai\"><img src=\"https://img.shields.io/badge/Docs-docs.strix.ai-2b9246?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\"></a>\n<a href=\"https://strix.ai\"><img src=\"https://img.shields.io/badge/Website-strix.ai-f0f0f0?style=for-the-badge&logoColor=000000\" alt=\"Website\"></a>\n[![](https://dcbadge.limes.pink/api/server/strix-ai)](https://discord.gg/strix-ai)\n\n<a href=\"https://deepwiki.com/usestrix/strix\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n<a href=\"https://github.com/usestrix/strix\"><img src=\"https://img.shields.io/github/stars/usestrix/strix?style=flat-square\" alt=\"GitHub Stars\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-3b82f6?style=flat-square\" alt=\"License\"></a>\n<a href=\"https://pypi.org/project/strix-agent/\"><img src=\"https://img.shields.io/pypi/v/strix-agent?styl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "stargazers_count": 81330,
+      "forks_count": 4543,
+      "open_issues_count": 361,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"https://em-content.zobj.net/source/apple/391/rock_1faa8.png\" width=\"120\" />\n</p>\n\n<h1 align=\"center\">caveman</h1>\n\n<p align=\"center\">\n  <strong>why use many token when few do trick</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/JuliusBrussee/caveman/stargazers\"><img src=\"https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow\" alt=\"Stars\"></a>\n  <a href=\"https://github.com/JuliusBrussee/caveman/commits/main\"><img src=\"https://img.shields.io/github/last-commit/JuliusBrussee/caveman?style=flat\" alt=\"Last Commit\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/JuliusBrussee/caveman?style=flat\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#before--after\">Before/After</a> •\n  <a href=\"#install\">Install</a> •\n  <a href=\"#what-you-get\">What You Get</a> •\n  <a href=\"#benchmarks\">Benchmarks</a> •\n  <a href=\"./INSTALL.md\">Full install guide</a>\n</p>\n\n---\n\nA [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill/plugin (also Codex, Gemini, Cursor, Windsurf, Cline, Copilot, 30+ more) that makes agent talk like caveman — cuts **~75% of output tokens**, keeps full technical a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 125703,
+      "forks_count": 20396,
+      "open_issues_count": 98,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "**🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)",
+        "**🧠 Personality-Driven**: Unique voice, communication style, and approach",
+        "**📋 Deliverable-Focused**: Real code, processes, and measurable outcomes",
+        "**✅ Production-Ready**: Battle-tested workflows and success metrics",
+        "Identity & personality traits"
+      ],
+      "readme_excerpt": "# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)\n[![Download the app](https://img.shields.io/github/v/release/msitarzewski/agency-agents-app?label=Download%20app&color=2563eb)](https://github.com/msitarzewski/agency-agents-app/releases/latest)\n\n> ### 🆕 There's an app now\n>\n> **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "topics": [
+        "excercises",
+        "fitness",
+        "fitness-app"
+      ],
+      "stargazers_count": 9373,
+      "forks_count": 1046,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "🇪🇸 Spanish, 🇮🇹 Italian, 🇹🇷 Turkish, 🇷🇺 Russian, and 🇨🇳 Chinese translations of the instructions",
+        "the interactive browser (`index.html`) and developer setup guide (`setup.html`)",
+        "formatting and cleanup",
+        "Data Source & Attribution",
+        "Overview"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 💪 Exercises Dataset\n\n**A developer setup wizard + structured, multilingual exercise dataset — scaffold your own exercise app backend (DB schema, API code, LLM prompt) over 1,324 exercises with category, body-part, equipment, target and muscle-group data and step-by-step instructions in 6 languages (English, Spanish, Italian, Turkish, Russian, Chinese). Exercise media is not included.**\n\n[![Exercises](https://img.shields.io/badge/Exercises-1324-blue?style=flat-square)](data/exercises.json)\n[![Languages](https://img.shields.io/badge/Languages-6-green?style=flat-square)](#-overview)\n[![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)](data/exercises.json)\n[![Media](https://img.shields.io/badge/Media-not%20included-lightgrey?style=flat-square)](#-notice--exercise-media-is-not-included)\n\n</div>\n\n---\n\n## ⚠️ Notice — exercise media is not included\n\n> **This repository is a developer setup wizard and structured exercise dataset.** The exercise **media (thumbnail images and animation GIFs) is not included here.**\n>\n> There are **multiple, conflicting ownership claims** over this media, so it is **not redistributed in this repository.** Each ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "santifer/career-ops",
+      "html_url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "automation",
+        "beginner-friendly",
+        "career",
+        "careerops",
+        "claude",
+        "claude-code",
+        "cli",
+        "first-timers-only",
+        "golang",
+        "good-first-issue",
+        "interview-prep",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "stargazers_count": 57990,
+      "forks_count": 11407,
+      "open_issues_count": 120,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+        "**Evaluates offers** with a structured A-F scoring system (10 weighted dimensions)",
+        "**Generates tailored PDFs** -- ATS-optimized CVs customized per job description",
+        "**Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)",
+        "**Processes in batch** -- evaluate 10+ offers in parallel with sub-agents",
+        "**Tracks everything** in a single source of truth with integrity checks"
+      ],
+      "readme_excerpt": "# Career-Ops\n\n[English](README.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Français](README.fr.md) | [Português (Brasil)](README.pt-BR.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [简体中文](README.cn.md) | [繁體中文](README.zh-TW.md) | [Українська](README.ua.md) | [Русский](README.ru.md) | [Polski](README.pl.md) | [Dansk](README.da.md) | [العربية](README.ar.md)\n\n<p align=\"center\">\n  <a href=\"https://x.com/santifer\"><img src=\"docs/hero-banner.jpg\" alt=\"Career-Ops Multi-Agent Job Search System\" width=\"800\"></a>\n</p>\n\n<p align=\"center\">\n  <em>I spent months applying to jobs the hard way. So I engineered the system I wish I had.</em><br>\n  Companies use AI to filter candidates. <strong>I just gave candidates AI to <em>choose</em> companies.</strong><br>\n  <em>Now it's open source.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/25195\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25195\" alt=\"santifer%2Fcareer-ops | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.producthunt.com/products/santifer-io?utm_source=badge-",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 244628,
+      "forks_count": 21696,
+      "open_issues_count": 302,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "In the Codex app, click on Plugins in the sidebar.",
+        "You should see `Superpowers` in the Coding section."
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n\n## We're Hiring!\n\nWe're hiring someone to help out full time with Superpowers community and code work. \nYou can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/\nIf this sounds like someone you know, definitely send them our way.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent ",
+      "_meta_source": "api"
+    }
+  ]
+}

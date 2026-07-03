@@ -1,0 +1,186 @@
+{
+  "date": "2026-07-02",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 123896,
+      "forks_count": 20142,
+      "open_issues_count": 88,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "**🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)",
+        "**🧠 Personality-Driven**: Unique voice, communication style, and approach",
+        "**📋 Deliverable-Focused**: Real code, processes, and measurable outcomes",
+        "**✅ Production-Ready**: Battle-tested workflows and success metrics",
+        "Identity & personality traits"
+      ],
+      "readme_excerpt": "# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)\n[![Download the app](https://img.shields.io/github/v/release/msitarzewski/agency-agents-app?label=Download%20app&color=2563eb)](https://github.com/msitarzewski/agency-agents-app/releases/latest)\n\n> ### 🆕 There's an app now\n>\n> **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "code-quality",
+        "ctf-tools",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "hacking",
+        "llm-security",
+        "offensive-security",
+        "penetration-testing",
+        "pentesting-tools",
+        "red-teaming",
+        "security",
+        "security-automation"
+      ],
+      "stargazers_count": 29995,
+      "forks_count": 3241,
+      "open_issues_count": 122,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "**Full pentesting toolkit** - reconnaissance, exploitation, and validation out of the box",
+        "**Multi-agent orchestration** - teams of AI pentesters that collaborate and scale",
+        "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners",
+        "**Developer‑first CLI** - actionable findings with remediation guidance",
+        "**Auto‑fix & reporting** - generate patches and compliance-ready pentest reports"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://strix.ai/\">\n    <img src=\"https://github.com/usestrix/.github/raw/main/imgs/cover.png\" alt=\"Strix Banner\" width=\"100%\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Strix\n\n### The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.\n\n<br/>\n\n\n<a href=\"https://docs.strix.ai\"><img src=\"https://img.shields.io/badge/Docs-docs.strix.ai-2b9246?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\"></a>\n<a href=\"https://strix.ai\"><img src=\"https://img.shields.io/badge/Website-strix.ai-f0f0f0?style=for-the-badge&logoColor=000000\" alt=\"Website\"></a>\n[![](https://dcbadge.limes.pink/api/server/strix-ai)](https://discord.gg/strix-ai)\n\n<a href=\"https://deepwiki.com/usestrix/strix\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n<a href=\"https://github.com/usestrix/strix\"><img src=\"https://img.shields.io/github/stars/usestrix/strix?style=flat-square\" alt=\"GitHub Stars\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-3b82f6?style=flat-square\" alt=\"License\"></a>\n<a href=\"https://pypi.org/project/strix-agent/\"><img src=\"https://img.shields.io/pypi/v/strix-agent?styl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/Vibe-Trading",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "stargazers_count": 16725,
+      "forks_count": 2819,
+      "open_issues_count": 14,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"Vibe-Trading: Your Personal Trading Agent\"",
+        "**2026-07-01** 🧹 **Security polish + tracker cleanup**: tightened API/Docker/frontend dev defaults, stabilized Settings channel and `zh-CN` edges, cleared frontend dependency/CSP alerts, and closed stale WhatsApp + paper-trading tracker items (#338（https://github.com/HKUDS/Vibe-Trading/pull/338）, #351（https://github.com/HKUDS/Vibe-Trading/pull/351）, #349（https://github.com/HKUDS/Vibe-Trading/pull/349）, #365（https://github.com/HKUDS/Vibe-Trading/pull/365）, #367（https://github.com/HKUDS/Vibe-Trading/pull/367）, #350（https://github.com/HKUDS/Vibe-Trading/pull/350）, #335（https://github.com/HKUDS/Vibe-Trading/pull/335）, #283（https://github.com/HKUDS/Vibe-Trading/issues/283）).",
+        "**2026-06-30** 💬 **IM channel runtime for research delivery**: Vibe-Trading can now attach the same agent session runtime to 16 built-in message adapters — WebSocket, Telegram, Slack, Discord, Matrix, WhatsApp, Signal, QQ/NapCat, WeChat/WeCom, Feishu/Lark, DingTalk, Teams, email, and Mochat. CLI (`vibe-trading channels status/start/stop/login/pairing`), REST (`/channels/status`, `/channels/start`, `/channels/stop`, `/channels/pairing/command`), and the Web UI Settings panel expose status, recovery hints, start/stop, and sender pairing; SDK-backed adapters stay behind extras such as `vibe-trading-ai[telegram]` or `vibe-trading-ai[channels]` (#341（https://github.com/HKUDS/Vibe-Trading/pull/341）).",
+        "**2026-06-29** 🛡️ **Live advisory safety + Trading 212 read-only connector + Windows/Gemini fixes**: live order guards now have an opt-in, broker-agnostic `PreTradeAdvisoryInterface` that records advisory reviews without bypassing the mandate gate, kill switch, or audit trail (#328（https://github.com/HKUDS/Vibe-Trading/pull/328）, closes #317（https://github.com/HKUDS/Vibe-Trading/issues/317）, thanks @shadowinlife). Trading 212 joins the connector layer with read-only account, positions, orders, history, and instrument-metadata support; `place_order` / `cancel_order` still hard-refuse until a structural paper/live boundary exists (#321（https://github.com/HKUDS/Vibe-Trading/pull/321）, closes #309（https://github.com/HKUDS/Vibe-Trading/issues/309）, thanks @mvanhorn). Windows startup avoids the pandas 3.0 `Timestamp` crash via the `<3.0.0` constraint (#329（https://github.com/HKUDS/Vibe-Trading/pull/329）, closes #324（https://github.com/HKUDS/Vibe-Trading/issues/324）, thanks @hannibal-lee); Gemini `thought_signature` dict-history replay was verified/fixed on `main` (#318（https://github.com/HKUDS/Vibe-Trading/issues/318）); `.US` financial statements now route to SEC EDGAR instead of Eastmoney (#325（https://github.com/HKUDS/Vibe-Trading/issues/325）); and the Alpha Library landing page got cache/date/selector/noscript/DNS-prefetch hardening while heavier CSP and social-card follow-ups stay tracked (#323（https://github.com/HKUDS/Vibe-Trading/issues/323）).",
+        "**2026-06-28** 🧰 **Cross-platform setup/dev + runtime and file-tool hardening**: `vibe-trading setup` and `vibe-trading dev` now handle Windows TypeScript builds, launch the backend from the right cwd, use the Vite 5899 port, and shut child processes down cleanly (#292（https://github.com/HKUDS/Vibe-Trading/pull/292）, thanks @d"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <b>English</b> | <a href=\"README_zh.md\">中文</a> | <a href=\"README_ja.md\">日本語</a> | <a href=\"README_ko.md\">한국어</a> | <a href=\"README_ar.md\">العربية</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"assets/icon.png\" width=\"120\" alt=\"Vibe-Trading Logo\"/>\n</p>\n\n<h1 align=\"center\">Vibe-Trading: Your Personal Trading Agent</h1>\n\n<p align=\"center\">\n  <b>One Command to Empower Your Agent with Comprehensive Trading Capabilities</b>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/25527\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25527\" alt=\"HKUDS%2FVibe-Trading | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white\" alt=\"Python\">\n  <img src=\"https://img.shields.io/badge/Backend-FastAPI-009688?style=flat\" alt=\"FastAPI\">\n  <img src=\"https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=flat&logo=react&logoColor=white\" alt=\"React\">\n  <a href=\"https://pypi.org/project/vibe-trading-ai/\"><img src=\"https://img.shields.io/pypi/v/vibe-trading-ai?style=flat&logo=pypi&logoColor=white\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "topics": [
+        "excercises",
+        "fitness",
+        "fitness-app"
+      ],
+      "stargazers_count": 8569,
+      "forks_count": 966,
+      "open_issues_count": 17,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+        "🇪🇸 Spanish, 🇮🇹 Italian, 🇹🇷 Turkish, 🇷🇺 Russian, and 🇨🇳 Chinese translations of the instructions",
+        "the interactive browser (`index.html`) and developer setup guide (`setup.html`)",
+        "formatting and cleanup",
+        "Data Source & Attribution",
+        "Overview"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# 💪 Exercises Dataset\n\n**A developer setup wizard + structured, multilingual exercise dataset — scaffold your own exercise app backend (DB schema, API code, LLM prompt) over 1,324 exercises with category, body-part, equipment, target and muscle-group data and step-by-step instructions in 6 languages (English, Spanish, Italian, Turkish, Russian, Chinese). Exercise media is not included.**\n\n[![Exercises](https://img.shields.io/badge/Exercises-1324-blue?style=flat-square)](data/exercises.json)\n[![Languages](https://img.shields.io/badge/Languages-6-green?style=flat-square)](#-overview)\n[![Format](https://img.shields.io/badge/Format-JSON-orange?style=flat-square)](data/exercises.json)\n[![Media](https://img.shields.io/badge/Media-not%20included-lightgrey?style=flat-square)](#-notice--exercise-media-is-not-included)\n\n</div>\n\n---\n\n## ⚠️ Notice — exercise media is not included\n\n> **This repository is a developer setup wizard and structured exercise dataset.** The exercise **media (thumbnail images and animation GIFs) is not included here.**\n>\n> There are **multiple, conflicting ownership claims** over this media, so it is **not redistributed in this repository.** Each ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "facebook/astryx",
+      "html_url": "https://github.com/facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 2802,
+      "forks_count": 151,
+      "open_issues_count": 174,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An open source design system that's fully customizable and agent ready",
+        "**Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project to own.",
+        "**No styling lock-in.** Astryx authors its styles with StyleX, but that's invisible to consumers. Override with `className` using Tailwind, CSS modules, or plain CSS — whatever your project already uses.",
+        "**Customize without wrapping.** A theme is a set of CSS custom property overrides, so a designer can make Astryx unmistakably theirs without forking or wrapping component source.",
+        "**Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.",
+        "**Guidance over enforcement.** Components give you capability rather than guardrails that fight you. Design opinions live in docs and examples — if you pass a value, the component renders it."
+      ],
+      "readme_excerpt": "<!-- SYNC CONTRACT: Architecture changes require documentation updates. -->\n\n# Astryx\n\nAn open source design system that's fully customizable and built for how we build now — by people and the agents working alongside them.\n\n> **Currently in Beta** · Built on [React](https://react.dev) and [StyleX](https://stylexjs.com)\n\n## Overview\n\nAstryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.\n\nIt ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.\n\n**What makes Astryx different:**\n\n- **Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "html_url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "gemini-cli",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "stargazers_count": 9683,
+      "forks_count": 1483,
+      "open_issues_count": 131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/>\n\n<br/>\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n### Never stop coding. Connect every AI tool to **236 providers** — **50+ free** — through one endpoint.\n\n**Plug Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini. Auto-fallback.**\n<br/>\n\n**RTK + Caveman compression saves 15–95% tokens. Never hit limits.**\n\n<br/>\n\n**~1.6B documented free tokens/month** — up to **~2.1B in your first month** with signup credits — aggregated across the free tiers, plus a long tail of permanently-free, no-cap providers, and the compression above stretches every one further. ([how we count →](docs/reference/FREE_TIERS.md#tldr--how-much-free-inference-does-omniroute-actually-aggregate))\n\n<br/>\n\n[![231 AI Providers](https://img.shields.io/badge/231-AI_Providers-6C5CE7?style=for-the-badge)](#-231-ai-providers--50-free)\n[![50+ Free](https://img.shields.io/badge/50%2B-Free_Tiers-00B894?style=for-the-badge)](#-231-ai-providers--50-free)\n[![1.6B Free Tokens/mo](https://img.shields.io/badge/1.6B-Free_Tokens%2Fmo-00B894?style=for-the-badge)](docs/reference/FREE_TIERS.md)\n",
+      "_meta_source": "api"
+    }
+  ]
+}

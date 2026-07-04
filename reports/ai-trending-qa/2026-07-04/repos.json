@@ -1,0 +1,174 @@
+{
+  "date": "2026-07-04",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "code-quality",
+        "ctf-tools",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "hacking",
+        "llm-security",
+        "offensive-security",
+        "penetration-testing",
+        "pentesting-tools",
+        "red-teaming",
+        "security",
+        "security-automation"
+      ],
+      "stargazers_count": 34813,
+      "forks_count": 3559,
+      "open_issues_count": 151,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "**Full pentesting toolkit** - reconnaissance, exploitation, and validation out of the box",
+        "**Multi-agent orchestration** - teams of AI pentesters that collaborate and scale",
+        "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners",
+        "**Developer‑first CLI** - actionable findings with remediation guidance",
+        "**Auto‑fix & reporting** - generate patches and compliance-ready pentest reports"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://strix.ai/\">\n    <img src=\"https://github.com/usestrix/.github/raw/main/imgs/cover.png\" alt=\"Strix Banner\" width=\"100%\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Strix\n\n### The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.\n\n<br/>\n\n\n<a href=\"https://docs.strix.ai\"><img src=\"https://img.shields.io/badge/Docs-docs.strix.ai-2b9246?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\"></a>\n<a href=\"https://strix.ai\"><img src=\"https://img.shields.io/badge/Website-strix.ai-f0f0f0?style=for-the-badge&logoColor=000000\" alt=\"Website\"></a>\n[![](https://dcbadge.limes.pink/api/server/strix-ai)](https://discord.gg/strix-ai)\n\n<a href=\"https://deepwiki.com/usestrix/strix\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n<a href=\"https://github.com/usestrix/strix\"><img src=\"https://img.shields.io/github/stars/usestrix/strix?style=flat-square\" alt=\"GitHub Stars\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-3b82f6?style=flat-square\" alt=\"License\"></a>\n<a href=\"https://pypi.org/project/strix-agent/\"><img src=\"https://img.shields.io/pypi/v/strix-agent?styl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "openai/codex-plugin-cc",
+      "html_url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 23323,
+      "forks_count": 1417,
+      "open_issues_count": 266,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Use Codex from Claude Code to review code or delegate tasks.",
+        "`/codex:review` for a normal read-only Codex review",
+        "`/codex:adversarial-review` for a steerable challenge review",
+        "`/codex:rescue`, `/codex:transfer`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work, hand off sessions, and manage background jobs",
+        "**ChatGPT subscription (incl. Free) or OpenAI API key.**",
+        "Usage will contribute to your Codex usage limits. Learn more（https://developers.openai.com/codex/pricing）."
+      ],
+      "readme_excerpt": "# Codex plugin for Claude Code\n\nUse Codex from inside Claude Code for code reviews or to delegate tasks to Codex.\n\nThis plugin is for Claude Code users who want an easy way to start using Codex from the workflow\nthey already have.\n\n<video src=\"./docs/plugin-demo.webm\" controls muted playsinline autoplay></video>\n\n## What You Get\n\n- `/codex:review` for a normal read-only Codex review\n- `/codex:adversarial-review` for a steerable challenge review\n- `/codex:rescue`, `/codex:transfer`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work, hand off sessions, and manage background jobs\n\n## Requirements\n\n- **ChatGPT subscription (incl. Free) or OpenAI API key.**\n  - Usage will contribute to your Codex usage limits. [Learn more](https://developers.openai.com/codex/pricing).\n- **Node.js 18.18 or later**\n\n## Install\n\nAdd the marketplace in Claude Code:\n\n```bash\n/plugin marketplace add openai/codex-plugin-cc\n```\n\nInstall the plugin:\n\n```bash\n/plugin install codex@openai-codex\n```\n\nReload plugins:\n\n```bash\n/reload-plugins\n```\n\nThen run:\n\n```bash\n/codex:setup\n```\n\n`/codex:setup` will tell you whether Codex is ready. If Codex is missing and npm is available, it can offer to ins",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "stargazers_count": 83062,
+      "forks_count": 4633,
+      "open_issues_count": 352,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/assets/caveman-logo-banner.png\" alt=\"Caveman\" width=\"720\">\n</p>\n\n<p align=\"center\">\n  <strong>why use many token when few do trick</strong>\n</p>\n\n<p align=\"center\">\n  Make your AI coding agent talk like a caveman.<br>\n  Same answers, <strong>65% fewer output tokens</strong>. Brain still big. Mouth small.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/JuliusBrussee/caveman/stargazers\"><img src=\"https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow\" alt=\"Stars\"></a>\n  <a href=\"./INSTALL.md\"><img src=\"https://img.shields.io/badge/works_with-30%2B_agents-orange?style=flat\" alt=\"30+ agents\"></a>\n  <a href=\"https://github.com/JuliusBrussee/caveman/commits/main\"><img src=\"https://img.shields.io/github/last-commit/JuliusBrussee/caveman?style=flat\" alt=\"Last commit\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/JuliusBrussee/caveman?style=flat\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#before--after\">See it</a> ·\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#pick-your-grunt\">Levels</a> ·\n  <a href=\"#what-you-get\">What you get</a> ·\n  <a href=\"#benchmarks\">Benchmarks</a> ·\n  <a h",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 45527,
+      "forks_count": 2960,
+      "open_issues_count": 86,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ansible/ansible",
+      "html_url": "https://github.com/ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "language": "Python",
+      "topics": [
+        "ansible",
+        "python"
+      ],
+      "stargazers_count": 69234,
+      "forks_count": 24110,
+      "open_issues_count": 805,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+        "Have an extremely simple setup process with a minimal learning curve.",
+        "Manage machines quickly and in parallel.",
+        "Avoid custom-agents and additional open ports, be agentless by",
+        "Describe infrastructure in a language that is both machine and human",
+        "Focus on security and easy auditability/review/rewriting of content."
+      ],
+      "readme_excerpt": "[![PyPI version](https://img.shields.io/pypi/v/ansible-core.svg)](https://pypi.org/project/ansible-core)\n[![Docs badge](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://docs.ansible.com/ansible/latest/)\n[![Chat badge](https://img.shields.io/badge/chat-Matrix-brightgreen.svg)](https://docs.ansible.com/ansible/devel/community/communication.html#real-time-chat)\n[![Ansible forum](https://img.shields.io/badge/forum-Ansible-orange.svg)](https://docs.ansible.com/ansible/devel/community/communication.html#forum)\n[![Build Status](https://dev.azure.com/ansible/ansible/_apis/build/status/CI?branchName=devel)](https://dev.azure.com/ansible/ansible/_build/latest?definitionId=20&branchName=devel)\n[![Ansible Code of Conduct](https://img.shields.io/badge/code%20of%20conduct-Ansible-silver.svg)](https://docs.ansible.com/ansible/devel/community/code_of_conduct.html)\n[![Repository License](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)][copying]\n[![Ansible CII Best Practices certification](https://bestpractices.coreinfrastructure.org/projects/2372/badge)](https://bestpractices.coreinfrastructure.org/projects/2372)\n\n# Ansible\n\nAnsible is a radically simple IT automa",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "facebook/astryx",
+      "html_url": "https://github.com/facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 4760,
+      "forks_count": 281,
+      "open_issues_count": 187,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An open source design system that's fully customizable and agent ready",
+        "**Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project to own.",
+        "**No styling lock-in.** Astryx authors its styles with StyleX, but that's invisible to consumers. Override with `className` using Tailwind, CSS modules, or plain CSS — whatever your project already uses.",
+        "**Customize without wrapping.** A theme is a set of CSS custom property overrides, so a designer can make Astryx unmistakably theirs without forking or wrapping component source.",
+        "**Built for people and agents.** The API, docs, and CLI are designed together so a person and an AI assistant build the same way, from the same reference.",
+        "**Guidance over enforcement.** Components give you capability rather than guardrails that fight you. Design opinions live in docs and examples — if you pass a value, the component renders it."
+      ],
+      "readme_excerpt": "<!-- SYNC CONTRACT: Architecture changes require documentation updates. -->\n\n# Astryx\n\nAn open source design system that's fully customizable and built for how we build now — by people and the agents working alongside them.\n\n> **Currently in Beta** · Built on [React](https://react.dev) and [StyleX](https://stylexjs.com)\n\n## Overview\n\nAstryx is an open source design system that grew inside Meta over the last eight years, where it became the most-used and largest design system in the company — powering 13,000+ apps and shaped by the engineers, designers, and product teams who depend on it every day.\n\nIt ships 150+ accessible components, brand-level theming, dark mode, ready-to-ship templates, and a CLI as one cohesive system. You import pre-built CSS and use typed React components — no build plugin, no styling library to adopt — and both people and AI assistants build with the same tooling.\n\n**What makes Astryx different:**\n\n- **Open internals.** Components are built to be composed at any level, not locked behind a closed top-level API. The building blocks you'd reach for are exported directly, and when you need to go deeper, swizzle ejects a component's full source into your project",
+      "_meta_source": "api"
+    }
+  ]
+}

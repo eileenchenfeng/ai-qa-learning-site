@@ -1,0 +1,201 @@
+{
+  "date": "2026-07-05",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "openai/codex-plugin-cc",
+      "html_url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 24664,
+      "forks_count": 1494,
+      "open_issues_count": 276,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Use Codex from Claude Code to review code or delegate tasks.",
+        "`/codex:review` for a normal read-only Codex review",
+        "`/codex:adversarial-review` for a steerable challenge review",
+        "`/codex:rescue`, `/codex:transfer`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work, hand off sessions, and manage background jobs",
+        "**ChatGPT subscription (incl. Free) or OpenAI API key.**",
+        "Usage will contribute to your Codex usage limits. Learn more（https://developers.openai.com/codex/pricing）."
+      ],
+      "readme_excerpt": "# Codex plugin for Claude Code\n\nUse Codex from inside Claude Code for code reviews or to delegate tasks to Codex.\n\nThis plugin is for Claude Code users who want an easy way to start using Codex from the workflow\nthey already have.\n\n<video src=\"./docs/plugin-demo.webm\" controls muted playsinline autoplay></video>\n\n## What You Get\n\n- `/codex:review` for a normal read-only Codex review\n- `/codex:adversarial-review` for a steerable challenge review\n- `/codex:rescue`, `/codex:transfer`, `/codex:status`, `/codex:result`, and `/codex:cancel` to delegate work, hand off sessions, and manage background jobs\n\n## Requirements\n\n- **ChatGPT subscription (incl. Free) or OpenAI API key.**\n  - Usage will contribute to your Codex usage limits. [Learn more](https://developers.openai.com/codex/pricing).\n- **Node.js 18.18 or later**\n\n## Install\n\nAdd the marketplace in Claude Code:\n\n```bash\n/plugin marketplace add openai/codex-plugin-cc\n```\n\nInstall the plugin:\n\n```bash\n/plugin install codex@openai-codex\n```\n\nReload plugins:\n\n```bash\n/reload-plugins\n```\n\nThen run:\n\n```bash\n/codex:setup\n```\n\n`/codex:setup` will tell you whether Codex is ready. If Codex is missing and npm is available, it can offer to ins",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "stargazers_count": 84097,
+      "forks_count": 4689,
+      "open_issues_count": 356,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/assets/caveman-logo-banner.png\" alt=\"Caveman\" width=\"720\">\n</p>\n\n<p align=\"center\">\n  <strong>why use many token when few do trick</strong>\n</p>\n\n<p align=\"center\">\n  Make your AI coding agent talk like a caveman.<br>\n  Same answers, <strong>65% fewer output tokens</strong>. Brain still big. Mouth small.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/JuliusBrussee/caveman/stargazers\"><img src=\"https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow\" alt=\"Stars\"></a>\n  <a href=\"./INSTALL.md\"><img src=\"https://img.shields.io/badge/works_with-30%2B_agents-orange?style=flat\" alt=\"30+ agents\"></a>\n  <a href=\"https://github.com/JuliusBrussee/caveman/commits/main\"><img src=\"https://img.shields.io/github/last-commit/JuliusBrussee/caveman?style=flat\" alt=\"Last commit\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/JuliusBrussee/caveman?style=flat\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#before--after\">See it</a> ·\n  <a href=\"#install\">Install</a> ·\n  <a href=\"#pick-your-grunt\">Levels</a> ·\n  <a href=\"#what-you-get\">What you get</a> ·\n  <a href=\"#benchmarks\">Benchmarks</a> ·\n  <a h",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alibaba/page-agent",
+      "html_url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "browser-automation",
+        "javascript",
+        "mcp",
+        "typescript",
+        "web"
+      ],
+      "stargazers_count": 23219,
+      "forks_count": 2013,
+      "open_issues_count": 46,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+        "**🎯 Easy integration**",
+        "No need for `browser extension` / `python` / `headless browser`.",
+        "Just in-page javascript. Everything happens in your web page.",
+        "**📖 Text-based DOM manipulation**",
+        "No screenshots. No multi-modal LLMs or special permissions needed."
+      ],
+      "readme_excerpt": "# Page Agent\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://page-agent.github.io/assets/readme/banner-dark.png\">\n  <img alt=\"Page Agent Banner\" src=\"https://page-agent.github.io/assets/readme/banner-light.png\">\n</picture>\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-auto.svg)](https://opensource.org/licenses/MIT) [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/) [![Bundle Size](https://img.shields.io/bundlephobia/minzip/page-agent)](https://bundlephobia.com/package/page-agent) [![Downloads](https://img.shields.io/npm/dt/page-agent.svg)](https://www.npmjs.com/package/page-agent) [![GitHub stars](https://img.shields.io/github/stars/alibaba/page-agent.svg)](https://github.com/alibaba/page-agent)\n\nThe GUI Agent Living in Your Webpage. Control web interfaces with natural language.\n\n🌐 **English** | [中文](./docs/README-zh.md)\n\n<a href=\"https://alibaba.github.io/page-agent/\" target=\"_blank\"><b>🚀 Demo</b></a> | <a href=\"https://alibaba.github.io/page-agent/docs/introduction/overview\" target=\"_blank\"><b>📖 Docs</b></a> | <a href=\"https://news.ycombinator.com/item?id=47264138\" target=\"_blank\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "usestrix/strix",
+      "html_url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-hacking",
+        "ai-penetration-testing",
+        "ai-pentesting",
+        "ai-security",
+        "artificial-intelligence",
+        "bug-bounty",
+        "code-quality",
+        "ctf-tools",
+        "cybersecurity",
+        "cybersecurity-tools",
+        "ethical-hacking",
+        "hacking",
+        "llm-security",
+        "offensive-security",
+        "penetration-testing",
+        "pentesting-tools",
+        "red-teaming",
+        "security",
+        "security-automation"
+      ],
+      "stargazers_count": 36215,
+      "forks_count": 3669,
+      "open_issues_count": 172,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "**Full pentesting toolkit** - reconnaissance, exploitation, and validation out of the box",
+        "**Multi-agent orchestration** - teams of AI pentesters that collaborate and scale",
+        "**Real exploit validation** - working PoCs, not false positives like legacy vulnerability scanners",
+        "**Developer‑first CLI** - actionable findings with remediation guidance",
+        "**Auto‑fix & reporting** - generate patches and compliance-ready pentest reports"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"https://strix.ai/\">\n    <img src=\"https://github.com/usestrix/.github/raw/main/imgs/cover.png\" alt=\"Strix Banner\" width=\"100%\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Strix\n\n### The open-source AI pentesting tool. Autonomous AI hackers that find and fix your app’s vulnerabilities.\n\n<br/>\n\n\n<a href=\"https://docs.strix.ai\"><img src=\"https://img.shields.io/badge/Docs-docs.strix.ai-2b9246?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\"></a>\n<a href=\"https://strix.ai\"><img src=\"https://img.shields.io/badge/Website-strix.ai-f0f0f0?style=for-the-badge&logoColor=000000\" alt=\"Website\"></a>\n[![](https://dcbadge.limes.pink/api/server/strix-ai)](https://discord.gg/strix-ai)\n\n<a href=\"https://deepwiki.com/usestrix/strix\"><img src=\"https://deepwiki.com/badge.svg\" alt=\"Ask DeepWiki\"></a>\n<a href=\"https://github.com/usestrix/strix\"><img src=\"https://img.shields.io/github/stars/usestrix/strix?style=flat-square\" alt=\"GitHub Stars\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-3b82f6?style=flat-square\" alt=\"License\"></a>\n<a href=\"https://pypi.org/project/strix-agent/\"><img src=\"https://img.shields.io/pypi/v/strix-agent?styl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "chrome",
+        "chrome-devtools",
+        "debugging",
+        "devtools",
+        "mcp",
+        "mcp-server",
+        "puppeteer"
+      ],
+      "stargazers_count": 45815,
+      "forks_count": 2982,
+      "open_issues_count": 93,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Chrome DevTools for coding agents",
+        "**Get performance insights**: Uses [Chrome",
+        "**Advanced browser debugging**: Analyze network requests, take screenshots and",
+        "**Reliable automation**. Uses",
+        "Node.js（https://nodejs.org/） LTS（https://github.com/nodejs/Release#release-schedule） version.",
+        "Chrome（https://www.google.com/chrome/） current stable version or newer."
+      ],
+      "readme_excerpt": "# Chrome DevTools for agents\n\n[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)\n\nChrome DevTools for agents (`chrome-devtools-mcp`) lets your coding agent (such as Antigravity, Claude, Cursor or Copilot)\ncontrol and inspect a live Chrome browser. It acts as a Model-Context-Protocol\n(MCP) server, giving your AI coding assistant access to the full power of\nChrome DevTools for reliable automation, in-depth debugging, and performance analysis.\nA [CLI](docs/cli.md) is also provided for use without MCP.\n\n## [Tool reference](./docs/tool-reference.md) | [Changelog](./CHANGELOG.md) | [Contributing](./CONTRIBUTING.md) | [Troubleshooting](./docs/troubleshooting.md) | [Design Principles](./docs/design-principles.md)\n\n## Key features\n\n- **Get performance insights**: Uses [Chrome\n  DevTools](https://github.com/ChromeDevTools/devtools-frontend) to record\n  traces and extract actionable performance insights.\n- **Advanced browser debugging**: Analyze network requests, take screenshots and\n  check browser console messages (with source-mapped stack traces).\n- **Reliable automation**. Uses\n  [puppeteer](https://git",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Zackriya-Solutions/meetily",
+      "html_url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.  ",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "ai-meeting-assistant",
+        "llm",
+        "local-ai",
+        "mac",
+        "meeting-minutes",
+        "meeting-notes",
+        "offline-first",
+        "ollama",
+        "parakeet",
+        "privacy-focused",
+        "privacy-tools",
+        "rust",
+        "self-hosted",
+        "sortformer",
+        "speech-to-text",
+        "transcription",
+        "whisper",
+        "whisper-cpp",
+        "windows"
+      ],
+      "stargazers_count": 15429,
+      "forks_count": 1681,
+      "open_issues_count": 236,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+        "Introduction",
+        "Why Meetily?",
+        "Features",
+        "Installation",
+        "Key Features in Action"
+      ],
+      "readme_excerpt": "<div align=\"center\" style=\"border-bottom: none\">\n    <h1>\n        <img src=\"docs/Meetily-6.png\" style=\"border-radius: 10px;\" />\n        <br>\n        Privacy-First AI Meeting Assistant\n    </h1>\n    <a href=\"https://trendshift.io/repositories/21958\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/21958\" alt=\"Zackriya-Solutions%2Fmeetily | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n    <br>\n    <br>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases/\"><img src=\"https://img.shields.io/badge/Pre_Release-Link-brightgreen\" alt=\"Pre-Release\"></a>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/zackriya-solutions/meeting-minutes?style=flat\">\n</a>\n <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"> <img alt=\"GitHub Downloads (all assets, all releases)\" src=\"https://img.shields.io/github/downloads/zackriya-solutions/meeting-minutes/total?style=plastic\"> </a>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"><img src=\"https://img.shields.io/badge/License-MIT-blue\" ",
+      "_meta_source": "api"
+    }
+  ]
+}

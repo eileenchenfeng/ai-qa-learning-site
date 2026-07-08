@@ -1,0 +1,178 @@
+{
+  "date": "2026-07-08",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "MadsLorentzen/ai-job-search",
+      "html_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 11492,
+      "forks_count": 3774,
+      "open_issues_count": 9,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+        "Claude Code（https://claude.com/claude-code） (CLI)",
+        "Python 3.10+",
+        "Bun（https://bun.sh） (for Danish job search CLI tools)",
+        "LaTeX distribution with `lualatex` and `xelatex`: TeX Live（https://tug.org/texlive/） or MiKTeX（https://miktex.org/）. The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`.",
+        "Optional: `pdftotext` from poppler（https://poppler.freedesktop.org/） (macOS: `brew install poppler`, Debian/Ubuntu: `apt install poppler-utils`, Windows: `choco install poppler`) — used by `/apply`'s ATS parseability check on the compiled CV. If missing, the check degrades gracefully to a visual keyword review."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"claude_animation.gif\" alt=\"AI Job Search Assistant\" width=\"200\">\n</p>\n\n# AI Job Search\n\nAn AI-powered job application framework built on [Claude Code](https://claude.com/claude-code). Fork it, fill in your profile, and let Claude evaluate job postings, tailor your CV, write cover letters, and prepare you for interviews.\n\n> Note: This is an independent open-source project and is not affiliated with, endorsed by, sponsored by, or maintained by Anthropic. Anthropic and Claude Code are referenced only to describe the toolchain this workflow uses.\n\n<p align=\"center\">\n  <a href=\"https://ko-fi.com/madslorentzen\">\n    <img src=\"https://storage.ko-fi.com/cdn/kofi3.png?v=6\" alt=\"Buy me a coffee at ko-fi.com\" height=\"40\">\n  </a>\n</p>\n\n## What this is\n\nA structured workflow that turns Claude Code into a full-stack job application assistant. The core workflow (self-profiling, fit evaluation, and the drafter-reviewer application pipeline) is **language- and country-agnostic**. The job portal search skills are built for the Danish market (Jobindex, Jobnet, Akademikernes Jobbank, etc.), but the pattern is designed to be swapped for your local job boards.\n\n```\n/setup ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Zackriya-Solutions/meetily",
+      "html_url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.  ",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "ai-meeting-assistant",
+        "llm",
+        "local-ai",
+        "mac",
+        "meeting-minutes",
+        "meeting-notes",
+        "offline-first",
+        "ollama",
+        "parakeet",
+        "privacy-focused",
+        "privacy-tools",
+        "rust",
+        "self-hosted",
+        "sortformer",
+        "speech-to-text",
+        "transcription",
+        "whisper",
+        "whisper-cpp",
+        "windows"
+      ],
+      "stargazers_count": 20907,
+      "forks_count": 2088,
+      "open_issues_count": 261,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+        "Introduction",
+        "Why Meetily?",
+        "Features",
+        "Installation",
+        "Key Features in Action"
+      ],
+      "readme_excerpt": "<div align=\"center\" style=\"border-bottom: none\">\n    <h1>\n        <img src=\"docs/Meetily-6.png\" style=\"border-radius: 10px;\" />\n        <br>\n        Privacy-First AI Meeting Assistant\n    </h1>\n    <a href=\"https://trendshift.io/repositories/21958\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/21958\" alt=\"Zackriya-Solutions%2Fmeetily | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n    <br>\n    <br>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases/\"><img src=\"https://img.shields.io/badge/Pre_Release-Link-brightgreen\" alt=\"Pre-Release\"></a>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"><img alt=\"GitHub Repo stars\" src=\"https://img.shields.io/github/stars/zackriya-solutions/meeting-minutes?style=flat\">\n</a>\n <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"> <img alt=\"GitHub Downloads (all assets, all releases)\" src=\"https://img.shields.io/github/downloads/zackriya-solutions/meeting-minutes/total?style=plastic\"> </a>\n    <a href=\"https://github.com/Zackriya-Solutions/meeting-minutes/releases\"><img src=\"https://img.shields.io/badge/License-MIT-blue\" ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 72311,
+      "forks_count": 7828,
+      "open_issues_count": 143,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n<a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n8 slash commands that map to the development lifecycle. Each one activate",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "html_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "awesome",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "deep-learning",
+        "education",
+        "gemini",
+        "generative-ai",
+        "google",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "open-source",
+        "openai",
+        "prompt-engineering"
+      ],
+      "stargazers_count": 53168,
+      "forks_count": 8662,
+      "open_issues_count": 34,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly."
+      ],
+      "readme_excerpt": "> **As seen in The Washington Post:** [See the hidden rules behind AI. Then use them to rewrite this article.](https://wapo.st/49t4gSb) (May 11, 2026)\n# System Prompts Leaks\nThe purpose of this repo is to document the System Prompt instructions for all the AI chatbots out there - Claude, ChatGPT, Gemini etc.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/banner-dark.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\".github/banner-light.png\">\n  <img alt=\"ChatGPT leaking its system prompt after being asked to repeat all of the above\" src=\".github/banner-light.png\">\n</picture>\n\n[![GitHub Views per Week](https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/traffic/traffic-system_prompts_leaks/views_per_week.svg)](https://github.com/asgeirtj/system_prompts_leaks)\n![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)\n\n> 🆕 **[Diff: Claude Opus 4.8 → Claude Fable 5](https://www.diffchecker.com/QJn9jFNk/)** — see exactly what changed in the claude.ai system prompt for Anthropic's newest model\n\n\n\n\n\n#",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "TencentCloud/CubeSandbox",
+      "html_url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Rust",
+      "topics": [
+        "agents",
+        "container",
+        "sandbox"
+      ],
+      "stargazers_count": 8528,
+      "forks_count": 716,
+      "open_issues_count": 101,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"docs/assets/cube-sandbox-logo.png\" alt=\"Cube Sandbox Logo\" width=\"140\" />\n</p>\n\n<h1 align=\"center\">CubeSandbox</h1>\n\n<p align=\"center\">\n  <strong>Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/26338?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26338\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26338\" alt=\"TencentCloud/CubeSandbox | Trendshift\" width=\"250\" height=\"55\" /></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/tencentcloud/CubeSandbox/stargazers\"><img src=\"https://img.shields.io/github/stars/tencentcloud/cubesandbox?style=social\" alt=\"GitHub Stars\" /></a>\n  <a href=\"https://github.com/tencentcloud/CubeSandbox/issues\"><img src=\"https://img.shields.io/github/issues/tencentcloud/cubesandbox\" alt=\"GitHub Issues\" /></a>\n  <a href=\"./LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-green\" alt=\"Apache 2.0 License\" /></a>\n  <a href=\"./CONTRIBUTING.md\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen\" alt=\"PRs Welcome\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "steipete/CodexBar",
+      "html_url": "https://github.com/steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "swift"
+      ],
+      "stargazers_count": 17074,
+      "forks_count": 1390,
+      "open_issues_count": 69,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+        "**Plan around resets.** Per-provider session, weekly, and monthly windows with countdowns to the next reset — stop guessing whether to start that long task.",
+        "**Credits, spend, and cost scans.** Credit balances, Admin API spend dashboards, provider billing summaries, and local cost scans where the source exposes enough detail.",
+        "**Live status.** Provider status polling surfaces incident badges in the menu and an indicator overlay on the bar icon.",
+        "**Privacy-first.** Reuses existing provider sessions — OAuth, device flow, API keys, browser cookies, local files — so no passwords are stored.",
+        "macOS 14+ (Sonoma)"
+      ],
+      "readme_excerpt": "# CodexBar 🎚️ — May your tokens never run out.\n\n> Every AI coding limit, in your menu bar.\n\n[![Latest release](https://img.shields.io/github/v/release/steipete/CodexBar?style=flat-square&color=0a0a0c)](https://github.com/steipete/CodexBar/releases/latest)\n[![macOS 14+](https://img.shields.io/badge/macOS-14%2B-0a0a0c?style=flat-square)](https://github.com/steipete/CodexBar/releases/latest)\n[![Homebrew](https://img.shields.io/badge/brew-steipete%2Ftap%2Fcodexbar-orange?style=flat-square)](https://github.com/steipete/homebrew-tap)\n[![AUR](https://img.shields.io/aur/version/codexbar-cli?style=flat-square&color=1793d1)](https://aur.archlinux.org/packages/codexbar-cli)\n[![License: MIT](https://img.shields.io/badge/license-MIT-6e5aff?style=flat-square)](LICENSE)\n[![Site](https://img.shields.io/badge/site-codexbar.app-16d3b4?style=flat-square)](https://codexbar.app)\n\n<a href=\"https://codexbar.app\"><img src=\"docs/social.png\" alt=\"CodexBar — every AI coding limit in your menu bar. 57 providers.\" width=\"100%\" /></a>\n\nTiny macOS 14+ menu bar app that keeps **AI coding-provider limits visible** and shows when each window resets. Codex, OpenAI, Claude, Cursor, Gemini, Copilot, Grok, GroqCloud, E",
+      "_meta_source": "api"
+    }
+  ]
+}

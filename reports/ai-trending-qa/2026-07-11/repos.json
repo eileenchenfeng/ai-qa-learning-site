@@ -1,0 +1,171 @@
+{
+  "date": "2026-07-11",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "html_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "code-analysis",
+        "code-generation",
+        "gemini-cli-extension",
+        "mcp",
+        "terminal-ai",
+        "terminal-automation",
+        "vibe-coding"
+      ],
+      "stargazers_count": 7373,
+      "forks_count": 934,
+      "open_issues_count": 164,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "**Use any AI model** — Claude, GPT-4.5, Gemini 2.5, or any model you prefer",
+        "**See file changes live** — visual file previews as AI edits your files",
+        "**Add custom MCPs and context** — extend with your own tools, no config files",
+        "**Coming soon** — skills system, dictation, background scheduled tasks, and more",
+        "Features"
+      ],
+      "readme_excerpt": "# Desktop Commander MCP\n### Search, update, manage files and run terminal commands with AI\n\n[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)\n[![AgentAudit Verified](https://agentaudit.dev/api/badge/desktop-commander)](https://agentaudit.dev/skills/desktop-commander)\n[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/DesktopCommanderMCP)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)\n[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)\n[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)\n\n\n[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kQ27sNnZr7)\n\n\nWork with code and text, run processes, and automate tasks, going far beyond other AI editors - while using host client subscriptions instead of API token costs.\n\n<a href=\"https://glama.ai/mcp/servers/zempur9oh4\">\n  <img width=\"380\" height=\"200\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 76889,
+      "forks_count": 8259,
+      "open_issues_count": 131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n<a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n8 slash commands that map to the development lifecycle. Each one activate",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 164778,
+      "forks_count": 14176,
+      "open_issues_count": 138,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .claude directory.",
+        "Run the skills.sh installer:",
+        "Pick the skills you want, and which coding agents you want to install them on. **Make sure you select `/setup-matt-pocock-skills`**.",
+        "Run `/setup-matt-pocock-skills` in your agent. It will:",
+        "Ask you which issue tracker you want to use (GitHub, Linear, or local files)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 251859,
+      "forks_count": 22477,
+      "open_issues_count": 311,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "Install the plugin from Anthropic's official marketplace:",
+        "Register the marketplace:",
+        "Install the plugin from this marketplace:",
+        "In the Codex app, click on Plugins in the sidebar.",
+        "You should see `Superpowers` in the Coding section."
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n\n## We're Hiring!\n\nWe're hiring someone to help out full time with Superpowers community and code work. \nYou can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/\nIf this sounds like someone you know, definitely send them our way.\n\n## Quickstart\n\nGive your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. \n\nOnce it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. \n\nAfter you've signed off on the design, your agent ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "embedding",
+        "llm",
+        "local-first",
+        "long-term-memory",
+        "memory",
+        "openclaw-plugin",
+        "vector-search"
+      ],
+      "stargazers_count": 8278,
+      "forks_count": 761,
+      "open_issues_count": 256,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+        "**Short-term context layering.** The bottom layer archives raw tool outputs (`refs/*.md`); the middle layer extracts step-level summaries (`jsonl`); the top layer condenses state into a lightweight Mermaid canvas. The Agent only needs to attend to the top-layer structure in context, and drills down to the lower layers via `node_id` when an error occurs.",
+        "**Long-term personalization layering.** In place of flat logs, we build a semantic pyramid: **L0 Conversation** (raw dialogue) → **L1 Atom** (atomic facts) → **L2 Scenario** (scene blocks) → **L3 Persona** (user profile). The Persona layer carries day-to-day preferences; the system drills down to Atoms only when details matter.",
+        "**Skill generation layering.** Layering also applies to actions. The middle layer derives common solution patterns (**Scenario**) from bottom-layer execution traces (**Conversation**), and the top layer distills reusable Skills or standard SOPs (**Persona**)."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./assets/images/logo.png\" alt=\"TencentDB Agent Memory\" width=\"880\" />\n\n### Agents remember,Humans innovate.\n\n[![npm](https://img.shields.io/npm/v/@tencentdb-agent-memory/memory-tencentdb?color=blue)](https://www.npmjs.com/package/@tencentdb-agent-memory/memory-tencentdb)\n[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)\n[![Node](https://img.shields.io/badge/node-%3E=22.16-brightgreen)](https://nodejs.org/)\n[![OpenClaw](https://img.shields.io/badge/OpenClaw-%3E=2026.3.13-orange)](https://github.com/openclaw/openclaw)\n[![Hermes](https://img.shields.io/badge/Hermes-Gateway-7B61FF)](https://hermes-agent.nousresearch.com/docs/)\n[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/kDtHb5RW2)\n\n[Highlights](#-highlights) · [Overview](#overview) · [Core Technology](#core-technology-reject-flat-storage-embrace-layering-and-symbolization) · [Features](#-features) · [Quick Start](#quick-start)\n\n<div align=\"center\">\n\n[**English**](./README.md) · [简体中文](./README_CN.md)\n\n</div>\n\n\n</div>\n\n---\n\n## ✨ Highlights\n\n> **TencentDB Agent Memory = symbolic short-term memory + layered lon",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tailscale/tailscale",
+      "html_url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "topics": [
+        "2fa",
+        "oauth",
+        "sso",
+        "tailscale",
+        "vpn",
+        "wireguard"
+      ],
+      "stargazers_count": 33696,
+      "forks_count": 2913,
+      "open_issues_count": 4365,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The easiest, most secure way to use WireGuard and 2FA.",
+        "the Android app is at https://github.com/tailscale/tailscale-android",
+        "the Synology package is at https://github.com/tailscale/tailscale-synology",
+        "the QNAP package is at https://github.com/tailscale/tailscale-qpkg",
+        "the Chocolatey packaging is at https://github.com/tailscale/tailscale-chocolatey",
+        "https://github.com/tailscale/tailscale/graphs/contributors"
+      ],
+      "readme_excerpt": "# Tailscale\n\nhttps://tailscale.com\n\nPrivate WireGuard® networks made easy\n\n## Overview\n\nThis repository contains the majority of Tailscale's open source code.\nNotably, it includes the `tailscaled` daemon and\nthe `tailscale` CLI tool. The `tailscaled` daemon runs on Linux, Windows,\n[macOS](https://tailscale.com/kb/1065/macos-variants/), and to varying degrees\non FreeBSD and OpenBSD. The Tailscale iOS and Android apps use this repo's\ncode, but this repo doesn't contain the mobile GUI code.\n\nOther [Tailscale repos](https://github.com/orgs/tailscale/repositories) of note:\n\n* the Android app is at https://github.com/tailscale/tailscale-android\n* the Synology package is at https://github.com/tailscale/tailscale-synology\n* the QNAP package is at https://github.com/tailscale/tailscale-qpkg\n* the Chocolatey packaging is at https://github.com/tailscale/tailscale-chocolatey\n\nFor background on which parts of Tailscale are open source and why,\nsee [https://tailscale.com/opensource/](https://tailscale.com/opensource/).\n\n## Using\n\nWe serve packages for a variety of distros and platforms at\n[https://pkgs.tailscale.com](https://pkgs.tailscale.com/).\n\n## Other clients\n\nThe [macOS, iOS, and Windows c",
+      "_meta_source": "api"
+    }
+  ]
+}

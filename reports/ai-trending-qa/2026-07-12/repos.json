@@ -1,0 +1,159 @@
+{
+  "date": "2026-07-12",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "html_url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 7107,
+      "forks_count": 947,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+        "**`stitch-design`** — design-focused skills",
+        "**`stitch-build`** — build and component skills",
+        "**`stitch-utilities`** — utility and helper skills"
+      ],
+      "readme_excerpt": "# Stitch Design Skills\n\nA collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, and Cursor.\n\n## Quick Start\n\n### 1. Install Plugins (Recommended)\nThe fastest way to set up the full Stitch plugin suite globally.\n\n#### Codex\n\nAdd the Stitch Skills marketplace, then install the plugins you need.\n\n<details open>\n<summary><strong>Via CLI</strong> (recommended)</summary>\n\n```bash\ncodex plugin marketplace add google-labs-code/stitch-skills --ref main \\\n  --sparse .agents/plugins \\\n  --sparse plugins/stitch-design \\\n  --sparse plugins/stitch-build \\\n  --sparse plugins/stitch-utilities\n```\n\n> [!TIP]\n> The `--sparse` flags are optional — they limit the checkout to only the\n> listed paths for a faster clone. Omit them to pull the entire repository.\n\n</details>\n\n<details>\n<summary><strong>Via the Codex UI</strong></summary>\n\nNavigate to **Settings → Plugin Marketplaces → Add** and fill in:\n\n| Field | Value |\n|---|---|\n| **Source** | `https://github.com/google-labs-code/stitch-skills` |\n| **Git ref** | `main` ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "hashicorp/terraform",
+      "html_url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "topics": [
+        "cloud",
+        "cloud-management",
+        "graph",
+        "infrastructure-as-code",
+        "terraform"
+      ],
+      "stargazers_count": 49387,
+      "forks_count": 10682,
+      "open_issues_count": 1911,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+        "Website: https://developer.hashicorp.com/terraform",
+        "Forums: HashiCorp Discuss（https://discuss.hashicorp.com/c/terraform-core）",
+        "Documentation: https://developer.hashicorp.com/terraform/docs（https://developer.hashicorp.com/terraform/docs）",
+        "Tutorials: HashiCorp's Learn Platform（https://developer.hashicorp.com/terraform/tutorials）",
+        "Certification Exam: HashiCorp Certified: Terraform Associate（https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate）"
+      ],
+      "readme_excerpt": "# Terraform\n\n- Website: https://developer.hashicorp.com/terraform\n- Forums: [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)\n- Documentation: [https://developer.hashicorp.com/terraform/docs](https://developer.hashicorp.com/terraform/docs)\n- Tutorials: [HashiCorp's Learn Platform](https://developer.hashicorp.com/terraform/tutorials)\n- Certification Exam: [HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)\n\n<img alt=\"Terraform\" src=\"https://www.datocms-assets.com/2885/1731373310-terraform_white.svg\" width=\"600px\">\n\nTerraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.\n\nThe key features of Terraform are:\n\n- **Infrastructure as Code**: Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.\n\n- **Execution Plans**: Terraform has a \"planning\" step where it generates an execution plan. The exe",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "openai/plugins",
+      "html_url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 4442,
+      "forks_count": 659,
+      "open_issues_count": 41,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenAI Plugins",
+        "`plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules",
+        "`plugins/notion` for planning, research, meetings, and knowledge capture",
+        "`plugins/build-ios-apps` for SwiftUI implementation, refactors, performance, and debugging",
+        "`plugins/build-macos-apps` for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging guidance",
+        "`plugins/build-web-apps` for deployment, UI, payments, and database workflows"
+      ],
+      "readme_excerpt": "# Plugins\n\nThis repository contains a curated collection of Codex plugin examples.\n\nEach plugin lives under `plugins/<name>/` with a required\n`.codex-plugin/plugin.json` manifest and optional companion surfaces such as\n`skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`,\n`hooks.json`, `assets/`, and other supporting files.\n\nThe default marketplace lives at `.agents/plugins/marketplace.json` and points\nat the standard `plugins/` directory. API key login users have a separate\nmarketplace at `.agents/plugins/api_marketplace.json`.\n\nHighlighted richer examples in this repo include:\n\n- `plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules\n- `plugins/notion` for planning, research, meetings, and knowledge capture\n- `plugins/build-ios-apps` for SwiftUI implementation, refactors, performance, and debugging\n- `plugins/build-macos-apps` for macOS SwiftUI/AppKit workflows, build/run/debug loops, and packaging guidance\n- `plugins/build-web-apps` for deployment, UI, payments, and database workflows\n- `plugins/expo` for Expo and React Native apps, SDK upgrades, EAS workflows, and Codex Run actions\n- `plugins/netlify`, `plugins/remotion`, and ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "html_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "code-analysis",
+        "code-generation",
+        "gemini-cli-extension",
+        "mcp",
+        "terminal-ai",
+        "terminal-automation",
+        "vibe-coding"
+      ],
+      "stargazers_count": 7800,
+      "forks_count": 970,
+      "open_issues_count": 176,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "**Use any AI model** — Claude, GPT-4.5, Gemini 2.5, or any model you prefer",
+        "**See file changes live** — visual file previews as AI edits your files",
+        "**Add custom MCPs and context** — extend with your own tools, no config files",
+        "**Coming soon** — skills system, dictation, background scheduled tasks, and more",
+        "Features"
+      ],
+      "readme_excerpt": "# Desktop Commander MCP\n### Search, update, manage files and run terminal commands with AI\n\n[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)\n[![AgentAudit Verified](https://agentaudit.dev/api/badge/desktop-commander)](https://agentaudit.dev/skills/desktop-commander)\n[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/DesktopCommanderMCP)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)\n[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)\n[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)\n\n\n[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kQ27sNnZr7)\n\n\nWork with code and text, run processes, and automate tasks, going far beyond other AI editors - while using host client subscriptions instead of API token costs.\n\n<a href=\"https://glama.ai/mcp/servers/zempur9oh4\">\n  <img width=\"380\" height=\"200\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "DayuanJiang/next-ai-draw-io",
+      "html_url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "diagrams",
+        "productivity"
+      ],
+      "stargazers_count": 33324,
+      "forks_count": 3608,
+      "open_issues_count": 167,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+        "Next AI Draw.io",
+        "Table of Contents",
+        "Examples",
+        "Features",
+        "MCP Server"
+      ],
+      "readme_excerpt": "# Next AI Draw.io\n\n<div align=\"center\">\n\n**AI-Powered Diagram Creation Tool - Chat, Draw, Visualize**\n\nEnglish | [中文](./docs/cn/README_CN.md) | [日本語](./docs/ja/README_JA.md)\n\n[![TrendShift](https://trendshift.io/api/badge/repositories/15449)](https://next-ai-drawio.jiang.jp/)\n\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Next.js](https://img.shields.io/badge/Next.js-16.x-black)](https://nextjs.org/)\n[![React](https://img.shields.io/badge/React-19.x-61dafb)](https://react.dev/)\n[![Sponsor](https://img.shields.io/badge/Sponsor-❤-ea4aaa)](https://github.com/sponsors/DayuanJiang)\n\n[![Live Demo](./public/live-demo-button.svg)](https://next-ai-drawio.jiang.jp/)\n\n</div>\n\nA Next.js web application that integrates AI capabilities with draw.io diagrams. Create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.\n\n> Note: Thanks to <img src=\"https://raw.githubusercontent.com/DayuanJiang/next-ai-draw-io/main/public/doubao-color.png\" alt=\"\" height=\"20\" /> [ByteDance Doubao](https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=Z9Z3LDTJ&utm_campaign=drawio&",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "malisper/pgrust",
+      "html_url": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "language": "Rust",
+      "topics": [
+        "ai-assisted-development",
+        "database",
+        "postgres",
+        "postgresql",
+        "rust"
+      ],
+      "stargazers_count": 2128,
+      "forks_count": 54,
+      "open_issues_count": 17,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+        "multithreaded Postgres internals",
+        "built-in connection pooling",
+        "better JSON-heavy workload support",
+        "fast forking and branching workflows",
+        "storage experiments, including no-vacuum designs"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">pgrust</h1>\n\n<p align=\"center\">\n  <strong>A Postgres rewrite in Rust.</strong>\n</p>\n\n<p align=\"center\">\n  <img alt=\"Postgres 18.3\" src=\"https://img.shields.io/badge/Postgres-18.3-336791\">\n  <img alt=\"Regression queries: 46k+\" src=\"https://img.shields.io/badge/regression_queries-46k%2B-brightgreen\">\n  <a href=\"https://github.com/malisper/pgrust/blob/main/LICENSE\">\n    <img alt=\"License: AGPL-3.0\" src=\"https://img.shields.io/badge/license-AGPL--3.0-blue\">\n  </a>\n</p>\n\n<div align=\"center\">\n  <a href=\"https://pgrust.com\">Browser demo</a>\n  <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>\n  <a href=\"https://discord.gg/FZZ4dbdvwU\">Discord</a>\n  <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>\n  <a href=\"https://pgrust.com/#updates\">Get pgrust updates</a>\n  <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>\n  <a href=\"https://github.com/malisper/pgrust/issues\">Issues</a>\n</div>\n\n<br />\n\npgrust targets compatibility with Postgres 18.3 and matches Postgres's\nexpected output across more than 46,000 regression queries.\n\npgrust is disk compatible with Postgres and can boot from an existing Postgres\n18.3 data directory.\n\nThe goal is to make Postgres easier to change from the inside: keep the behavior\nPostgr",
+      "_meta_source": "api"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-07-13",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "html_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "language": "Rust",
+      "topics": [
+        "ai-agents",
+        "cli",
+        "developer-tools",
+        "git",
+        "rust",
+        "safety"
+      ],
+      "stargazers_count": 3086,
+      "forks_count": 113,
+      "open_issues_count": 9,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents."
+      ],
+      "readme_excerpt": "# dcg (Destructive Command Guard)\n\n<div align=\"center\">\n  <img src=\"illustration.webp\" alt=\"Destructive Command Guard - Protecting your code from accidental destruction\">\n</div>\n\n<div align=\"center\">\n\n[![Coverage](https://img.shields.io/codecov/c/github/Dicklesworthstone/destructive_command_guard?label=coverage)](https://codecov.io/gh/Dicklesworthstone/destructive_command_guard)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n</div>\n\nA high-performance hook for AI coding agents that blocks destructive commands before they execute, protecting your work from accidental deletion across Claude Code, Codex CLI, Gemini CLI, Copilot CLI, VS Code Copilot Chat, Cursor, Hermes Agent, Grok (xAI), and related tools.\n\n**Supported:** [Claude Code](https://claude.ai/code), [Codex CLI 0.125.0+](https://github.com/openai/codex), [Gemini CLI](https://github.com/google-gemini/gemini-cli), [GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-hooks), [VS Code Copilot Chat](https://code.visualstudio.com/docs/agent-customization/hooks), [Cursor IDE](https://cursor.com), [Hermes Agent](https://github.com/Nou",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "html_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "code-analysis",
+        "code-generation",
+        "gemini-cli-extension",
+        "mcp",
+        "terminal-ai",
+        "terminal-automation",
+        "vibe-coding"
+      ],
+      "stargazers_count": 8032,
+      "forks_count": 990,
+      "open_issues_count": 176,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+        "**Use any AI model** — Claude, GPT-4.5, Gemini 2.5, or any model you prefer",
+        "**See file changes live** — visual file previews as AI edits your files",
+        "**Add custom MCPs and context** — extend with your own tools, no config files",
+        "**Coming soon** — skills system, dictation, background scheduled tasks, and more",
+        "Features"
+      ],
+      "readme_excerpt": "# Desktop Commander MCP\n### Search, update, manage files and run terminal commands with AI\n\n[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)\n[![AgentAudit Verified](https://agentaudit.dev/api/badge/desktop-commander)](https://agentaudit.dev/skills/desktop-commander)\n[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/DesktopCommanderMCP)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)\n[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)\n[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)\n\n\n[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kQ27sNnZr7)\n\n\nWork with code and text, run processes, and automate tasks, going far beyond other AI editors - while using host client subscriptions instead of API token costs.\n\n<a href=\"https://glama.ai/mcp/servers/zempur9oh4\">\n  <img width=\"380\" height=\"200\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/Vibe-Trading",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "stargazers_count": 20738,
+      "forks_count": 3618,
+      "open_issues_count": 32,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "\"Vibe-Trading: Your Personal Trading Agent\"",
+        "**2026-07-12** 🧪 **Strategy Development Manager + contributor fix batch**: the new `strategy-dev-manager` skill (#87) turns academic papers and broker research into registered factors/strategies with a persistent artifact store and automated IC/Sharpe decay monitoring — `sdm_register` / `sdm_status` / `sdm_decay_scan` drive an active → monitoring → decayed → disabled lifecycle over `~/.vibe-trading/` (#457（https://github.com/HKUDS/Vibe-Trading/pull/457）, closes #455（https://github.com/HKUDS/Vibe-Trading/issues/455）, thanks @shadowinlife). Also merged: the Correlation tab accepts bare tickers (`AAPL,SPY`) and walks the full loader fallback chain (#472（https://github.com/HKUDS/Vibe-Trading/pull/472）, closes #471（https://github.com/HKUDS/Vibe-Trading/issues/471）, thanks @yxhuang), the `local` loader honors requested intervals via OHLCV resampling (#467（https://github.com/HKUDS/Vibe-Trading/pull/467）, thanks @Shizoqua), Binance USD-M perpetual history lands with explicit `BTC-USDT-PERP` routing + execution/mark price separation as the first #462（https://github.com/HKUDS/Vibe-Trading/issues/462） slice (#470（https://github.com/HKUDS/Vibe-Trading/pull/470）, thanks @honginp), FastMCP transport imports now work across both module layouts (#469（https://github.com/HKUDS/Vibe-Trading/pull/469）, thanks @roberttidball), and Requesty is available as an OpenAI-compatible LLM gateway provider (#474（https://github.com/HKUDS/Vibe-Trading/pull/474）, thanks @Thibaultjaigu).",
+        "**2026-07-11** 🚀 **v0.1.11 released** (`pip install -U vibe-trading-ai`): rolls up three weeks since 0.1.10 — first-class Indian equity (NSE/BSE) backtesting, the PIT-safe fundamental factor layer (Alpha Zoo → 460), the 16-adapter IM channel runtime, end-to-end scheduled research, optional QVeris premium data, and today's contributor batch: a turnover-aware optimizer (#466（https://github.com/HKUDS/Vibe-Trading/pull/466）, thanks @Robin1987China), an `analyze_image` vision tool + NapCat DM pairing + the IM-media read fix (#464（https://github.com/HKUDS/Vibe-Trading/pull/464）/#463（https://github.com/HKUDS/Vibe-Trading/pull/463）/#465（https://github.com/HKUDS/Vibe-Trading/issues/465）, thanks @fei-moss), Longbridge Decimal serialization (#459（https://github.com/HKUDS/Vibe-Trading/pull/459）, thanks @fanfpy), and packaged-manifest count guards (#461（https://github.com/HKUDS/Vibe-Trading/pull/461）, thanks @asahikiko). Full details: CHANGELOG · release notes（https://github.com/HKUDS/Vibe-Trading/releases/tag/v0.1.11）.",
+        "**2026-07-10** 🇮🇳 **Indian equity (NSE/BSE) support + centralized env config**: a dedicated `IndiaEquityEngine` lands — T+1 delivery, circuit bands, and a config-driven STT/stamp/exchange/SEBI/GST cost stack — with `.NS`/`.BO` symbol routing, an opt-in read-only Shoonya/Dhan data bridge, and 255 alpha101/qlib158 factors opted into the new `equity_in` universe"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <b>English</b> | <a href=\"README_zh.md\">中文</a> | <a href=\"README_ja.md\">日本語</a> | <a href=\"README_ko.md\">한국어</a> | <a href=\"README_ar.md\">العربية</a>\n</p>\n\n<p align=\"center\">\n  <img src=\"assets/icon.png\" width=\"120\" alt=\"Vibe-Trading Logo\"/>\n</p>\n\n<h1 align=\"center\">Vibe-Trading: Your Personal Trading Agent</h1>\n\n<p align=\"center\">\n  <b>One Command to Empower Your Agent with Comprehensive Trading Capabilities</b>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/25527\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25527\" alt=\"HKUDS%2FVibe-Trading | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/badge/Python-3.11%2B-3776AB?style=flat&logo=python&logoColor=white\" alt=\"Python\">\n  <img src=\"https://img.shields.io/badge/Backend-FastAPI-009688?style=flat\" alt=\"FastAPI\">\n  <img src=\"https://img.shields.io/badge/Frontend-React%2019-61DAFB?style=flat&logo=react&logoColor=white\" alt=\"React\">\n  <a href=\"https://pypi.org/project/vibe-trading-ai/\"><img src=\"https://img.shields.io/pypi/v/vibe-trading-ai?style=flat&logo=pypi&logoColor=white\"",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "stargazers_count": 118743,
+      "forks_count": 17650,
+      "open_issues_count": 9,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+        "🛠️ **Hand-built, not curated** - every template is original work, tested end-to-end before it ships.",
+        "🧪 **Runs in 3 commands** - no broken `requirements.txt`, no \"figure it out yourself\" scaffolding.",
+        "🧠 **Covers the modern AI stack** - AI Agents, Always-on Agents, Multi-agent Teams, MCP Agents, Voice AI Agents, RAG, Agent Skills, Fine-tuning.",
+        "🌐 **Provider-agnostic** - switch between Claude, Gemini, GPT, Llama, Qwen, xAI and others with a config change.",
+        "📚 **Step-by-step tutorials** - every featured template has a free walkthrough on Unwind AI（https://www.theunwindai.com）."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"http://www.theunwindai.com\">\n    <img src=\"docs/banner/unwind_black.png\" width=\"900px\" alt=\"Unwind AI\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.linkedin.com/in/shubhamsaboo/\">\n    <img src=\"https://img.shields.io/badge/Follow%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white\" alt=\"LinkedIn\">\n  </a>\n  <a href=\"https://twitter.com/Saboo_Shubham_\">\n    <img src=\"https://img.shields.io/badge/Follow%20on%20𝕏-000000?style=for-the-badge&logo=x&logoColor=white\" alt=\"X / Twitter\">\n  </a>\n</p>\n\n<p align=\"center\">\n  <!-- Keep these links. Translations will automatically update with the README. -->\n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=de\">Deutsch</a> | \n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=es\">Español</a> | \n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=fr\">français</a> | \n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ja\">日本語</a> | \n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=ko\">한국어</a> | \n  <a href=\"https://www.readme-i18n.com/Shubhamsaboo/awesome-llm-apps?lang=pt\">Po",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "html_url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 33864,
+      "forks_count": 3396,
+      "open_issues_count": 68,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+        "**AI Chat with Knowledge Base** — local AI chat powered by Ollama（https://ollama.com/） or you can use OpenAI API compatible software such as LM Studio or llama.cpp, with document upload and semantic search (RAG via Qdrant（https://qdrant.tech/）)",
+        "**Information Library** — offline Wikipedia, medical references, ebooks, and more via Kiwix（https://kiwix.org/）",
+        "**Education Platform** — Khan Academy courses with progress tracking via Kolibri（https://learningequality.org/kolibri/）",
+        "**Offline Maps** — downloadable regional maps via ProtoMaps（https://protomaps.com）",
+        "**Data Tools** — encryption, encoding, and analysis via CyberChef（https://gchq.github.io/CyberChef/）"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n<img src=\"admin/public/project_nomad_logo.webp\" width=\"200\" height=\"200\"/>\n\n# Project N.O.M.A.D.\n### Node for Offline Media, Archives, and Data\n\n**Knowledge That Never Goes Offline**\n\n[![Website](https://img.shields.io/badge/Website-projectnomad.us-blue)](https://www.projectnomad.us)\n[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2)](https://discord.com/invite/crosstalksolutions)\n[![Benchmark](https://img.shields.io/badge/Benchmark-Leaderboard-green)](https://benchmark.projectnomad.us)\n\n</div>\n\n---\n\nProject N.O.M.A.D. is a self-contained, offline-first knowledge and education server packed with critical tools, knowledge, and AI to keep you informed and empowered — anytime, anywhere.\n\n## Installation & Quickstart\nProject N.O.M.A.D. can be installed on any Debian-based operating system (we recommend Ubuntu). Installation is completely terminal-based, and all tools and resources are designed to be accessed through the browser, so there's no need for a desktop environment if you'd rather setup N.O.M.A.D. as a \"server\" and access it through other clients.\n\n*Note: sudo/root privileges are required to run the install script*\n\n### Quick Install ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ColeMurray/background-agents",
+      "html_url": "https://github.com/ColeMurray/background-agents",
+      "description": "An open-source background agents coding system",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 2299,
+      "forks_count": 343,
+      "open_issues_count": 53,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An open-source background agents coding system",
+        "Work on tasks in the background while you focus on other things",
+        "Access full development environments (Node.js, Python, git, browser automation, VS Code)",
+        "Connect from anywhere — web UI, Slack, GitHub PRs, Linear issues, or webhooks",
+        "Enable multiplayer sessions where multiple people can collaborate in real time",
+        "Create PRs with proper commit attribution to the prompting user"
+      ],
+      "readme_excerpt": "# Background Agents: Open-Inspect\n\nAn open-source background agents coding system inspired by\n[Ramp's Inspect](https://builders.ramp.com/post/why-we-built-our-background-agent).\n\n## Overview\n\nOpen-Inspect provides a hosted background coding agent that can:\n\n- Work on tasks in the background while you focus on other things\n- Access full development environments (Node.js, Python, git, browser automation, VS Code)\n- Connect from anywhere — web UI, Slack, GitHub PRs, Linear issues, or webhooks\n- Enable multiplayer sessions where multiple people can collaborate in real time\n- Create PRs with proper commit attribution to the prompting user\n- Run on a schedule — cron jobs, Sentry alerts, and webhook-triggered automations\n- Spawn parallel sub-tasks that work in separate sandboxes simultaneously\n- Use your choice of AI model — Anthropic Claude, OpenAI Codex (via ChatGPT subscription), or\n  OpenCode Zen\n\n## Security Model (Single-Tenant Only)\n\n> **Important**: This system is designed for **single-tenant deployment only**, where all users are\n> trusted members of the same organization with access to the same repositories.\n\n### How It Works\n\nThe system uses a shared GitHub App installation for",
+      "_meta_source": "api"
+    }
+  ]
+}

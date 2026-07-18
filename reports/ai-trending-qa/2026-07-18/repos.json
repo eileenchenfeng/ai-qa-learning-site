@@ -1,0 +1,175 @@
+{
+  "date": "2026-07-18",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "PostHog/posthog",
+      "html_url": "https://github.com/PostHog/posthog",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "topics": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ],
+      "stargazers_count": 36230,
+      "forks_count": 3010,
+      "open_issues_count": 4856,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+        "Self-driving mode（https://posthog.com/docs/self-driving）: Turn signals in your product data (errors, rage clicks, failed queries, and more) into researched reports and pull requests you review and merge.",
+        "Product analytics（https://posthog.com/product-analytics）: Autocapture or manually instrument event-based analytics to understand user behavior and analyze data with visualization or SQL.",
+        "Web analytics（https://posthog.com/web-analytics）: Monitor web traffic and user sessions with a GA-like dashboard. Easily monitor conversion, web vitals, and revenue.",
+        "Session replays（https://posthog.com/session-replay）: Watch real user sessions of interactions with your website or mobile app to diagnose issues and understand user behavior.",
+        "Feature flags（https://posthog.com/feature-flags）: Safely roll out features to select users or cohorts with feature flags."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img alt=\"posthoglogo\" src=\"https://user-images.githubusercontent.com/65415371/205059737-c8a4f836-4889-4654-902e-f302b187b6a0.png\">\n</p>\n<p align=\"center\">\n  <a href='https://posthog.com/contributors'><img alt=\"GitHub contributors\" src=\"https://img.shields.io/github/contributors/posthog/posthog\"/></a>\n  <a href='http://makeapullrequest.com'><img alt='PRs Welcome' src='https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields'/></a>\n  <img alt=\"Docker Pulls\" src=\"https://img.shields.io/docker/pulls/posthog/posthog\"/>\n  <a href=\"https://github.com/PostHog/posthog/commits/master\"><img alt=\"GitHub commit activity\" src=\"https://img.shields.io/github/commit-activity/m/posthog/posthog\"/> </a>\n  <a href=\"https://github.com/PostHog/posthog/issues?q=is%3Aissue%20state%3Aclosed\"><img alt=\"GitHub closed issues\" src=\"https://img.shields.io/github/issues-closed/posthog/posthog\"/> </a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://posthog.com/docs\">Docs</a> - <a href=\"https://posthog.com/community\">Community</a> - <a href=\"https://posthog.com/roadmap\">Roadmap</a> - <a href=\"https://posthog.com/why\">Why PostHog?</a> - <a href=\"https://posthog.com/changelog\">Changelo",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "html_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "topics": [
+        "ai-textbook",
+        "algorithms",
+        "artificial-intelligence",
+        "computer-science",
+        "computer-vision",
+        "deep-learning",
+        "jax",
+        "linear-algebra",
+        "machine-learning",
+        "machine-learning-algorithms",
+        "math",
+        "mathematics",
+        "multimodal-learning",
+        "nlp",
+        "probability",
+        "python",
+        "reinforcement-learning",
+        "speech-processing",
+        "statistics"
+      ],
+      "stargazers_count": 6669,
+      "forks_count": 812,
+      "open_issues_count": 10,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Become a cracked AI/ML Research Engineer"
+      ],
+      "readme_excerpt": "# Maths, CS & AI Compendium\n\n<img src=\"images/logo.png\" alt=\"Logo\" style=\"border-radius: 30px; width: 100%;\">\n\n**Read online**: [henryndubuaku.github.io/maths-cs-ai-compendium](https://henryndubuaku.github.io/maths-cs-ai-compendium/)\n\n## Overview\nMost textbooks bury good ideas under dense notation, skip the intuition, assume you already know half the material, and quickly get outdated in fast-moving fields like AI. This is an open, unconventional textbook covering maths, computing, and artificial intelligence from the ground up. Written for curious practitioners looking to deeply understand the stuff, not just survive an exam/interview. \n\n## Background\nOver the past years working in AI/ML, I filled notebooks with intuition first, real-world context, no hand-waving explanations of maths, computing and AI concepts. In 2025, a few friends used these notes to prep for interviews at DeepMind, OpenAI, Nvidia etc. They all got in and currently perform well in their roles. Meanwhile I got in Y Combinator last year. So I'm sharing to everyone.\n\n## MCP Server\nThis repo includes an MCP server that lets any AI assistant (Claude Code, Cursor, VS Code, etc.) use the compendium as a knowledge bas",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 12134,
+      "forks_count": 608,
+      "open_issues_count": 20,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "**Claude Code**: `~/.claude/skills/hallmark/`",
+        "**Cursor**: `.cursor/rules/hallmark.mdc` (body of `SKILL.md`, no frontmatter)",
+        "**Codex**: `~/.codex/skills/hallmark/` (personal) or `.codex/skills/hallmar"
+      ],
+      "readme_excerpt": "# Hallmark\n\n**A design skill for Claude Code, Cursor, and Codex that refuses to look AI-generated.**\n\n[Live demo →](https://www.usehallmark.com) &nbsp;·&nbsp; twenty themes &nbsp;·&nbsp; four verbs &nbsp;·&nbsp; press `T` to cycle.\n\nMade by Together AI.\n\n<p align=\"center\">\n  <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, a design skill that refuses to look AI-generated\" />\n</p>\n\nHallmark picks a macrostructure for the brief, dresses it in one of twenty themes, runs fifty-seven slop-test gates plus a pre-emit self-critique, and refuses the on-distribution defaults every LLM was trained into. Two pages by Hallmark for two different briefs feel like different sites, not colour-swaps of the same template.\n\n---\n\n## Four verbs\n\n| Verb | What it does |\n| --- | --- |\n| *(default)* | Build new UI. Picks a macrostructure, applies the rule-set, runs the slop test before handing back. |\n| `hallmark audit <target>` | Score existing code against the anti-patterns. Punch list, no edits. |\n| `hallmark redesign <target>` | Throw out the structure, keep copy + IA + brand, rebuild with a different fingerprint. |\n| `hallmark study <screenshot \\| URL>` | Extract the **DNA** from a design you admire: ma",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "github/copilot-sdk",
+      "html_url": "https://github.com/github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "topics": [],
+      "stargazers_count": 9811,
+      "forks_count": 1331,
+      "open_issues_count": 243,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+        "**(Optional) Install the Copilot CLI**"
+      ],
+      "readme_excerpt": "# GitHub Copilot CLI SDKs\n\n![GitHub Copilot SDK](./assets/RepoHeader_01.png)\n\n[![NPM Downloads](https://img.shields.io/npm/dm/%40github%2Fcopilot-sdk?label=npm)](https://www.npmjs.com/package/@github/copilot-sdk)\n[![PyPI - Downloads](https://img.shields.io/pypi/dm/github-copilot-sdk?label=PyPI)](https://pypi.org/project/github-copilot-sdk/)\n[![NuGet Downloads](https://img.shields.io/nuget/dt/GitHub.Copilot.SDK?label=NuGet)](https://www.nuget.org/packages/GitHub.Copilot.SDK)\n[![Go Reference](https://img.shields.io/badge/Go-Reference-00ADD8?logo=go&logoColor=white)](https://pkg.go.dev/github.com/github/copilot-sdk/go)\n[![crates.io](https://img.shields.io/crates/v/github-copilot-sdk?label=crates.io)](https://crates.io/crates/github-copilot-sdk)\n[![Maven Central](https://img.shields.io/maven-central/v/com.github/copilot-sdk-java?label=Maven%20Central)](https://central.sonatype.com/artifact/com.github/copilot-sdk-java)\n\nAgents for every app.\n\nEmbed Copilot's agentic workflows in your application with the GitHub Copilot SDK for Python, TypeScript, Go, .NET, Java, and Rust.\n\nThe GitHub Copilot SDK exposes the same engine behind Copilot CLI: a production-tested agent runtime you can invoke",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "html_url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "description": "Bonsai Demo",
+      "language": "Shell",
+      "topics": [
+        "bonsai",
+        "llamacpp",
+        "llm",
+        "mlx",
+        "prism-ml",
+        "small-models"
+      ],
+      "stargazers_count": 1725,
+      "forks_count": 167,
+      "open_issues_count": 16,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Bonsai Demo",
+        "**Vision:** send photos, screenshots, and PDFs; ask about them (see VISION.md).",
+        "**Agentic tool calling:** native OpenAI-style `tool_calls` with full round-trips, plus MCP servers in both demo UIs (see TOOLS.md).",
+        "**Thinking:** a reasoning model; pick the reasoning effort per chat in the UI or budget it per request.",
+        "**Long context:** 256k+ token conversations.",
+        "**Tiny footprint:** the 1-bit Bonsai-27B packs to ~1.125 bits per weight: it fits on a modern iPhone without memory offloading. Ternary-Bonsai-27B (~1.7 bits per weight, packed into 2-bit for fast accelerated kernels) is the higher-quality option and this demo's default."
+      ],
+      "readme_excerpt": "# Bonsai Demo\n\n<p align=\"center\">\n  <img src=\"./assets/bonsai-logo.svg\" width=\"280\" alt=\"Bonsai\">\n</p>\n\n<p align=\"center\">\n  <a href=\"https://prismml.com\"><b>Website</b></a> &nbsp;|&nbsp;\n  <a href=\"https://github.com/PrismML-Eng/Bonsai-demo\"><b>GitHub</b></a> &nbsp;|&nbsp;\n  <a href=\"https://discord.gg/prismml\"><b>Discord</b></a>\n</p>\n\n<p align=\"center\">\n  <b>HF Collections:</b>\n  <a href=\"https://huggingface.co/collections/prism-ml/bonsai-27b\">Bonsai 27B</a> ·\n  <a href=\"https://huggingface.co/collections/prism-ml/bonsai\">Bonsai (1-bit)</a> ·\n  <a href=\"https://huggingface.co/collections/prism-ml/ternary-bonsai\">Ternary-Bonsai</a>\n</p>\n\n<p align=\"center\">\n  <b>Whitepapers:</b>\n  <a href=\"bonsai-27b-whitepaper.pdf\">Bonsai 27B</a> ·\n  <a href=\"1-bit-bonsai-8b-whitepaper.pdf\">1-bit Bonsai 8B</a> ·\n  <a href=\"ternary-bonsai-8b-whitepaper.pdf\">Ternary-Bonsai 8B</a>\n</p>\n\n---\n\n\nUsing this demo repository you can run **Bonsai** (1-bit) and **Ternary-Bonsai** language models locally on Mac (Metal), Linux/Windows (CUDA, Vulkan, ROCm), or CPU.\n\n## 🌱 New: Bonsai 27B\n\nThe family's newest and largest generation, and its first **vision-language** models ([Bonsai 27B collection](https://hugging",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tirth8205/code-review-graph",
+      "html_url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "topics": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review",
+        "graphrag",
+        "incremental",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "python",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "stargazers_count": 19787,
+      "forks_count": 2109,
+      "open_issues_count": 75,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">code-review-graph</h1>\n\n<p align=\"center\">\n  <strong>Stop burning tokens. Start reviewing smarter.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> |\n  <a href=\"README.zh-CN.md\">简体中文</a> |\n  <a href=\"README.ja-JP.md\">日本語</a> |\n  <a href=\"README.ko-KR.md\">한국어</a> |\n  <a href=\"README.hi-IN.md\">हिन्दी</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/code-review-graph/\"><img src=\"https://img.shields.io/pypi/v/code-review-graph?style=flat-square&color=blue\" alt=\"PyPI\"></a>\n  <a href=\"https://pepy.tech/project/code-review-graph\"><img src=\"https://img.shields.io/pepy/dt/code-review-graph?style=flat-square\" alt=\"Downloads\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/stargazers\"><img src=\"https://img.shields.io/github/stars/tirth8205/code-review-graph?style=flat-square\" alt=\"Stars\"></a>\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square\" alt=\"MIT Licence\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml\"><img src=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml/badge.svg\" alt=\"CI\">",
+      "_meta_source": "api"
+    }
+  ]
+}

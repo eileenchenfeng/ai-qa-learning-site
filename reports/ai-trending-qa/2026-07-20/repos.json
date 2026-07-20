@@ -1,0 +1,202 @@
+{
+  "date": "2026-07-20",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "bojieli/ai-agent-book",
+      "html_url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-memory",
+        "ai-agent",
+        "book",
+        "coding-agent",
+        "context-engineering",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "multimodal",
+        "rag",
+        "reinforcement-learning"
+      ],
+      "stargazers_count": 6654,
+      "forks_count": 617,
+      "open_issues_count": 10,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+        "**中文 PDF（原版）**：`book/深入理解-AI-Agent-李博杰-v1.1.pdf`",
+        "**英文 PDF**（社区贡献翻译，by @nsdevaraj（https://github.com/nsdevaraj））：`book-en/AI-Agents-in-Depth-Bojie-Li-v1.1.pdf`",
+        "**泰米尔语 PDF**（社区贡献翻译，by @nsdevaraj（https://github.com/nsdevaraj））：`book-ta/AI-Agents-in-Depth-Bojie-Li-v1.1-ta.pdf`",
+        "**越南语 PDF**（社区贡献翻译，by @toanalien（https://github.com/toanalien））：`book-vi/AI-Agents-in-Depth-Bojie-Li-v1.1-vi.pdf`",
+        "**正文源码**：`book/introduction.md`（引言）、`book/chapter1.md` ~ `book/chapter10.md`（第一至第十章）、`book/afterword.md`（后记）"
+      ],
+      "readme_excerpt": "# 深入理解 AI Agent：设计原理与工程实践\n\n**[English](README.en.md) | 中文 | [Tiếng Việt](README.vi.md) | [தமிழ்](README.ta.md)**\n\n本仓库是《深入理解 AI Agent：设计原理与工程实践》一书的开源主仓库，包含**全书正文**与**配套示例代码**。全书正文、配图与配套实验代码全部开源，欢迎把实验亲手跑一遍、提 issue 和 PR。\n\n## 📖 电子书\n\n全书提供多种语言版本：\n\n- **中文 PDF（原版）**：[`book/深入理解-AI-Agent-李博杰-v1.1.pdf`](book/深入理解-AI-Agent-李博杰-v1.1.pdf)\n- **英文 PDF**（社区贡献翻译，by [@nsdevaraj](https://github.com/nsdevaraj)）：[`book-en/AI-Agents-in-Depth-Bojie-Li-v1.1.pdf`](book-en/AI-Agents-in-Depth-Bojie-Li-v1.1.pdf)\n- **泰米尔语 PDF**（社区贡献翻译，by [@nsdevaraj](https://github.com/nsdevaraj)）：[`book-ta/AI-Agents-in-Depth-Bojie-Li-v1.1-ta.pdf`](book-ta/AI-Agents-in-Depth-Bojie-Li-v1.1-ta.pdf)\n- **越南语 PDF**（社区贡献翻译，by [@toanalien](https://github.com/toanalien)）：[`book-vi/AI-Agents-in-Depth-Bojie-Li-v1.1-vi.pdf`](book-vi/AI-Agents-in-Depth-Bojie-Li-v1.1-vi.pdf)\n\n中文正文与编译好的 PDF 位于 [`book/`](book/) 目录；英文、泰米尔语与越南语翻译为**社区贡献**，分别位于 [`book-en/`](book-en/)、[`book-ta/`](book-ta/) 与 [`book-vi/`](book-vi/) 目录，内容可能滞后于中文原版：\n\n- **正文源码**：`book/introduction.md`（引言）、`book/chapter1.md` ~ `book/chapter10.md`（第一至第十章）、`book/afterword.md`（后记）\n- **自行编译**：安装 pandoc、xelatex、ElegantBook 文档类与相关字体后，运行\n\n  ```bash\n  cd book && bash build_pdf.sh\n  ```\n\n  图",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "tirth8205/code-review-graph",
+      "html_url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "topics": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review",
+        "graphrag",
+        "incremental",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "python",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "stargazers_count": 21537,
+      "forks_count": 2199,
+      "open_issues_count": 87,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">code-review-graph</h1>\n\n<p align=\"center\">\n  <strong>Stop burning tokens. Start reviewing smarter.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> |\n  <a href=\"README.zh-CN.md\">简体中文</a> |\n  <a href=\"README.ja-JP.md\">日本語</a> |\n  <a href=\"README.ko-KR.md\">한국어</a> |\n  <a href=\"README.hi-IN.md\">हिन्दी</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/code-review-graph/\"><img src=\"https://img.shields.io/pypi/v/code-review-graph?style=flat-square&color=blue\" alt=\"PyPI\"></a>\n  <a href=\"https://pepy.tech/project/code-review-graph\"><img src=\"https://img.shields.io/pepy/dt/code-review-graph?style=flat-square\" alt=\"Downloads\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/stargazers\"><img src=\"https://img.shields.io/github/stars/tirth8205/code-review-graph?style=flat-square\" alt=\"Stars\"></a>\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square\" alt=\"MIT Licence\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml\"><img src=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml/badge.svg\" alt=\"CI\">",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "kvcache-ai/ktransformers",
+      "html_url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 18444,
+      "forks_count": 1456,
+      "open_issues_count": 462,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+        "**June 21, 2026**: MiniMax-M3 Day0 Support! (Tutorial)",
+        "**June 17, 2026**: GLM-5.2 Day0 Support! (Tutorial)",
+        "**May 6, 2026**: KTransformers at GOSIM Paris 2026（https://paris2026.gosim.org/zh/schedule/） — \"Agentic AI on Edge\" track. We'll present KT's inference performance on consumer hardware.",
+        "**May 02, 2026**: DeepSeek-V4-Flash Support! (Tutorial)",
+        "**Apr 30, 2026**: KTransformers v0.6.1 refreshes kt-kernel inference and SFT docs with separate Inference and SFT Quick Start entry points."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <p align=\"center\">\n\n<picture>\n    <img alt=\"KTransformers\" src=\"https://github.com/user-attachments/assets/d5a2492f-a415-4456-af99-4ab102f13f8b\" width=50%>\n\n</picture>\n\n</p>\n  <h3>A Flexible Framework for Experiencing Cutting-edge LLM Inference/Fine-tune Optimizations</h3>\n  <strong><a href=\"#-overview\">🎯 Overview</a> | <a href=\"#-inference---high-performance-kt-kernel-serving\">🚀 Inference</a> | <a href=\"#-sft---fine-tuning-with-llama-factory\">🎓 SFT</a> | <a href=\"#-citation\">🔥 Citation</a> | <a href=\"https://github.com/kvcache-ai/ktransformers/issues/1921\">🚀 Roadmap(2026Q2)</a>  </strong>\n</div>\n\n## 🎯 Overview\n\nKTransformers is a research project focused on efficient inference and fine-tuning of large language models through CPU-GPU heterogeneous computing. The project now exposes two user-facing capabilities from the kt-kernel source tree: [Inference](./kt-kernel/README.md) and [SFT](./doc/en/SFT/KTransformers-Fine-Tuning_Quick-Start.md).\n\n## 🔥 Updates\n* **June 21, 2026**: MiniMax-M3 Day0 Support! ([Tutorial](./doc/en/kt-kernel/MiniMax-M3-Tutorial.md))\n* **June 17, 2026**: GLM-5.2 Day0 Support! ([Tutorial](./doc/en/kt-kernel/GLM-5.2-Tutorial.md))\n* **May 6,",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 39836,
+      "forks_count": 6640,
+      "open_issues_count": 102,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-503-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"503 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n## From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href=\"https://github.com/rohitg00/agentmemory/stargazers\"><img src=\"https://img.shields.io/github/stars",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "jamiepine/voicebox",
+      "html_url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ],
+      "stargazers_count": 43499,
+      "forks_count": 5308,
+      "open_issues_count": 576,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open-source AI voice studio. Clone, dictate, create.",
+        "**Complete privacy** — models, voice data, and captures never leave your machine",
+        "**7 TTS engines** — Qwen3-TTS, Qwen CustomVoice, LuxTTS, Chatterbox Multilingual, Chatterbox Turbo, HumeAI TADA, and Kokoro",
+        "**Voice cloning and preset voices** — zero-shot cloning from a reference sample, or 50+ curated preset voices via Kokoro and Qwen CustomVoice",
+        "**23 languages** — from English to Arabic, Japanese, Hindi, Swahili, and more",
+        "**Post-processing effects** — pitch shift, reverb, delay, chorus, compression, and filters"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\".github/assets/icon-dark.webp\" alt=\"Voicebox\" width=\"120\" height=\"120\" />\n</p>\n\n<h1 align=\"center\">Voicebox</h1>\n\n<p align=\"center\">\n  <strong>The open-source AI voice studio.</strong><br/>\n  Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own.<br/>\n  The full voice I/O stack, running locally on your machine.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/jamiepine/voicebox/releases\">\n    <img src=\"https://img.shields.io/github/downloads/jamiepine/voicebox/total?style=flat&color=blue\" alt=\"Downloads\" />\n  </a>\n  <a href=\"https://github.com/jamiepine/voicebox/releases/latest\">\n    <img src=\"https://img.shields.io/github/v/release/jamiepine/voicebox?style=flat\" alt=\"Release\" />\n  </a>\n  <a href=\"https://github.com/jamiepine/voicebox/stargazers\">\n    <img src=\"https://img.shields.io/github/stars/jamiepine/voicebox?style=flat\" alt=\"Stars\" />\n  </a>\n  <a href=\"https://github.com/jamiepine/voicebox/blob/main/LICENSE\">\n    <img src=\"https://img.shields.io/github/license/jamiepine/voicebox?style=flat\" alt=\"License\" />\n  </a>\n  <a href=\"https://deepwiki.com/jamiepine/voicebox\">\n    <img src=\"https://img.shields.io/s",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "KnockOutEZ/wigolo",
+      "html_url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "claude",
+        "cli",
+        "developer-tools",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "metasearch",
+        "model-context-protocol",
+        "nodejs",
+        "privacy",
+        "rag",
+        "search",
+        "search-engine",
+        "typescript",
+        "web-crawler",
+        "web-scraping",
+        "web-search"
+      ],
+      "stargazers_count": 1962,
+      "forks_count": 122,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+        "**`<your-agent>`** — one or more of `claude-code` · `cursor` · `codex` · `gemini-cli` · `vscode` · `windsurf` · `zed` · `antigravity` (comma-separated). wigolo writes the MCP config and instructions for you.",
+        "**Any other MCP client** — omit `--agents` and register `npx -y wigolo` yourself. The installation guide has the exact config block for every client, plus Docker, Homebrew, and single-file-binary channels.",
+        "**Interactive setup** — `--interactive` is a plain-text flow; `--wizard` is the full terminal TUI.",
+        "**Defer downloads** — `--no-warmup` waits until first use. A failed component download never fails setup. init reports what's not ready with the exact fix and still wires your agent."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img alt=\"wigolo — the go-to web for your agent\" src=\"assets/brand/wigolo-banner.png\" width=\"640\">\n\nLocal-first web intelligence for AI agents — **no keys, no cloud, no metered bill.**\n\n<sub>works with&nbsp;&nbsp;**Claude Code · Cursor · Codex · Gemini CLI · VS Code · Windsurf · Zed · Antigravity**</sub>\n<br>\n<sub>and beyond&nbsp;&nbsp;**LangChain · CrewAI · LlamaIndex · Vercel AI SDK · n8n & self-hosted agents · any MCP client · plain REST**</sub>\n\n[![npm](https://img.shields.io/npm/v/wigolo?color=cb3837&logo=npm)](https://www.npmjs.com/package/wigolo)\n[![npm downloads](https://img.shields.io/npm/dm/wigolo?color=cb3837&logo=npm&label=downloads)](https://www.npmjs.com/package/wigolo)\n[![GitHub stars](https://img.shields.io/github/stars/KnockOutEZ/wigolo?style=flat&logo=github&color=e3b341)](https://github.com/KnockOutEZ/wigolo/stargazers)\n[![CI](https://img.shields.io/github/actions/workflow/status/KnockOutEZ/wigolo/ci.yml?branch=main&logo=github&label=CI)](https://github.com/KnockOutEZ/wigolo/actions/workflows/ci.yml)\n[![node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=node.js&logoColor=white)](https://nodejs.org)\n[![MCP](https://img.shields.io",
+      "_meta_source": "api"
+    }
+  ]
+}

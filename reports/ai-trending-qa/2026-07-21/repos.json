@@ -1,0 +1,183 @@
+{
+  "date": "2026-07-21",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "tirth8205/code-review-graph",
+      "html_url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "topics": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review",
+        "graphrag",
+        "incremental",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "python",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "stargazers_count": 23485,
+      "forks_count": 2287,
+      "open_issues_count": 100,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows."
+      ],
+      "readme_excerpt": "<h1 align=\"center\">code-review-graph</h1>\n\n<p align=\"center\">\n  <strong>Stop burning tokens. Start reviewing smarter.</strong>\n</p>\n\n<p align=\"center\">\n  <a href=\"README.md\">English</a> |\n  <a href=\"README.zh-CN.md\">简体中文</a> |\n  <a href=\"README.ja-JP.md\">日本語</a> |\n  <a href=\"README.ko-KR.md\">한국어</a> |\n  <a href=\"README.hi-IN.md\">हिन्दी</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://pypi.org/project/code-review-graph/\"><img src=\"https://img.shields.io/pypi/v/code-review-graph?style=flat-square&color=blue\" alt=\"PyPI\"></a>\n  <a href=\"https://pepy.tech/project/code-review-graph\"><img src=\"https://img.shields.io/pepy/dt/code-review-graph?style=flat-square\" alt=\"Downloads\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/stargazers\"><img src=\"https://img.shields.io/github/stars/tirth8205/code-review-graph?style=flat-square\" alt=\"Stars\"></a>\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square\" alt=\"MIT Licence\"></a>\n  <a href=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml\"><img src=\"https://github.com/tirth8205/code-review-graph/actions/workflows/ci.yml/badge.svg\" alt=\"CI\">",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "html_url": "https://github.com/1jehuang/jcode",
+      "description": "The most intelligent agent harness for code",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-coding-agent",
+        "claude",
+        "cli",
+        "coding-agent",
+        "llm",
+        "mcp",
+        "openai",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "stargazers_count": 9748,
+      "forks_count": 1088,
+      "open_issues_count": 107,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The most intelligent agent harness for code"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# jcode\n\n[![Latest Release](https://badgen.net/github/release/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/releases)\n[![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)\n[![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-blue?style=flat-square)](https://github.com/1jehuang/jcode/releases)\n[![Last Commit](https://badgen.net/github/last-commit/1jehuang/jcode/master?icon=github)](https://github.com/1jehuang/jcode/commits/master)\n[![GitHub Stars](https://badgen.net/github/stars/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)\n\nThe next generation coding agent harness to raise the skill ceiling. <br>\nBuilt for multi-session workflows, infinite customizability, and performance. \n\n<br>\n\n<a href=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.mp4\">\n  <img src=\"https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp\" alt=\"jcode mem",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "html_url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "kimi",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "stargazers_count": 22079,
+      "forks_count": 2982,
+      "open_issues_count": 179,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/>\n\n<br/>\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n<img src=\"./docs/diagrams/readme-hero.svg\" width=\"100%\" alt=\"OmniRoute — Never stop coding. Every AI tool → 271 providers — 90+ free — through one endpoint. Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini with auto-fallback. RTK + Caveman stacked compression saves 15–95% tokens (~89% avg) — never hit limits. 271 AI providers · 90+ free tiers · ~1.4B free tokens/mo · 18 routing strategies · $0 to start.\"/>\n\n</div>\n\n<div align=\"center\">\n\n# 💰 ~1.4B Free Tokens / Month\n\n</div>\n\n> Stacking free tiers by hand is painful — dozens of SDKs, dozens of rate limits, and no idea how much you actually have. OmniRoute aggregates the **documented** free tiers of **39 provider pools / 460+ models** into one honest number and shows it live on the dashboard (`/dashboard/free-tiers`).\n\n<img src=\"./docs/diagrams/free-tier-budget.svg\" width=\"100%\" alt=\"OmniRoute free-tier budget card: ~1.4B free tokens per month steady, up to ~2.0B in the first month with signup credits, from the documented free tiers of 39 pro",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "stargazers_count": 40676,
+      "forks_count": 6744,
+      "open_issues_count": 104,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Learn it. Build it. Ship it for others."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\">\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-1a1a1a?style=flat-square&labelColor=fafaf5\" alt=\"MIT License\"></a>\n  <a href=\"ROADMAP.md\"><img src=\"https://img.shields.io/badge/lessons-503-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"503 lessons\"></a>\n  <a href=\"#contents\"><img src=\"https://img.shields.io/badge/phases-20-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"20 phases\"></a>\n  <a href=\"https://github.com/rohitg00/ai-engineering-from-scratch/stargazers\"><img src=\"https://img.shields.io/github/stars/rohitg00/ai-engineering-from-scratch?style=flat-square&labelColor=fafaf5&color=3553ff\" alt=\"GitHub stars\"></a>\n  <a href=\"https://aiengineeringfromscratch.com\"><img src=\"https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5\" alt=\"Website\"></a>\n</p>\n\n## From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href=\"https://github.com/rohitg00/agentmemory/stargazers\"><img src=\"https://img.shields.io/github/stars",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "msitarzewski/agency-agents",
+      "html_url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 134839,
+      "forks_count": 21980,
+      "open_issues_count": 101,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+        "**🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)",
+        "**🧠 Personality-Driven**: Unique voice, communication style, and approach",
+        "**📋 Deliverable-Focused**: Real code, processes, and measurable outcomes",
+        "**✅ Production-Ready**: Battle-tested workflows and success metrics",
+        "Identity & personality traits"
+      ],
+      "readme_excerpt": "# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow\n\n> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.\n\n[![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github)](https://github.com/sponsors/msitarzewski)\n[![Download the app](https://img.shields.io/github/v/release/msitarzewski/agency-agents-app?label=Download%20app&color=2563eb)](https://github.com/msitarzewski/agency-agents-app/releases/latest)\n\n> ### 🆕 There's an app now\n>\n> **[Agency Agents](https://agencyagents.app)** is a native app for **macOS, Linux & Windows** that browses the entire roster and installs it into Claude Code, Cursor, Codex, Gemini, Osaurus, and more — w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "kvcache-ai/ktransformers",
+      "html_url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 18764,
+      "forks_count": 1463,
+      "open_issues_count": 464,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+        "**June 21, 2026**: MiniMax-M3 Day0 Support! (Tutorial)",
+        "**June 17, 2026**: GLM-5.2 Day0 Support! (Tutorial)",
+        "**May 6, 2026**: KTransformers at GOSIM Paris 2026（https://paris2026.gosim.org/zh/schedule/） — \"Agentic AI on Edge\" track. We'll present KT's inference performance on consumer hardware.",
+        "**May 02, 2026**: DeepSeek-V4-Flash Support! (Tutorial)",
+        "**Apr 30, 2026**: KTransformers v0.6.1 refreshes kt-kernel inference and SFT docs with separate Inference and SFT Quick Start entry points."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <p align=\"center\">\n\n<picture>\n    <img alt=\"KTransformers\" src=\"https://github.com/user-attachments/assets/d5a2492f-a415-4456-af99-4ab102f13f8b\" width=50%>\n\n</picture>\n\n</p>\n  <h3>A Flexible Framework for Experiencing Cutting-edge LLM Inference/Fine-tune Optimizations</h3>\n  <strong><a href=\"#-overview\">🎯 Overview</a> | <a href=\"#-inference---high-performance-kt-kernel-serving\">🚀 Inference</a> | <a href=\"#-sft---fine-tuning-with-llama-factory\">🎓 SFT</a> | <a href=\"#-citation\">🔥 Citation</a> | <a href=\"https://github.com/kvcache-ai/ktransformers/issues/1921\">🚀 Roadmap(2026Q2)</a>  </strong>\n</div>\n\n## 🎯 Overview\n\nKTransformers is a research project focused on efficient inference and fine-tuning of large language models through CPU-GPU heterogeneous computing. The project now exposes two user-facing capabilities from the kt-kernel source tree: [Inference](./kt-kernel/README.md) and [SFT](./doc/en/SFT/KTransformers-Fine-Tuning_Quick-Start.md).\n\n## 🔥 Updates\n* **June 21, 2026**: MiniMax-M3 Day0 Support! ([Tutorial](./doc/en/kt-kernel/MiniMax-M3-Tutorial.md))\n* **June 17, 2026**: GLM-5.2 Day0 Support! ([Tutorial](./doc/en/kt-kernel/GLM-5.2-Tutorial.md))\n* **May 6,",
+      "_meta_source": "api"
+    }
+  ]
+}

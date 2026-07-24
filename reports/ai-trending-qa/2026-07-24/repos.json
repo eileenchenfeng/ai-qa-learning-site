@@ -1,0 +1,196 @@
+{
+  "date": "2026-07-24",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "koala73/worldmonitor",
+      "html_url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "dashboard",
+        "geopolitics",
+        "mcp",
+        "mcp-server",
+        "monitoring",
+        "news",
+        "opensource",
+        "osint",
+        "palantir",
+        "situation"
+      ],
+      "stargazers_count": 71866,
+      "forks_count": 10821,
+      "open_issues_count": 259,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+        "**500+ curated news feeds** across 15 categories, AI-synthesized into briefs",
+        "**Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 56 map layer types",
+        "**Cross-stream correlation** — military, economic, disaster, and escalation signal convergence",
+        "**Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries",
+        "**Finance radar** — 29 stock exchanges, commodities, crypto, and 7-signal market composite"
+      ],
+      "readme_excerpt": "# World Monitor\n\n[简体中文](README.zh-CN.md)\n\n**Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.\n\n[![GitHub stars](https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)\n[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)\n[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)\n[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)\n[![Last commit](https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)\n[![Latest release](https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)\n[![npm: worldmonitor](https://img.shields.io/npm/v/worldmonitor?logo=npm&label=npm)](https://www.npmjs.com/package/worldmonitor)\n[![smithery badge](https://smithery.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "citrolabs/ego-lite",
+      "html_url": "https://github.com/citrolabs/ego-lite",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "browser",
+        "skills",
+        "skills-sh"
+      ],
+      "stargazers_count": 1776,
+      "forks_count": 99,
+      "open_issues_count": 25,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The best browser for both you and your AI agents work in parallel."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"docs/assets/banner.png\" alt=\"ego lite\" width=\"100%\" />\n\n**The fastest browser for AI agents to run web automation**\n\n<p>\n  <a href=\"https://cdn.ego.app/channel/github_github_referral/setup/macos/arm64/egolite.dmg\"><img src=\"https://img.shields.io/badge/Download-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white\" alt=\"Download for Apple Silicon\" /></a>\n  <a href=\"https://cdn.ego.app/channel/github_github_referral/setup/macos/x64/egolite.dmg\"><img src=\"https://img.shields.io/badge/Download-Intel-000000?style=for-the-badge&logo=apple&logoColor=white\" alt=\"Download for Intel\" /></a>\n  <a href=\"https://discord.gg/5eGZVvHbTq\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white\" alt=\"Discord\" /></a>\n  <a href=\"https://x.com/ego_agent\"><img src=\"https://img.shields.io/badge/Follow-%40ego__agent-000000?style=for-the-badge&logo=x&logoColor=white\" alt=\"Follow @ego_agent on X\" /></a>\n  <a href=\"https://lite.ego.app/document/\"><img src=\"https://img.shields.io/badge/Docs-lite.ego.app-1E90FF?style=for-the-badge&logo=gitbook&logoColor=white\" alt=\"Docs\" /></a>\n  <a href=\"LICENSE\"><img src=\"htt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "html_url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cline",
+        "codex",
+        "copilot",
+        "cursor",
+        "deepseek",
+        "free-ai",
+        "gemini",
+        "kimi",
+        "llm-gateway",
+        "mcp",
+        "openai",
+        "openai-proxy",
+        "qwen",
+        "token-saver"
+      ],
+      "stargazers_count": 27413,
+      "forks_count": 3589,
+      "open_issues_count": 228,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/>\n\n<br/>\n\n# 🚀 OmniRoute — The Free AI Gateway\n\n<img src=\"./docs/diagrams/readme-hero.svg\" width=\"100%\" alt=\"OmniRoute — Never stop coding. Every AI tool → 290 providers — 90+ free — through one endpoint. Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini with auto-fallback. RTK + Caveman stacked compression saves 15–95% tokens (~89% avg) — never hit limits. 290 AI providers · 90+ free tiers · ~1.53B free tokens/mo · 19 routing strategies · $0 to start.\"/>\n\n</div>\n\n<div align=\"center\">\n\n# 💰 ~1.53B Free Tokens / Month\n\n</div>\n\n> Stacking free tiers by hand is painful — dozens of SDKs, dozens of rate limits, and no idea how much you actually have. OmniRoute aggregates the **documented** free tiers of **43 provider pools / 460+ models** into one honest number and shows it live on the dashboard (`/dashboard/free-tiers`).\n\n<img src=\"./docs/diagrams/free-tier-budget.svg\" width=\"100%\" alt=\"OmniRoute free-tier budget card: ~1.53B free tokens per month steady, up to ~2.15B in the first month with signup credits, from the documented free tiers of 43",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "composio",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "mcp",
+        "openai-codex",
+        "rube",
+        "saas",
+        "skill",
+        "workflow-automation"
+      ],
+      "stargazers_count": 69527,
+      "forks_count": 7860,
+      "open_issues_count": 1081,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+        "What Are Claude Skills?",
+        "Document Processing",
+        "Development & Code Tools",
+        "Data & Analysis",
+        "Business & Marketing"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">Awesome Claude Skills</h1>\n\n<p align=\"center\">\n<a href=\"https://dashboard.composio.dev/login?utm_source=Github&utm_medium=Youtube&utm_campaign=2025-11&utm_content=AwesomeSkills\">\n  <img width=\"1280\" height=\"640\" alt=\"Composio banner\" src=\"https://github.com/user-attachments/assets/e91255af-e4ba-4d71-b1a8-bd081e8a234a\">\n</a>\n\n\n</p>\n\n<p align=\"center\">\n  <a href=\"https://awesome.re\">\n    <img src=\"https://awesome.re/badge.svg\" alt=\"Awesome\" />\n  </a>\n  <a href=\"https://makeapullrequest.com\">\n    <img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\" alt=\"PRs Welcome\" />\n  </a>\n  <a href=\"https://www.apache.org/licenses/LICENSE-2.0\">\n    <img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square\" alt=\"License: Apache-2.0\" />\n  </a>\n</p>\n<div>\n<p align=\"center\">\n  <a href=\"https://twitter.com/composio\">\n    <img src=\"https://img.shields.io/badge/Follow on X-000000?style=for-the-badge&logo=x&logoColor=white\" alt=\"Follow on X\" />\n  </a>\n  <a href=\"https://www.linkedin.com/company/composiohq/\">\n    <img src=\"https://img.shields.io/badge/Follow on LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white\" a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "earthtojake/text-to-cad",
+      "html_url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "topics": [
+        "3mf",
+        "agents",
+        "ai-agents",
+        "build123d",
+        "cad",
+        "dxf",
+        "glb",
+        "mechanical-engineering",
+        "opencascade",
+        "robotics",
+        "sdf",
+        "srdf",
+        "step",
+        "stl",
+        "stp",
+        "text-to-cad",
+        "urdf"
+      ],
+      "stargazers_count": 10067,
+      "forks_count": 1107,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A collection of agent skills for CAD, robotics and hardware design"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"assets/text-to-cad-demo.gif\" alt=\"Demo of the CAD skill generating and previewing CAD geometry\" width=\"100%\">\n\n<br>\n\n<pre>\n ██████╗ █████╗ ██████╗       ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗\n██╔════╝██╔══██╗██╔══██╗      ██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝\n██║     ███████║██║  ██║      ███████╗█████╔╝ ██║██║     ██║     ███████╗\n██║     ██╔══██║██║  ██║      ╚════██║██╔═██╗ ██║██║     ██║     ╚════██║\n╚██████╗██║  ██║██████╔╝      ███████║██║  ██╗██║███████╗███████╗███████║\n ╚═════╝╚═╝  ╚═╝╚═════╝       ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝\n</pre>\n\nA skills library for CAD, robotics, and hardware design agents\n\n[Docs](https://www.cadskills.xyz) | [Demo](https://demo.cadskills.xyz)\n\n[![Join Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5FGB9DwJYU)\n[![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=for-the-badge&logo=github&label=Stars)](https://github.com/earthtojake/text-to-cad/stargazers)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)\n[![Follow @earthtojake](https://img.s",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "agegr/pi-web",
+      "html_url": "https://github.com/agegr/pi-web",
+      "description": "Web UI for the pi coding agent",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 2423,
+      "forks_count": 333,
+      "open_issues_count": 27,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Web UI for the pi coding agent",
+        "**Pick work back up**: browse previous pi conversations by project without digging through terminal history or session paths.",
+        "**Try different directions safely**: continue from an earlier message or fork a session into a separate route.",
+        "**Work across branches**: switch Git worktrees from the sidebar so new sessions and the Explorer follow the checkout you choose.",
+        "**Chat beside the project**: browse files on the left and preview source, docs, images, audio, and PDFs on the right while the agent works.",
+        "**See session state clearly**: context usage, cost, compaction state, and system prompt details are visible from the top bar."
+      ],
+      "readme_excerpt": "# Pi Web\n\n[中文文档](./README.zh-CN.md)\n\nLocal web UI for the [pi coding agent](https://github.com/badlogic/pi-mono). Pi Web reads your local pi session files and gives you a browser workspace for session browsing, real-time chat, model configuration, skill management, and project file preview.\n\n![Pi Web shows the same pi session with structured Markdown, tool calls, and project navigation beside the CLI](https://raw.githubusercontent.com/agegr/pi-web/main/docs/screenshot2.png)\n\nThe same pi session in CLI and Pi Web: structured tool calls, readable Markdown, session browsing, and cleaner results.\n\n## Quick Start\n\n**Run without installing:**\n\n```bash\nnpx @agegr/pi-web@latest\n```\n\n**Or install globally:**\n\n```bash\nnpm install -g @agegr/pi-web\npi-web\n```\n\nThen open [http://localhost:30141](http://localhost:30141). The CLI will try to open the browser automatically after the server is ready.\n\n**Options:**\n\n```bash\npi-web --port 8080              # custom port\npi-web --hostname 127.0.0.1     # local access only\npi-web -p 8080 -H 127.0.0.1     # combine options\npi-web --no-open                # do not open the browser automatically\n\nPORT=8080 pi-web                # environment variable is a",
+      "_meta_source": "api"
+    }
+  ]
+}

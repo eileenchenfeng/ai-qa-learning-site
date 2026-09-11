@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-11",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "html_url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "stargazers_count": 38840,
+      "forks_count": 2225,
+      "open_issues_count": 48,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "Lead with the next action.",
+        "Number multi-step tasks.",
+        "End with one concrete next step.",
+        "Suppress tangents.",
+        "Restate state every turn."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"./logo.png\" alt=\"i-have-adhd\" width=\"140\" />\n</p>\n<p align=\"center\">\n  <strong align=\"center\">ADHD-friendly outputs. No ADHD diagnosis needed!</strong>\n</p>\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <strong title=\"English\" aria-label=\"English\">🇬🇧</strong> ·\n  <a href=\".github/readme/README.zh-CN.md\" title=\"简体中文\" aria-label=\"简体中文\">🇨🇳</a> ·\n  <a href=\".github/readme/README.pt-BR.md\" title=\"Português (Brasil)\" aria-label=\"Português (Brasil)\">🇧🇷</a> ·\n  <a href=\".github/readme/README.ja.md\" title=\"日本語\" aria-label=\"日本語\">🇯🇵</a> ·\n  <a href=\".github/readme/README.vi.md\" title=\"Tiếng Việt\" aria-label=\"Tiếng Việt\">🇻🇳</a> ·\n  <a href=\".github/readme/README.ko.md\" title=\"한국어\" aria-label=\"한국어\">🇰🇷</a> ·\n  <a href=\".github/readme/README.th.md\" title=\"ภาษาไทย\" aria-label=\"ภาษาไทย\">🇹🇭</a>\n</p>\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.\n```\n\nOr 🔗 [check the installation instructions](INSTALL.md).\n\n## What it ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 284814,
+      "forks_count": 25478,
+      "open_issues_count": 349,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "How it works",
+        "Commercial Services",
+        "Getting Started",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Table of Contents\n\n- [How it works](#how-it-works)\n- [Commercial Services](#commercial-services)\n- [Getting Started](#installation)\n  - [Claude Code](#claude-code)\n  - [Antigravity](#antigravity)\n  - [Codex App](#codex-app)\n  - [Codex CLI](#codex-cli)\n  - [Cursor](#cursor)\n  - [Devin CLI](#devin-cli)\n  - [Factory Droid](#factory-droid)\n  - [Gemini CLI](#gemini-cli)\n  - [GitHub Copilot CLI](#github-copilot-cli)\n  - [Grok Build CLI](#grok-build-cli)\n  - [Kimi Code](#kimi-code)\n  - [OpenCode](#opencode)\n  - [Pi](#pi)\n  - [Hermes Agent](#hermes-agent)\n- [The Basic Workflow](#the-basic-workflow)\n- [Community](#community)\n- [What's Inside](#whats-inside)\n- [Philosophy](#philosophy)\n- [Contributing](#contributing)\n- [Updating](#updating)\n- [License](#license)\n- [Visual companion telemetry](#visual-companion-telemetry)\n\n## How it works\n\nIt starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to w",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alsk1992/CloddsBot",
+      "html_url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "topics": [
+        "agi",
+        "ai",
+        "arbitrage",
+        "claude",
+        "crypto",
+        "defi",
+        "ethereum",
+        "futures",
+        "hft",
+        "hyperliquid",
+        "kalshi",
+        "polymarket",
+        "prediction-markets",
+        "pumpswap",
+        "solana",
+        "telegram-bot",
+        "trading",
+        "trading-bot",
+        "typescript",
+        "x402"
+      ],
+      "stargazers_count": 1766,
+      "forks_count": 262,
+      "open_issues_count": 30,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+        "`npm install -g clodds` → `clodds onboard`",
+        "Onboarding wizard walks through credentials setup",
+        "Fetches live 15-minute BTC prediction markets from Polymarket (in real-time)",
+        "One command away from trading",
+        "Claude-style sidebar with 4 tabs: Chats, Projects, Artifacts, Code"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"https://cloddsbot.com/logo.png\" alt=\"Clodds Logo\" width=\"280\">\n</p>\n\n<p align=\"center\">\n  <strong>AI-powered trading terminal for prediction markets, crypto & futures</strong>\n  <br>\n  <sub>Claude + Odds = Clodds</sub>\n</p>\n\n<p align=\"center\">\n  <strong>Clodds CA:</strong> <code>2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump</code>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/clodds\"><img src=\"https://img.shields.io/npm/v/clodds?color=blue\" alt=\"npm version\"></a>\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22-brightgreen\" alt=\"Node.js\">\n  <img src=\"https://img.shields.io/badge/typescript-5.3-blue\" alt=\"TypeScript\">\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/license-MIT-yellow\" alt=\"MIT License\"></a>\n  <img src=\"https://img.shields.io/badge/skills-119%2B-purple\" alt=\"119+ Skills\">\n  <img src=\"https://img.shields.io/badge/markets-1000%2B-orange\" alt=\"1000+ Markets\">\n  <img src=\"https://img.shields.io/badge/Colosseum-Agent%20Hackathon-blueviolet\" alt=\"Built for Colosseum Hackathon\">\n  <img src=\"https://img.shields.io/badge/clones%2F14d-10.7k-brightgreen\" alt=\"10.7k clones in 14 days\">",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Tencent/teamai-cli",
+      "html_url": "https://github.com/Tencent/teamai-cli",
+      "description": "Make Every Team AI Native",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 3914,
+      "forks_count": 252,
+      "open_issues_count": 21,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Make Every Team AI Native"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"assets/teamai-cli-logo.svg\" alt=\"teamai-cli\">\n</p>\n\n# TeamAI — Make Every Team AI Native\n\n> [English](README.md) | [简体中文](README.zh-CN.md)\n\n[![CI](https://github.com/Tencent/teamai-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/Tencent/teamai-cli/actions/workflows/ci.yml)\n[![npm version](https://img.shields.io/npm/v/teamai-cli.svg)](https://www.npmjs.com/package/teamai-cli)\n[![npm downloads](https://img.shields.io/npm/dm/teamai-cli.svg)](https://www.npmjs.com/package/teamai-cli)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)\n\nTeamAI manages your team's skills, rules, MCP, and knowledge across Claude Code, Codex, CodeBuddy, WorkBuddy, OpenCode, Cursor, and other AI agents.\n\n## Contributors\n\nThanks to everyone who has contributed to TeamAI!\n\n<a href=\"https://github.com/Tencent/teamai-cli/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=Tencent/teamai-cli\" alt=\"Contributors\" />\n</a>\n\nMade with [contrib.rocks](https://contrib.rocks).\n\n## Quick Start\n\n### Install\n\n```bash\nnpm install -g teamai-cli\n```\n\n### Team admin / solo user\n\nCreate a shared-experience repo on your git host (GitHub, GitLab",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "AlexsJones/llmfit",
+      "html_url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "topics": [
+        "gguf",
+        "llm",
+        "localai",
+        "mlx",
+        "skill",
+        "unsloth"
+      ],
+      "stargazers_count": 35817,
+      "forks_count": 2270,
+      "open_issues_count": 65,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Hundreds of models & providers. One command to find what runs on your hardware.",
+        "**Hardware Auto-Detection**: Detects CPU cores, system RAM, available discrete/integrated GPUs, VRAM, and unified memory architecture (NVIDIA CUDA, Apple Silicon, AMD ROCm, Intel OneAPI).",
+        "**Model Compatibility Engine**: Analyzes model parameter counts, context lengths, and quantization formats (GGUF, AWQ, GPTQ, EXL2) to project memory footprints and tokens-per-second performance.",
+        "**Interactive TUI & Web Dashboard**: Choose between a lightweight, zero-dependency terminal interface or a feature-rich web dashboard.",
+        "**REST API Endpoint**: Exposes standard HTTP JSON endpoints (`/api/v1/system`, `/api/v1/models`) for integration into orchestrators, dashboards, and automated deployment pipelines.",
+        "**Multi-Platform Support**: macOS (Apple Silicon & Intel), Linux (x86_64 & ARM64), and Windows (x86_64)."
+      ],
+      "readme_excerpt": "# llmfit\n\n<p align=\"center\">\n  <img src=\"assets/icon.svg\" alt=\"llmfit icon\" width=\"128\" height=\"128\">\n</p>\n\n<p align=\"center\">\n  <b>English</b> ·\n  <a href=\"README.zh.md\">中文</a> ·\n  <a href=\"README.ja.md\">日本語</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/AlexsJones/llmfit/actions/workflows/ci.yml\"><img src=\"https://github.com/AlexsJones/llmfit/actions/workflows/ci.yml/badge.svg\" alt=\"CI\"></a>\n  <a href=\"https://crates.io/crates/llmfit\"><img src=\"https://img.shields.io/crates/v/llmfit.svg\" alt=\"Crates.io\"></a>\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"License\"></a>\n  <a href=\"https://about.signpath.io\"><img src=\"https://img.shields.io/badge/SignPath-signed-brightgreen?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0id2hpdGUiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTEwLjA2NyA0LjU2N2wtNC43MzQgNC43MzMtMS40LTEuNGExIDEgMCAwIDAtMS40MTQgMS40MTRsMi4xIDIuMWExIDEgMCAwIDAgMS40MTQgMGw1LjQ0LTUuNDRhMSAxIDAgMCAwLTEuNDE0LTEuNDE0eiIvPjwvc3ZnPg==\" alt=\"Signed with SignPath\"></a>\n</p>\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/21325?utm_source=reposit",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "diagrams",
+        "drawio",
+        "mermaid",
+        "svg"
+      ],
+      "stargazers_count": 37938,
+      "forks_count": 2401,
+      "open_issues_count": 40,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+      ],
+      "readme_excerpt": "# Diagram Design\n\n**Editorial diagrams your designer won't hate.**\n\n<a href=\"https://trendshift.io/repositories/26141?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26141\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26141\" alt=\"cathrynlavery%2Fdiagram-design | Trendshift\" width=\"250\" height=\"55\"/></a>\n\n[![Content site architecture](docs/screenshots/thumbs/architecture.webp)](docs/screenshots/architecture.png)\n\n[![The self-improving loop](docs/screenshots/thumbs/loop.webp)](docs/screenshots/loop.png)\n\n*New in 2.0 — the Loop: flywheels with a shared-memory hub. The dashed lines are the write-backs.*\n\n*New in 2.3: semantic system patterns and optional accessible motion, while static output stays the default.*\n\n*New in 2.5.10: ten more layout grammars — Sankey, fishbone, Wardley map, kanban, user journey, deployment, dependency graph, UML class, story map, and database schema.*\n\n39 editorial diagram types for Claude Code, Codex, Factory Droid, Pi, and Agent Skills-compatible hosts. Self-contained HTML + SVG. No shadows. No Mermaid slop. Semantic patterns describe behavior separately from layout, so",
+      "_meta_source": "api"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "date": "2026-09-12",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "html_url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "stargazers_count": 42169,
+      "forks_count": 2385,
+      "open_issues_count": 60,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+        "Lead with the next action.",
+        "Number multi-step tasks.",
+        "End with one concrete next step.",
+        "Suppress tangents.",
+        "Restate state every turn."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"./logo.png\" alt=\"i-have-adhd\" width=\"140\" />\n</p>\n<p align=\"center\">\n  <strong align=\"center\">ADHD-friendly outputs. No ADHD diagnosis needed!</strong>\n</p>\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat\" alt=\"License\"></a>\n</p>\n\n<p align=\"center\">\n  <strong title=\"English\" aria-label=\"English\">🇬🇧</strong> ·\n  <a href=\".github/readme/README.zh-CN.md\" title=\"简体中文\" aria-label=\"简体中文\">🇨🇳</a> ·\n  <a href=\".github/readme/README.pt-BR.md\" title=\"Português (Brasil)\" aria-label=\"Português (Brasil)\">🇧🇷</a> ·\n  <a href=\".github/readme/README.ja.md\" title=\"日本語\" aria-label=\"日本語\">🇯🇵</a> ·\n  <a href=\".github/readme/README.vi.md\" title=\"Tiếng Việt\" aria-label=\"Tiếng Việt\">🇻🇳</a> ·\n  <a href=\".github/readme/README.ko.md\" title=\"한국어\" aria-label=\"한국어\">🇰🇷</a> ·\n  <a href=\".github/readme/README.th.md\" title=\"ภาษาไทย\" aria-label=\"ภาษาไทย\">🇹🇭</a>\n</p>\n\n\n## Install\n\nCopy/paste into your CLI prompt:\n\n```text\nInstall the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.\n```\n\nOr 🔗 [check the installation instructions](INSTALL.md).\n\n## What it ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "melgarafael/DeskcommCRM",
+      "html_url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chatbot",
+        "crm",
+        "customer-support",
+        "ecommerce",
+        "lgpd",
+        "mcp",
+        "multi-tenant",
+        "nextjs",
+        "nuvemshop",
+        "open-source",
+        "rag",
+        "sales-automation",
+        "self-hosted",
+        "supabase",
+        "typescript",
+        "waha",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "stargazers_count": 1421,
+      "forks_count": 505,
+      "open_issues_count": 93,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+        "Gera todos os segredos técnicos sozinho (você não inventa senha nenhuma).",
+        "Cria as extensões do Postgres e aplica o schema completo (`supabase/baseline.sql`).",
+        "Cria o primeiro admin com o e-mail e a senha que você escolheu.",
+        "Sobe a stack inteira com **HTTPS automático** e confere a saúde no fim.",
+        "Instala o **cron das automações** (sem ele, as regras QUANDO/SE/ENTÃO ficam paradas na fila)"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n🇧🇷 Português · [🇺🇸 English](README.en.md) · [🇪🇸 Español](README.es.md)\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/deskcomm-logo-dark.svg\">\n  <img src=\"docs/brand/deskcomm-logo.svg\" alt=\"Deskcomm CRM\" width=\"420\">\n</picture>\n\n# 🛠️ DeskcommCRM — o Sistema Operacional de Vendas com IA, open source, pro WhatsApp\n\n**Agentes de IA que atendem, qualificam e vendem no WhatsApp — dentro de um CRM open source rodando no seu servidor.**\n**Sem mensalidade, sem feature travada, seus dados com você. A alternativa aberta a Kommo, Octadesk e Intercom.**\n\n[![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)\n[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript)](https://www.typescriptlang.org)\n[![Supabase](https://img.shields.io/badge/Supabase-Postgres%2BAuth%2BStorage-3ecf8e?logo=supabase)](https://supabase.com)\n[![Self-hosted](https://img.shields.io/badge/self--hosted-1%20comando-orange)](hostgator-setup-kit/)\n[![CI](https://github.com/melgarafael/DeskcommCRM/actions/workflows/ci.yml/badge.svg)](https://github.com/melgarafael/DeskcommCRM/actions/workflows/ci.yml)\n[![Li",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "vastsa/PI-Desktop",
+      "html_url": "https://github.com/vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "coding-agent",
+        "desktop-app",
+        "electron",
+        "global",
+        "i18n",
+        "local-first",
+        "mcp",
+        "pi",
+        "pi-agent",
+        "pi-desktop",
+        "plugins",
+        "react",
+        "rust",
+        "typescript"
+      ],
+      "stargazers_count": 2837,
+      "forks_count": 223,
+      "open_issues_count": 67,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+        "**Connect a model**",
+        "**Open a project**",
+        "**Pick Agent, Plan, or Goal**",
+        "**Review the result**",
+        "codebase exploration"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"docs/image/readme/logo.png\" alt=\"PI-Desktop\" width=\"112\" />\n\n# PI-Desktop\n\n### Your local-first desktop workspace for AI coding agents.\n\n**Bring your own model. Open any local project. Let agents work — while you stay in control.**\n\nNo PI-Desktop account. No mandatory relay. No editor lock-in.\n\n<br />\n\n[![Release](https://img.shields.io/github/v/release/vastsa/PI-Desktop?label=release)](https://github.com/vastsa/PI-Desktop/releases/latest)\n[![Downloads](https://img.shields.io/github/downloads/vastsa/PI-Desktop/total?label=downloads)](https://github.com/vastsa/PI-Desktop/releases)\n[![Stars](https://img.shields.io/github/stars/vastsa/PI-Desktop?style=flat\\&label=stars)](https://github.com/vastsa/PI-Desktop/stargazers)\n[![CI](https://github.com/vastsa/PI-Desktop/actions/workflows/ci.yml/badge.svg)](https://github.com/vastsa/PI-Desktop/actions/workflows/ci.yml)\n[![License](https://img.shields.io/github/license/vastsa/PI-Desktop)](LICENSE)\n![Platforms](https://img.shields.io/badge/platform-macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-4c8dd8)\n\n<a href=\"https://trendshift.io/repositories/178787?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "html_url": "https://github.com/armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "language": "C",
+      "topics": [
+        "3d",
+        "armorpaint",
+        "painting",
+        "texturing",
+        "tool"
+      ],
+      "stargazers_count": 4758,
+      "forks_count": 534,
+      "open_issues_count": 106,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Graphics Creation Tools"
+      ],
+      "readme_excerpt": "![](https://armorpaint.org/img/git.jpg)\n\narmorpaint\n==============\n\n[ArmorPaint](https://armorpaint.org) is a software for 3D PBR texture painting - check out the [manual](https://armorpaint.org/manual).\n\n*Note 1: This repository is aimed at developers and may not be stable. Distributed binaries are [paid](https://armorpaint.org/download) to help with the project funding. All of the development is happening here in order to make it accessible to everyone. Thank you for support!*\n\n*Note 2: If you are compiling git version of ArmorPaint, then you need to have a compiler ([Visual Studio with clang tools](https://visualstudio.microsoft.com/downloads/) - Windows, [clang + dependencies](https://github.com/armory3d/armorpaint/blob/main/base/docs/linux_deps.md) - Linux, [Xcode](https://developer.apple.com/xcode/resources/) - macOS / iOS, [Android Studio](https://developer.android.com/studio) - Android) and [git](https://git-scm.com/downloads) installed.*\n\n```bash\ngit clone https://github.com/armory3d/armorpaint\ncd armorpaint/paint\n```\n\n**Windows (x64)**\n```bash\n..\\base\\make\n# Open generated Visual Studio project at `build\\ArmorPaint.sln`\n# Build and run\n```\n\n**Linux (x64)**\n```bash\n../base",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alsk1992/CloddsBot",
+      "html_url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "topics": [
+        "agi",
+        "ai",
+        "arbitrage",
+        "claude",
+        "crypto",
+        "defi",
+        "ethereum",
+        "futures",
+        "hft",
+        "hyperliquid",
+        "kalshi",
+        "polymarket",
+        "prediction-markets",
+        "pumpswap",
+        "solana",
+        "telegram-bot",
+        "trading",
+        "trading-bot",
+        "typescript",
+        "x402"
+      ],
+      "stargazers_count": 2210,
+      "forks_count": 287,
+      "open_issues_count": 23,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+        "Install the latest GitHub Release → `clodds onboard`",
+        "Onboarding wizard walks through credentials setup",
+        "Fetches live 15-minute BTC prediction markets from Polymarket (in real-time)",
+        "One command away from trading",
+        "Claude-style sidebar with 4 tabs: Chats, Projects, Artifacts, Code"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"https://cloddsbot.com/logo.png\" alt=\"Clodds Logo\" width=\"280\">\n</p>\n\n<p align=\"center\">\n  <strong>AI-powered trading terminal for prediction markets, crypto & futures</strong>\n  <br>\n  <sub>Claude + Odds = Clodds</sub>\n</p>\n\n<p align=\"center\">\n  <strong>Clodds CA:</strong> <code>2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump</code>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/alsk1992/CloddsBot/releases/latest\"><img src=\"https://img.shields.io/github/v/release/alsk1992/CloddsBot?display_name=tag&color=blue\" alt=\"GitHub release\"></a>\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22-brightgreen\" alt=\"Node.js\">\n  <img src=\"https://img.shields.io/badge/typescript-5.3-blue\" alt=\"TypeScript\">\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/license-MIT-yellow\" alt=\"MIT License\"></a>\n  <img src=\"https://img.shields.io/badge/skills-121%2B-purple\" alt=\"121+ Skills\">\n  <img src=\"https://img.shields.io/badge/markets-1000%2B-orange\" alt=\"1000+ Markets\">\n  <img src=\"https://img.shields.io/badge/Colosseum-Agent%20Hackathon-blueviolet\" alt=\"Built for Colosseum Hackathon\">\n  <img src=\"https://img.shields.io/badge/cl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "nashsu/llm_wiki",
+      "html_url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 18814,
+      "forks_count": 2136,
+      "open_issues_count": 258,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+        "**Two-Step Chain-of-Thought Ingest** — LLM analyzes first, then generates wiki pages with source traceability and incremental cache",
+        "**Multimodal Image Ingestion** — extract embedded images from PDFs, generate factual captions with a vision LLM, surface them in image-aware search results with lightbox preview and jump-to-source",
+        "**Multi-format Document Parsing** — ingest PDF, Office documents, EPUB/MOBI, Org mode, images, media, web clips, and batches of URLs, with built-in, cloud, or local MinerU PDF processing",
+        "**Flexible Model Configuration** — configure models per project, route Chat and Ingest independently, and manage custom providers, headers, and streaming output",
+        "**Source-grounded Retrieval** — use Read Sources Only mode to answer exclusively from original imported material"
+      ],
+      "readme_excerpt": "# LLM Wiki\n\n<p align=\"center\">\n  <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\">\n</p>\n\n<p align=\"center\">\n  <strong>A personal knowledge base that builds itself.</strong><br>\n  LLM reads your documents, builds a structured wiki, and keeps it current.\n</p>\n\n<p align=\"center\">\n  <a href=\"#what-is-this\">What is this?</a> •\n  <a href=\"#what-we-changed--added\">Features</a> •\n  <a href=\"#tech-stack\">Tech Stack</a> •\n  <a href=\"#installation\">Installation</a> •\n  <a href=\"#credits\">Credits</a> •\n  <a href=\"#license\">License</a>\n</p>\n\n<p align=\"center\">\n  English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a>\n</p>\n\n---\n\n<p align=\"center\">\n  <img src=\"assets/overview.jpg\" width=\"100%\" alt=\"Overview\">\n</p>\n\n## Features\n\n- **Two-Step Chain-of-Thought Ingest** — LLM analyzes first, then generates wiki pages with source traceability and incremental cache\n- **Multimodal Image Ingestion** — extract embedded images from PDFs, generate factual captions with a vision LLM, surface them in image-aware search results with lightbox preview and jump-to-source\n- **Multi-format Document Parsing** — ingest PDF, ",
+      "_meta_source": "api"
+    }
+  ]
+}

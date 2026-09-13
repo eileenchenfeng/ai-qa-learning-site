@@ -1,0 +1,204 @@
+{
+  "date": "2026-09-13",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "melgarafael/DeskcommCRM",
+      "html_url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chatbot",
+        "crm",
+        "customer-support",
+        "ecommerce",
+        "lgpd",
+        "mcp",
+        "multi-tenant",
+        "nextjs",
+        "nuvemshop",
+        "open-source",
+        "rag",
+        "sales-automation",
+        "self-hosted",
+        "supabase",
+        "typescript",
+        "waha",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "stargazers_count": 1868,
+      "forks_count": 559,
+      "open_issues_count": 124,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+        "Gera todos os segredos técnicos sozinho (você não inventa senha nenhuma).",
+        "Cria as extensões do Postgres e aplica o schema completo (`supabase/baseline.sql`).",
+        "Cria o primeiro admin com o e-mail e a senha que você escolheu.",
+        "Sobe a stack inteira com **HTTPS automático** e confere a saúde no fim.",
+        "Instala o **cron das automações** (sem ele, as regras QUANDO/SE/ENTÃO ficam paradas na fila)"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n🇧🇷 Português · [🇺🇸 English](README.en.md) · [🇪🇸 Español](README.es.md)\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/deskcomm-logo-dark.svg\">\n  <img src=\"docs/brand/deskcomm-logo.svg\" alt=\"Deskcomm CRM\" width=\"420\">\n</picture>\n\n# 🛠️ DeskcommCRM — o Sistema Operacional de Vendas com IA, open source, pro WhatsApp\n\n**Agentes de IA que atendem, qualificam e vendem no WhatsApp — dentro de um CRM open source rodando no seu servidor.**\n**Sem mensalidade, sem feature travada, seus dados com você. A alternativa aberta a Kommo, Octadesk e Intercom.**\n\n[![Next.js 16](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org)\n[![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript)](https://www.typescriptlang.org)\n[![Supabase](https://img.shields.io/badge/Supabase-Postgres%2BAuth%2BStorage-3ecf8e?logo=supabase)](https://supabase.com)\n[![Self-hosted](https://img.shields.io/badge/self--hosted-1%20comando-orange)](hostgator-setup-kit/)\n[![CI](https://github.com/melgarafael/DeskcommCRM/actions/workflows/ci.yml/badge.svg)](https://github.com/melgarafael/DeskcommCRM/actions/workflows/ci.yml)\n[![Li",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "html_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-prompts",
+        "anthropic",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "cursor",
+        "gemini",
+        "generative-ai",
+        "google",
+        "grok",
+        "llm",
+        "openai",
+        "prompt",
+        "prompt-engineering",
+        "system-prompt",
+        "system-prompts"
+      ],
+      "stargazers_count": 65520,
+      "forks_count": 10754,
+      "open_issues_count": 55,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <sub>Thanks to</sub>  \n</p>\n\n<p align=\"center\">\n  <a href=\"https://go.asgeirtj.workers.dev/latitude\">\n    <img src=\"assets/latitude-dark.png\" alt=\"Latitude Logo\" width=\"700\"/>\n  </a>\n</p>\n\n<div align=\"center\" markdown=\"1\">\n\n### [Open Source Agent Analytics](https://go.asgeirtj.workers.dev/latitude)  \n[Understand your agents in production](https://go.asgeirtj.workers.dev/latitude)\n\n</div>\n\n---\n\n> **The Washington Post** built its interactive story on prompts from this repo: [See the hidden rules behind AI. Then use them to rewrite this article.](https://archive.today/pYtPk) (May 11, 2026)\n> \n> **CEPS' AI World** built a live data dashboard from this repo's files: [System prompts and what they tell us about the chat before the chat](https://aiworld.eu/story/system-prompts-and-what-they-tell-us-about-the-chat-before-the-chat)  (July 10, 2026)\n# System Prompts Leaks\nLeaked system prompts, captured verbatim — the hidden instructions and rules that ChatGPT, Claude, Gemini, Grok and every other AI chatbot receives before your first message.\n\n\n\n![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)\n[![PRs Welcome](https://img",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "jihe520/MathModelAgent",
+      "html_url": "https://github.com/jihe520/MathModelAgent",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "mathmodel",
+        "skills"
+      ],
+      "stargazers_count": 5177,
+      "forks_count": 403,
+      "open_issues_count": 43,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+        "🔍 自动分析问题，数学建模，编写代码，纠正错误，撰写论文",
+        "💻 Code Interpreter",
+        "local Interpreter: 基于 jupyter , 代码保存为 notebook 方便再编辑",
+        "云端 code interpreter: E2B（https://e2b.dev/） 和 daytona（https://app.daytona.io/）",
+        "📝 生成一份编排好格式的论文"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">🤖 MathModelAgent 📐</h1>\n<p align=\"center\">\n    <img src=\"./docs/icon.png\" height=\"250px\">\n</p>\n<h4 align=\"center\">\n    专为数学建模设计的 Agent<br>\n    自动完成数学建模，生成一份完整的可以直接提交的论文。\n</h4>\n\n<h5 align=\"center\">简体中文 | <a href=\"README_EN.md\">English</a></h5>\n\n<p align=\"center\">\n    <a href=\"https://github.com/jihe520/MathModelAgent/releases/latest\"><b>⬇️ 下载最新桌面版（推荐）</b></a>\n</p>\n<p align=\"center\">\n    🎨 姊妹项目：<a href=\"https://github.com/jihe520/sci-box\"><b>sci-box</b></a> —— 科研图表 & 流程图 SKILL 合集\n</p>\n\n---\n\n## 🖥️ 桌面版（推荐使用方式）\n\n> **不想折腾环境？直接下载桌面版，开箱即用。**\n>\n> 👉 **[前往 Releases 下载最新版本](https://github.com/jihe520/MathModelAgent/releases/latest)**\n\n桌面版已内置 Claude Code 与全套 MathModelAgent SKILLS，无需安装 Python / Node.js / Redis，也无需手动配置 SKILL，装好填一个模型 API Key 即可开始建模。\n\n| 系统 | 下载文件 |\n|------|----------|\n| macOS（Apple 芯片 M 系列） | `mathmodel-<version>-arm64.dmg` |\n| macOS（Intel 芯片） | `mathmodel-<version>-x64.dmg` |\n| Windows 64 位 | `mathmodel-<version>-x64.exe` |\n\nmacOS 安装包已 Developer ID 签名并通过 Apple 公证。\n\n> [!TIP]\n> 不确定自己的 Mac 是哪种芯片？点击左上角  → 关于本机，看「芯片」一栏：显示 Apple M 系列选 arm64，显示 Intel 选 x64。\n\n> [!WARNING]\n> Windows 安装包当前未签名，首次安装或运行时可能出现 Microsoft Defender SmartScreen 提示，请选择「更多信息」→「仍要运行」，并务必从官方 [Releases",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alsk1992/CloddsBot",
+      "html_url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "language": "TypeScript",
+      "topics": [
+        "agi",
+        "ai",
+        "arbitrage",
+        "claude",
+        "crypto",
+        "defi",
+        "ethereum",
+        "futures",
+        "hft",
+        "hyperliquid",
+        "kalshi",
+        "polymarket",
+        "prediction-markets",
+        "pumpswap",
+        "solana",
+        "telegram-bot",
+        "trading",
+        "trading-bot",
+        "typescript",
+        "x402"
+      ],
+      "stargazers_count": 2553,
+      "forks_count": 316,
+      "open_issues_count": 28,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+        "Install the latest GitHub Release → `clodds onboard`",
+        "Onboarding wizard walks through credentials setup",
+        "Fetches live 15-minute BTC prediction markets from Polymarket (in real-time)",
+        "One command away from trading",
+        "Claude-style sidebar with 4 tabs: Chats, Projects, Artifacts, Code"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"https://cloddsbot.com/logo.png\" alt=\"Clodds Logo\" width=\"280\">\n</p>\n\n<p align=\"center\">\n  <strong>AI-powered trading terminal for prediction markets, crypto & futures</strong>\n  <br>\n  <sub>Claude + Odds = Clodds</sub>\n</p>\n\n<p align=\"center\">\n  <strong>Clodds CA:</strong> <code>2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump</code>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/alsk1992/CloddsBot/releases/latest\"><img src=\"https://img.shields.io/github/v/release/alsk1992/CloddsBot?display_name=tag&color=blue\" alt=\"GitHub release\"></a>\n  <img src=\"https://img.shields.io/badge/node-%3E%3D22-brightgreen\" alt=\"Node.js\">\n  <img src=\"https://img.shields.io/badge/typescript-5.3-blue\" alt=\"TypeScript\">\n  <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/license-MIT-yellow\" alt=\"MIT License\"></a>\n  <img src=\"https://img.shields.io/badge/skills-121%2B-purple\" alt=\"121+ Skills\">\n  <img src=\"https://img.shields.io/badge/markets-1000%2B-orange\" alt=\"1000+ Markets\">\n  <img src=\"https://img.shields.io/badge/Colosseum-Agent%20Hackathon-blueviolet\" alt=\"Built for Colosseum Hackathon\">\n  <img src=\"https://img.shields.io/badge/cl",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "stargazers_count": 137696,
+      "forks_count": 20238,
+      "open_issues_count": 12,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "⚰️ Project Graveyard - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to",
+        "👁️ First Reader - Simulates real readers going through your draft and reports where they lose interest, where they stop reading, and what they remember afterward, without rewriting a word",
+        "🔭 Scope Creep Detector - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify",
+        "🏺 Commit Archaeologist - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues",
+        "🩺 Dependency Doctor - Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <a href=\"http://www.theunwindai.com\">\n    <img src=\"docs/banner/unwind_black.png\" width=\"900px\" alt=\"Unwind AI\">\n  </a>\n</p>\n\n<div align=\"center\">\n\n# Awesome LLM Apps\n\n**100+ open-source AI agents, agent skills, and RAG apps. Hand-built, tested end-to-end, Apache-2.0.**\n\nClone it, ship it, sell it - 100% free and open-source\n\nWorks with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source models.\n\n**[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** · **[Browse all templates](#-browse-all-templates)**\n\n\n<a href=\"https://trendshift.io/repositories/9876\" target=\"_blank\">\n  <img src=\"https://trendshift.io/api/badge/repositories/9876\" width=\"220\" alt=\"Featured on Trendshift as the #1 repository of the day\">\n</a>\n\n<br>\n\n</div>\n\n<table>\n  <tr>\n    <td width=\"33.3%\" align=\"center\">\n      <a href=\"agent_skills/project-graveyard/\"><img src=\"docs/gallery/project-graveyard.png\" alt=\"Project Graveyard: an agent that autopsies your dead side projects\"></a>\n      <sub><b>Project Graveyard</b></sub>\n    </td>\n    <td width=\"33.3%\" align=\"center\">\n      <a href=\"voice_ai_agents/insurance_claim_live_agent_team/\"><",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "html_url": "https://github.com/armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "language": "C",
+      "topics": [
+        "3d",
+        "armorpaint",
+        "painting",
+        "texturing",
+        "tool"
+      ],
+      "stargazers_count": 4932,
+      "forks_count": 549,
+      "open_issues_count": 109,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Graphics Creation Tools"
+      ],
+      "readme_excerpt": "![](https://armorpaint.org/img/git.jpg)\n\narmorpaint\n==============\n\n[ArmorPaint](https://armorpaint.org) is a software for 3D PBR texture painting - check out the [manual](https://armorpaint.org/manual).\n\n*Note 1: This repository is aimed at developers and may not be stable. Distributed binaries are [paid](https://armorpaint.org/download) to help with the project funding. All of the development is happening here in order to make it accessible to everyone. Thank you for support!*\n\n*Note 2: If you are compiling git version of ArmorPaint, then you need to have a compiler ([Visual Studio with clang tools](https://visualstudio.microsoft.com/downloads/) - Windows, [clang + dependencies](https://github.com/armory3d/armorpaint/blob/main/base/docs/linux_deps.md) - Linux, [Xcode](https://developer.apple.com/xcode/resources/) - macOS / iOS, [Android Studio](https://developer.android.com/studio) - Android) and [git](https://git-scm.com/downloads) installed.*\n\n```bash\ngit clone https://github.com/armory3d/armorpaint\ncd armorpaint/paint\n```\n\n**Windows (x64)**\n```bash\n..\\base\\make\n# Open generated Visual Studio project at `build\\ArmorPaint.sln`\n# Build and run\n```\n\n**Linux (x64)**\n```bash\n../base",
+      "_meta_source": "api"
+    }
+  ]
+}

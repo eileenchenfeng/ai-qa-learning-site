@@ -1,0 +1,211 @@
+{
+  "date": "2026-09-15",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "alibaba/open-code-review",
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "stargazers_count": 26209,
+      "forks_count": 1891,
+      "open_issues_count": 162,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "**Incomplete coverage** — On larger changesets, agents tend to \"cut corners,\" selectively reviewing only some files and missing others.",
+        "**Position drift** — Reported issues frequently don't match the actual code location, with line numbers or file references drifting off target.",
+        "**Unstable quality** — Natural-language-driven Skills are hard to debug, and review quality fluctuates significantly with minor prompt variations."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://open-codereview.ai\">\n    <img src=\"imgs/logo-core.svg\" alt=\"OpenCodeReview logo\" width=\"180\" />\n  </a>\n  <h1>OpenCodeReview</h1>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://trendshift.io/api/badge/repositories/41087\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n  <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/weekly?language=Go\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/@alibaba-group/open-code-review\"><img alt=\"npm\" src=\"https://img.shields.io/npm/v/@alibaba-group/open-code-review?style=flat-square\" /></a>\n  <a href=\"https://github.com/alibaba/open-code-review/actions/workflows/release.yml\"><img alt=\"Build status\" src=\"https://img.shields.io/github/actio",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "multimodal-art-projection/YuE",
+      "html_url": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audio-generation",
+        "deep-learning",
+        "foundation-models",
+        "gpt",
+        "huggingface",
+        "llama",
+        "llms",
+        "music-generation",
+        "style-transfers",
+        "voice-cloning"
+      ],
+      "stargazers_count": 8539,
+      "forks_count": 918,
+      "open_issues_count": 20,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+        "**Frontier quality.** YuE2 is competitive with Suno v5/v6 on WildSongBench. YuE2 (best-of-8) achieves **6.9632 SongBench Avg**, the highest observed mean among all evaluated settings.",
+        "**White-box music generation through symbolic planning.** Read, play, and change the composition before rendering it. Melody and chords become explicit controls that a person or an agent can inspect and edit.",
+        "**Zero-shot covers and agentic editing.** Reimagine a transcribed song in a new style, or refine a song through a conversation about its score, arrangement, and lyrics—all with the same generation checkpoint."
+      ],
+      "readme_excerpt": "> Looking for the original YuE? Its code, documentation, and license are preserved on the **[YuE-v1 branch](https://github.com/multimodal-art-projection/YuE/tree/YuE-v1)**.\n\n<p align=\"center\">\n  <img src=\"assets/logo.png\" alt=\"YuE\" width=\"150\" />\n</p>\n\n<p align=\"center\">\n  <picture>\n    <source media=\"(max-width: 600px)\" srcset=\"assets/institutions-mobile.svg\" />\n    <img src=\"assets/institutions.svg\" alt=\"HKUST, M·A·P, Tokenwave.AI, NYU, Stanford, MBZUAI, NOIZ, and ACE Studio\" width=\"760\" />\n  </picture>\n</p>\n\n<h1 align=\"center\">YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality</h1>\n\n<p align=\"center\"><strong>Compose in symbols. Create in sound.</strong></p>\n\n<p align=\"center\">\n  <a href=\"https://map-yue2.github.io/\">🎧 Demos</a> ·\n  <a href=\"https://huggingface.co/m-a-p/YuE2-3B\">🤗 YuE2</a> ·\n  <a href=\"#quick-start\">🚀 Quick start</a> ·\n  <a href=\"#agent-skill\">🤖 Agent skill</a> ·\n  <a href=\"#benchmarks\">📊 Benchmarks</a> ·\n  <a href=\"https://huggingface.co/m-a-p/MERT-v2-FullSong\">🤗 MERT2</a> ·\n  <a href=\"https://huggingface.co/m-a-p/SheetSage2\">🤗 SheetSage2</a> ·\n  <a href=\"https://huggingface.co/datasets/m-a-p/WildSongBench\">🤗 WSB</a> ·\n  <a href=\"https://gith",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "stargazers_count": 29594,
+      "forks_count": 3586,
+      "open_issues_count": 84,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n  <h3>NOTE: Electron Rewrite Ongoing: Please dont't create desktop app related issues and pr</h3>\n \n  <p><img src=\"docs/logo.png\" alt=\"VoiceStudio logo\" width=\"120\" height=\"120\" /></p>\n  <h1>VoiceStudio</h1>\n  <p>\n    <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a>\n  </p>\n  <p><sub>Previously OmniVoice-Studio</sub></p>\n  <h3>Clone voices, dub video, dictate, and produce long-form audio on your own hardware.</h3>\n  <p>16 TTS engines · 11 ASR engines · 646-language catalogue · macOS, Windows, Linux, and Docker</p>\n  <p>No account, API key, subscription, or usage meter for the local workflow.</p>\n\n  <p>\n    <a href=\"#install\">Install</a> ·\n    <a href=\"#features\">Features</a> ·\n    <a href=\"#comparison\">Compare</a> ·\n    <a href=\"#requirements\">Requirements</a> ·\n    <a href=\"#hardware-recommendations\">Hardware</a> ·\n    <a href=\"#engines\">Engines</a> ·\n    <a href=\"#architecture\">Architecture</a> ·\n ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "666ghj/MiroFish",
+      "html_url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "financial-forecasting",
+        "future-prediction",
+        "knowledge-graph",
+        "llms",
+        "multi-agent-simulation",
+        "public-opinion-analysis",
+        "python3",
+        "social-prediction",
+        "swarm-intelligence"
+      ],
+      "stargazers_count": 73343,
+      "forks_count": 11295,
+      "open_issues_count": 128,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+        "**At the Macro Level**: We are a rehearsal laboratory for decision-makers, allowing policies and public relations to be tested at zero risk",
+        "**At the Micro Level**: We are a creative sandbox for individual users — whether deducing novel endings or exploring imaginative scenarios, everything can be fun, playful, and accessible",
+        "**Graph Building**: Seed extraction & Individual/collective memory injection & GraphRAG construction",
+        "**Environment Setup**: Entity relationship extraction & Persona generation & Agent configuration injection",
+        "**Simulation**: Dual-platform parallel simulation & Auto-parse prediction requirements & Dynamic temporal memory updates"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./static/image/MiroFish_logo_compressed.jpeg\" alt=\"MiroFish Logo\" width=\"75%\"/>\n\n<a href=\"https://trendshift.io/repositories/16144\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/16144\" alt=\"666ghj%2FMiroFish | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n简洁通用的群体智能引擎，预测万物\n</br>\n<em>A Simple and Universal Swarm Intelligence Engine, Predicting Anything</em>\n\n<a href=\"https://www.shanda.com/\" target=\"_blank\"><img src=\"./static/image/shanda_logo.png\" alt=\"666ghj%2FMiroFish | Shanda\" height=\"40\"/></a>\n\n[![GitHub Stars](https://img.shields.io/github/stars/666ghj/MiroFish?style=flat-square&color=DAA520)](https://github.com/666ghj/MiroFish/stargazers)\n[![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/watchers)\n[![GitHub Forks](https://img.shields.io/github/forks/666ghj/MiroFish?style=flat-square)](https://github.com/666ghj/MiroFish/network)\n[![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)\n[![Ask DeepWiki](https://deepwiki.com/badge.svg)](ht",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "html_url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "stargazers_count": 81515,
+      "forks_count": 7091,
+      "open_issues_count": 136,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕",
+        "🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费",
+        "📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒",
+        "📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看",
+        "📺 \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">👁️ Agent Reach</h1>\n\n<p align=\"center\">\n  <strong>给你的 AI Agent 一键装上互联网能力</strong>\n</p>\n\n<p align=\"center\">\n  当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/24387\"><img src=\"https://trendshift.io/api/badge/repositories/24387\" alt=\"Trendshift GitHub Trending #1 Repository of the Day\"></a>\n  <a href=\"https://star-history.com/#Panniantong/Agent-Reach&Date\"><img src=\"https://api.star-history.com/badge?repo=Panniantong/Agent-Reach\" alt=\"Star History Rank\" width=\"196\" height=\"55\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\" alt=\"MIT License\"></a>\n  <a href=\"https://www.python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white\" alt=\"Python 3.10+\"></a>\n  <a href=\"https://github.com/Panniantong/agent-reach/stargazers\"><img src=\"https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速上手\">快速开始</a> · <a href=\"docs/README_en.md\">English</a> · <a href=\"docs/README_ja.md\">日本語</a> · <a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "html_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-prompts",
+        "anthropic",
+        "chatbot",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "cursor",
+        "gemini",
+        "generative-ai",
+        "google",
+        "grok",
+        "llm",
+        "openai",
+        "prompt",
+        "prompt-engineering",
+        "system-prompt",
+        "system-prompts"
+      ],
+      "stargazers_count": 66918,
+      "forks_count": 10881,
+      "open_issues_count": 54,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly."
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <sub>Thanks to</sub>  \n</p>\n\n<p align=\"center\">\n  <a href=\"https://go.asgeirtj.workers.dev/latitude\">\n    <img src=\"assets/latitude-dark.png\" alt=\"Latitude Logo\" width=\"700\"/>\n  </a>\n</p>\n\n<div align=\"center\" markdown=\"1\">\n\n### [Open Source Agent Analytics](https://go.asgeirtj.workers.dev/latitude)  \n[Understand your agents in production](https://go.asgeirtj.workers.dev/latitude)\n\n</div>\n\n---\n\n> **The Washington Post** built its interactive story on prompts from this repo: [See the hidden rules behind AI. Then use them to rewrite this article.](https://archive.today/pYtPk) (May 11, 2026)\n> \n> **CEPS' AI World** built a live data dashboard from this repo's files: [System prompts and what they tell us about the chat before the chat](https://aiworld.eu/story/system-prompts-and-what-they-tell-us-about-the-chat-before-the-chat)  (July 10, 2026)\n# System Prompts Leaks\nLeaked system prompts, captured verbatim — the hidden instructions and rules that ChatGPT, Claude, Gemini, Grok and every other AI chatbot receives before your first message.\n\n\n\n![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)\n[![PRs Welcome](https://img",
+      "_meta_source": "api"
+    }
+  ]
+}

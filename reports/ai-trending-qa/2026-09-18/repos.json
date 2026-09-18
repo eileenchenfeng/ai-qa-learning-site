@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-18",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "alibaba/open-code-review",
+      "html_url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "stargazers_count": 35292,
+      "forks_count": 2501,
+      "open_issues_count": 206,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "**Incomplete coverage** — On larger changesets, agents tend to \"cut corners,\" selectively reviewing only some files and missing others.",
+        "**Position drift** — Reported issues freque"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://open-codereview.ai\">\n    <img src=\"imgs/logo-core.svg\" alt=\"OpenCodeReview logo\" width=\"180\" />\n  </a>\n  <h1>OpenCodeReview</h1>\n</div>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://trendshift.io/api/badge/repositories/41087\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/weekly?language=Go\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n  <a href=\"https://trendshift.io/repositories/41087\" target=\"_blank\">\n    <img src=\"https://trendshift.io/api/badge/trendshift/repositories/41087/monthly?language=Go\" alt=\"alibaba%2Fopen-code-review | Trendshift\" style=\"width: 280px; height: 60px;\" width=\"280\" height=\"60\" />\n  </a>\n</p>\n<p align=\"center\">\n  <a href=\"https://www.n",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "html_url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 10998,
+      "forks_count": 590,
+      "open_issues_count": 32,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "**Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.",
+        "**Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
+        "**Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.",
+        "**Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`.",
+        "**Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier."
+      ],
+      "readme_excerpt": "# security-audit\n\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\n\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.\n\n## What it does\n\nThe skill runs a structured audit in six phases:\n\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `repor",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "stargazers_count": 95962,
+      "forks_count": 10156,
+      "open_issues_count": 109,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Production-grade engineering skills for AI coding agents."
+      ],
+      "readme_excerpt": "# Agent Skills\n\n**Production-grade engineering skills for AI coding agents.**\n\nSkills encode the workflows, quality gates, and best practices that senior engineers use when building software. These ones are packaged so AI agents follow them consistently across every phase of development.\n\n<a href=\"https://trendshift.io/repositories/25200\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/25200\" alt=\"addyosmani%2Fagent-skills | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n![Addy's Agent Skills](https://addyosmani.com/assets/images/addys-agent-skills.jpg)\n\n```\n  DEFINE          PLAN           BUILD          VERIFY         REVIEW          SHIP\n ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐      ┌──────┐\n │ Idea │ ───▶ │ Spec │ ───▶ │ Code │ ───▶ │ Test │ ───▶ │  QA  │ ───▶ │  Go  │\n │Refine│      │  PRD │      │ Impl │      │Debug │      │ Gate │      │ Live │\n └──────┘      └──────┘      └──────┘      └──────┘      └──────┘      └──────┘\n  /spec          /plan          /build        /test         /review       /ship\n```\n\n---\n\n## Commands\n\n9 slash commands that map to the development lifecycle. Each one activate",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Tencent/BrowserSkill",
+      "html_url": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "browser-use",
+        "dsh-plugin"
+      ],
+      "stargazers_count": 4427,
+      "forks_count": 310,
+      "open_issues_count": 51,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+        "**Reuse real login state**: Agents can work with sites you are already signed",
+        "**Keep working uninterrupted**: browser tasks run in a separate, visible",
+        "**Support any Agent**: any Agent that can call a shell can use BrowserSkill",
+        "**Built-in human-in-loop**: when a task hits captcha, login, confirmation"
+      ],
+      "readme_excerpt": "# BrowserSkill\n\n<p align=\"center\">\n  <img src=\"docs/assets/browserskill-readme-banner.png\" alt=\"BrowserSkill banner\" />\n</p>\n\n<p align=\"center\">\n  <strong>Let AI agents use your browser without interrupting your work.</strong>\n</p>\n\n<p align=\"center\">\n  English · <a href=\"README.zh-CN.md\">中文</a>\n</p>\n\n**BrowserSkill** connects Cursor, Claude Code, Codex, OpenClaw, CodeBuddy,\nWorkBuddy, Pi, Hermes Agent, DeepSeek Harness, and other AI agents to your already logged-in\nbrowser.\n\nNeed the agent to touch a tab you already have open? It must borrow that tab\nexplicitly, return it when the task is done, and leave the rest of your browser\nalone.\n\nhttps://github.com/user-attachments/assets/db782c92-b1d4-4aae-a255-039675937a90\n\n## BrowserSkill Advantages\n\n- **Reuse real login state**: Agents can work with sites you are already signed\n  into, without separate test accounts.\n- **Keep working uninterrupted**: browser tasks run in a separate, visible\n  Agent Window, so you can keep using your own browser.\n- **Support any Agent**: any Agent that can call a shell can use BrowserSkill\n  through the `bsk` CLI, with no lock-in to a specific model, Agent framework, or\n  harness.\n- **Built-in human-in-l",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "alphaXiv/OpenResearch",
+      "html_url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 5060,
+      "forks_count": 308,
+      "open_issues_count": 43,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Turn your coding agents into research agents"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<h1><img src=\".github/readme-assets/openresearch.svg\" alt=\"\" width=\"36\" /> OpenResearch</h1>\n\n**The local-first workspace for research agents and autoresearch.**\n\n<p>Turn <img src=\".github/readme-assets/claude.svg\" alt=\"\" width=\"16\" height=\"16\" align=\"texttop\" /> Claude Code,\n<img src=\".github/readme-assets/codex.svg\" alt=\"\" width=\"16\" height=\"16\" align=\"texttop\" /> Codex,\n<img src=\".github/readme-assets/opencode.svg\" alt=\"\" width=\"16\" height=\"16\" align=\"texttop\" /> OpenCode, or\n<img src=\".github/readme-assets/cursor.svg\" alt=\"\" width=\"16\" height=\"16\" align=\"texttop\" /> Cursor into research agents that can review\nliterature, develop hypotheses, run experiments, and produce research artifacts.</p>\n\n<p>\n<a href=\"https://github.com/alphaXiv/OpenResearch/releases/latest/download/OpenResearch.dmg\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\".github/readme-assets/download-macos-dark.svg\"><img src=\".github/readme-assets/download-macos.svg\" alt=\"Download OpenResearch for macOS\" width=\"220\" height=\"44\" /></picture></a>\n<a href=\"https://github.com/alphaXiv/OpenResearch/releases/latest/download/openresearch-cli-x86_64-pc-windows-msvc.zip\"><picture><sour",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "anthropics/claude-code",
+      "html_url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 145935,
+      "forks_count": 23649,
+      "open_issues_count": 12484,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "Install Claude Code:",
+        "Navigate to your project directory and run `claude`."
+      ],
+      "readme_excerpt": "# Claude Code\n\n![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)\n\n[npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square\n\nClaude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.\n\n**Learn more in the [official documentation](https://code.claude.com/docs/en/overview)**.\n\n<img src=\"./demo.gif\" />\n\n## Get started\n> [!NOTE]\n> Installation via npm is deprecated. Use one of the recommended methods below.\n\nFor more installation options, uninstall steps, and troubleshooting, see the [setup documentation](https://code.claude.com/docs/en/setup).\n\n1. Install Claude Code:\n\n    **MacOS/Linux (Recommended):**\n    ```bash\n    curl -fsSL https://claude.ai/install.sh | bash\n    ```\n\n    **Homebrew (MacOS/Linux):**\n    ```bash\n    brew install --cask claude-code\n    ```\n\n    **Windows (Recommended):**\n    ```powershell\n    irm https://claude.",
+      "_meta_source": "api"
+    }
+  ]
+}

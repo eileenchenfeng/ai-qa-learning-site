@@ -1,0 +1,189 @@
+{
+  "date": "2026-09-22",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "BuilderIO/agent-native",
+      "html_url": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "topics": [
+        "agent-native",
+        "agents",
+        "ai",
+        "react",
+        "typescript"
+      ],
+      "stargazers_count": 6048,
+      "forks_count": 551,
+      "open_issues_count": 82,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A framework for building agentic apps",
+        "**Shared actions（https://agent-native.com/docs/actions-overview）.** The agent calls each capability as a tool, and the UI calls it from code. Both paths use the same validation, permissions, and implementation.",
+        "**Shared data（https://agent-native.com/docs/server-database）.** Work done by the agent appears in the UI, and work done in the UI is available to the agent.",
+        "**Shared application state（https://agent-native.com/docs/context-awareness）.** The agent receives relevant UI state, such as the current page, selected record, or active view.",
+        "**Agent chat（https://agent-native.com/docs/agent-surfaces）:** Let people delegate work, ask questions, and review results in the same UI.",
+        "**Authentication and permissions（https://agent-native.com/docs/authentication）:** Control who can access and change shared work."
+      ],
+      "readme_excerpt": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F5476444e54ee4a958966c90caca468e3\"\n  />\n  <source\n    media=\"(prefers-color-scheme: light)\"\n    srcset=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0\"\n  />\n  <img\n    alt=\"Agent-Native: The agentic application framework\"\n    src=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0\"\n  />\n</picture>\n\n# Agent-Native\n\nAgent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI. Define each capability once as an [action](https://agent-native.com/docs/actions-overview): the agent uses it as a tool, and the UI calls it from code.\n\n## Quick start\n\n```bash\nnpx --yes @agent-native/core@latest create my-agent --standalone --template chat\n```\n\nFollow the [getting started guide](https://agent-native.com/docs/getting-started) for a full intro to the framework.\n\n## Why build agents with UIs?\n\nCoding agents work with more than a text box. Their environment provides context, tools, files, tests, an",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "trycua/cua",
+      "html_url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "apple",
+        "computer-use",
+        "computer-use-agent",
+        "containerization",
+        "cua",
+        "desktop-automation",
+        "hacktoberfest",
+        "lume",
+        "macos",
+        "manus",
+        "operator",
+        "swift",
+        "virtualization",
+        "virtualization-framework",
+        "windows",
+        "windows-sandbox"
+      ],
+      "stargazers_count": 25787,
+      "forks_count": 1772,
+      "open_issues_count": 1036,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+        "**Cua Fleets:** Provision a Linux desktop, run a command, and save a screenshot（https://cua.ai/docs/tutorials/your-first-cloud-fleet）.",
+        "**CUA-S1:** Explore small, specialized models for computer-use decisions.",
+        "**Cua Driver:** Operate Calculator and verify its result（https://cua.ai/docs/tutorials/drive-your-first-app）.",
+        "**Lume:** Create a Tahoe VM and connect over SSH（https://cua.ai/docs/tutorials/create-your-first-lume-vm）.",
+        "**Cua Bench:** Create and verify a simulated task（https://cua.ai/docs/tutorials/your-first-cua-bench-task）."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a href=\"https://cua.ai\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" alt=\"Cua logo\" width=\"150\" srcset=\"img/logo_white.svg\">\n      <source media=\"(prefers-color-scheme: light)\" alt=\"Cua logo\" width=\"150\" srcset=\"img/logo_black.svg\">\n      <img alt=\"Cua logo\" width=\"150\" src=\"img/logo_black.svg\">\n    </picture>\n  </a>\n\n  <p align=\"center\"><strong>Give AI agents computers they can use.</strong><br>Cua provides open-source desktop automation, isolated cloud desktops, local macOS VMs, specialist decision models, and benchmarks for evaluating computer-use agents.</p>\n\n  <p align=\"center\"><strong><a href=\"https://run.cua.ai/?utm_source=github&utm_medium=referral&utm_campaign=fleet_activation&content_id=repo_readme\" target=\"_blank\" rel=\"noopener noreferrer\">Try Cua Fleets now at run.cua.ai</a></strong></p>\n\n  <p align=\"center\">\n    <a href=\"https://cua.ai\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://img.shields.io/badge/cua.ai-0ea5e9\" alt=\"cua.ai\"></a>\n    <a href=\"https://discord.gg/mVnXXpdE85\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://img.shields.io/badge/Discord-Join",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "topics": [
+        "coderabbit",
+        "inngest",
+        "nextjs",
+        "shadcn-ui",
+        "stock-market",
+        "tailwindcss"
+      ],
+      "stargazers_count": 17938,
+      "forks_count": 2214,
+      "open_issues_count": 36,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "✨ Introduction",
+        "🌍 Open Dev Society Manifesto",
+        "⚙️ Tech Stack",
+        "🔋 Features",
+        "🤸 Quick Start"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  Ca: B6F3rUqfPfPmHXeMJaVttkrP9tfy5Eq2MUAaubFxpump\n</p>\n\n<p align=\"center\">\n  <b>New from Open Dev Society:</b> <a href=\"https://github.com/Open-Dev-Society/kitbash\"><b>kitbash</b></a>. Before you build, find out which parts already exist on GitHub. Borrow them, adapt them, or write the rest.\n</p>\n\n<p align=\"center\">\n <a href=\"https://www.star-history.com/open-dev-society/openstock\">\n  <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank&theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank\" /><img alt=\"Star History Rank\" src=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank\" /></picture> <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending&theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending\" /><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/ba",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "akitaonrails/ai-memory",
+      "html_url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 7801,
+      "forks_count": 526,
+      "open_issues_count": 26,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "**It follows you across agents.** Twenty-plus harnesses — Claude Code,",
+        "**It follows you across machines.** Memory lives in a server you run —",
+        "**It works for a team.** Point everyone at one server and what one",
+        "**Your memory is plain markdown.** The source of truth is a git-backed",
+        "**It captures the work itself, silently.** Lifecycle hooks record what"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/logo-dark.png\">\n    <img alt=\"ai-memory\" src=\"docs/logo-light.png\" width=\"480\">\n  </picture>\n</p>\n\n> Long-term memory for AI coding agents. Quit Claude Code mid-task,\n> start OpenAI Codex in the same directory, continue without\n> re-explaining the architecture, the failed approaches, or the open\n> questions.\n\n[![Release](https://img.shields.io/github/v/release/akitaonrails/ai-memory)](https://github.com/akitaonrails/ai-memory/releases/latest)\n[![Rust](https://img.shields.io/badge/rust-1.95+-blue)](rust-toolchain.toml)\n[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)\n\n## Why ai-memory\n\nYour coding agent already has a memory feature. Claude Code takes its own\nnotes, Cursor remembers some things, and every platform is adding more. All\nof them share the same walls: the notes live on one machine, belong to one\nagent, and vanish from view the moment you switch tools — or teammates.\n\nai-memory is what's on the other side of those walls.\n\n- **It follows you across agents.** Twenty-plus harnesses — Claude Code,\n  Codex, Cursor, Gemini CLI, OpenCode, Grok, Devin, Kimi, Kiro, and m",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "coder/coder",
+      "html_url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "language": "Go",
+      "topics": [
+        "agents",
+        "dev-tools",
+        "development-environment",
+        "go",
+        "golang",
+        "ide",
+        "jetbrains",
+        "remote-development",
+        "terraform",
+        "vscode"
+      ],
+      "stargazers_count": 16486,
+      "forks_count": 1568,
+      "open_issues_count": 1080,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Secure environments for developers and their agents",
+        "Define cloud development environments in Terraform",
+        "EC2 VMs, Kubernetes Pods, Docker Containers, etc.",
+        "Automatically shutdown idle resources to save on costs",
+        "Onboard developers in seconds instead of days",
+        "Delegate coding work to AI agents on your infrastructure"
+      ],
+      "readme_excerpt": "<!-- markdownlint-disable MD041 -->\n<div align=\"center\">\n  <a href=\"https://coder.com#gh-light-mode-only\">\n    <img src=\"./docs/images/logo-black.png\" alt=\"Coder Logo Light\" style=\"width: 128px\">\n  </a>\n  <a href=\"https://coder.com#gh-dark-mode-only\">\n    <img src=\"./docs/images/logo-white.png\" alt=\"Coder Logo Dark\" style=\"width: 128px\">\n  </a>\n\n  <h1>\n  Self-Hosted Cloud Development Environments and AI Agents\n  </h1>\n\n  <a href=\"https://coder.com#gh-light-mode-only\">\n    <img src=\"./docs/images/banner-black.png\" alt=\"Coder Banner Light\" style=\"width: 650px\">\n  </a>\n  <a href=\"https://coder.com#gh-dark-mode-only\">\n    <img src=\"./docs/images/banner-white.png\" alt=\"Coder Banner Dark\" style=\"width: 650px\">\n  </a>\n\n  <br>\n  <br>\n\n[Quickstart](#quickstart) | [Docs](https://coder.com/docs) | [Why Coder](https://coder.com/docs/about#why-coder) | [Premium](https://coder.com/pricing#compare-plans)\n\n[![discord](https://img.shields.io/discord/747933592273027093?label=discord)](https://cdr.co/discord-Y6fMxGdNRg)\n[![release](https://img.shields.io/github/v/release/coder/coder)](https://github.com/coder/coder/releases/latest)\n[![godoc](https://pkg.go.dev/badge/github.com/coder/coder.svg)](https",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "zhouxiaoka/autoclip",
+      "html_url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "ai-video",
+        "ai-video-editor",
+        "auto",
+        "auto-highlight",
+        "highlight",
+        "llm",
+        "video",
+        "video-editing",
+        "video-processing",
+        "videos"
+      ],
+      "stargazers_count": 8392,
+      "forks_count": 1581,
+      "open_issues_count": 24,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+        "安装与第一次出片",
+        "Docker 部署（中文）"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"src-tauri/icons/128x128.png\" alt=\"AutoClip\" width=\"80\" height=\"80\">\n\n# AutoClip\n\n**把长视频变成值得分享的精彩片段。**\n\n**简体中文** · [English](README-EN.md) · [日本語](README-JA.md) · [한국어](README-KO.md) · [Español](README-ES.md) · [Português](README-PT.md) · [Русский](README-RU.md) · [Français](README-FR.md)\n\n[![GitHub release](https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/releases/latest)\n[![GitHub stars](https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/stargazers)\n[![GitHub forks](https://img.shields.io/github/forks/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/forks)\n[![GitHub issues](https://img.shields.io/github/issues/zhouxiaoka/autoclip?style=flat-square)](https://github.com/zhouxiaoka/autoclip/issues)\n[![License: MIT](https://img.shields.io/github/license/zhouxiaoka/autoclip?style=flat-square)](LICENSE)\n\n[项目网站](https://zhouxiaoka.github.io/autoclip_intro/) · [反馈问题](https://github.com/zhouxiaoka/autoclip/issues)\n\n**桌面安装包: [macOS · Apple Silicon](https://github.com/zhouxiaoka/autoclip/releases/la",
+      "_meta_source": "api"
+    }
+  ]
+}

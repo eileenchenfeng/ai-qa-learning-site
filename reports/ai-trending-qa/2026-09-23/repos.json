@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-23",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "agent-substrate/substrate",
+      "html_url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 3067,
+      "forks_count": 389,
+      "open_issues_count": 524,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent Substrate: the core system",
+        "**Actor Teleport:** High-performance suspend and resume of actors onto any available worker in the pool with sub-second activation.",
+        "**State Persistence:** Persistent working memory (volatile RAM) and filesystem state preserved perfectly across hibernation cycles via full-state snapshots.",
+        "**Agent Multiplexing:** Demonstrates 30x+ oversubscription by \"juggling\" a large registry of stateful actors onto a small pool of shared physical pods.",
+        "**Agent Development Kit (ADK):** Support for ADK agents with session state preservation across invocations as actor state. Ideal for all types of agents and stateful tool or subagent calls.",
+        "**LangChain:** Ideal execution environment for LangChain agents and tool calls."
+      ],
+      "readme_excerpt": "# Agent Substrate\n\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nNOTE: This is not an officially supported Google product. This project is not\neligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).\n\n## What is Agent Substrate?\n\nAgent Substrate is a secure-by-default agent execution runtime engineered to run millions of sandboxes with 10x higher density than standard container runtimes. Purpose-built for the era of autonomous agents, Substrate delivers sub-500ms resume operations at over 500 suspend/resume activations per second with native zero-trust kernel and network isolation. It supports multiple sandbox technologies including microVMs and gVisor, enabling consistent lifecycle operations for all sandbox types.\n\nAt its core, Agent Substrate maps a larger set of “actors” (applications such as agents) onto a smaller set of ready “workers”, relying on the fact that agent-like applications tend to be idle most of the time to achieve heavy multiplexing.  It provides functionality to manage an actor’s lifecycle (e.g. create/destroy, suspend/r",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "dream-num/univer",
+      "html_url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "topics": [
+        "board",
+        "collaboration",
+        "data-table",
+        "doc",
+        "docx",
+        "excel",
+        "grid",
+        "pdf",
+        "ppt",
+        "pptx",
+        "presentation",
+        "sdk",
+        "sheet",
+        "slides",
+        "spreadsheet",
+        "table",
+        "word",
+        "wordprocessor",
+        "xlsx"
+      ],
+      "stargazers_count": 15681,
+      "forks_count": 1400,
+      "open_issues_count": 138,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "Embed spreadsheet or document editing into a SaaS product, internal tool, BI workflow, or AI application.",
+        "Run workbook/document processing on the server with the same architecture used in the browser.",
+        "Compose only the features you need through plugins or start quickly with presets.",
+        "Extend behavior through custom plugins, commands, services, UI components, and Facade APIs."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/img/banner.png\" alt=\"Univer SDK\" width=\"800\" />\n\n**The Office Harness for AI Agents**\n\nSpreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon)\n\nHigh-performance, fully customizable Office SDK\n\nBuild embeddable productivity experiences with a plugin architecture, Canvas-based rendering,\na formula engine, and one Facade API that works in the browser and on Node.js.\n\nEnglish | [简体中文](./docs/readme/zh-CN.md) | [繁體中文](./docs/readme/zh-TW.md) | [日本語](./docs/readme/ja-JP.md) | [한국어](./docs/readme/ko-KR.md) | [Español](./docs/readme/es-ES.md)\n\n[🌐 Website](https://univer.ai/) | [📖 Documentation](https://docs.univer.ai) | [✨ Showcase](https://docs.univer.ai/showcase) | [📘 API Reference](https://docs.univer.ai/reference/classes/univer) | [📝 Blog](https://docs.univer.ai/blog)\n\n[![Release](https://img.shields.io/github/v/release/dream-num/univer?style=flat-square)](https://github.com/dream-num/univer/releases)\n[![License](https://img.shields.io/github/license/dream-num/univer?style=flat-square)](./LICENSE)\n[![Build](https://img.shields.io/github/actions/workflow/status/dream-num/univer/build-packages.yml?style=flat-square)](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "google/ax",
+      "html_url": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 7872,
+      "forks_count": 365,
+      "open_issues_count": 33,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Google's open agentic orchestration runtime",
+        "repo: https://github.com/golang/go.git",
+        "name: golang"
+      ],
+      "readme_excerpt": "<h1>\n  <img src=\"assets/axolotl.svg\" width=\"70\" align=\"absmiddle\" alt=\"AX axolotl\">\n  AX\n</h1>\n\n> [!WARNING]\n> We are still actively refining our core concepts, protocols,\n> and specifications. We will likely to introduce major breaking\n> changes prior to a stable release.\n\n**Declare an agentic task with workspaces and gateway specifications. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale.**\n\nAX is a high-throughput, declarative orchestrator to run billions of autonomous agent workloads in a cluster. It runs on top of [Agent Substrate](https://github.com/agent-substrate/substrate) for sandboxed execution and is built to run billions of tasks per cluster. If you have used Kubernetes, `ax` will feel similar.\n\n```yaml\n# task.yaml\napiVersion: ax.io/v1alpha1\nkind: Workspace\nmetadata:\n  name: golang\nspec:\n  git:\n    - repo: https://github.com/golang/go.git\n      branch: \"my-fix\"\n---\napiVersion: ax.io/v1alpha1\nkind: Task\nmetadata:\n  name: test\nspec:\n  workspaces:\n    - name: golang\n      goal: \"Ensure that Go tool chain is available and is built from source\"\n  debug: true   # lets you `ax ssh` into the sandbox\n```\n\nThen apply it, watch it come u",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "superdesigndev/treg",
+      "html_url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "api-keys",
+        "cli",
+        "credentials",
+        "developer-tools",
+        "dsh-plugin",
+        "mcp",
+        "proxy",
+        "python",
+        "registry",
+        "secrets"
+      ],
+      "stargazers_count": 2304,
+      "forks_count": 223,
+      "open_issues_count": 71,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+        "**The catalog** — external endpoints treg can serve with its own key or through a verified public",
+        "**Your own tools** — anything a teammate registered: a paid API account, an OAuth connection, a",
+        "**tool** = something the registry calls for you with the org's credential. Two kinds:",
+        "**endpoint** — an upstream `base_url` + credential **bindings** (each binding injects one",
+        "**CLI** — a vendor binary (`stripe`, `gh`, `vercel`, ...) run with the credential injected."
+      ],
+      "readme_excerpt": "# Treg (OpenRouter for Tools)\n\n![treg — the tool catalog for your agent](docs/assets/treg-hero.png)\n\n**OpenRouter, but for agent tools instead of models.** Point an agent at one base URL with one token\nand it can do the job: **3,000+ catalogued endpoints across 60+ providers** — SEO and backlinks,\nsocial and trends, people and company enrichment, ads, scraping, image and video generation —\n**priced per call, from a cent**,\nwith no provider signup. Plus your own team's keys, skills and CLIs, callable by every teammate's\nagent without the credential ever leaving the server.\n\n**Ask for the task, not the tool.** You do not need to know which vendor sells backlink data, or to\nhold an account with them. Search for what you want to do, read the price, call it.\n\nBuilt for the Superdesign team, live at [treg.to](https://treg.to) — anyone can self-host.\n\n## Why it exists\n\nThe tools an agent needs for real work sit behind subscriptions nobody buys for a single run —\nSemrush $139/mo, Moz $99/mo, Crunchbase $99/mo, Apollo $59/seat — behind signup walls, or behind no\npublic API at all (invite-only, partner-only, app-review-only). treg carries those accounts and\nbills fractions of a cent per call",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "browser-use/video-use",
+      "html_url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 25990,
+      "forks_count": 3129,
+      "open_issues_count": 115,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Edit videos with coding agents",
+        "**Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes",
+        "**Auto color grades** every segment (warm cinematic, neutral punch, or any custom ffmpeg chain)",
+        "**30ms audio fades** at every cut so you never hear a pop",
+        "**Burns subtitles** in your style — 2-word UPPERCASE chunks by default, fully customizable",
+        "**Generates animation overlays** via HyperFrames（https://github.com/heygen-com/hyperframes）, Remotion（https://www.remotion.dev/）, Manim（https://www.manim.community/）, or PIL — spawned in parallel sub-agents, one per animation"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"static/video-use-banner.png\" alt=\"video-use\" width=\"100%\">\n</p>\n\n# video-use\n\nIntroducing **video-use** — edit videos with Claude Code. 100% open source.\n\nDrop raw footage in a folder, chat with Claude Code, get `final.mp4` back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus.\n\nTry video-use in [Browser Use Cloud](https://cloud.browser-use.com/v4?utm_campaign=video-use-use-in-cloud&utm_source=github).\n\n## What it does\n\n- **Cuts out filler words** (`umm`, `uh`, false starts) and dead space between takes\n- **Auto color grades** every segment (warm cinematic, neutral punch, or any custom ffmpeg chain)\n- **30ms audio fades** at every cut so you never hear a pop\n- **Burns subtitles** in your style — 2-word UPPERCASE chunks by default, fully customizable\n- **Generates animation overlays** via [HyperFrames](https://github.com/heygen-com/hyperframes), [Remotion](https://www.remotion.dev/), [Manim](https://www.manim.community/), or PIL — spawned in parallel sub-agents, one per animation\n- **Self-evaluates the rendered output** at every cut boundary before showing you anything\n- **Persists session memor",
+      "_meta_source": "api"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "date": "2026-09-24",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "google/ax",
+      "html_url": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 9301,
+      "forks_count": 446,
+      "open_issues_count": 38,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Google's open agentic orchestration runtime",
+        "repo: https://github.com/golang/go.git",
+        "name: golang"
+      ],
+      "readme_excerpt": "<h1>\n  <img src=\"assets/axolotl.svg\" width=\"70\" align=\"absmiddle\" alt=\"AX axolotl\">\n  AX\n</h1>\n\n> [!WARNING]\n> We are still actively refining our core concepts, protocols,\n> and specifications. We will likely to introduce major breaking\n> changes prior to a stable release.\n\n**Declare an agentic task with workspaces and gateway specifications. AX sandboxes it, wires up its workspace, fences its network, and helps running it at scale.**\n\nAX is a high-throughput, declarative orchestrator to run billions of autonomous agent workloads in a cluster. It runs on top of [Agent Substrate](https://github.com/agent-substrate/substrate) for sandboxed execution and is built to run billions of tasks per cluster. If you have used Kubernetes, `ax` will feel similar.\n\n```yaml\n# task.yaml\napiVersion: ax.io/v1alpha1\nkind: Workspace\nmetadata:\n  name: golang\nspec:\n  git:\n    - repo: https://github.com/golang/go.git\n      branch: \"my-fix\"\n---\napiVersion: ax.io/v1alpha1\nkind: Task\nmetadata:\n  name: test\nspec:\n  workspaces:\n    - name: golang\n      goal: \"Ensure that Go tool chain is available and is built from source\"\n  debug: true   # lets you `ax ssh` into the sandbox\n```\n\nThen apply it, watch it come u",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "BuilderIO/agent-native",
+      "html_url": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "language": "TypeScript",
+      "topics": [
+        "agent-native",
+        "agents",
+        "ai",
+        "react",
+        "typescript"
+      ],
+      "stargazers_count": 6622,
+      "forks_count": 594,
+      "open_issues_count": 119,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A framework for building agentic apps",
+        "**Shared actions（https://agent-native.com/docs/actions-overview）.** The agent calls each capability as a tool, and the UI calls it from code. Both paths use the same validation, permissions, and implementation.",
+        "**Shared data（https://agent-native.com/docs/server-database）.** Work done by the agent appears in the UI, and work done in the UI is available to the agent.",
+        "**Shared application state（https://agent-native.com/docs/context-awareness）.** The agent receives relevant UI state, such as the current page, selected record, or active view.",
+        "**Agent chat（https://agent-native.com/docs/agent-surfaces）:** Let people delegate work, ask questions, and review results in the same UI.",
+        "**Authentication and permissions（https://agent-native.com/docs/authentication）:** Control who can access and change shared work."
+      ],
+      "readme_excerpt": "<picture>\n  <source\n    media=\"(prefers-color-scheme: dark)\"\n    srcset=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F5476444e54ee4a958966c90caca468e3\"\n  />\n  <source\n    media=\"(prefers-color-scheme: light)\"\n    srcset=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0\"\n  />\n  <img\n    alt=\"Agent-Native: The agentic application framework\"\n    src=\"https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0\"\n  />\n</picture>\n\n# Agent-Native\n\nAgent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI. Define each capability once as an [action](https://agent-native.com/docs/actions-overview): the agent uses it as a tool, and the UI calls it from code.\n\n## Quick start\n\n```bash\nnpx --yes @agent-native/core@latest create my-agent --standalone --template chat\n```\n\nFollow the [getting started guide](https://agent-native.com/docs/getting-started) for a full intro to the framework.\n\n## Why build agents with UIs?\n\nCoding agents work with more than a text box. Their environment provides context, tools, files, tests, an",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 290784,
+      "forks_count": 26024,
+      "open_issues_count": 398,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "How it works",
+        "Commercial Services",
+        "Getting Started",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Table of Contents\n\n- [How it works](#how-it-works)\n- [Commercial Services](#commercial-services)\n- [Getting Started](#installation)\n  - [Claude Code](#claude-code)\n  - [Antigravity](#antigravity)\n  - [Codex App](#codex-app)\n  - [Codex CLI](#codex-cli)\n  - [Cursor](#cursor)\n  - [Devin CLI](#devin-cli)\n  - [Factory Droid](#factory-droid)\n  - [Gemini CLI](#gemini-cli)\n  - [GitHub Copilot CLI](#github-copilot-cli)\n  - [Grok Build CLI](#grok-build-cli)\n  - [Kimi Code](#kimi-code)\n  - [OpenCode](#opencode)\n  - [Pi](#pi)\n  - [Qwen Code](#qwen-code)\n  - [Hermes Agent](#hermes-agent)\n  - [Muse](#muse)\n- [The Basic Workflow](#the-basic-workflow)\n- [When Something Goes Wrong](#when-something-goes-wrong)\n- [Community](#community)\n- [What's Inside](#whats-inside)\n- [Philosophy](#philosophy)\n- [Contributing](#contributing)\n- [Updating](#updating)\n- [License](#license)\n- [Visual companion telemetry](#visual-companion-telemetry)\n\n## How it works\n\nIt starts from the moment you fire up your ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "dream-num/univer",
+      "html_url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "topics": [
+        "board",
+        "collaboration",
+        "data-table",
+        "doc",
+        "docx",
+        "excel",
+        "grid",
+        "pdf",
+        "ppt",
+        "pptx",
+        "presentation",
+        "sdk",
+        "sheet",
+        "slides",
+        "spreadsheet",
+        "table",
+        "word",
+        "wordprocessor",
+        "xlsx"
+      ],
+      "stargazers_count": 16466,
+      "forks_count": 1453,
+      "open_issues_count": 139,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "Embed spreadsheet or document editing into a SaaS product, internal tool, BI workflow, or AI application.",
+        "Run workbook/document processing on the server with the same architecture used in the browser.",
+        "Compose only the features you need through plugins or start quickly with presets.",
+        "Extend behavior through custom plugins, commands, services, UI components, and Facade APIs.",
+        "Agents can generate spreadsheet-based mini-apps, such as decision-making dashboards, interactive reports, and business dashboards."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/img/banner.png\" alt=\"Univer SDK\" width=\"800\" />\n\n**The Office Harness for AI Agents**\n\nSpreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon)\n\nHigh-performance, fully customizable Office SDK\n\nBuild embeddable productivity experiences with a plugin architecture, Canvas-based rendering,\na formula engine, and one Facade API that works in the browser and on Node.js.\n\nEnglish | [简体中文](./docs/readme/zh-CN.md) | [繁體中文](./docs/readme/zh-TW.md) | [日本語](./docs/readme/ja-JP.md) | [한국어](./docs/readme/ko-KR.md) | [Español](./docs/readme/es-ES.md)\n\n[🌐 Website](https://univer.ai/) | [📖 Documentation](https://docs.univer.ai) | [✨ Showcase](https://docs.univer.ai/showcase) | [📘 API Reference](https://docs.univer.ai/reference/classes/univer) | [📝 Blog](https://docs.univer.ai/blog)\n\n[![Release](https://img.shields.io/github/v/release/dream-num/univer?style=flat-square)](https://github.com/dream-num/univer/releases)\n[![License](https://img.shields.io/github/license/dream-num/univer?style=flat-square)](./LICENSE)\n[![Build](https://img.shields.io/github/actions/workflow/status/dream-num/univer/build-packages.yml?style=flat-square)](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "language": "TypeScript",
+      "topics": [
+        "coderabbit",
+        "inngest",
+        "nextjs",
+        "shadcn-ui",
+        "stock-market",
+        "tailwindcss"
+      ],
+      "stargazers_count": 18922,
+      "forks_count": 2300,
+      "open_issues_count": 39,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+        "✨ Introduction",
+        "🌍 Open Dev Society Manifesto",
+        "⚙️ Tech Stack",
+        "🔋 Features",
+        "🤸 Quick Start"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  \n</p>\n\n<p align=\"center\">\n  <b>New from Open Dev Society:</b> <a href=\"https://github.com/Open-Dev-Society/kitbash\"><b>kitbash</b></a>. Before you build, find out which parts already exist on GitHub. Borrow them, adapt them, or write the rest.\n</p>\n\n<p align=\"center\">\n <a href=\"https://www.star-history.com/open-dev-society/openstock\">\n  <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank&theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank\" /><img alt=\"Star History Rank\" src=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank\" /></picture> <picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending&theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending\" /><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trendin",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "agent-substrate/substrate",
+      "html_url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "language": "Go",
+      "topics": [],
+      "stargazers_count": 3563,
+      "forks_count": 419,
+      "open_issues_count": 526,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Agent Substrate: the core system",
+        "**Actor Teleport:** High-performance suspend and resume of actors onto any available worker in the pool with sub-second activation.",
+        "**State Persistence:** Persistent working memory (volatile RAM) and filesystem state preserved perfectly across hibernation cycles via full-state snapshots.",
+        "**Agent Multiplexing:** Demonstrates 30x+ oversubscription by \"juggling\" a large registry of stateful actors onto a small pool of shared physical pods.",
+        "**Agent Development Kit (ADK):** Support for ADK agents with session state preservation across invocations as actor state. Ideal for all types of agents and stateful tool or subagent calls.",
+        "**LangChain:** Ideal execution environment for LangChain agents and tool calls."
+      ],
+      "readme_excerpt": "# Agent Substrate\n\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\nNOTE: This is not an officially supported Google product. This project is not\neligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).\n\n## What is Agent Substrate?\n\nAgent Substrate is a secure-by-default agent execution runtime engineered to run millions of sandboxes with 10x higher density than standard container runtimes. Purpose-built for the era of autonomous agents, Substrate delivers sub-500ms resume operations at over 500 suspend/resume activations per second with native zero-trust kernel and network isolation. It supports multiple sandbox technologies including microVMs and gVisor, enabling consistent lifecycle operations for all sandbox types.\n\nAt its core, Agent Substrate maps a larger set of “actors” (applications such as agents) onto a smaller set of ready “workers”, relying on the fact that agent-like applications tend to be idle most of the time to achieve heavy multiplexing.  It provides functionality to manage an actor’s lifecycle (e.g. create/destroy, suspend/r",
+      "_meta_source": "api"
+    }
+  ]
+}

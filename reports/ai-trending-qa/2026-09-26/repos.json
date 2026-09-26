@@ -1,0 +1,171 @@
+{
+  "date": "2026-09-26",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "paperclipai/paperclip",
+      "html_url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 85258,
+      "forks_count": 15261,
+      "open_issues_count": 5698,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open-source app everyone uses to manage agents at work",
+        "✅ You want to build **autonomous AI organizations**",
+        "✅ You **coordinate many different agents** (OpenClaw, Codex, Claude, Cursor) toward a common goal",
+        "✅ You have **20 simultaneous Claude Code terminals** open and lose track of what everyone is doing",
+        "✅ You want agents running **autonomously 24/7**, but still want to audit work and chime in when needed",
+        "✅ You want to **monitor costs** and enforce budgets"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <img src=\"doc/assets/banner.jpg\" alt=\"Paperclip is the app people use to manage AI agents for work.\" width=\"720\" />\n</p>\n\n<p align=\"center\">\n  <a href=\"#quickstart\"><strong>Quickstart</strong></a> &middot;\n  <a href=\"https://docs.paperclip.ing\"><strong>Docs</strong></a> &middot;\n  <a href=\"https://github.com/paperclipai/paperclip\"><strong>GitHub</strong></a> &middot;\n  <a href=\"https://discord.gg/m4HZY7xNG3\"><strong>Discord</strong></a> &middot;\n  <a href=\"https://x.com/papercliping\"><strong>Twitter</strong></a> &middot;\n  <a href=\"https://paperclip.ing\"><strong>Website</strong></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/paperclipai/paperclip/blob/master/LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"MIT License\" /></a>\n  <a href=\"https://github.com/paperclipai/paperclip/stargazers\"><img src=\"https://img.shields.io/github/stars/paperclipai/paperclip?style=flat\" alt=\"Stars\" /></a>\n  <a href=\"https://www.star-history.com/paperclipai/paperclip\"><img src=\"https://api.star-history.com/badge?repo=paperclipai/paperclip\" alt=\"Star History Rank\" /></a>\n  <a href=\"https://discord.gg/m4HZY7xNG3\"><img src=\"https://img.shields.io/badg",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "html_url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai-memory",
+        "memory"
+      ],
+      "stargazers_count": 30037,
+      "forks_count": 3197,
+      "open_issues_count": 131,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Hindsight: Agent Memory That Learns",
+        "Memory Performance & Accuracy",
+        "Quick Start — server · clients · platforms · embedded",
+        "Adding Hindsight to Your Agent — LLM Wrapper · integrations · coding agents · MCP",
+        "Core Concepts — memory types · retain / recall / reflect · observations · mental models & knowledge pages · banks",
+        "Use Cases"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n![Hindsight Banner](./hindsight-docs/static/img/hindsight-github-banner.png)\n\n[Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io/signup)\n\n[![Release](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml/badge.svg)](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml)\n[![Version](https://img.shields.io/pypi/v/hindsight-api?logo=python&logoColor=white&label=version&color=blue)](https://pypi.org/project/hindsight-api/)\n[![PyPI Downloads](https://img.shields.io/pypi/dm/hindsight-client?logo=pypi&logoColor=white&label=PyPI&color=blue)](https://pypi.org/project/hindsight-client/)\n[![NPM Downloads](https://img.shields.io/npm/dm/%40vectorize-io%2Fhindsight-client?logo=npm&logoColor=white&label=NPM&color=blue)](https://www.npmjs.com/package/@vectorize-io/hindsight-client)\n[![Slack Community](https://img.shields.io/badge/Slack-Join%20Community-4A154B?logo=slack)](htt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 291716,
+      "forks_count": 26110,
+      "open_issues_count": 403,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "How it works",
+        "Commercial Services",
+        "Getting Started",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Table of Contents\n\n- [How it works](#how-it-works)\n- [Commercial Services](#commercial-services)\n- [Getting Started](#installation)\n  - [Claude Code](#claude-code)\n  - [Antigravity](#antigravity)\n  - [Codex App](#codex-app)\n  - [Codex CLI](#codex-cli)\n  - [Cursor](#cursor)\n  - [Devin CLI](#devin-cli)\n  - [Factory Droid](#factory-droid)\n  - [Gemini CLI](#gemini-cli)\n  - [GitHub Copilot CLI](#github-copilot-cli)\n  - [Grok Build CLI](#grok-build-cli)\n  - [Kimi Code](#kimi-code)\n  - [OpenCode](#opencode)\n  - [Pi](#pi)\n  - [Qwen Code](#qwen-code)\n  - [Hermes Agent](#hermes-agent)\n  - [Muse](#muse)\n- [The Basic Workflow](#the-basic-workflow)\n- [When Something Goes Wrong](#when-something-goes-wrong)\n- [Community](#community)\n- [What's Inside](#whats-inside)\n- [Philosophy](#philosophy)\n- [Contributing](#contributing)\n- [Updating](#updating)\n- [License](#license)\n- [Visual companion telemetry](#visual-companion-telemetry)\n\n## How it works\n\nIt starts from the moment you fire up your ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "topics": [],
+      "stargazers_count": 269799,
+      "forks_count": 22736,
+      "open_issues_count": 529,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Skills for Real Engineers. Straight from my .agents directory.",
+        "Ask you which issue tracker you want to use (GitHub, Linear, or local files)",
+        "Ask you what labels you apply to tickets when you triage them (`/triage` uses labels)",
+        "Ask you where you want to save any docs we create",
+        "`/grill-me` - for non-code uses",
+        "`/grill-with-docs` - same as `/grill-me`, but adds more goodies (see below)"
+      ],
+      "readme_excerpt": "<p>\n  <a href=\"https://www.aihero.dev/s/skills-newsletter\">\n    <picture>\n      <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\">\n      <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\">\n      <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\">\n    </picture>\n  </a>\n</p>\n\n# Skills For Real Engineers\n\n[![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills)\n\nMy agent skills that I use every day to do real engineering - not vibe coding.\n\nDeveloping real applications is hard. Approaches like GSD, BMAD, and Spec-Kit try to help by owning the process. But while doing so, they take away your control and make bugs in the process hard to resolve.\n\nThese skills are designed to be small, easy to adapt, and composable. They work with any model. They're based on decades of engineering experience. Hack around with them. Make them your own. Enjoy.\n\nIf you want to keep up with changes to these ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "dream-num/univer",
+      "html_url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "topics": [
+        "board",
+        "collaboration",
+        "data-table",
+        "doc",
+        "docx",
+        "excel",
+        "grid",
+        "pdf",
+        "ppt",
+        "pptx",
+        "presentation",
+        "sdk",
+        "sheet",
+        "slides",
+        "spreadsheet",
+        "table",
+        "word",
+        "wordprocessor",
+        "xlsx"
+      ],
+      "stargazers_count": 18752,
+      "forks_count": 1591,
+      "open_issues_count": 146,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+        "Embed spreadsheet or document editing into a SaaS product, internal tool, BI workflow, or AI application.",
+        "Run workbook/document processing on the server with the same architecture used in the browser.",
+        "Compose only the features you need through plugins or start quickly with presets.",
+        "Extend behavior through custom plugins, commands, services, UI components, and Facade APIs.",
+        "Agents can generate spreadsheet-based mini-apps, such as decision-making dashboards, interactive reports, and business dashboards."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"./docs/img/banner.png\" alt=\"Univer SDK\" width=\"800\" />\n\n**The Office Harness for AI Agents**\n\nSpreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon)\n\nHigh-performance, fully customizable Office SDK\n\nBuild embeddable productivity experiences with a plugin architecture, Canvas-based rendering,\na formula engine, and one Facade API that works in the browser and on Node.js.\n\nEnglish | [简体中文](./docs/readme/zh-CN.md) | [繁體中文](./docs/readme/zh-TW.md) | [日本語](./docs/readme/ja-JP.md) | [한국어](./docs/readme/ko-KR.md) | [Español](./docs/readme/es-ES.md)\n\n[🌐 Website](https://univer.ai/) | [📖 Documentation](https://docs.univer.ai) | [✨ Showcase](https://docs.univer.ai/showcase) | [📘 API Reference](https://docs.univer.ai/reference/classes/univer) | [📝 Blog](https://docs.univer.ai/blog)\n\n[![Release](https://img.shields.io/github/v/release/dream-num/univer?style=flat-square)](https://github.com/dream-num/univer/releases)\n[![License](https://img.shields.io/github/license/dream-num/univer?style=flat-square)](./LICENSE)\n[![Build](https://img.shields.io/github/actions/workflow/status/dream-num/univer/build-packages.yml?style=flat-square)](https://g",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "anthropics/skills",
+      "html_url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "stargazers_count": 178382,
+      "forks_count": 21118,
+      "open_issues_count": 1310,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Public repository for Agent Skills",
+        "What are skills?（https://support.claude.com/en/articles/12512176-what-are-skills）",
+        "Using skills in Claude（https://support.claude.com/en/articles/12512180-using-skills-in-claude）",
+        "How to create custom skills（https://support.claude.com/en/articles/12512198-creating-custom-skills）",
+        "Equipping agents for the real world with Agent Skills（https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills）",
+        "./skills: Skill examples for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills"
+      ],
+      "readme_excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io).\n\n[![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills)\n\n# Skills\nSkills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks.\n\nFor more information, check out:\n- [What are skills?](https://support.claude.com/en/articles/12512176-what-are-skills)\n- [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude)\n- [How to create custom skills](https://support.claude.com/en/articles/12512198-creating-custom-skills)\n- [Equipping agents for the real world with Agent Skills](https://anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)\n\n# About This Repository\n\nThis repository contains skills that demonstrate what",
+      "_meta_source": "api"
+    }
+  ]
+}

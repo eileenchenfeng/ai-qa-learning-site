@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-05",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "pbakaus/impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 76461,
+      "forks_count": 4563,
+      "open_issues_count": 60,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The design language that makes your AI harness better at design.",
+        "**One setup flow.** `/impeccable init` records durable product truth in `PRODUCT.md`, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction.",
+        "**24 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`, and more.",
+        "**61 deterministic detector rules** plus LLM-only critique checks. The CLI and browser extension run the deterministic rules with no LLM and no API key.",
+        "Don't use overused fonts (Arial, Inter, system defaults)",
+        "Don't use gray text on colored backgrounds"
+      ],
+      "readme_excerpt": "# Impeccable\n\nDesign guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 61 deterministic detector rules for AI-generated frontend design.\n\n> **Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: [impeccable.style](https://impeccable.style).\n\n## Why Impeccable?\n\nAnthropic's [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) was the first widely-used design skill for Claude. Impeccable started from there.\n\nEvery model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile above every heading.\n\nImpeccable adds:\n- **One setup flow.** `/impeccable init` records durable product truth in `PRODUCT.md`, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction.\n- **24 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "coreyhaines31/marketingskills",
+      "html_url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "topics": [
+        "claude",
+        "codex",
+        "marketing"
+      ],
+      "stargazers_count": 53176,
+      "forks_count": 7923,
+      "open_issues_count": 116,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering."
+      ],
+      "readme_excerpt": "# Marketing Skills for AI Agents\n\nA collection of AI agent skills focused on marketing tasks. Built for technical marketers and founders who want AI coding agents to help with conversion optimization, copywriting, SEO, analytics, and growth engineering. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).\n\nBuilt by [Corey Haines](https://corey.co?ref=marketingskills). Need hands-on help? Check out [Conversion Factory](https://conversionfactory.co?ref=marketingskills) — Corey's agency for conversion optimization, landing pages, and growth strategy. Want to learn more about marketing? Subscribe to [Swipe Files](https://swipefiles.com?ref=marketingskills). Want to get dangerously good at using AI for marketing? Check out [AI Marketing Training](https://conversionfactory.co/offers/ai-marketing-training?ref=marketingskills). Want an autonomous AI agent that uses these skills to be your CMO? Try [Magister](https://magistermarketing.com?ref=marketingskills).\n\nNew to the terminal and coding agents? Check out the companion guide [Coding for Marketers](https://codingformarketers.com?ref=marketingskills).\n\n**Contr",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "html_url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "stargazers_count": 155102,
+      "forks_count": 8338,
+      "open_issues_count": 84,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+        "Does this need to exist? → no: skip it (YAGNI)",
+        "Already in this codebase? → reuse it, don't rewrite",
+        "Stdlib does it? → use it",
+        "Native platform feature? → use it",
+        "Installed dependency? → use it"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.png\">\n    <img src=\"assets/logo.png\" width=\"220\" alt=\"Ponytail, the lazy senior dev\">\n  </picture>\n</p>\n\n<h1 align=\"center\">Ponytail</h1>\n\n<p align=\"center\">\n  <em>He says nothing. He writes one line. It works.</em>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/50668\" alt=\"DietrichGebert%2Fponytail | Trendshift\" width=\"250\" height=\"55\"/></a>\n</p>\n\n<p align=\"center\">\n  <img src=\"https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars\" alt=\"Stars\">\n  <img src=\"https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release\" alt=\"Release\">\n  <img src=\"https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm\" alt=\"npm\">\n  <img src=\"https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square\" alt=\"Works with 20 agents\">\n  <",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "earthtojake/text-to-cad",
+      "html_url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Give your agent CAD superpowers.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai-agents",
+        "cad",
+        "mechanical-engineering",
+        "robotics",
+        "step",
+        "stl",
+        "stp",
+        "text-to-cad"
+      ],
+      "stargazers_count": 16960,
+      "forks_count": 1750,
+      "open_issues_count": 34,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your agent CAD superpowers.",
+        "CAD runs through uv（https://docs.astral.sh/uv/）: check that it is installed",
+        "Run the commands under your agent app's heading below, or under",
+        "Restart the app. Its first start downloads CAD's runtime, so it needs a network"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<img src=\"apps/docs/public/brand/logo-texttocad-animated.svg\" alt=\"text-to-cad\" width=\"800\">\n\nGive your agent CAD superpowers.\n\n[Docs](https://www.texttocad.dev)\n\n[![GitHub stars](https://img.shields.io/github/stars/earthtojake/text-to-cad?style=for-the-badge&logo=github&label=Stars)](https://github.com/earthtojake/text-to-cad/stargazers)\n[![skills.sh](https://skills.sh/b/earthtojake/text-to-cad?style=for-the-badge)](https://skills.sh/earthtojake/text-to-cad)\n[![Follow @earthtojake](https://img.shields.io/badge/Follow-%40earthtojake-000000?style=for-the-badge&logo=x)](https://x.com/earthtojake)\n[![Join Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/5FGB9DwJYU)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)\n[![Tests](https://img.shields.io/github/actions/workflow/status/earthtojake/text-to-cad/test.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=Tests)](https://github.com/earthtojake/text-to-cad/actions/workflows/test.yml?query=branch%3Amain)\n[![cadgen](https://img.shields.io/pypi/v/cadgen?style=for-the-bad",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "html_url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "stargazers_count": 91098,
+      "forks_count": 8003,
+      "open_issues_count": 210,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+        "📺 \"帮我看看这个 YouTube 教程讲了什么\" → **看不了**，拿不到字幕",
+        "🐦 \"帮我搜一下推特上大家怎么评价这个产品\" → **搜不了**，Twitter API 要付费",
+        "📖 \"去 Reddit 上看看有没有人遇到过同样的 bug\" → **403 被封**，服务器 IP 被拒",
+        "📕 \"帮我看看小红书上这个品的口碑\" → **打不开**，必须登录才能看",
+        "📺 \"B站上有个技术视频，帮我总结一下\" → **拿不到**，通用下载工具被 B站风控全面拦截"
+      ],
+      "readme_excerpt": "<h1 align=\"center\">👁️ Agent Reach</h1>\n\n<p align=\"center\">\n  <strong>给你的 AI Agent 一键装上互联网能力</strong>\n</p>\n\n<p align=\"center\">\n  当下最稳的接入方式，替你选好、装好、体检好——接入方式会换代，你不用操心\n</p>\n\n<p align=\"center\">\n  <a href=\"https://trendshift.io/repositories/24387\"><img src=\"https://trendshift.io/api/badge/repositories/24387\" alt=\"Trendshift GitHub Trending #1 Repository of the Day\"></a>\n  <a href=\"https://star-history.com/#Panniantong/Agent-Reach&Date\"><img src=\"https://api.star-history.com/badge?repo=Panniantong/Agent-Reach\" alt=\"Star History Rank\" width=\"196\" height=\"55\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge\" alt=\"MIT License\"></a>\n  <a href=\"https://www.python.org/\"><img src=\"https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white\" alt=\"Python 3.10+\"></a>\n  <a href=\"https://github.com/Panniantong/agent-reach/stargazers\"><img src=\"https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge\" alt=\"GitHub Stars\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#快速上手\">快速开始</a> · <a href=\"docs/README_en.md\">English</a> · <a href=\"docs/README_ja.md\">日本語</a> · <a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "getsentry/sentry",
+      "html_url": "https://github.com/getsentry/sentry",
+      "description": "Developer-first error tracking and performance monitoring",
+      "language": "Python",
+      "topics": [
+        "apm",
+        "crash-reporting",
+        "crash-reports",
+        "csp-report",
+        "devops",
+        "django",
+        "error-logging",
+        "error-monitoring",
+        "fair-source",
+        "hacktoberfest",
+        "monitor",
+        "monitoring",
+        "python",
+        "sentry",
+        "tag-production"
+      ],
+      "stargazers_count": 45427,
+      "forks_count": 4905,
+      "open_issues_count": 2292,
+      "arch_category": "RAG / 知识库",
+      "features": [
+        "Developer-first error tracking and performance monitoring",
+        "JavaScript（https://github.com/getsentry/sentry-javascript）",
+        "Electron（https://github.com/getsentry/sentry-electron/）",
+        "React-Native（https://github.com/getsentry/sentry-react-native）",
+        "Python（https://github.com/getsentry/sentry-python）",
+        "Ruby（https://github.com/getsentry/sentry-ruby）"
+      ],
+      "readme_excerpt": "<p align=\"center\">\n  <p align=\"center\">\n    <a href=\"https://sentry.io/?utm_source=github&utm_medium=logo\" target=\"_blank\">\n      <img src=\"https://sentry-brand.storage.googleapis.com/sentry-wordmark-dark-280x84.png\" alt=\"Sentry\" width=\"280\" height=\"84\" />\n    </a>\n  </p>\n  <p align=\"center\">\n    Users and logs provide clues. Sentry provides answers.\n  </p>\n</p>\n\n# What's Sentry?\n\nSentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster.\n\n<p align=\"center\">\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/issue-details.png\" width=\"270\" />\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/seer.png\" width=\"270\" />\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/insights.png\" width=\"270\" />\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/traces.png\" width=\"270\" />\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/trace-explorer.png\" width=\"270\" />\n  <img src=\"https://github.com/getsentry/sentry/raw/master/.github/screenshots/replays.png\" width=\"270\" />\n  <img src=\"https://githu",
+      "_meta_source": "api"
+    }
+  ]
+}

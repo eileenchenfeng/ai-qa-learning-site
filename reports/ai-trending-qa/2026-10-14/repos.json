@@ -1,0 +1,203 @@
+{
+  "date": "2026-10-14",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "morluto/rea",
+      "html_url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "ctf",
+        "decompiler",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "rea",
+        "reverse-engineering",
+        "static-analysis"
+      ],
+      "stargazers_count": 214752,
+      "forks_count": 52920,
+      "open_issues_count": 535,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Reverse engineer anything with agents, from app behavior down to native binaries."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n**English** · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · [Español](docs/readme/README_es.md) · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italiano](docs/readme/README_it.md)\n· [Ελληνικά](docs/readme/README_el.md)\n\n# REA: Reverse Engineer Anything\n\n### One MCP for reverse engineering across binaries, applications, and runtime behavior.\n\n**See a feature you like. Understand how it works, down to the binary level.**\n\n[![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)\n[![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](d",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "stargazers_count": 63898,
+      "forks_count": 7104,
+      "open_issues_count": 157,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <img src=\"docs/logo.png\" alt=\"VoiceStudio\" width=\"88\" />\n  <h1>VoiceStudio</h1>\n  <p>\n    <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a>\n  </p>\n  <p><strong>Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.</strong></p>\n  <p>\n    <a href=\"https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project\">Website</a> ·\n    <a href=\"https://github.com/debpalash/VoiceStudio/releases/latest\">Download</a> ·\n    <a href=\"#get-started\">Get started</a> ·\n    <a href=\"#documentation\">Docs</a> ·\n    <a href=\"https://discord.gg/bzQavDfVV9\">Discord</a> ·\n    <a href=\"README_CN.md\">简体中文</a> ·\n    <a href=\"README_JA.md\">日本語</a>\n  </p>\n  <p>\n    <a href=\"https://github.com/debpalash/VoiceStudio/actions/workflows/ci.yml\"><img src=\"https://img.shields.io/github/actions/workflow/status/debpalash/VoiceStudio/ci.yml?branch=main\" alt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "html_url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "codex",
+        "codex-cli",
+        "context-mode",
+        "copilot",
+        "cursor-plugin",
+        "kiro",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "openclaw",
+        "opencode",
+        "pi-agent",
+        "skills",
+        "zed-extension"
+      ],
+      "stargazers_count": 28404,
+      "forks_count": 2000,
+      "open_issues_count": 357,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+        "**Context Saving** — Sandbox tools keep raw data out of the context window. 315 KB becomes 5.4 KB. 98% reduction.",
+        "**Session Continuity** — Every file edit, git operation, task, error, and user decision is tracked in SQLite. When the conversation compacts, context-mode doesn't dump this data back into context — it indexes events into FTS5 and retrieves only what's relevant via BM25 search. The model picks up exactly where you left off. If you don't `--continue`, previous session data is deleted immediately — a fresh session means a clean slate.",
+        "**Think in Code** — The LLM should program the analysis, not compute it. Instead of reading 50 files into context to count functions, the agent writes a script that does the counting and `console.log()`s only the result. One script replaces ten tool calls and saves 100x context. This is a mandatory paradigm across all 17 supported clients, plus the OpenClaw gateway integration: stop treating the LLM as a data processor, treat it as a code generator.",
+        "**No prose-style enforcement** — context-mode keeps raw data out of context but never dictates how the model writes its final answer. Brevity, completeness, formatting — your model's call (or yours via your own `CLAUDE.md` / `AGENTS.md`). Aggressive brevity prompts have bee"
+      ],
+      "readme_excerpt": "# Context Mode\n\n**The other half of the context problem.**\n\n[![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.message&label=users&color=brightgreen)](https://www.npmjs.com/package/context-mode) [![npm](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.npm&label=npm&color=blue)](https://www.npmjs.com/package/context-mode) [![marketplace](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.marketplace&label=marketplace&color=blue)](https://github.com/mksglu/context-mode) [![GitHub stars](https://img.shields.io/github/stars/mksglu/context-mode?style=flat&color=yellow)](https://github.com/mksglu/context-mode/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mksglu/context-mode?style=flat&color=blue)](https://github.com/mksglu/context-mode/network/members) [![Last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?color=green)](https://github.com/mksglu/context-mode/commits) [![License: ELv2]",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "diagrams",
+        "drawio",
+        "mermaid",
+        "svg"
+      ],
+      "stargazers_count": 54463,
+      "forks_count": 3447,
+      "open_issues_count": 46,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "*\"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"*",
+        "*\"I need a quadrant showing Q2 projects by impact vs effort.\"*",
+        "*\"Give me a sequence of a bearer call with token refresh on 401.\"*",
+        "*\"Onboard diagram-design to https://yoursite.com\"* (pulls your palette and fonts so every diagram after this one matches your site)"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<h1>\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/hero-dark.webp\">\n    <img alt=\"Diagram Design. Editorial diagrams your designer won't hate.\" src=\"docs/hero/hero-light.webp\">\n  </picture>\n</h1>\n\n**An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.<br>45 diagram types. No shadows. No Mermaid slop.**\n\n[![GitHub stars](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat-square&color=bf4520)](https://github.com/cathrynlavery/diagram-design/stargazers)\n[![skills.sh installs](https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square)](https://skills.sh/cathrynlavery/diagram-design/diagram-design)\n[![CI](https://img.shields.io/github/actions/workflow/status/cathrynlavery/diagram-design/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/cathrynlavery/diagram-design/actions/workflows/ci.yml)\n[![Plugin version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcathrynlavery%2Fdiagram-design%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&label=version&style=flat-square&color=555555)](CHANGELOG.md)\n[![MIT ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "vercel-labs/skills",
+      "html_url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "topics": [],
+      "stargazers_count": 34664,
+      "forks_count": 2954,
+      "open_issues_count": 1116,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The open agent skills tool - npx skills"
+      ],
+      "readme_excerpt": "# skills\n\nThe CLI for the open agent skills ecosystem.\n\n<!-- agent-list:start -->\nSupports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [75 more](#supported-agents).\n<!-- agent-list:end -->\n\n<p>\n  <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/skills\"><img alt=\"npm version: skills\" src=\"https://img.shields.io/npm/v/skills.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://github.com/vercel-labs/skills/blob/main/LICENSE\"><img alt=\"License: MIT\" src=\"https://img.shields.io/github/license/vercel-labs/skills.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a>\n  <a href=\"https://www.npmjs.com/package/skills\"><img alt=\"npm downloads per month: skills\" src=\"https://img.shields.io/npm/dm/skills.svg?style=for-the-badge&amp;labelColor=000000&amp;label=npm%20downloads\" height=\"28\"></a>\n  <a href=\"https://skills.sh/vercel-labs/skills\"><img alt=\"skills.sh\" src=\"https://skills.sh/b/vercel-labs/skills?style=for-the-badge\" height=\"28\"></a",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "lyogavin/airllm",
+      "html_url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "chinese-llm",
+        "chinese-nlp",
+        "finetune",
+        "generative-ai",
+        "instruct-gpt",
+        "instruction-set",
+        "llama",
+        "llm",
+        "lora",
+        "open-models",
+        "open-source",
+        "open-source-models",
+        "qlora"
+      ],
+      "stargazers_count": 38441,
+      "forks_count": 3931,
+      "open_issues_count": 166,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "AirLLM 2.8T LLM inference with single 4GB GPU",
+        "Best AI Game Sprite Generator（https://godmodeai.co）",
+        "Best AI Facial Expression Editor（https://crazyfaceai.com）",
+        "Quick start",
+        "Model Compression",
+        "Configurations"
+      ],
+      "readme_excerpt": "![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true)\n\n[**Quickstart**](#quickstart) | \n[**Configurations**](#configurations) | \n[**MacOS**](#macos) | \n[**Example notebooks**](#example-python-notebook) | \n[**FAQ**](#faq)\n\n**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**.\n\n<a href=\"https://github.com/lyogavin/airllm/stargazers\">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>\n[![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)\n\n[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/LianjiaTech/BELLE/blob/main/",
+      "_meta_source": "api"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-25",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "html_url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "topics": [],
+      "stargazers_count": 44925,
+      "forks_count": 2788,
+      "open_issues_count": 90,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "**Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.",
+        "**Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.",
+        "**Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.",
+        "**Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `report-schema.json`.",
+        "**Independent record verification** -- fresh agents verify final source claims. Material replacements receive another independent verifier."
+      ],
+      "readme_excerpt": "# security-audit\n\nA coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.\n\nThis is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from.\n\n## What it does\n\nThe skill runs a structured audit in six phases:\n\n1. **Reconnaissance** -- map architecture, trust boundaries, input surfaces, prior evidence, and deterministic coverage in `architecture.md` and `coverage-ledger.json`.\n2. **Coverage-led hunting** -- assign isolated hunters from ledger units, record their checks, and use coverage critics to find gaps.\n3. **Candidate validation** -- give every unique candidate to a fresh verifier that tries to disprove it.\n4. **Structured output** -- write `confirmed`, `needs_validation`, and `rejected` records to `findings.json` and validate them against `repor",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "html_url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 19563,
+      "forks_count": 1937,
+      "open_issues_count": 579,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "**Kernel-level enforcement.** Each agent runs in an isolated sandbox. Kernel controls confine which files it can access and which system calls it can make, and every network connection passes through a policy check before it leaves the sandbox. Agents never see real credentials; OpenShell adds them only to requests bound for approved endpoints.",
+        "**Formally verified policy changes.** Before a policy change is approved, OpenShell uses formal verification to flag risky new access it would grant, such as reaching a new host with credentials or calling a new API method, so those changes wait for human review.",
+        "Sandboxes（https://docs.nvidia.com/openshell/latest/how-it-works/sandboxes/overview）: images, runtimes, GPUs, and lifecycle.",
+        "Policies（https://docs.nvidia.com/openshell/latest/how-it-works/policies/overview）: filesystem, network, and process rules, with the advisor（https://docs.nvidia.com/openshell/latest/how-it-works/policies/advisor） and prover（https://docs.nvidia.com/openshell/latest/how-it-works/policies/prover） for reviewing changes.",
+        "Providers（https://docs.nvidia.com/openshell/latest/how-it-works/providers/overview）: credentials that work only at approved endpoints, including inference（https://docs.nvidia.com/openshell/latest/how-it-works/inference）."
+      ],
+      "readme_excerpt": "<!-- markdownlint-disable MD033 MD041 -->\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/assets/openshell-banner-dark.png\">\n  <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/brand/assets/openshell-banner-light.png\">\n  <img alt=\"OpenShell\" src=\"docs/brand/assets/openshell-banner-light.png\" width=\"430\">\n</picture>\n\n<!-- markdownlint-enable MD033 MD041 -->\n\n[![License](https://img.shields.io/badge/License-Apache_2.0-blue)](https://github.com/NVIDIA/OpenShell/blob/main/LICENSE)\n[![PyPI](https://img.shields.io/badge/PyPI-openshell-orange?logo=pypi)](https://pypi.org/project/openshell/)\n[![Security Policy](https://img.shields.io/badge/Security-Report%20a%20Vulnerability-red)](SECURITY.md)\n[![Documentation](https://img.shields.io/badge/docs-latest-brightgreen)](https://docs.nvidia.com/openshell/latest/index.html)\n\n> [!IMPORTANT]\n> **New in OpenShell 0.1.x:** a stable release cadence, new isolation primitives, an expanded extension surface, and new APIs. [Read the 0.1.0 upgrade guide](https://docs.nvidia.com/openshell/latest/upgrade/0-1-0).\n\nOpenShell is the safe, private runtime for fleets of autonomous AI agents. Agents are most useful when they c",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "aws/agent-toolkit-for-aws",
+      "html_url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "topics": [],
+      "stargazers_count": 3176,
+      "forks_count": 401,
+      "open_issues_count": 62,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+      ],
+      "readme_excerpt": "# Agent Toolkit for AWS\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)\n[![Build](https://github.com/aws/agent-toolkit-for-aws/actions/workflows/build.yml/badge.svg)](https://github.com/aws/agent-toolkit-for-aws/actions/workflows/build.yml)\n[![Status](https://img.shields.io/badge/status-GA-green.svg)](https://github.com/aws/agent-toolkit-for-aws)\n\nHelp AI coding agents build, deploy, and manage applications on AWS.\n\nThe Agent Toolkit for AWS gives AI coding agents the tools, knowledge, and guardrails they need to work with AWS services. It works with the coding agents developers already use — including Claude Code, Codex, Cursor, Devin, Kiro, and fx.\n\n## Quick start\n\n### AWS CLI\n\nUse the Agent Toolkit directly from your terminal with the AWS CLI:\n\n```\naws configure agent-toolkit\n```\n\nSee the [AWS CLI integration guide](https://docs.aws.amazon.com/agent-toolkit/latest/userguide/aws-cli.html) for setup, configuration, and usage instructions.\n\n### Claude Code\n\nThe plugins are available on the official Anthropic marketplace (`claude-plugins-official`) which is added to your Claude Code installation by default.\nUse the following commands to install sup",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 32313,
+      "forks_count": 1659,
+      "open_issues_count": 49,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "**Forty-eight themes.** Each is a material (paper, type, colour, surfaces, its own components and texture) with a picture of a finished page, and the build lays out its own page in it.",
+        "**Built from the job.** A booking page books, a shop sells, a newsletter subscribes: the action sits where the category puts it, and the page ends on it.",
+        "**Custom.** Ask for a custom page and Hallmark designs from your prompt alone, under the same rules and checks.",
+        "**Your real product.** Point it at a URL, a dev server or an app and it captures the screenshots itself.",
+        "**Real photographs.** 755 openly licensed photos, picked per subject and credited on the page."
+      ],
+      "readme_excerpt": "# Hallmark\n\n**A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.**\n\n[usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; forty-eight themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name\n\nMade by Together AI.\n\n<p align=\"center\">\n  <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, the design skill that ends AI slop\" />\n</p>\n\nHallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of forty-eight materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.\n\nThe gates come in tiers. The **Floor** never ships (contrast, focus, reduced motion, invented facts, a broken phone layout). **Reflex** gates are the defaults a model falls into; a build with a reason may overrule one on the record.",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "html_url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "guide",
+        "tutorial"
+      ],
+      "stargazers_count": 44658,
+      "forks_count": 5497,
+      "open_issues_count": 40,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+        "The Problem",
+        "How Claude How To Fixes This",
+        "How It Works",
+        "Not Sure Where to Start?",
+        "Get Started in 15 Minutes"
+      ],
+      "readme_excerpt": "<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"resources/logos/claude-howto-logo-dark.svg\">\n  <img alt=\"Claude How To\" src=\"resources/logos/claude-howto-logo.svg\">\n</picture>\n\n<p align=\"center\">\n  <a href=\"https://github.com/trending\">\n    <img src=\"https://img.shields.io/badge/GitHub-🔥%20%231%20Trending-purple?style=for-the-badge&logo=github\"/>\n  </a>\n</p>\n\n[![GitHub Stars](https://img.shields.io/github/stars/luongnv89/claude-howto?style=flat&color=gold)](https://github.com/luongnv89/claude-howto/stargazers)\n[![GitHub Forks](https://img.shields.io/github/forks/luongnv89/claude-howto?style=flat)](https://github.com/luongnv89/claude-howto/network/members)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)\n[![Version](https://img.shields.io/badge/version-2.1.302-brightgreen)](CHANGELOG.md)\n[![Claude Code](https://img.shields.io/badge/Claude_Code-2.1+-purple)](https://code.claude.com)\n\n🌐 **Language / Ngôn ngữ / 语言 / Мова:** [English](README.md) | [Tiếng Việt](vi/README.md) | [中文](zh/README.md) | [Українська](uk/README.md) | [日本語](ja/README.md)\n\n# Master Claude Code in a Weekend\n\nGo from typing `claude` to orchestrating agents, hooks, skills",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "Rust",
+      "topics": [],
+      "stargazers_count": 86561,
+      "forks_count": 5165,
+      "open_issues_count": 39,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The design language that makes your AI harness better at design.",
+        "**One setup flow.** `/impeccable init` records durable product truth in `PRODUCT.md`, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction.",
+        "**24 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`, and more.",
+        "**62 deterministic detector rules** plus LLM-only critique checks. The CLI and browser extension run the deterministic rules with no LLM and no API key.",
+        "Don't use overused fonts (Arial, Inter, system defaults)",
+        "Don't use gray text on colored backgrounds"
+      ],
+      "readme_excerpt": "# Impeccable\n\nDesign guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design.\n\n> **Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: [impeccable.style](https://impeccable.style).\n\n## Why Impeccable?\n\nAnthropic's [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) was the first widely-used design skill for Claude. Impeccable started from there.\n\nEvery model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in cards, gray text on colored backgrounds, the rounded-square icon tile above every heading.\n\nImpeccable adds:\n- **One setup flow.** `/impeccable init` records durable product truth in `PRODUCT.md`, so later commands know the audience, purpose, operating context, constraints, voice, and evidence without confusing those facts with surface-level visual direction.\n- **24 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `",
+      "_meta_source": "api"
+    }
+  ]
+}

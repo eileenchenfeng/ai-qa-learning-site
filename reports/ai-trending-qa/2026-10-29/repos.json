@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-29",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "JetBrains/thinkrail",
+      "html_url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "stargazers_count": 5302,
+      "forks_count": 271,
+      "open_issues_count": 245,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "**Isolated workspaces.** Open any git repo as a project and cut workspaces from it as `git worktree`s,",
+        "**A real IDE around the agent.** A splittable workbench of Monaco editor tabs, a Files tree with live git",
+        "**Chats that stream like the engine thinks.** Several concurrent `pi` sessions per workspace, each with",
+        "**Specs as ground truth.** A connected graph of `SPEC.md` files lives beside the code; the agent reads,",
+        "**Skills and workflows.** Portable Agent Skills you already keep for other coding agents are read in"
+      ],
+      "readme_excerpt": "# ThinkRail\n\n[![JetBrains incubator project](https://jb.gg/badges/incubator-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)\n[![GitHub stars](https://img.shields.io/github/stars/JetBrains/thinkrail?style=social)](https://star-history.com/#JetBrains/thinkrail&Date)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20chat-5865F2?logo=discord&logoColor=white)](https://thinkrail.ai/discord)\n\nThinkRail is the agentic IDE that gets better every time you use it — learning your project through\nliving specs today, and building its own capabilities tomorrow.\n\nWe built a rich interface around the [`pi`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)\ncoding agent, isolated work into separate workspaces, and gave the agent durable project knowledge\nthrough living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can\ncreate the tools it needs based on how you actually work.\n\n**Website:** [thinkrail.ai](https://thinkrail.ai/) · **Blog:** [thinkrail.ai/blog](https://thinkrail.ai/blog/) ·\n**Discord:** [thinkrail.ai/discord](https://thinkrail.ai/discord)\n\n⭐ If you find ThinkRail useful, give it a star — it help",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "elayadesign/ai-design-skills",
+      "html_url": "https://github.com/elayadesign/ai-design-skills",
+      "description": null,
+      "language": null,
+      "topics": [],
+      "stargazers_count": 11364,
+      "forks_count": 823,
+      "open_issues_count": 7,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [],
+      "readme_excerpt": "# AI Design Skills\n\nA growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file.\n\nEach skill is a self-contained folder. Install the ones you need.\n\n---\n\n## Skills\n\n| Skill | What it does |\n|---|---|\n| [`landing-page-design`](./skills/landing-page-design/SKILL.md) | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system (type, spacing, radius, motion) |\n\nMore on the way. [Upgrading an existing site instead of building new?](https://github.com/elayadesign/redesign-skill) That one lives in its own repo since it predates this collection.\n\n---\n\n## Install\n\nPick a skill from the table above, then swap `<skill-name>` below for its folder name.\n\n<details open>\n<summary><b>Claude Code</b></summary>\n\n```bash\nmkdir -p .claude/skills\ngit clone https://github.com/elayadesign/ai-design-skills.git /tmp/ai-design-skills\ncp -r /tmp/ai-design-skills/skills/<skill-name> .claude/skills/\n```\n\nThen just ask, in plain language, for what that skill covers.\n</details>\n\n<details>\n<summary><b>Cursor</b></summary>\n\n```bash\nmkdir -p .cursor/rules\ncurl -o .cursor/r",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 307630,
+      "forks_count": 27362,
+      "open_issues_count": 369,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "How it works",
+        "Commercial Services",
+        "Getting Started",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Table of Contents\n\n- [How it works](#how-it-works)\n- [Commercial Services](#commercial-services)\n- [Getting Started](#installation)\n  - [Claude Code](#claude-code)\n  - [Antigravity](#antigravity)\n  - [Codex App](#codex-app)\n  - [Codex CLI](#codex-cli)\n  - [Cursor](#cursor)\n  - [Devin CLI](#devin-cli)\n  - [Factory Droid](#factory-droid)\n  - [Gemini CLI](#gemini-cli)\n  - [GitHub Copilot CLI](#github-copilot-cli)\n  - [Grok Build CLI](#grok-build-cli)\n  - [Kimi Code](#kimi-code)\n  - [OpenCode](#opencode)\n  - [Pi](#pi)\n  - [Qwen Code](#qwen-code)\n  - [Hermes Agent](#hermes-agent)\n  - [Muse](#muse)\n- [The Basic Workflow](#the-basic-workflow)\n- [When Something Goes Wrong](#when-something-goes-wrong)\n- [Community](#community)\n- [What's Inside](#whats-inside)\n- [Philosophy](#philosophy)\n- [Contributing](#contributing)\n- [Updating](#updating)\n- [License](#license)\n- [Visual companion telemetry](#visual-companion-telemetry)\n\n## How it works\n\nIt starts from the moment you fire up your ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "html_url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "stargazers_count": 48444,
+      "forks_count": 6004,
+      "open_issues_count": 215,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<p align=\"center\"><img src=\"assets/figs/logo/color-full.png\" alt=\"DeepTutor\" width=\"480\"></p>\n<h1 align=\"center\">DeepTutor: Lifelong Personalized Tutoring</h1>\n\n<p align=\"center\">\n  <a href=\"https://deeptutor.info\" target=\"_blank\"><img alt=\"Docs — deeptutor.info\" src=\"https://img.shields.io/badge/Docs-deeptutor.info%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>&nbsp;\n  <a href=\"https://deeptutor.info/collaborate/\" target=\"_blank\"><img alt=\"Collaborate — work with us\" src=\"https://img.shields.io/badge/Collaborate-work%20with%20us%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>\n</p>\n\n<p align=\"center\">\n<a href=\"https://www.star-history.com/hkuds/deeptutor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending&amp;theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending\" /><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending\" height=\"55\" /></picture></a>&#32;<a href=\"htt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "macro-inc/macro",
+      "html_url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "all-in-one",
+        "crm",
+        "crm-system",
+        "email",
+        "linear",
+        "mcp",
+        "messaging",
+        "notes",
+        "notion",
+        "office",
+        "rust",
+        "slack",
+        "slack-alternative",
+        "startup",
+        "startup-tools",
+        "typescript",
+        "workspace"
+      ],
+      "stargazers_count": 5517,
+      "forks_count": 525,
+      "open_issues_count": 342,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+        "Multi-account. Triage all your Google accounts in a single inbox, with the same tagging and sharing system. Or triage individually.",
+        "Unified inbox: emails, messages, @mentions, and tasks to complete, all in the same list. Use `j` `k` and `e` to navigate everything.",
+        "Better AI, with a tools/MCP surface designed to work across inboxes and to help your agents more accurately retrieve information. For example, we expose a unified search tool that allows agents to search all file attachment PDFs (parsed out of email) directly, rather than pulling email threads then attachments. You can also draft, edit and send emails right from AI chats, without opening your email.",
+        "Multitasking ability — Macro has a built-in window manager that lets you create 3+ splits (scales with monitor size) so you can draft emails while reviewing prior threads.",
+        "Company/Contact objects. Macro has native CRM capability so you can `cmd+k` to a contact, like tim@acme.com to see all emails between you and that person, or companies, to see all emails and files between everyone on your team and everyone at that company, e.g. `@acme.com`. All of this right from your email without having to open a heavyweight CRM like HubSpot or Salesforce. Email aggregation by contact or company is also available to your agents so they can better assist with CRM-type queries and actions."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n  <a target=\"_blank\" href=\"https://macro.com\">\n    <img width=\"2195\" height=\"721\" alt=\"Frame 11\" src=\"https://github.com/user-attachments/assets/50405352-785e-4984-b24f-544e89731acb\" />\n  </a>\n\n  <br />\n  <br />\n\n  <p>\n    <a href=\"https://macro.com/app\">Sign up</a>\n    ·\n    <a href=\"https://docs.macro.com\">Docs</a>\n    ·\n    <a href=\"https://macro.com/app/book/6de4003c-15e4-549f-b5a9-0e930bbf56e4/demo\">Book demo</a>\n    ·\n    <a href=\"https://macro.com\">Website</a>\n    ·\n    <a href=\"mailto:contact@macro.com\">Feature requests</a>\n    ·\n    <a href=\"CONTRIBUTING.md\">Contribute</a>\n    ·\n    <a href=\"mailto:teo@macro.com\">Hiring</a>\n  </p>\n</div>\n\n<br />\n\nMacro is the all-in-one workspace for you and your team. It unifies email + messages + docs + tasks + agents + CRM into a single fast interface with shared team-level memory. Everything in your workspace is @linked and searchable so your team (and your agents) never have to switch tools. \n \n<br />\n\n# Why Macro\n\nWe built Macro because we wanted a single operating system for our startup. There are many good software products, and we used them all — Slack, Linear, Notion, HubSpot, and Superhuman — but they don't ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "topics": [],
+      "stargazers_count": 40984,
+      "forks_count": 2125,
+      "open_issues_count": 67,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "**Fifty themes.** Each is a material (paper, type, colour, surfaces, its own components and texture) with a picture of a finished page, and the build lays out its own page in it.",
+        "**Built from the job.** A booking page books, a shop sells, a newsletter subscribes: the action sits where the category puts it, and the page ends on it.",
+        "**Custom.** Ask for a custom page and Hallmark designs from your prompt alone, under the same rules and checks.",
+        "**Your real product.** Point it at a URL, a dev server or an app and it captures the screenshots itself.",
+        "**Real photographs.** 755 openly licensed photos, picked per subject and credited on the page."
+      ],
+      "readme_excerpt": "# Hallmark\n\n**A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.**\n\n[usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name\n\nMade by Together AI.\n\n<p align=\"center\">\n  <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, the design skill that ends AI slop\" />\n</p>\n\nHallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one coloured word in a headline, a page of empty frames or nothing but photographs, a hero that misses its screen, an email sign-up at the end of every page, a form that says thanks without sending anything. A fresh-context reviewer gets the last word.\n\nThe gates come in tiers. The **Floor** never ships (contrast, focus, reduced motion, invented facts, a broken phone layout). **Reflex** gates are the defaults a model falls into; a build with a reason may overrule one on the record. **Finish** ",
+      "_meta_source": "api"
+    }
+  ]
+}

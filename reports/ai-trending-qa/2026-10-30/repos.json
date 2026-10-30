@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-30",
+  "since": "daily",
+  "top": 25,
+  "ai_top": 6,
+  "language": "",
+  "repos": [
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "html_url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "stargazers_count": 50615,
+      "forks_count": 6231,
+      "open_issues_count": 244,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/."
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n<p align=\"center\"><img src=\"assets/figs/logo/color-full.png\" alt=\"DeepTutor\" width=\"480\"></p>\n<h1 align=\"center\">DeepTutor: Lifelong Personalized Tutoring</h1>\n\n<p align=\"center\">\n  <a href=\"https://deeptutor.info\" target=\"_blank\"><img alt=\"Docs — deeptutor.info\" src=\"https://img.shields.io/badge/Docs-deeptutor.info%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>&nbsp;\n  <a href=\"https://deeptutor.info/collaborate/\" target=\"_blank\"><img alt=\"Collaborate — work with us\" src=\"https://img.shields.io/badge/Collaborate-work%20with%20us%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>\n</p>\n\n<p align=\"center\">\n<a href=\"https://www.star-history.com/hkuds/deeptutor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending&amp;theme=dark\" /><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending\" /><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=HKUDS/DeepTutor&amp;type=trending\" height=\"55\" /></picture></a>&#32;<a href=\"htt",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stargazers_count": 308775,
+      "forks_count": 27466,
+      "open_issues_count": 373,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "An agentic skills framework & software development methodology that works.",
+        "How it works",
+        "Commercial Services",
+        "Getting Started",
+        "Claude Code",
+        "Antigravity"
+      ],
+      "readme_excerpt": "# Superpowers\n\nSuperpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.\n\n## Table of Contents\n\n- [How it works](#how-it-works)\n- [Commercial Services](#commercial-services)\n- [Getting Started](#installation)\n  - [Claude Code](#claude-code)\n  - [Antigravity](#antigravity)\n  - [Codex App](#codex-app)\n  - [Codex CLI](#codex-cli)\n  - [Cursor](#cursor)\n  - [Devin CLI](#devin-cli)\n  - [Factory Droid](#factory-droid)\n  - [Gemini CLI](#gemini-cli)\n  - [GitHub Copilot CLI](#github-copilot-cli)\n  - [Grok Build CLI](#grok-build-cli)\n  - [Kimi Code](#kimi-code)\n  - [OpenCode](#opencode)\n  - [Pi](#pi)\n  - [Qwen Code](#qwen-code)\n  - [Hermes Agent](#hermes-agent)\n  - [Muse](#muse)\n- [The Basic Workflow](#the-basic-workflow)\n- [When Something Goes Wrong](#when-something-goes-wrong)\n- [Community](#community)\n- [What's Inside](#whats-inside)\n- [Philosophy](#philosophy)\n- [Contributing](#contributing)\n- [Updating](#updating)\n- [License](#license)\n- [Visual companion telemetry](#visual-companion-telemetry)\n\n## How it works\n\nIt starts from the moment you fire up your ",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "stargazers_count": 95774,
+      "forks_count": 5643,
+      "open_issues_count": 47,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "**Words for what you want.** \"Make it pop\" leaves your agent to guess. `/impeccable bolder the pricing cards` loads a playbook written for that one move and points it at one target.",
+        "**A reviewer.** `critique` scores the design against usability heuristics and ranks what to fix first. `audit` checks accessibility, performance, theming, and responsive behavior, with findings ranked P0 (blocking) to P3 (polish).",
+        "**A slop detector.** 62 deterministic rules flag the tells above, plus quality problems like cramped padding and skipped headings. No LLM, no API key."
+      ],
+      "readme_excerpt": "# Impeccable\n\nThe design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships.\n\nFrom your project root:\n\n```bash\nnpx impeccable install\n```\n\nReload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex).\n\nWorks with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at [impeccable.style/docs](https://impeccable.style/docs).\n\n| Without Impeccable | With Impeccable |\n|---|---|\n| ![Villa Castagneto built without Impeccable: cream background, a thin serif headline with an italic accent, two pill buttons, and flat vector illustrations in rounded cards](https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-without.webp) | ![Villa Castagneto built with Impeccable: a full-bleed engraved night scene of the villa on its cliff above the sea, a condensed cream and vermilion headline, and a month strip along the bottom](https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-with.we",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "JetBrains/thinkrail",
+      "html_url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "stargazers_count": 6142,
+      "forks_count": 334,
+      "open_issues_count": 283,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+        "**Isolated workspaces.** Open any git repo as a project and cut workspaces from it as `git worktree`s,",
+        "**A real IDE around the agent.** A splittable workbench of Monaco editor tabs, a Files tree with live git",
+        "**Chats that stream like the engine thinks.** Several concurrent `pi` sessions per workspace, each with",
+        "**Specs as ground truth.** A connected graph of `SPEC.md` files lives beside the code; the agent reads,",
+        "**Skills and workflows.** Portable Agent Skills you already keep for other coding agents are read in"
+      ],
+      "readme_excerpt": "# ThinkRail\n\n[![JetBrains incubator project](https://jb.gg/badges/incubator-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)\n[![GitHub stars](https://img.shields.io/github/stars/JetBrains/thinkrail?style=social)](https://star-history.com/#JetBrains/thinkrail&Date)\n[![Discord](https://img.shields.io/badge/Discord-Join%20the%20chat-5865F2?logo=discord&logoColor=white)](https://thinkrail.ai/discord)\n\nThinkRail is the agentic IDE that gets better every time you use it — learning your project through\nliving specs today, and building its own capabilities tomorrow.\n\nWe built a rich interface around the [`pi`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)\ncoding agent, isolated work into separate workspaces, and gave the agent durable project knowledge\nthrough living specs and reusable skills. Next, we're adding full extension support, so ThinkRail can\ncreate the tools it needs based on how you actually work.\n\n**Website:** [thinkrail.ai](https://thinkrail.ai/) · **Blog:** [thinkrail.ai/blog](https://thinkrail.ai/blog/) ·\n**Discord:** [thinkrail.ai/discord](https://thinkrail.ai/discord)\n\n⭐ If you find ThinkRail useful, give it a star — it help",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "html_url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-use",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "grok-bot",
+        "grok-bot-alternative",
+        "self-hosted",
+        "typescript"
+      ],
+      "stargazers_count": 7643,
+      "forks_count": 1129,
+      "open_issues_count": 557,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "**Bring your own agents.** Bots run on the `claude`, `codex`, and `grok` CLIs installed on your own machine",
+        "**Local first.** One small harness server on `127.0.0.1` owns every agent process. Transcripts, keys, and",
+        "**Agents with hands.** Each bot can use a cloud Linux desktop, an isolated Local VM, or—where the platform"
+      ],
+      "readme_excerpt": "<div align=\"center\">\n\n# OpenMausBot\n\n**The open-source Grok Bot alternative: your own team of AI bots, in a chat app.**\n\n[**openmausbot.com**](https://www.openmausbot.com) &nbsp;·&nbsp; [Download](https://www.openmausbot.com/download) &nbsp;·&nbsp; [Open source Grok Bot alternative, compared](https://www.openmausbot.com/blog/grok-bot-vs-openmausbot)\n\n<sub>OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenAI or Manus.</sub>\n\nEvery bot in the sidebar is a real agent — Claude or Codex running locally under the hood — with its own\npersonality, its own model, its own cloud computer, and its own connected apps.\nTalk to them like contacts. Watch them work. Approve what matters.\n\n![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)\n![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)\n![Electron](https://img.shields.io/badge/",
+      "_meta_source": "api"
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "html_url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "stargazers_count": 3994,
+      "forks_count": 367,
+      "open_issues_count": 373,
+      "arch_category": "AI Agent / 编排框架",
+      "features": [
+        "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+        "Prompt-driven agent creation and editing on desktop and mobile, with editable instructions, avatar, and section review before saving.",
+        "Persistent agents backed by independent Codex, Claude, Grok, OpenCode, Gemini, Cursor, or Cline sessions and local workspaces.",
+        "Custom OpenAI-compatible endpoints and custom ACP agents, with detection of local model servers (Ollama, LM Studio) and installed agents.",
+        "Per-agent context monitoring with automatic compaction before long threads exhaust the model window.",
+        "FIFO message queues with pause, resume, cancellation, and crash-safe persistence."
+      ],
+      "readme_excerpt": "# OpenBot\n\n[![CI](https://github.com/nightly-labs/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/nightly-labs/openbot/actions/workflows/ci.yml)\n[![License](https://img.shields.io/badge/license-PolyForm_Noncommercial_1.0.0-blue.svg)](LICENSE)\n\nOpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local\n[Codex App Server](https://learn.chatgpt.com/docs/app-server) and\n[Claude Code](https://code.claude.com/docs/en/overview), plus [Grok CLI](https://docs.x.ai/build/overview),\nOpenCode, Gemini, [Cursor CLI](https://cursor.com/cli), and [Cline CLI](https://cline.bot/cli) through ACP. It gives every agent its own workspace and\nconversation, and provides local queues, file transfers, an embedded browser, and agent-to-agent\nmessaging in one desktop app.\n\n> [!WARNING]\n> OpenBot is a development preview. Agents currently run with `danger-full-access` and\n> `approvalPolicy: never`. They can read and modify files, run commands, use the network, and control\n> the embedded browser without per-action confirmations after the explicit first-launch consent.\n> Run only agents and tasks you trust, keep backups, and review [Security](#security) before u",
+      "_meta_source": "api"
+    }
+  ]
+}
